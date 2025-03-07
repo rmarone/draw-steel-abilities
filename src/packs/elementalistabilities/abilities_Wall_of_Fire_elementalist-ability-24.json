@@ -1,0 +1,72 @@
+{
+  "name": "Wall of Fire",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "A blazing, beautifully organized inferno erupts at your command."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "elementalist-ability-24",
+    "keywords": [
+      "area",
+      "fire",
+      "magic",
+      "ranged"
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
+    "trigger": "",
+    "distance": {
+      "type": "wall",
+      "primary": 10,
+      "secondary": 10,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": "Special"
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The wall lasts until the start of your next turn, and can be placed in occupied squares. Creatures can enter and pass through the wall. When an enemy enters or starts their turn in a square of the wall, they take fire damage equal to your Reason score."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "elementalist-ability-24",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!elementalist-ability-24!astring"
+}

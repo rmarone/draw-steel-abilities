@@ -1,0 +1,15 @@
+2025/03/07-11:30:36.717 611c Recovering log #28
+2025/03/07-11:30:36.829 611c Delete type=0 #28
+2025/03/07-11:30:36.830 611c Delete type=3 #26
+2025/03/07-11:30:36.878 8908 Level-0 table #34: started
+2025/03/07-11:30:36.911 8908 Level-0 table #34: 8023 bytes OK
+2025/03/07-11:30:36.960 8908 Delete type=0 #32
+2025/03/07-11:30:36.960 8908 Manual compaction at level-0 from '!items!shadow-ability-1!astring' @ 72057594037927935 : 1 .. '!items!shadow-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/03/07-11:30:36.961 8908 Manual compaction at level-1 from '!items!shadow-ability-1!astring' @ 72057594037927935 : 1 .. '!items!shadow-ability-9!astring' @ 0 : 0; will stop at '!items!shadow-ability-9!astring' @ 97 : 1
+2025/03/07-11:30:36.961 8908 Compacting 1@1 + 1@2 files
+2025/03/07-11:30:37.011 8908 Generated table #35@1: 16 keys, 8023 bytes
+2025/03/07-11:30:37.011 8908 Compacted 1@1 + 1@2 files => 8023 bytes
+2025/03/07-11:30:37.051 8908 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/07-11:30:37.052 8908 Delete type=2 #30
+2025/03/07-11:30:37.052 8908 Delete type=2 #34
+2025/03/07-11:30:37.053 8908 Manual compaction at level-1 from '!items!shadow-ability-9!astring' @ 97 : 1 .. '!items!shadow-ability-9!astring' @ 0 : 0; will stop at (end)

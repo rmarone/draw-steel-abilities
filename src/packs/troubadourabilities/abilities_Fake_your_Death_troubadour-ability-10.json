@@ -1,0 +1,69 @@
+{
+  "name": "Fake your Death",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "O happy dagger, this is thy sheath!"
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-ability-10",
+    "keywords": [
+      "magic"
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": 0,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": "Self"
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You turn invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 bonus to speed and you ignore difficult terrain. The illusion melts into the ground and your invisibility ends at the end of your next turn, or earlier if the illusion is interacted with, if you take damage, or if you use an action or a maneuver."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "troubadour-ability-10",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!troubadour-ability-10!astring"
+}

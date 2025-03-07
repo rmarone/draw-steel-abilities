@@ -1,0 +1,71 @@
+{
+  "name": "Reflector Field",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "A protective field reverses the momentum of incoming attacks."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "talent-ability-19",
+    "keywords": [
+      "area",
+      "psionic",
+      "telepathy"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 7,
+    "trigger": "",
+    "distance": {
+      "type": "aura",
+      "primary": 3,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": "Special"
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The aura lasts until the start of your next turn. Whenever an enemy targets an ally in the aura with a ranged ability, the ability is negated on the ally and reflected back at the enemy. The ability deals half the damage to the enemy that it would have dealt to the ally, and loses any additional effects."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "talent-ability-19",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!talent-ability-19!astring"
+}

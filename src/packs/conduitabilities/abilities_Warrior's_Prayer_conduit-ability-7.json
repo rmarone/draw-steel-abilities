@@ -1,0 +1,118 @@
+{
+  "name": "Warrior's Prayer",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Your quickly uttered prayer lends aggressive divine energy to a friend engaged in melee."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "conduit-ability-7",
+    "keywords": [
+      "magic",
+      "ranged",
+      "strike"
+    ],
+    "type": "action",
+    "category": "signature",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "intuition"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "3+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "6+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "9+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You or one ally within distance gains temporary Stamina equal to your Intuition score."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "conduit-ability-7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!conduit-ability-7!astring"
+}

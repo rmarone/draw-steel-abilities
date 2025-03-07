@@ -1,0 +1,69 @@
+{
+  "name": "Dancer",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You enter a flow state that makes you nearly impossible to pin down."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "shadow-ability-13",
+    "keywords": [
+
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": 0,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": "Self"
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "Until the end of the encounter, whenever an enemy moves adjacent to you or damages you, you can take the Disengage move action as a free triggered action."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "shadow-ability-13",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!shadow-ability-13!astring"
+}

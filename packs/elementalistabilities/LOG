@@ -1,0 +1,15 @@
+2025/03/07-11:30:35.153 611c Recovering log #28
+2025/03/07-11:30:35.332 611c Delete type=0 #28
+2025/03/07-11:30:35.332 611c Delete type=3 #26
+2025/03/07-11:30:35.399 8908 Level-0 table #34: started
+2025/03/07-11:30:35.428 8908 Level-0 table #34: 13802 bytes OK
+2025/03/07-11:30:35.464 8908 Delete type=0 #32
+2025/03/07-11:30:35.464 8908 Manual compaction at level-0 from '!items!elementalist-ability-1!astring' @ 72057594037927935 : 1 .. '!items!elementalist-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/03/07-11:30:35.464 8908 Manual compaction at level-1 from '!items!elementalist-ability-1!astring' @ 72057594037927935 : 1 .. '!items!elementalist-ability-9!astring' @ 0 : 0; will stop at '!items!elementalist-ability-9!astring' @ 147 : 1
+2025/03/07-11:30:35.465 8908 Compacting 1@1 + 1@2 files
+2025/03/07-11:30:35.518 8908 Generated table #35@1: 24 keys, 13802 bytes
+2025/03/07-11:30:35.518 8908 Compacted 1@1 + 1@2 files => 13802 bytes
+2025/03/07-11:30:35.575 8908 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/07-11:30:35.580 8908 Delete type=2 #30
+2025/03/07-11:30:35.580 8908 Delete type=2 #34
+2025/03/07-11:30:35.581 8908 Manual compaction at level-1 from '!items!elementalist-ability-9!astring' @ 147 : 1 .. '!items!elementalist-ability-9!astring' @ 0 : 0; will stop at (end)

@@ -1,0 +1,15 @@
+2025/03/07-11:30:01.545 76d8 Recovering log #18
+2025/03/07-11:30:01.674 76d8 Delete type=0 #18
+2025/03/07-11:30:01.674 76d8 Delete type=3 #16
+2025/03/07-11:30:01.721 8c0c Level-0 table #24: started
+2025/03/07-11:30:01.751 8c0c Level-0 table #24: 10282 bytes OK
+2025/03/07-11:30:01.805 8c0c Delete type=0 #22
+2025/03/07-11:30:01.806 8c0c Manual compaction at level-0 from '!items!troubadour-ability-1!astring' @ 72057594037927935 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/03/07-11:30:01.806 8c0c Manual compaction at level-1 from '!items!troubadour-ability-1!astring' @ 72057594037927935 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at '!items!troubadour-ability-9!astring' @ 67 : 1
+2025/03/07-11:30:01.806 8c0c Compacting 1@1 + 1@2 files
+2025/03/07-11:30:01.855 8c0c Generated table #25@1: 16 keys, 10282 bytes
+2025/03/07-11:30:01.855 8c0c Compacted 1@1 + 1@2 files => 10282 bytes
+2025/03/07-11:30:01.904 8c0c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/07-11:30:01.904 8c0c Delete type=2 #20
+2025/03/07-11:30:01.905 8c0c Delete type=2 #24
+2025/03/07-11:30:01.906 8c0c Manual compaction at level-1 from '!items!troubadour-ability-9!astring' @ 67 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at (end)

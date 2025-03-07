@@ -1,0 +1,136 @@
+{
+  "name": "Extensive Rewrites",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "No, this isn’t right. That foe was over there!"
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-ability-13",
+    "keywords": [
+      "area",
+      "magic",
+      "ranged"
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
+    "trigger": "",
+    "distance": {
+      "type": "burst",
+      "primary": 4,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": "Each"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "Slide 3"
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.weak",
+            "display": "this slide ignores the target’s stability."
+          },
+          "display": " P < weak, this slide ignores the target’s stability."
+        }
+      ],
+      "tier2": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "Slide 5"
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.average",
+            "display": "this slide ignores the target’s stability."
+          },
+          "display": " P < average, this slide ignores the target’s stability."
+        }
+      ],
+      "tier3": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "Slide 7"
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.strong",
+            "display": "this slide ignores the target’s stability."
+          },
+          "display": " P < strong, this slide ignores the target’s stability."
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "Instead of sliding a target, you can swap their location with another target as long as each can fit into the other’s space. You can’t slide targets into other creatures or objects using this ability."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "troubadour-ability-13",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!troubadour-ability-13!astring"
+}

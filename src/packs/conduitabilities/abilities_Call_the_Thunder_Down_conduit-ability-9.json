@@ -1,0 +1,148 @@
+{
+  "name": "Call the Thunder Down",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You ask your saint for thunder and your prayer is answered."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "conduit-ability-9",
+    "keywords": [
+      "area",
+      "magic",
+      "ranged"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 3,
+    "trigger": "",
+    "distance": {
+      "type": "cube",
+      "primary": 3,
+      "secondary": 10,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": "Each"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "intuition"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "2",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " push 1"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "3",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " push 2"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "5",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " push 3"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You can push each willing ally in the area. This forced movement ignores any ally’s stability."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "conduit-ability-9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!conduit-ability-9!astring"
+}

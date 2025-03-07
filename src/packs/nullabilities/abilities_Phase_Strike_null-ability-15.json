@@ -1,0 +1,149 @@
+{
+  "name": "Phase Strike",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "For a moment, your foe slips out of phase with this manifold."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "null-ability-15",
+    "keywords": [
+      "melee",
+      "psionic",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "agility"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "3+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "intuition",
+            "value": "@potency.weak",
+            "display": "the target goes out of phase, then is slowed (save ends)"
+          },
+          "display": " I < weak, the target goes out of phase, then is slowed (save ends)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "4+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "intuition",
+            "value": "@potency.average",
+            "display": "the target goes out of phase, then is slowed (save ends)"
+          },
+          "display": " I < average, the target goes out of phase, then is slowed (save ends)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "6+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "intuition",
+            "value": "@potency.strong",
+            "display": "the target goes out of phase, then is slowed (save ends)"
+          },
+          "display": " I < strong, the target goes out of phase, then is slowed (save ends)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "A target who goes out of phase is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "null-ability-15",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!null-ability-15!astring"
+}

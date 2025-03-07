@@ -1,0 +1,16 @@
+{
+  "name": "translatetofoundry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "node ./tools/pack.mjs",
+    "unpack": "node ./tools/unpack.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Erase",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "With a flick of the wrist, you phase creatures out of existence."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "elementalist-ability-21",
+    "keywords": [
+      "magic",
+      "ranged",
+      "strike",
+      "void"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 7,
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": "Special"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "reason"
+      ],
+      "tier1": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "One creature"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "Two creatures"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "Three creatures"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "Each target begins to fade from existence (save ends). While fading from existence, a target initially takes a bane on power rolls. At the end of their first turn, they have a double bane on power rolls. At the end of their second turn, they fade from existence for 1 hour, reappearing in their original space or the nearest available space."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "elementalist-ability-21",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!elementalist-ability-21!astring"
+}

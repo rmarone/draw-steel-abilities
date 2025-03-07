@@ -1,0 +1,148 @@
+{
+  "name": "Quick Rewrite",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You write something unforeseen into the scene that hinders your enemy."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-ability-7",
+    "keywords": [
+      "area",
+      "magic",
+      "ranged"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 3,
+    "trigger": "",
+    "distance": {
+      "type": "cube",
+      "primary": 3,
+      "secondary": 10,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": "Each"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "4",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.weak",
+            "display": "slowed (save ends)"
+          },
+          "display": " P < weak, slowed (save ends)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "5",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.average",
+            "display": "slowed (save ends)"
+          },
+          "display": " P < average, slowed (save ends)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "6",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.strong",
+            "display": "restrained (save ends)"
+          },
+          "display": " P < strong, restrained (save ends)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The area becomes difficult terrain for enemies."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "_id": "troubadour-ability-7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!troubadour-ability-7!astring"
+}
