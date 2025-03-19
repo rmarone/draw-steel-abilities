@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "the target goes out of phase, then is slowed (save ends)"
           },
-          "display": " I < weak, the target goes out of phase, then is slowed (save ends)"
+          "display": " I < [weak], the target goes out of phase, then is slowed (save ends)"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "the target goes out of phase, then is slowed (save ends)"
           },
-          "display": " I < average, the target goes out of phase, then is slowed (save ends)"
+          "display": " I < [average], the target goes out of phase, then is slowed (save ends)"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "the target goes out of phase, then is slowed (save ends)"
           },
-          "display": " I < strong, the target goes out of phase, then is slowed (save ends)"
+          "display": " I < [strong], the target goes out of phase, then is slowed (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

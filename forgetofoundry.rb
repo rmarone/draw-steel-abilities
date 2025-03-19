@@ -53,7 +53,7 @@ def effect_clause(clause)
 end
 
 def potency_clause(clause)
-  attribute_match = clause.match(/([MARIP]) \< (\w+), (.*)/)
+  attribute_match = clause.match(/([MARIP]) \< \[(\w+)\], (.*)/)
   potency_characteristic = nil
   potency_level = nil
   potency_effect = nil
@@ -155,39 +155,50 @@ def make_item(ability)
 
 end
 
-
-#read_forge_file
-Dir.glob('ForgeData/*.drawsteel-hero') do |filename|
-  forge_file = File.read(filename)
-  class_name = filename.split("/")[-1].split('.')[0].downcase
-  output_dir_name = "./src/packs/#{class_name}abilities"
-  parsed_forge_file = JSON.parse(forge_file)
-
-
-  #pp "name"
-  #pp parsed_forge_file["name"]
-  #pp "ancestry name"
-  #pp parsed_forge_file["ancestry"]["name"]
-  #pp "--------------------class--------------------"
-  #pp parsed_forge_file["class"].keys
-  #pp "------------------selected-----------------------"
-  #pp parsed_forge_file["class"]["featuresByLevel"].collect { |feature|
-  #  feature["features"]
-  #}
-
-  #pp parsed_forge_file["class"]["abilities"].collect {|ability|
-  #  ability["name"]
-  #}
-
-  items = parsed_forge_file["class"]["abilities"].collect do |ability|
-    make_item(ability)
-  end
-
+def output_items(items, output_dir_name)
   Dir.mkdir output_dir_name unless File.exist? output_dir_name
   items.each do |item|
     file = File.open("#{output_dir_name}/abilities_#{item[:name].gsub(/[\s,!]/, '_')}_#{item[:_id]}.json", "w+")
     file.write JSON.pretty_generate(item, {indent: "  ", object_nl: "\n", array_nl: "\n"})
   end
+
+end
+
+
+#read_forge_file
+forge_file = File.read('ForgeData/core.drawsteel-sourcebook')
+parsed_forge_file = JSON.parse(forge_file)
+parsed_forge_file["classes"].each do |aclass|
+  class_name = aclass["name"].downcase
+  output_dir_name = "./src/packs/#{class_name}abilities"
+  items = aclass["abilities"].collect do |ability|
+    make_item(ability)
+  end
+
+  items += aclass["featuresByLevel"].collect do |level|
+    level["features"].select{|feature| feature["type"] == "Ability"}.collect do |ability|
+      make_item(ability["data"]["ability"])
+    end
+  end
+
+  items += aclass["subclasses"].collect do |subclass|
+    subclass["featuresByLevel"].collect do |level|
+      level["features"].select{|feature| feature["type"] == "Ability"}.collect do |ability|
+        make_item(ability["data"]["ability"])
+      end
+    end
+  end
+
+  output_items(items.flatten, output_dir_name)
+end
+parsed_forge_file["kits"].each do |kit|
+  kit_name = kit["name"].downcase
+  output_dir_name = "./src/packs/kits"
+  items = kit["features"].collect do |ability|
+    make_item(kit["features"][0]["data"]["ability"])
+  end
+
+  output_items(items, output_dir_name)
 end
 
 #db_file = File.open(output_file, "w+")

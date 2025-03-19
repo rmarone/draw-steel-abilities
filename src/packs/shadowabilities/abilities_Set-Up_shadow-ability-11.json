@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "the target has damage weakness 5 (save ends)"
           },
-          "display": " R < weak, the target has damage weakness 5 (save ends)"
+          "display": " R < [weak], the target has damage weakness 5 (save ends)"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "the target has damage weakness 5 (save ends)"
           },
-          "display": " R < average, the target has damage weakness 5 (save ends)"
+          "display": " R < [average], the target has damage weakness 5 (save ends)"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "the target has damage weakness 5 (save ends)"
           },
-          "display": " R < strong, the target has damage weakness 5 (save ends)"
+          "display": " R < [strong], the target has damage weakness 5 (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

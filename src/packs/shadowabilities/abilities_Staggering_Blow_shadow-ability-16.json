@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "slowed (save ends)"
           },
-          "display": " M < weak, slowed (save ends)"
+          "display": " M < [weak], slowed (save ends)"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "prone and can’t stand (save ends)"
           },
-          "display": " M < average, prone and can’t stand (save ends)"
+          "display": " M < [average], prone and can’t stand (save ends)"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "prone and can’t stand (save ends)"
           },
-          "display": " M < strong, prone and can’t stand (save ends)"
+          "display": " M < [strong], prone and can’t stand (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

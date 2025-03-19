@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "slowed (EoT)"
           },
-          "display": " M < weak, slowed (EoT)"
+          "display": " M < [weak], slowed (EoT)"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "slowed (EoT)"
           },
-          "display": " M < average, slowed (EoT)"
+          "display": " M < [average], slowed (EoT)"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "slowed (EoT)"
           },
-          "display": " M < strong, slowed (EoT)"
+          "display": " M < [strong], slowed (EoT)"
         }
       ],
       "potencyCharacteristic": "reason"

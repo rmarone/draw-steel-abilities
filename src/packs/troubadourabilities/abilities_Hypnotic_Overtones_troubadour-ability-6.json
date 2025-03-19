@@ -59,7 +59,7 @@
             "value": "@potency.weak",
             "display": "dazed (save ends)"
           },
-          "display": " I < weak, dazed (save ends)"
+          "display": " I < [weak], dazed (save ends)"
         }
       ],
       "tier2": [
@@ -81,7 +81,7 @@
             "value": "@potency.average",
             "display": "dazed (save ends)"
           },
-          "display": " I < average, dazed (save ends)"
+          "display": " I < [average], dazed (save ends)"
         }
       ],
       "tier3": [
@@ -103,7 +103,7 @@
             "value": "@potency.strong",
             "display": "dazed (save ends)"
           },
-          "display": " I < strong, dazed (save ends)"
+          "display": " I < [strong], dazed (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "dazed and slowed (save ends)"
           },
-          "display": " I < weak, dazed and slowed (save ends)"
+          "display": " I < [weak], dazed and slowed (save ends)"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "dazed and slowed (save ends)"
           },
-          "display": " I < average, dazed and slowed (save ends)"
+          "display": " I < [average], dazed and slowed (save ends)"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "dazed and slowed (save ends)"
           },
-          "display": " I < strong, dazed and slowed (save ends)"
+          "display": " I < [strong], dazed and slowed (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "prone"
           },
-          "display": " M < weak, prone"
+          "display": " M < [weak], prone"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "prone"
           },
-          "display": " M < average, prone"
+          "display": " M < [average], prone"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "prone"
           },
-          "display": " M < strong, prone"
+          "display": " M < [strong], prone"
         }
       ],
       "potencyCharacteristic": "reason"

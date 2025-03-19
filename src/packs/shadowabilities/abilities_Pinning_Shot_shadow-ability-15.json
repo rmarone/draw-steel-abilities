@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "restrained (save ends)"
           },
-          "display": " A < weak, restrained (save ends)"
+          "display": " A < [weak], restrained (save ends)"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "restrained (save ends)"
           },
-          "display": " A < average, restrained (save ends)"
+          "display": " A < [average], restrained (save ends)"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "restrained (save ends)"
           },
-          "display": " A < strong, restrained (save ends)"
+          "display": " A < [strong], restrained (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

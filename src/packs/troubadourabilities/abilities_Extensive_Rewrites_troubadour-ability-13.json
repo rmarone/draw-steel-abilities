@@ -60,7 +60,7 @@
             "value": "@potency.weak",
             "display": "this slide ignores the target’s stability."
           },
-          "display": " P < weak, this slide ignores the target’s stability."
+          "display": " P < [weak], this slide ignores the target’s stability."
         }
       ],
       "tier2": [
@@ -82,7 +82,7 @@
             "value": "@potency.average",
             "display": "this slide ignores the target’s stability."
           },
-          "display": " P < average, this slide ignores the target’s stability."
+          "display": " P < [average], this slide ignores the target’s stability."
         }
       ],
       "tier3": [
@@ -104,7 +104,7 @@
             "value": "@potency.strong",
             "display": "this slide ignores the target’s stability."
           },
-          "display": " P < strong, this slide ignores the target’s stability."
+          "display": " P < [strong], this slide ignores the target’s stability."
         }
       ],
       "potencyCharacteristic": "reason"

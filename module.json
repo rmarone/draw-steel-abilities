@@ -8,7 +8,7 @@
             "discord": "ashes42#0303"
         }
    ],
-   "version": "1.0.0",
+   "version": "1.1.0",
    "minimumCoreVersion": "12",
    "compatibleCoreVersion":"12",
     "compatibility": {
@@ -89,6 +89,14 @@
       "type": "Item",
       "module": "draw-steel-abilities",
       "system": "draw-steel"
+    },
+    {
+      "name": "kit-abilities",
+      "label": "Kit Abilities",
+      "path": "packs/kits",
+      "type": "Item",
+      "module": "draw-steel-abilities",
+      "system": "draw-steel"
     }
     ],
    "packFolders": [
@@ -96,7 +104,7 @@
         "name": "Draw Steel Abilities",
         "sorting": "a",
         "color": "#000000",
-        "packs": ["censor-abilities", "conduit-abilities", "elementalist-abilities", "fury-abilities", "null-abilities", "shadow-abilities", "tactician-abilities", "talent-abilities", "troubadour-abilities"],
+        "packs": ["censor-abilities", "conduit-abilities", "elementalist-abilities", "fury-abilities", "null-abilities", "shadow-abilities", "tactician-abilities", "talent-abilities", "troubadour-abilities", "kit-abilities"],
         "folders": []
     }
    ]

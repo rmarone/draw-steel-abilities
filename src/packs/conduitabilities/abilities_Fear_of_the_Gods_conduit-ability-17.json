@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "frightened (save ends)"
           },
-          "display": " I < weak, frightened (save ends)"
+          "display": " I < [weak], frightened (save ends)"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "frightened (save ends)"
           },
-          "display": " I < average, frightened (save ends)"
+          "display": " I < [average], frightened (save ends)"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "frightened (save ends)"
           },
-          "display": " I < strong, frightened (save ends)"
+          "display": " I < [strong], frightened (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

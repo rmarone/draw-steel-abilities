@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "the target takes a bane on their next power roll"
           },
-          "display": " P < weak, the target takes a bane on their next power roll"
+          "display": " P < [weak], the target takes a bane on their next power roll"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "the target takes a bane on their next power roll"
           },
-          "display": " P < average, the target takes a bane on their next power roll"
+          "display": " P < [average], the target takes a bane on their next power roll"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "the target takes a bane on their next power roll"
           },
-          "display": " P < strong, the target takes a bane on their next power roll"
+          "display": " P < [strong], the target takes a bane on their next power roll"
         }
       ],
       "potencyCharacteristic": "reason"

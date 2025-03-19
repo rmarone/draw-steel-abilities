@@ -66,7 +66,7 @@
             "value": "@potency.weak",
             "display": "the target has fire weakness 3 (save ends)"
           },
-          "display": " M < weak, the target has fire weakness 3 (save ends)"
+          "display": " M < [weak], the target has fire weakness 3 (save ends)"
         }
       ],
       "tier2": [
@@ -92,7 +92,7 @@
             "value": "@potency.average",
             "display": "the target has fire weakness 5 (save ends)"
           },
-          "display": " M < average, the target has fire weakness 5 (save ends)"
+          "display": " M < [average], the target has fire weakness 5 (save ends)"
         }
       ],
       "tier3": [
@@ -118,7 +118,7 @@
             "value": "@potency.strong",
             "display": "the target has fire weakness 7 (save ends)"
           },
-          "display": " M < strong, the target has fire weakness 7 (save ends)"
+          "display": " M < [strong], the target has fire weakness 7 (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

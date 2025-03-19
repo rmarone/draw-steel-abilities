@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "bleeding (save ends)"
           },
-          "display": " M < weak, bleeding (save ends)"
+          "display": " M < [weak], bleeding (save ends)"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "bleeding (save ends)"
           },
-          "display": " M < average, bleeding (save ends)"
+          "display": " M < [average], bleeding (save ends)"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "bleeding (save ends)"
           },
-          "display": " M < strong, bleeding (save ends)"
+          "display": " M < [strong], bleeding (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

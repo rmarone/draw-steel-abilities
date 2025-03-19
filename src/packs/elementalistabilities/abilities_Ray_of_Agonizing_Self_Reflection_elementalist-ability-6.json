@@ -65,7 +65,7 @@
             "value": "@potency.weak",
             "display": "slowed (save ends)"
           },
-          "display": " R < weak, slowed (save ends)"
+          "display": " R < [weak], slowed (save ends)"
         }
       ],
       "tier2": [
@@ -91,7 +91,7 @@
             "value": "@potency.average",
             "display": "slowed (save ends)"
           },
-          "display": " R < average, slowed (save ends)"
+          "display": " R < [average], slowed (save ends)"
         }
       ],
       "tier3": [
@@ -117,7 +117,7 @@
             "value": "@potency.strong",
             "display": "slowed (save ends)"
           },
-          "display": " R < strong, slowed (save ends)"
+          "display": " R < [strong], slowed (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

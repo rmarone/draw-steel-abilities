@@ -96,7 +96,7 @@
             "value": "@potency.strong",
             "display": "prone"
           },
-          "display": " M < strong, prone"
+          "display": " M < [strong], prone"
         }
       ],
       "potencyCharacteristic": "reason"

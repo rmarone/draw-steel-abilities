@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "damage weakness 5 (save ends)"
           },
-          "display": " M < weak, damage weakness 5 (save ends)"
+          "display": " M < [weak], damage weakness 5 (save ends)"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "damage weakness 5 (save ends)"
           },
-          "display": " M < average, damage weakness 5 (save ends)"
+          "display": " M < [average], damage weakness 5 (save ends)"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "damage weakness 5 (save ends)"
           },
-          "display": " M < strong, damage weakness 5 (save ends)"
+          "display": " M < [strong], damage weakness 5 (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

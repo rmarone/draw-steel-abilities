@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "prone"
           },
-          "display": " A < weak, prone"
+          "display": " A < [weak], prone"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "prone"
           },
-          "display": " A < average, prone"
+          "display": " A < [average], prone"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "prone and can’t stand (save ends)"
           },
-          "display": " A < strong, prone and can’t stand (save ends)"
+          "display": " A < [strong], prone and can’t stand (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

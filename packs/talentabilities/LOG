@@ -1,15 +1,15 @@
-2025/03/07-11:30:37.569 611c Recovering log #23
-2025/03/07-11:30:37.670 611c Delete type=0 #23
-2025/03/07-11:30:37.671 611c Delete type=3 #21
-2025/03/07-11:30:37.728 8908 Level-0 table #29: started
-2025/03/07-11:30:37.759 8908 Level-0 table #29: 12472 bytes OK
-2025/03/07-11:30:37.819 8908 Delete type=0 #27
-2025/03/07-11:30:37.819 8908 Manual compaction at level-0 from '!items!talent-ability-1!astring' @ 72057594037927935 : 1 .. '!items!talent-ability-9!astring' @ 0 : 0; will stop at (end)
-2025/03/07-11:30:37.820 8908 Manual compaction at level-1 from '!items!talent-ability-1!astring' @ 72057594037927935 : 1 .. '!items!talent-ability-9!astring' @ 0 : 0; will stop at '!items!talent-ability-9!astring' @ 101 : 1
-2025/03/07-11:30:37.820 8908 Compacting 1@1 + 1@2 files
-2025/03/07-11:30:37.891 8908 Generated table #30@1: 20 keys, 12472 bytes
-2025/03/07-11:30:37.891 8908 Compacted 1@1 + 1@2 files => 12472 bytes
-2025/03/07-11:30:37.977 8908 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/07-11:30:37.977 8908 Delete type=2 #25
-2025/03/07-11:30:37.977 8908 Delete type=2 #29
-2025/03/07-11:30:37.978 8908 Manual compaction at level-1 from '!items!talent-ability-9!astring' @ 101 : 1 .. '!items!talent-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/03/19-00:32:05.107 6114 Recovering log #28
+2025/03/19-00:32:05.261 6114 Delete type=0 #28
+2025/03/19-00:32:05.262 6114 Delete type=3 #26
+2025/03/19-00:32:05.339 da0 Level-0 table #34: started
+2025/03/19-00:32:05.404 da0 Level-0 table #34: 15749 bytes OK
+2025/03/19-00:32:05.443 da0 Delete type=0 #32
+2025/03/19-00:32:05.443 da0 Manual compaction at level-0 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-1-2!astring' @ 0 : 0; will stop at (end)
+2025/03/19-00:32:05.444 da0 Manual compaction at level-1 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-1-2!astring' @ 0 : 0; will stop at '!items!talent-sub-3-1-2!astring' @ 144 : 1
+2025/03/19-00:32:05.444 da0 Compacting 1@1 + 1@2 files
+2025/03/19-00:32:05.496 da0 Generated table #35@1: 28 keys, 15749 bytes
+2025/03/19-00:32:05.496 da0 Compacted 1@1 + 1@2 files => 15749 bytes
+2025/03/19-00:32:05.534 da0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/19-00:32:05.534 da0 Delete type=2 #30
+2025/03/19-00:32:05.534 da0 Delete type=2 #34
+2025/03/19-00:32:05.536 da0 Manual compaction at level-1 from '!items!talent-sub-3-1-2!astring' @ 144 : 1 .. '!items!talent-sub-3-1-2!astring' @ 0 : 0; will stop at (end)

@@ -96,7 +96,7 @@
             "value": "@potency.strong",
             "display": "slowed (save ends)"
           },
-          "display": " A < strong, slowed (save ends)"
+          "display": " A < [strong], slowed (save ends)"
         }
       ],
       "potencyCharacteristic": "reason"

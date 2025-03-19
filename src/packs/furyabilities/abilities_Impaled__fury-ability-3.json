@@ -64,7 +64,7 @@
             "value": "@potency.weak",
             "display": "grabbed"
           },
-          "display": " M < weak, grabbed"
+          "display": " M < [weak], grabbed"
         }
       ],
       "tier2": [
@@ -90,7 +90,7 @@
             "value": "@potency.average",
             "display": "grabbed"
           },
-          "display": " M < average, grabbed"
+          "display": " M < [average], grabbed"
         }
       ],
       "tier3": [
@@ -116,7 +116,7 @@
             "value": "@potency.strong",
             "display": "grabbed"
           },
-          "display": " M < strong, grabbed"
+          "display": " M < [strong], grabbed"
         }
       ],
       "potencyCharacteristic": "reason"
