@@ -4,11 +4,11 @@ This currently adds class and kit abilities to a set of compendiums, which you c
 
 You may have to alter the ability values base on your echantments/wards etc.
 
-Install into foundry by going to Add on modules > Install module (at the bottom of the screen) and pasting https://github.com/rmarone/draw-steel-abilities/releases/download/1.1.1/module.json and then clicking install, then activate the module in your game
+Install into foundry by going to Add on modules > Install module (at the bottom of the screen) and pasting https://github.com/rmarone/draw-steel-abilities/releases/download/1.2.0/module.json and then clicking install, then activate the module in your game
 
 Future potential feature:
 
-Add Monsters
+Common abilities
 
 Integrate (tighter) with forge steel export to create actors to be imported
 
