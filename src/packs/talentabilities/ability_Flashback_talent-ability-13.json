@@ -1,0 +1,72 @@
+{
+  "name": "Flashback",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "The target is thrown several seconds back through time, and gets to do it all again."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "talent-ability-13",
+    "keywords": [
+      "chronopathy",
+      "psionic",
+      "ranged"
+    ],
+    "type": "maneuver",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "or",
+      "value": null
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The target immediately uses an ability they’ve previously used this round without spending any heroic resources.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "talent-ability-13",
+  "category": "heroic",
+  "resource": 5,
+  "_key": "!items!talent-ability-13"
+}

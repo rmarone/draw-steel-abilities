@@ -1,0 +1,483 @@
+{
+  "name": "High Elf Wyrd",
+  "_dsid": "elfhigh10aaaaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 40,
+      "max": 40,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": 0
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 2
+      },
+      "intuition": {
+        "value": -1
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 5,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "Fey",
+        "Humanoid",
+        "High Elf"
+      ],
+      "level": 3,
+      "ev": 10,
+      "role": "controller",
+      "organization": "platoon"
+    }
+  },
+  "items": [
+    {
+      "name": "Twystrd",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "elf-high-10-feature-1",
+        "keywords": [
+          "area",
+          "magic",
+          "ranged"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "cube",
+          "primary": 1,
+          "secondary": 5,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "vertical push 3"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "vertical push 5"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "vertical push 6"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The area of the cube increases by 1 for each elemental mote adjacent to the wyrd.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature1",
+      "_id": "lfhigh10feature1",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Summon Elemental",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "elf-high-10-feature-2",
+        "keywords": [
+
+        ],
+        "type": "maneuver",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": null,
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The wyrd summons 2 **elemental motes** or 2 **soot crows** into unoccupied squares within distance.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature2",
+      "_id": "lfhigh10feature2",
+      "category": "heroic",
+      "resource": 2
+    },
+    {
+      "name": "Wyrd Warp",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "elf-high-10-feature-3",
+        "keywords": [
+          "area",
+          "magic",
+          "ranged"
+        ],
+        "type": "maneuver",
+        "trigger": "",
+        "distance": {
+          "type": "wall",
+          "primary": 8,
+          "secondary": 8,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": null,
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The wyrd shapes the land as if it were loose clay. Each wall segment takes up the entire square. A segment can also be used to push a square of the terrain further into the ground. An enemy on top of an affected square moves with the elevation of the terrain.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature3",
+      "_id": "lfhigh10feature3",
+      "category": "heroic",
+      "resource": 2
+    },
+    {
+      "name": "Otherwordly Grace",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "At the start of their turn, the wyrd can turn the duration of one save ends eﬀect they suﬀer from into EoT."
+        }
+      },
+      "_dsid": "elf-high-10-feature-4",
+      "_id": "lfhigh10feature4",
+      "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature4"
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "High Elf Wyrd",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "elfhighaaaaaaaaa",
+  "_id": "elfhigh10aaaaaaa",
+  "_key": "!actors!elfhigh10aaaaaaa"
+}

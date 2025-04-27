@@ -1,0 +1,1112 @@
+{
+  "name": "Hag of the Green and Rot",
+  "_dsid": "hag1aaaaaaaaaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 300,
+      "max": 300,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": 2
+      },
+      "agility": {
+        "value": 1
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 3
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 1,
+        "letter": "L"
+      },
+      "stability": 1,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 5,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "Fey",
+        "Hag"
+      ],
+      "level": 3,
+      "ev": 50,
+      "role": "no role",
+      "organization": "solo"
+    }
+  },
+  "items": [
+    {
+      "name": "Solo Monster",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "\n**Solo Turns** The hag takes up to two turns each round. They can’t take turns consecutively. They can use two actions on each of their turns. While dazed, the hag can take one action and one maneuver per turn.\n\n**End Effect** At the end of their turn, the hag can take 5 damage to end one save ends effect affecting them. This damage can’t be reduced in any way."
+        }
+      },
+      "_dsid": "hag-feature-1",
+      "_id": "hagfeature1aaaaa",
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature1aaaaa"
+    },
+    {
+      "name": "Supernatural Resistance",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "Magic and Psionic abilities used against the hag have a bane."
+        }
+      },
+      "_dsid": "hag-feature-2",
+      "_id": "hagfeature2aaaaa",
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature2aaaaa"
+    },
+    {
+      "name": "Corrosive Claws",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-3",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatures",
+          "value": 2
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "9",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<1 weakened (save ends)"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "13",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<2 weakened (save ends)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "16",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<3 weakened (save ends)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature3aaaaa",
+      "_id": "hagfeature3aaaaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Soul Steal",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-4",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "cube",
+          "primary": 4,
+          "secondary": 1,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "5",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "P<1",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "8",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "P<2",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "P<3",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "This ability has an edge against creatures with a soul.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature4aaaaa",
+      "_id": "hagfeature4aaaaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Shapeshifter",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-5",
+        "keywords": [
+          "magic"
+        ],
+        "type": "maneuver",
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": null,
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The hag alters their body to become any Size-1 creature, such as a house cat. If the hag uses this ability while outside of an enemy’s line of eﬀect, the hag is considered hidden. The hag can return to their original form as a free maneuver.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature5aaaaa",
+      "_id": "hagfeature5aaaaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Turned Upside Down",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-6",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "type": "triggered action",
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "Slide 2"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " R<1 slide is vertical"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "Slide 3"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " R<2 slide is vertical, restrained (EoT)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": "Vertical slide 5"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " R<3 restrained (EoT)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "A creature restrained by this ability that is force moved vertically is suspended in midair until the condition ends.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature6aaaaa",
+      "_id": "hagfeature6aaaaa",
+      "category": "heroic",
+      "resource": 2
+    },
+    {
+      "name": "Snackies for Sweeties",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-7",
+        "keywords": [
+          "area",
+          "magic"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 5,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatures",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "poison"
+              ],
+              "value": "6",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "poison"
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "poison"
+              ],
+              "value": "13",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "**Special** A creature wearing a pastry or adjacent to a creature wearing a pastry can attempt a hard Agility test to remove the pastry as a maneuver. On success, the pastry is destroyed without exploding. On failure, the hag rolls power for all pastries immediately.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature7aaaaa",
+      "_id": "hagfeature7aaaaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Animal Alacrity",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-8",
+        "keywords": [
+          "area",
+          "magic",
+          "weapon"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The hag shifts up to their speed before using this action, uses Corrosive Claws against each target of this ability, pushes each target 2 squares, then shifts up to their speed again.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature8aaaaa",
+      "_id": "hagfeature8aaaaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Open the Oven",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "hag-feature-9",
+        "keywords": [
+          "area",
+          "melee",
+          "weapon"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "cube",
+          "primary": 5,
+          "secondary": 1,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creatures",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "fire"
+              ],
+              "value": "6",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<1 weakened (save ends)"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "fire"
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<2 weakened (save ends)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "fire"
+              ],
+              "value": "13",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " A<3 weakened (save ends)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The hag turns the affected area into a roiling oven. The hag deals an additional 5 damage on abilities that target creatures in the affected area.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature9aaaaa",
+      "_id": "hagfeature9aaaaa",
+      "category": "signature",
+      "resource": null
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "Hag of the Green and Rot",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "hagofthegreenand",
+  "_id": "hag1aaaaaaaaaaaa",
+  "_key": "!actors!hag1aaaaaaaaaaaa"
+}

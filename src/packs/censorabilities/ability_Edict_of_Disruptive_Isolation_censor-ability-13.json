@@ -1,0 +1,71 @@
+{
+  "name": "Edict of Disruptive Isolation",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Gather not together in secret to conspire."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "censor-ability-13",
+    "keywords": [
+      "area",
+      "magic"
+    ],
+    "type": "maneuver",
+    "trigger": "",
+    "distance": {
+      "type": "aura",
+      "primary": 2,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": null
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "Until the end of the encounter or you are dying, at the end of each of your turns, each target takes holy damage equal to your Presence score. Any target adjacent to one or more enemies takes an extra 2d6 holy damage if they are judged by you or adjacent to one of your enemies.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "censor-ability-13",
+  "category": "heroic",
+  "resource": 7,
+  "_key": "!items!censor-ability-13"
+}

@@ -1,0 +1,859 @@
+{
+  "name": "Orc Warleader",
+  "_dsid": "orc14aaaaaaaaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 120,
+      "max": 120,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 2
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 2,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 6,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "Humanoid",
+        "Orc"
+      ],
+      "level": 3,
+      "ev": 20,
+      "role": "no role",
+      "organization": "leader"
+    }
+  },
+  "items": [
+    {
+      "name": "Go.",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-1",
+        "keywords": [
+
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "ally",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The target moves up to their speed and uses an action.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature1aaa",
+      "_id": "orc14feature1aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Mace Lariat",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-2",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "7",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " push 1"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<1 dazed (save ends)"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " push 3"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<2 dazed (save ends)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "13",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " push 5"
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<3 dazed (save ends)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature2aaa",
+      "_id": "orc14feature2aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Lockdown",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-3",
+        "keywords": [
+
+        ],
+        "type": "maneuver",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "allies",
+          "value": 3
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "Each target moves up to their speed and uses the Grab maneuver with an edge. The warleader moves up to their speed.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature3aaa",
+      "_id": "orc14feature3aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Courtesy Call",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-4",
+        "keywords": [
+
+        ],
+        "type": "triggered action",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The target has a double edge on next power roll.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature4aaa",
+      "_id": "orc14feature4aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "End Effect",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "At the end of their turn, the warleader can take 5 damage to end one save ends effect affecting them. This damage can’t be reduced in any way."
+        }
+      },
+      "_dsid": "orc-14-feature-5",
+      "_id": "orc14feature5aaa",
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature5aaa"
+    },
+    {
+      "name": "Relentless",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "If the warleader's Stamina drops to 0, they can make a free strike before dying. If the target is reduced to 0 Stamina or killed by the strike, the warleader lives and their Stamina is reduced to 1 instead."
+        }
+      },
+      "_dsid": "orc-14-feature-6",
+      "_id": "orc14feature6aaa",
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature6aaa"
+    },
+    {
+      "name": "Close In",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-7",
+        "keywords": [
+          "area"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 10,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "allies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "Each target moves up to their speed. Each enemy within 1 of a target makes an **Intuition test**.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature7aaa",
+      "_id": "orc14feature7aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Familial Reinforcements",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-8",
+        "keywords": [
+          "area"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 10,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "allies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The warleader shifts up to their speed and 5 **orc blizters** appear in unoccupied spaces within distance.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature8aaa",
+      "_id": "orc14feature8aaa",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "I'll Do This Myself",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "orc-14-feature-9",
+        "keywords": [
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "villain action",
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": null,
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The warleader shifts up to their speed and uses Mace Lariat. Then, the warleader shifts up to their speed and uses Mace Lariat. Finally, the warleader shifts up to their speed and uses Mace Lariat.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!orc14aaaaaaaaaaa.orc14feature9aaa",
+      "_id": "orc14feature9aaa",
+      "category": "signature",
+      "resource": null
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "Orc Warleader",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "orcaaaaaaaaaaaaa",
+  "_id": "orc14aaaaaaaaaaa",
+  "_key": "!actors!orc14aaaaaaaaaaa"
+}

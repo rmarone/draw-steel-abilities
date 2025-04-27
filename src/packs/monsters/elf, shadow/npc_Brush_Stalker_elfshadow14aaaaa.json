@@ -1,0 +1,512 @@
+{
+  "name": "Brush Stalker",
+  "_dsid": "elfshadow14aaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 60,
+      "max": 60,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": -1
+      },
+      "intuition": {
+        "value": 0
+      },
+      "presence": {
+        "value": 1
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 2,
+        "letter": ""
+      },
+      "stability": 3,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 8,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 5,
+      "keywords": [
+        "Animal",
+        "Fey"
+      ],
+      "level": 4,
+      "ev": 12,
+      "role": "mount",
+      "organization": "platoon"
+    }
+  },
+  "items": [
+    {
+      "name": "Gore",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "elf-shadow-14-feature-1",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 2,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "7",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "13",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!elfshadow14aaaaa.shadow14feature1",
+      "_id": "shadow14feature1",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Reclamation",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "elf-shadow-14-feature-2",
+        "keywords": [
+          "area",
+          "magic",
+          "melee"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "burst",
+          "primary": 2,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemies",
+          "value": 10
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "4",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<1 weakened (save ends)"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "7",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<2 weakened (save ends)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "corruption"
+              ],
+              "value": "10",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " M<3 weakened (save ends)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!elfshadow14aaaaa.shadow14feature2",
+      "_id": "shadow14feature2",
+      "category": "heroic",
+      "resource": 2
+    },
+    {
+      "name": "Suneater",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "The brush stalker sheds darkness like other creatures would shed light. Each square within 2 of the brush stalker is devoid of light and provides concealment."
+        }
+      },
+      "_dsid": "elf-shadow-14-feature-3",
+      "_id": "shadow14feature3",
+      "_key": "!actors.items!elfshadow14aaaaa.shadow14feature3"
+    },
+    {
+      "name": "Wyrd Dyr",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "Each non-brush stalker creature with the Animal keyword is frightened while they have line of effect to the brush stalker."
+        }
+      },
+      "_dsid": "elf-shadow-14-feature-4",
+      "_id": "shadow14feature4",
+      "_key": "!actors.items!elfshadow14aaaaa.shadow14feature4"
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "Brush Stalker",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "elfshadowaaaaaaa",
+  "_id": "elfshadow14aaaaa",
+  "_key": "!actors!elfshadow14aaaaa"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Materialize",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You picture an object in your mind and give it form in the world, directly above your opponent’s head."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "talent-ability-6",
+    "keywords": [
+      "psionic",
+      "ranged",
+      "resopathy",
+      "strike"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": 1
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "reason"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "3+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "5+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "8+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "A size 1M object drops onto the target and then rolls into an adjacent, unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "talent-ability-6",
+  "category": "signature",
+  "resource": null,
+  "_key": "!items!talent-ability-6"
+}

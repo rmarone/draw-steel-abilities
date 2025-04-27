@@ -1,0 +1,120 @@
+{
+  "name": "Harsh Critic",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Just one bad review will ruin their day."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-ability-5",
+    "keywords": [
+      "magic",
+      "melee",
+      "ranged",
+      "strike"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "7+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "10+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "sonic"
+          ],
+          "value": "13+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The first time the target uses an ability before the start of your next turn, any tier-related effects of that ability other than damage are suppressed, negating those effects for all targets. Ability effects that always happen regardless of the power roll work as usual.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "troubadour-ability-5",
+  "category": "heroic",
+  "resource": 3,
+  "_key": "!items!troubadour-ability-5"
+}

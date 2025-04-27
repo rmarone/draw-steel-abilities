@@ -1,0 +1,435 @@
+{
+  "name": "The Nameless",
+  "_dsid": "draconian7aaaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 90,
+      "max": 90,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": 3
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 2
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 4,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 5,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 6,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 6,
+      "keywords": [
+        "Draconian",
+        "Dragon",
+        "Humanoid"
+      ],
+      "level": 6,
+      "ev": 30,
+      "role": "defender",
+      "organization": "retainer"
+    }
+  },
+  "items": [
+    {
+      "name": "Malice Mace",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "draconian-7-feature-1",
+        "keywords": [
+          "charge",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+            "might",
+            "agility",
+            "reason",
+            "intuition",
+            "presence"
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "6",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "11",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                null
+              ],
+              "value": "14",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " push 2"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!draconian7aaaaaa.aconian7feature1",
+      "_id": "aconian7feature1",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "I'm Not a Steed, You're Equipment",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "draconian-7-retainer-2",
+        "keywords": [
+
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "Nameless's",
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The Nameless’s mentor enters their square and rides on their back. The Nameless or the mentor can move the mentor to an adjacent square as a free maneuver. While in the Nameless’s square, the mentor moves with them, can’t take their own move action, and gains 1 shield.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!draconian7aaaaaa.conian7retainer2",
+      "_id": "conian7retainer2",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Wing Block",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "Ranged attacks against the Nameless suffer a bane."
+        }
+      },
+      "_dsid": "draconian-7-feature-3",
+      "_id": "aconian7feature3",
+      "_key": "!actors.items!draconian7aaaaaa.aconian7feature3"
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "The Nameless",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "draconianaaaaaaa",
+  "_id": "draconian7aaaaaa",
+  "_key": "!actors!draconian7aaaaaa"
+}

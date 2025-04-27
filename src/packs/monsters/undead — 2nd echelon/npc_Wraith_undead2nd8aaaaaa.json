@@ -1,0 +1,523 @@
+{
+  "name": "Wraith",
+  "_dsid": "undead2nd8aaaaaa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "stamina": {
+      "value": 25,
+      "max": 25,
+      "temporary": null
+    },
+    "characteristics": {
+      "might": {
+        "value": -2
+      },
+      "agility": {
+        "value": 2
+      },
+      "reason": {
+        "value": 1
+      },
+      "intuition": {
+        "value": 1
+      },
+      "presence": {
+        "value": 3
+      }
+    },
+    "combat": {
+      "size": {
+        "value": 1,
+        "letter": "M"
+      },
+      "stability": 0,
+      "turns": 1
+    },
+    "biography": {
+      "value": "",
+      "gm": "",
+      "languages": [
+
+      ]
+    },
+    "movement": {
+      "walk": 8,
+      "burrow": null,
+      "climb": null,
+      "swim": null,
+      "fly": null,
+      "teleport": null
+    },
+    "damage": {
+      "immunities": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 4,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 4,
+        "psychic": 0,
+        "sonic": 0
+      },
+      "weaknesses": {
+        "all": 0,
+        "acid": 0,
+        "cold": 0,
+        "corruption": 0,
+        "fire": 0,
+        "holy": 0,
+        "lightning": 0,
+        "poison": 0,
+        "psychic": 0,
+        "sonic": 0
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "negotiation": {
+      "interest": 5,
+      "patience": 5,
+      "motivations": [
+
+      ],
+      "pitfalls": [
+
+      ],
+      "impression": 1
+    },
+    "monster": {
+      "freeStrike": 2,
+      "keywords": [
+        "Undead"
+      ],
+      "level": 4,
+      "ev": 6,
+      "role": "hexer",
+      "organization": "band"
+    }
+  },
+  "items": [
+    {
+      "name": "Chilling Gravetouch",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "undead-2nd-8-feature-2",
+        "keywords": [
+          "magic",
+          "melee",
+          "strike",
+          "weapon"
+        ],
+        "type": "action",
+        "trigger": "",
+        "distance": {
+          "type": "melee",
+          "primary": 1,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "creature",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": true,
+          "formula": "@chr",
+          "characteristics": [
+
+          ],
+          "tier1": [
+            {
+              "type": "damage",
+              "types": [
+                "cold"
+              ],
+              "value": "5",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " P<1 slowed (save ends)"
+            }
+          ],
+          "tier2": [
+            {
+              "type": "damage",
+              "types": [
+                "cold"
+              ],
+              "value": "7",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " P<2 slowed (save ends)"
+            }
+          ],
+          "tier3": [
+            {
+              "type": "damage",
+              "types": [
+                "cold"
+              ],
+              "value": "9",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": ""
+            },
+            {
+              "type": "ae",
+              "potency": {
+                "enabled": false,
+                "characteristic": null,
+                "value": null,
+                "display": null
+              },
+              "display": " P<3 slowed (save ends)"
+            }
+          ],
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "Living creatures killed by this ability return as a ghoul craver the next round, under the Director's control.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature2",
+      "_id": "dead2nd8feature2",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Hidden Movement",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "undead-2nd-8-feature-3",
+        "keywords": [
+
+        ],
+        "type": "maneuver",
+        "trigger": "",
+        "distance": {
+          "type": "self",
+          "primary": 0,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": null,
+          "value": null
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The wraith truns invisible, moves up to their speed, and becomes visible again.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature3",
+      "_id": "dead2nd8feature3",
+      "category": "signature",
+      "resource": null
+    },
+    {
+      "name": "Stolen Vitality",
+      "type": "ability",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "",
+          "gm": "",
+          "flavor": ""
+        },
+        "source": {
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1
+        },
+        "_dsid": "undead-2nd-8-feature-4",
+        "keywords": [
+          "magic",
+          "ranged"
+        ],
+        "type": "triggered action",
+        "trigger": "",
+        "distance": {
+          "type": "ranged",
+          "primary": 5,
+          "secondary": 0,
+          "tertiary": null
+        },
+        "damageDisplay": "melee",
+        "target": {
+          "type": "enemy",
+          "value": 1
+        },
+        "powerRoll": {
+          "enabled": false,
+          "formula": "@chr",
+          "characteristics": null,
+          "tier1": null,
+          "tier2": null,
+          "tier3": null,
+          "potencyCharacteristic": "reason"
+        },
+        "effect": "The target only regains half the Stamina they would normally. The wraith regains the remaining Stamina.",
+        "spend": {
+          "value": null,
+          "text": ""
+        }
+      },
+      "effects": [
+
+      ],
+      "folder": null,
+      "flags": {
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "coreVersion": "12.331",
+        "systemId": "draw-steel",
+        "systemVersion": "0.6.2",
+        "createdTime": 1740757635615,
+        "modifiedTime": 1740757635615,
+        "lastModifiedBy": "z2R22m76IkusoFkR"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "F1cSR286wTbtHGDL": 3
+      },
+      "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature4",
+      "_id": "dead2nd8feature4",
+      "category": "heroic",
+      "resource": 1
+    },
+    {
+      "name": "Agonizing Phasing",
+      "type": "feature",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "The wraith can move through other creatures and objects at normal speed. The ﬁrst time in a round that the shade passes through a creature, that creature takes 5 corruption damage and has a bane on their next attack. The wraith doesn’t take damage from being force moved into objects."
+        }
+      },
+      "_dsid": "undead-2nd-8-feature-5",
+      "_id": "dead2nd8feature5",
+      "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature5"
+    }
+  ],
+  "effects": [
+
+  ],
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "prototypeToken": {
+    "name": "Wraith",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "stamina"
+    },
+    "bar2": {
+      "attribute": "hero.resources"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    }
+  },
+  "folder": "undead2ndechelon",
+  "_id": "undead2nd8aaaaaa",
+  "_key": "!actors!undead2nd8aaaaaa"
+}

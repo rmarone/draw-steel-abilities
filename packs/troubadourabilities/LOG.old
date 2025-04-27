@@ -1,15 +1,15 @@
-2025/03/07-11:30:38.089 611c Recovering log #23
-2025/03/07-11:30:38.227 611c Delete type=0 #23
-2025/03/07-11:30:38.227 611c Delete type=3 #21
-2025/03/07-11:30:38.276 8908 Level-0 table #29: started
-2025/03/07-11:30:38.311 8908 Level-0 table #29: 10416 bytes OK
-2025/03/07-11:30:38.353 8908 Delete type=0 #27
-2025/03/07-11:30:38.353 8908 Manual compaction at level-0 from '!items!troubadour-ability-1!astring' @ 72057594037927935 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at (end)
-2025/03/07-11:30:38.353 8908 Manual compaction at level-1 from '!items!troubadour-ability-1!astring' @ 72057594037927935 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at '!items!troubadour-ability-9!astring' @ 83 : 1
-2025/03/07-11:30:38.353 8908 Compacting 1@1 + 1@2 files
-2025/03/07-11:30:38.403 8908 Generated table #30@1: 16 keys, 10416 bytes
-2025/03/07-11:30:38.403 8908 Compacted 1@1 + 1@2 files => 10416 bytes
-2025/03/07-11:30:38.444 8908 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/07-11:30:38.445 8908 Delete type=2 #25
-2025/03/07-11:30:38.446 8908 Delete type=2 #29
-2025/03/07-11:30:38.446 8908 Manual compaction at level-1 from '!items!troubadour-ability-9!astring' @ 83 : 1 .. '!items!troubadour-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/04/26-23:12:13.031 5dd4 Recovering log #297
+2025/04/26-23:12:13.130 5dd4 Delete type=0 #297
+2025/04/26-23:12:13.130 5dd4 Delete type=3 #295
+2025/04/26-23:12:13.191 51b0 Level-0 table #303: started
+2025/04/26-23:12:13.226 51b0 Level-0 table #303: 30076 bytes OK
+2025/04/26-23:12:13.292 51b0 Delete type=0 #301
+2025/04/26-23:12:13.292 51b0 Manual compaction at level-0 from '!items!troubadour-1-7' @ 72057594037927935 : 1 .. '!items!troubadour-sub-3-3-2!astring' @ 0 : 0; will stop at (end)
+2025/04/26-23:12:13.292 51b0 Manual compaction at level-1 from '!items!troubadour-1-7' @ 72057594037927935 : 1 .. '!items!troubadour-sub-3-3-2!astring' @ 0 : 0; will stop at '!items!troubadour-sub-3-3-2!astring' @ 3019 : 1
+2025/04/26-23:12:13.292 51b0 Compacting 1@1 + 1@2 files
+2025/04/26-23:12:13.377 51b0 Generated table #304@1: 60 keys, 30076 bytes
+2025/04/26-23:12:13.377 51b0 Compacted 1@1 + 1@2 files => 30076 bytes
+2025/04/26-23:12:13.443 51b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-23:12:13.443 51b0 Delete type=2 #299
+2025/04/26-23:12:13.443 51b0 Delete type=2 #303
+2025/04/26-23:12:13.444 51b0 Manual compaction at level-1 from '!items!troubadour-sub-3-3-2!astring' @ 3019 : 1 .. '!items!troubadour-sub-3-3-2!astring' @ 0 : 0; will stop at (end)

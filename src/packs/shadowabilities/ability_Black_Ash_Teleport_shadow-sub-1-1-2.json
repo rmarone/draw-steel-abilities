@@ -1,0 +1,70 @@
+{
+  "name": "Black Ash Teleport",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "In a swirl of black ash, you step from one place to another."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "shadow-sub-1-1-2",
+    "keywords": [
+      "magic"
+    ],
+    "type": "maneuver",
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": 0,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": null
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You teleport up to 5 squares. If you have concealment or cover at your destination, you can use the Hide maneuver even if you are observed. If you hide using this maneuver, you gain a surge.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "shadow-sub-1-1-2",
+  "category": "signature",
+  "resource": null,
+  "_key": "!items!shadow-sub-1-1-2"
+}

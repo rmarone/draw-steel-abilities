@@ -8,15 +8,15 @@
             "discord": "ashes42#0303"
         }
    ],
-   "version": "1.1.1",
+   "version": "1.2.0",
    "minimumCoreVersion": "12",
    "compatibleCoreVersion":"12",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
     },
-   "manifest": "https://github.com/rmarone/draw-steel-abilities/releases/download/1.1.1/module.json",
-   "download": "https://github.com/rmarone/draw-steel-abilities/releases/download/1.1.1/module.zip",
+   "manifest": "https://github.com/rmarone/draw-steel-abilities/releases/download/1.2.0/module.json",
+   "download": "https://github.com/rmarone/draw-steel-abilities/releases/download/1.2.0/module.zip",
    "packs": [
     {
       "name": "censor-abilities",
@@ -97,6 +97,14 @@
       "type": "Item",
       "module": "draw-steel-abilities",
       "system": "draw-steel"
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "module": "draw-steel-abilities",
+      "system": "draw-steel"
     }
     ],
    "packFolders": [
@@ -104,7 +112,7 @@
         "name": "Draw Steel Abilities",
         "sorting": "a",
         "color": "#000000",
-        "packs": ["censor-abilities", "conduit-abilities", "elementalist-abilities", "fury-abilities", "null-abilities", "shadow-abilities", "tactician-abilities", "talent-abilities", "troubadour-abilities", "kit-abilities"],
+        "packs": ["censor-abilities", "conduit-abilities", "elementalist-abilities", "fury-abilities", "null-abilities", "shadow-abilities", "tactician-abilities", "talent-abilities", "troubadour-abilities", "kit-abilities", "monsters"],
         "folders": []
     }
    ]

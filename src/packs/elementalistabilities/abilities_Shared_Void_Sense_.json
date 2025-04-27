@@ -1,0 +1,75 @@
+{
+  "name": "Shared Void Sense",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You grant allies a taste of your unearthly vision."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "elementalist-sub-4-1-3",
+    "keywords": [
+      "magic",
+      "ranged",
+      "void"
+    ],
+    "type": "maneuver",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": null
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "For each Victory you have, you can target one creature. That creature gains the benefit of your A Beyonding of Vision feature until the end of your next turn, but doesn’t gain the use of Shared Void Sense.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!elementalist-sub-4-1-3!astring",
+  "_id": "elementalist-sub-4-1-3",
+  "category": "signature",
+  "resource": null
+}

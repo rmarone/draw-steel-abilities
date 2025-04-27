@@ -1,0 +1,75 @@
+{
+  "name": "Return to Formlessness",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "With the merest touch, you cause an object to turn into slag or ash."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "elementalist-sub-2-1-2",
+    "keywords": [
+      "fire",
+      "magic",
+      "melee"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "mundane",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": false,
+      "formula": "@chr",
+      "characteristics": null,
+      "tier1": null,
+      "tier2": null,
+      "tier3": null,
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You heat the target and cause it to combust and melt, destroying it. If the object is larger than 1 square, then only the square of the object that you touch is destroyed.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!elementalist-sub-2-1-2!astring",
+  "_id": "elementalist-sub-2-1-2",
+  "category": "signature",
+  "resource": null
+}

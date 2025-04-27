@@ -1,0 +1,123 @@
+{
+  "name": "A Squad Unto Myself",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You move so quickly, it seems as though an army assaulted your foes."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "null-ability-16",
+    "keywords": [
+      "area",
+      "melee",
+      "psionic",
+      "weapon"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "burst",
+      "primary": 2,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": null
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "agility"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "6",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "9",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "13",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "You can take the Disengage move action as a free maneuver before or after you make this ability.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!null-ability-16!astring",
+  "_id": "null-ability-16",
+  "category": "heroic",
+  "resource": 5
+}

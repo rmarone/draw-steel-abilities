@@ -1,0 +1,150 @@
+{
+  "name": "Soul Burn",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "You blast their soul out of their body, leaving it to helplessly float back to a weakened husk."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "talent-ability-20",
+    "keywords": [
+      "animapathy",
+      "psionic",
+      "ranged",
+      "strike"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "6+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.weak",
+            "display": "dazed (save ends)"
+          },
+          "display": " P < [weak], dazed (save ends)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "10+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.average",
+            "display": "dazed (save ends)"
+          },
+          "display": " P < [average], dazed (save ends)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "14+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.strong",
+            "display": "dazed (save ends)"
+          },
+          "display": " P < [strong], dazed (save ends)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "The target takes a bane on Presence tests until the end of the encounter.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "talent-ability-20",
+  "category": "heroic",
+  "resource": 7,
+  "_key": "!items!talent-ability-20"
+}

@@ -1,0 +1,15 @@
+2025/04/26-23:12:09.351 5dd4 Recovering log #111
+2025/04/26-23:12:09.741 5dd4 Delete type=0 #111
+2025/04/26-23:12:09.741 5dd4 Delete type=3 #109
+2025/04/26-23:12:10.108 51b0 Level-0 table #117: started
+2025/04/26-23:12:10.239 51b0 Level-0 table #117: 769617 bytes OK
+2025/04/26-23:12:10.285 51b0 Delete type=0 #115
+2025/04/26-23:12:10.285 51b0 Manual compaction at level-0 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyract' @ 0 : 0; will stop at (end)
+2025/04/26-23:12:10.285 51b0 Manual compaction at level-1 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyract' @ 0 : 0; will stop at '!folders!xorannoxthetyract' @ 28276 : 1
+2025/04/26-23:12:10.285 51b0 Compacting 1@1 + 1@2 files
+2025/04/26-23:12:10.434 51b0 Generated table #118@1: 1634 keys, 769358 bytes
+2025/04/26-23:12:10.434 51b0 Compacted 1@1 + 1@2 files => 769358 bytes
+2025/04/26-23:12:10.492 51b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-23:12:10.492 51b0 Delete type=2 #113
+2025/04/26-23:12:10.493 51b0 Delete type=2 #117
+2025/04/26-23:12:10.500 51b0 Manual compaction at level-1 from '!folders!xorannoxthetyract' @ 28276 : 1 .. '!folders!xorannoxthetyract' @ 0 : 0; will stop at (end)

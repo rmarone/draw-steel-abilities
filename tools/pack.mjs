@@ -11,6 +11,6 @@ for (const pack of packs) {
   await compilePack(
     `${MODULE_ID}/src/packs/${pack}`,
     `${MODULE_ID}/packs/${pack}`,
-    { yaml }
+    { yaml: false, recursive: true }
   );
 }

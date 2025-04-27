@@ -1,0 +1,156 @@
+{
+  "name": "Unmooring",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Your weapon unleashes psionic energy that reduces your target’s weight."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "kit-battlemind-signature",
+    "keywords": [
+      "melee",
+      "psionic",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "might",
+        "reason",
+        "intuition",
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "3",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " stability reduced by 2 (EoT)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "6",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " stability reduced by 3 (EoT)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            null
+          ],
+          "value": "9",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": " stability reduced by 4 (EoT)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!kit-battlemind-signature!astring",
+  "_id": "kit-battlemind-signature",
+  "category": "signature",
+  "resource": null
+}

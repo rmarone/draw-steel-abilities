@@ -1,0 +1,111 @@
+{
+  "name": "Pain For Pain",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "An enemy who tagged you will pay for that."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "kit-mountain-signature",
+    "keywords": [
+      "melee",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "might",
+        "agility"
+      ],
+      "tier1": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "3 damage + M or A damage"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "5 damage + M or A damage"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": "9 damage + M or A damage"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "If the target dealt damage to you since the end of your last turn, this strike deals additional damage equal to your Might or Agility score (your choice).",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!kit-mountain-signature!astring",
+  "_id": "kit-mountain-signature",
+  "category": "signature",
+  "resource": null
+}

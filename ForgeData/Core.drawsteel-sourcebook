@@ -54251,7 +54251,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "Self (while flying)",
 									"cost": 0,
 									"repeatable": false,
@@ -54870,7 +54879,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 0,
 									"repeatable": false,
@@ -55479,7 +55497,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 0,
 									"repeatable": false,
@@ -83869,7 +83896,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 5,
 									"repeatable": false,
@@ -85215,7 +85251,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 0,
 									"repeatable": false,
@@ -97730,7 +97775,7 @@
 							}
 						},
 						{
-							"id": "orc-8-feature-3",
+							"id": "orc-8-feature-4",
 							"name": "Relentless",
 							"description": "If the eye's Stamina drops to 0, they can make a free strike before dying. If the target is reduced to 0 Stamina or killed by the strike, the eye lives and their Stamina is reduced to 1 instead.",
 							"type": "Text",
@@ -97918,7 +97963,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 1,
 									"repeatable": false,
@@ -109682,7 +109736,16 @@
 										"qualifiers": []
 									},
 									"keywords": [],
-									"distance": [],
+									"distance": [
+										{
+											"type": "Self",
+											"value": 0,
+											"value2": 0,
+											"within": 0,
+											"special": "",
+											"qualifier": ""
+										}
+									],
 									"target": "",
 									"cost": 1,
 									"repeatable": false,

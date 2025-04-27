@@ -1,0 +1,153 @@
+{
+  "name": "Cutting Sarcasm",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "There you are, radiating your usual charisma."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-ability-2",
+    "keywords": [
+      "magic",
+      "ranged",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": 1
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "presence"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "2+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.weak",
+            "display": "bleeding (save ends)"
+          },
+          "display": " P < [weak], bleeding (save ends)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "5+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.average",
+            "display": "bleeding (save ends)"
+          },
+          "display": " P < [average], bleeding (save ends)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "psychic"
+          ],
+          "value": "7+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "presence",
+            "value": "@potency.strong",
+            "display": "bleeding (save ends)"
+          },
+          "display": " P < [strong], bleeding (save ends)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!troubadour-ability-2!astring",
+  "_id": "troubadour-ability-2",
+  "category": "signature",
+  "resource": null
+}

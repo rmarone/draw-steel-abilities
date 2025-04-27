@@ -2,6 +2,7 @@
 
 require 'yaml'
 require 'json'
+require 'securerandom'
 
 
 CHARACTERISTIC_MAP = {"M" => "might", "A" => "agility", "R" => "reason", "I"=> "intuition", "P" => "presence" }
@@ -86,8 +87,44 @@ def parse_power_tier(input_tier)
   effects
 end
 
-def make_item(ability)
+def parse_target(target_string)
+  str_to_int_hash = {
+    'one'   => 1,
+    'two'   => 2,
+    'three' => 3,
+    'four'  => 4,
+    'five'  => 5,
+    'six'   => 6,
+    'seven' => 7,
+    'eight' => 8,
+    'nine'  => 9,
+    'ten'   => 10,
+    'all'   => 10
+  }
+  type = target_string.split(' ')[1]
+  value = target_string.split(' ')[0]
+  if value && value.to_i.to_s != value
+    value = str_to_int_hash[value.downcase]
+  end
   {
+    "type": type,
+    "value": value
+  }
+end
+
+def make_item(ability, monster_id=nil)
+  clean_ability_id = ability["id"].gsub('-','').ljust(16,'a')
+  clean_ability_id = clean_ability_id[-16..-1] || clean_ability_id
+  key = monster_id ? "!actors.items!#{monster_id}.#{clean_ability_id}" : "!items!#{ability["id"]}!astring"
+  item_key = {"_key": key,
+              "_id": monster_id ? clean_ability_id : ability["id"]
+  }
+  cost = if ability["cost"] == "signature" || ability["cost"] == 0
+           { "category": "signature", "resource":  nil}
+          else
+           { "category": "heroic", "resource":  ability["cost"]}
+          end
+  item = {
   "name": ability["name"],
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
@@ -106,20 +143,15 @@ def make_item(ability)
     "_dsid": ability["id"],
     "keywords": ability["keywords"].collect(&:downcase),
     "type": ability["type"]["usage"].downcase,
-    "category": ability["cost"] == "signature" ? "signature" : "heroic",
-    "resource": ability["cost"] == "signature" ? nil : ability["cost"],
     "trigger": "",
-    "distance": {
+    "distance": ability["distance"][0] ? {
       "type": ability["distance"][0]["type"].downcase,
       "primary": ability["distance"][0]["value"],
       "secondary": ability["distance"][0]["within"],
       "tertiary": nil
-    },
+    } : nil,
     "damageDisplay": "melee",
-    "target": {
-      "type": ability["target"].split(' ')[1],
-      "value": ability["target"].split(' ')[0]
-    },
+    "target": parse_target(ability["target"]),
     "powerRoll": {
       "enabled": ability["powerRoll"] ? true : false,
       "formula": "@chr",
@@ -129,7 +161,11 @@ def make_item(ability)
       "tier3": ability["powerRoll"] ? parse_power_tier(ability["powerRoll"]["tier3"]) : nil,
       "potencyCharacteristic": "reason"
     },
-    "effect": ability["effect"]
+    "effect": ability["effect"],
+    "spend": {
+      "value": nil,
+      "text": ""
+    }
   },
   "effects": [],
   "folder": nil,
@@ -143,22 +179,331 @@ def make_item(ability)
     "modifiedTime": 1740757635615,
     "lastModifiedBy": "z2R22m76IkusoFkR"
   },
-  "_id": "#{ability["id"]}",
   "sort": 0,
   "ownership": {
     "default": 0,
     "F1cSR286wTbtHGDL": 3
   },
-  "_key": "!items!#{ability["id"]}!astring"
   }
-  
+  item = item.merge(item_key)
+  item = item.merge(cost)
+  return item  
 
+end
+
+def make_monster(monster, monster_group_folder_id)
+  cleaned_id = monster["id"].gsub('-','').ljust(16,'a')
+  id = cleaned_id[-16..-1] || cleaned_id
+  return {"name": monster["name"],
+   "_dsid": id,
+   "type": "npc",
+   "img": "icons/svg/mystery-man.svg",
+   "system": {
+      "stamina": {
+        "value": monster["stamina"],
+        "max": monster["stamina"],
+        "temporary": nil
+      },
+      "characteristics": {
+        "might": {
+          "value": monster["characteristics"].detect do |item|
+            item["characteristic"] == "Might"
+          end["value"]
+        },
+        "agility": {
+          "value": monster["characteristics"].detect do |item|
+            item["characteristic"] == "Agility"
+          end["value"]
+        },
+        "reason": {
+          "value": monster["characteristics"].detect do |item|
+            item["characteristic"] == "Reason"
+          end["value"]
+        },
+        "intuition": {
+          "value": monster["characteristics"].detect do |item|
+            item["characteristic"] == "Intuition"
+          end["value"]
+        },
+        "presence": {
+          "value": monster["characteristics"].detect do |item|
+            item["characteristic"] == "Presence"
+          end["value"]
+        }
+
+      },
+      "combat": {
+        "size": {
+            "value": monster["size"]["value"],
+            "letter": monster["size"]["mod"]
+        },
+        "stability": monster["stability"],
+        "turns": 1
+      },
+      "biography": {
+        "value": "",
+        "gm": "",
+        "languages": []
+      },
+      "movement": monster_movement(monster),
+      "damage": monster_damage_immunities(monster),
+      "source": {
+        "book": "",
+        "page": "",
+        "license": "",
+        "revision": 1
+      },
+      "negotiation": {
+        "interest": 5,
+        "patience": 5,
+        "motivations": [],
+        "pitfalls": [],
+        "impression": 1
+      },
+      "monster": {
+        "freeStrike": monster["freeStrikeDamage"],
+        "keywords": monster["keywords"],
+        "level": monster["level"],
+        "ev": monster["encounterValue"],
+        "role": monster["role"]["type"].downcase,
+        "organization": monster["role"]["organization"].downcase
+      }
+    },
+    "items": monster["features"].collect do |item|
+      make_monster_item(item, id)
+    end.compact,
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "F1cSR286wTbtHGDL": 3
+    },
+    "prototypeToken": {
+      "name": monster["name"],
+      "displayName": 0,
+      "actorLink": false,
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/svg/mystery-man.svg",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "stamina"
+      },
+      "bar2": {
+        "attribute": "hero.resources"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": nil,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": nil,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": nil,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [
+        {
+          "id": "lightPerception",
+          "range": nil,
+          "enabled": true
+        }
+      ],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": nil,
+          "background": nil
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": nil
+        }
+      },
+    },
+    "folder": monster_group_folder_id,
+    "_id": id,
+    "_key": "!actors!#{id}"
+  }
+end
+
+def monster_movement(monster)
+  {
+    "walk": monster["speed"]["value"],
+    "burrow": nil,
+    "climb": nil,
+    "swim": nil,
+    "fly": nil,
+    "teleport": nil
+  }
+end
+
+def monster_damage_immunities(monster)
+  current_immunities = {
+    "immunities": {
+      "all": 0,
+      "acid": 0,
+      "cold": 0,
+      "corruption": 0,
+      "fire": 0,
+      "holy": 0,
+      "lightning": 0,
+      "poison": 0,
+      "psychic": 0,
+      "sonic": 0
+    },
+    "weaknesses": {
+      "all": 0,
+      "acid": 0,
+      "cold": 0,
+      "corruption": 0,
+      "fire": 0,
+      "holy": 0,
+      "lightning": 0,
+      "poison": 0,
+      "psychic": 0,
+      "sonic": 0
+    }
+  }
+  immunities = monster["features"].each do |item|
+    if item["type"] == "Damage Modifier"
+      item["data"]["modifiers"].each do |modifier|
+        if modifier["type"] == "Immunity"
+          current_immunities[:immunities][modifier["damageType"].downcase.to_sym] = modifier["value"]
+        end
+      end
+    end
+  end
+  current_immunities
+end
+
+def make_monster_item(item, monster_id)
+    if item["type"] == "Ability"
+      return make_item(item["data"]["ability"], monster_id)
+    end
+    if item["type"] == "Damage Modifier"
+      return nil
+    end
+    if item["type"] == "Text"
+      clean_item_id = item["id"].gsub('-','').ljust(16,'a')
+      clean_item_id = clean_item_id[-16..-1] || clean_item_id
+      return { 
+        "name": item["name"],
+        "type": "feature",
+        "img": "icons/svg/item-bag.svg",
+        "system": {
+          "description": {
+            "value": item["description"],
+          }
+        },
+        "_dsid": item["id"],
+        "_id": clean_item_id,
+        "_key": "!actors.items!#{monster_id}.#{clean_item_id}"
+      }
+    end
+    pp "****nonabilityitem****"
+    pp item
+    {
+      "name": item["name"],
+      "type": "feature",
+      "system": {
+        "description": {
+          "value": item["description"],
+          "gm": ""
+        },
+#       "source": {
+#         "book": "",
+#         "page": "",
+#         "license": "",
+#         "revision": 1
+#       },
+        "type": {
+          "value": "",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "value": ""
+        }
+      },
+      "effects": []
+    }
 end
 
 def output_items(items, output_dir_name)
   Dir.mkdir output_dir_name unless File.exist? output_dir_name
   items.each do |item|
-    file = File.open("#{output_dir_name}/abilities_#{item[:name].gsub(/[\s,!]/, '_')}_#{item[:_id]}.json", "w+")
+    file = File.open("#{output_dir_name}/abilities_#{item[:name].gsub(/[\s,!]/, '_')}_#{item[:_dsid]}.json", "w+")
+    file.write JSON.pretty_generate(item, {indent: "  ", object_nl: "\n", array_nl: "\n"})
+  end
+end
+
+def make_monster_folder(folder_name, folder_id)
+  output_dir_name = "./src/packs/monsters/#{folder_name}"
+  Dir.mkdir output_dir_name unless File.exist? output_dir_name
+  folder_json = {
+    "_id": folder_id,
+    "_key": "!folders!#{folder_id}",
+    "name": folder_name,
+    "type": "Actor",
+    "sorting": "a"
+  }
+  file = File.open("#{output_dir_name}/_Folder.json", "w+")
+  file.write JSON.pretty_generate(folder_json, {indent: "  ", object_nl: "\n", array_nl: "\n"})
+end
+
+def output_monsters(items, monster_group)
+  output_dir_name = "./src/packs/monsters/#{monster_group}"
+  Dir.mkdir output_dir_name unless File.exist? output_dir_name
+  items.each do |item|
+    file = File.open("#{output_dir_name}/npc_#{item[:name].gsub(/[\s,!]/, '_')}_#{item[:_id]}.json", "w+")
     file.write JSON.pretty_generate(item, {indent: "  ", object_nl: "\n", array_nl: "\n"})
   end
 
@@ -201,8 +546,19 @@ parsed_forge_file["kits"].each do |kit|
   output_items(items, output_dir_name)
 end
 
+
 #db_file = File.open(output_file, "w+")
 #db_file.write({"items" => items}.to_json)
+
+parsed_forge_file["monsterGroups"].each do |monster_group|
+  monster_group_folder_id = monster_group["name"].downcase.gsub(/[^0-9a-z]/, '').ljust(17,'a')[0..15]
+  make_monster_folder(monster_group["name"].downcase, monster_group_folder_id)
+  monsters = monster_group["monsters"].collect do |monster|
+    make_monster(monster, monster_group_folder_id)
+  end
+  output_monsters(monsters, monster_group["name"].downcase)
+end
+
 
 #pp parsed_forge_file.keys
 

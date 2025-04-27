@@ -1,0 +1,152 @@
+{
+  "name": "Corruption's Curse",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Cursed by you, your enemy takes more damage from your allies."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "conduit-ability-13",
+    "keywords": [
+      "magic",
+      "ranged",
+      "strike"
+    ],
+    "type": "maneuver",
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "intuition"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "corruption"
+          ],
+          "value": "3+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "might",
+            "value": "@potency.weak",
+            "display": "damage weakness 5 (save ends)"
+          },
+          "display": " M < [weak], damage weakness 5 (save ends)"
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "corruption"
+          ],
+          "value": "6+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "might",
+            "value": "@potency.average",
+            "display": "damage weakness 5 (save ends)"
+          },
+          "display": " M < [average], damage weakness 5 (save ends)"
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "corruption"
+          ],
+          "value": "9+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        },
+        {
+          "type": "ae",
+          "potency": {
+            "enabled": true,
+            "characteristic": "might",
+            "value": "@potency.strong",
+            "display": "damage weakness 5 (save ends)"
+          },
+          "display": " M < [strong], damage weakness 5 (save ends)"
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!conduit-ability-13!astring",
+  "_id": "conduit-ability-13",
+  "category": "heroic",
+  "resource": 5
+}

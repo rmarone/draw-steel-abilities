@@ -1,15 +1,15 @@
-2025/03/19-00:30:01.705 5890 Recovering log #33
-2025/03/19-00:30:01.894 5890 Delete type=0 #33
-2025/03/19-00:30:01.894 5890 Delete type=3 #31
-2025/03/19-00:30:02.004 ea8 Level-0 table #39: started
-2025/03/19-00:30:02.039 ea8 Level-0 table #39: 11983 bytes OK
-2025/03/19-00:30:02.083 ea8 Delete type=0 #37
-2025/03/19-00:30:02.083 ea8 Manual compaction at level-0 from '!items!conduit-1-5!astring' @ 72057594037927935 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at (end)
-2025/03/19-00:30:02.083 ea8 Manual compaction at level-1 from '!items!conduit-1-5!astring' @ 72057594037927935 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at '!items!conduit-ability-9!astring' @ 142 : 1
-2025/03/19-00:30:02.083 ea8 Compacting 1@1 + 1@2 files
-2025/03/19-00:30:02.144 ea8 Generated table #40@1: 22 keys, 11983 bytes
-2025/03/19-00:30:02.144 ea8 Compacted 1@1 + 1@2 files => 11983 bytes
-2025/03/19-00:30:02.182 ea8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/19-00:30:02.182 ea8 Delete type=2 #35
-2025/03/19-00:30:02.182 ea8 Delete type=2 #39
-2025/03/19-00:30:02.183 ea8 Manual compaction at level-1 from '!items!conduit-ability-9!astring' @ 142 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/04/26-23:12:05.644 5dd4 Recovering log #571
+2025/04/26-23:12:05.747 5dd4 Delete type=0 #571
+2025/04/26-23:12:05.747 5dd4 Delete type=3 #569
+2025/04/26-23:12:05.808 51b0 Level-0 table #577: started
+2025/04/26-23:12:05.829 51b0 Level-0 table #577: 21269 bytes OK
+2025/04/26-23:12:05.869 51b0 Delete type=0 #575
+2025/04/26-23:12:05.870 51b0 Manual compaction at level-0 from '!items!conduit-1-5' @ 72057594037927935 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/04/26-23:12:05.870 51b0 Manual compaction at level-1 from '!items!conduit-1-5' @ 72057594037927935 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at '!items!conduit-ability-9!astring' @ 3984 : 1
+2025/04/26-23:12:05.870 51b0 Compacting 1@1 + 1@2 files
+2025/04/26-23:12:05.925 51b0 Generated table #578@1: 44 keys, 21269 bytes
+2025/04/26-23:12:05.925 51b0 Compacted 1@1 + 1@2 files => 21269 bytes
+2025/04/26-23:12:05.960 51b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/26-23:12:05.961 51b0 Delete type=2 #573
+2025/04/26-23:12:05.961 51b0 Delete type=2 #577
+2025/04/26-23:12:05.962 51b0 Manual compaction at level-1 from '!items!conduit-ability-9!astring' @ 3984 : 1 .. '!items!conduit-ability-9!astring' @ 0 : 0; will stop at (end)

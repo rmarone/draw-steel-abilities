@@ -1,0 +1,119 @@
+{
+  "name": "Censored",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "gm": "",
+      "flavor": "Judged and sentenced."
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "censor-ability-11",
+    "keywords": [
+      "melee",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "powerRoll": {
+      "enabled": true,
+      "formula": "@chr",
+      "characteristics": [
+        "might"
+      ],
+      "tier1": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "2+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier2": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "3+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "tier3": [
+        {
+          "type": "damage",
+          "types": [
+            "holy"
+          ],
+          "value": "5+@chr",
+          "potency": {
+            "enabled": false,
+            "characteristic": null,
+            "value": null,
+            "display": null
+          },
+          "display": ""
+        }
+      ],
+      "potencyCharacteristic": "reason"
+    },
+    "effect": "If a target who is not a leader or a solo creature is winded after the damage is resolved, they die.",
+    "spend": {
+      "value": null,
+      "text": ""
+    }
+  },
+  "effects": [],
+  "folder": "foo",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_id": "censor-ability-11",
+  "category": "heroic",
+  "resource": 5,
+  "_key": "!items!censor-ability-11"
+}
