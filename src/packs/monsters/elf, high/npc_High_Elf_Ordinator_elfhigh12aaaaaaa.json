@@ -111,11 +111,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -141,97 +136,92 @@
           "type": "creatures",
           "value": 1
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "OVaFIOlpq9xSxR3S": {
               "type": "damage",
-              "types": [
-                "lightning"
-              ],
-              "value": "9",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "OVaFIOlpq9xSxR3S",
+              "_key": "OVaFIOlpq9xSxR3S",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+                    "lightning"
+                  ],
+                  "value": "9",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+                    "lightning"
+                  ],
+                  "value": "14",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+                    "lightning"
+                  ],
+                  "value": "17",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " R<1 dazed (save ends)"
+            "Rvuapxp8BxR3KXCu": {
+              "type": "applied",
+              "_id": "Rvuapxp8BxR3KXCu",
+              "_key": "Rvuapxp8BxR3KXCu",
+              "name": "",
+              "applied": {
+                "tier1": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " R<1 dazed (save ends)"
+                },
+                "tier2": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " R<2 dazed (save ends)"
+                },
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " R<3 dazed (save ends)"
+                }
+              }
             }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                "lightning"
-              ],
-              "value": "14",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " R<2 dazed (save ends)"
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                "lightning"
-              ],
-              "value": "17",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " R<3 dazed (save ends)"
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "High elves have an edge on abilities used against the target until the start of the ordinator’s next turn.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -263,11 +253,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -292,20 +277,19 @@
           "type": "elemental",
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "Each target moves up to their speed or makes a free strike. An elemental mote target can use their Spark of Life trait.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -337,11 +321,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -365,20 +344,19 @@
           "type": null,
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "For every 3 malice spent, the ordinator summons 5 **elemental motes**, 3 **soot crows**, 1 **ceramic horse**, or 1 **brambleguard** into unoccupied squares within distance.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -410,11 +388,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -438,20 +411,19 @@
           "type": "enemy",
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The ordinator uses Lightning Rod against the target.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -509,11 +481,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -538,20 +505,19 @@
           "type": "allies",
           "value": 10
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "Each target glows, ending one condition on themselves and then moving up to twice their speed.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -583,11 +549,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -612,20 +573,19 @@
           "type": "enemies",
           "value": 10
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The affected area becomes darkened and its space warps violently in every direction.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -657,11 +617,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -686,20 +641,19 @@
           "type": "and",
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "All elves radiate wisps of magic. Each target makes a free strike that has the Magic keyword and deals an additional 3 damage.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

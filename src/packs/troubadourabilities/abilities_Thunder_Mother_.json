@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "All for thunder motherrr! 🎵 Run and hide for coverrr! 🎵"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,55 +29,51 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Lightning damage equal to your level"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "AMZ4kw7Zet8nXul6": {
+          "type": "applied",
+          "_id": "AMZ4kw7Zet8nXul6",
+          "_key": "AMZ4kw7Zet8nXul6",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Lightning damage equal to your level"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Lightning damage equal to 5 + your level"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Lightning damage equal to 10 + your level"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Lightning damage equal to 5 + your level"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Lightning damage equal to 10 + your level"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "All for thunder motherrr! 🎵 Run and hide for coverrr! 🎵"
   },
   "effects": [
 
@@ -105,7 +96,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-1-2!astring",
-  "_id": "troubadour-sub-3-1-2",
+  "_id": "troubadoursub312",
   "category": "signature",
   "resource": null
 }

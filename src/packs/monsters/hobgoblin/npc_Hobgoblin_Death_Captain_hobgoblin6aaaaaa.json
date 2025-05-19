@@ -112,11 +112,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -142,95 +137,63 @@
           "type": "creature",
           "value": "1"
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "F8ZkiGitwoKutjLH": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "8",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "F8ZkiGitwoKutjLH",
+              "_key": "F8ZkiGitwoKutjLH",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "8",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+                    "corruption"
+                  ],
+                  "value": "4",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+                    "corruption"
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "8",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "damage",
-              "types": [
-                "corruption"
-              ],
-              "value": "4",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "8",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "damage",
-              "types": [
-                "corruption"
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "The next strike made against the target has a double edge.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -262,11 +225,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -290,20 +248,19 @@
           "type": "ally",
           "value": "1"
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The target moves up to their speed and makes a free strike.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

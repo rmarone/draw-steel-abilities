@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Gather not together in secret to conspire."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -32,20 +27,19 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "Until the end of the encounter or you are dying, at the end of each of your turns, each target takes holy damage equal to your Presence score. Any target adjacent to one or more enemies takes an extra 2d6 holy damage if they are judged by you or adjacent to one of your enemies.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Gather not together in secret to conspire."
   },
   "effects": [
 
@@ -68,7 +62,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-13!astring",
-  "_id": "censor-ability-13",
+  "_id": "censorability13a",
   "category": "heroic",
   "resource": 7
 }

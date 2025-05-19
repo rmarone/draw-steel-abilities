@@ -110,11 +110,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -140,77 +135,80 @@
           "type": "creature",
           "value": 1
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "dZUYWXr0OYI3zXWY": {
               "type": "damage",
-              "types": [
-                "fire"
-              ],
-              "value": "4",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                "fire"
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                "fire"
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "dZUYWXr0OYI3zXWY",
+              "_key": "dZUYWXr0OYI3zXWY",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+                    "fire"
+                  ],
+                  "value": "4",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+                    "fire"
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+                    "fire"
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " I<2 burning (save ends)"
+            "ALXM17Cs1CXQjd6r": {
+              "type": "applied",
+              "_id": "ALXM17Cs1CXQjd6r",
+              "_key": "ALXM17Cs1CXQjd6r",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": null,
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " I<2 burning (save ends)"
+                }
+              }
             }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -242,11 +240,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -270,20 +263,19 @@
           "type": null,
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "2 **abyssal hyenas** claw out of the ground into unoccupied squares.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -315,11 +307,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -343,20 +330,19 @@
           "type": "allies",
           "value": 10
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "1 abyssal hyena target turns into a **gnoll maurader**, keeping their Stamina. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

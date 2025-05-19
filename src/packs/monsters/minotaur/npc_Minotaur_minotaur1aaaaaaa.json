@@ -111,11 +111,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -142,97 +137,92 @@
           "type": "creatures",
           "value": "2"
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "EZokMTeojCwMymKa": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "EZokMTeojCwMymKa",
+              "_key": "EZokMTeojCwMymKa",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "11",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "14",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " push 1"
+            "M4n0gQKThNMnoO1I": {
+              "type": "forced",
+              "_id": "M4n0gQKThNMnoO1I",
+              "_key": "M4n0gQKThNMnoO1I",
+              "name": "",
+              "forced": {
+                "tier1": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "1",
+                  "display": "{{forced}}"
+                },
+                "tier2": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "2",
+                  "display": "{{forced}}"
+                },
+                "tier3": {
+                  "movement": [
+                    "push"
+                  ],
+                  "distance": "3",
+                  "display": "{{forced}}"
+                }
+              }
             }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "11",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " push 2"
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "14",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " push 3"
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "Shift 3.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -264,11 +254,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -292,20 +277,19 @@
           "type": null,
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The minotaur has damage immunity 2 and deals an additional 5 damage with their strikes until the end of their next turn. On their next turn, they have access to an additional maneuver.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -337,11 +321,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -368,97 +347,92 @@
           "type": "creature",
           "value": "1"
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "HQGgxEBa97gveF2z": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "HQGgxEBa97gveF2z",
+              "_key": "HQGgxEBa97gveF2z",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "8",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "9",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " I<0 dazed (save ends)"
+            "lBn9FBfTxdJqaKhk": {
+              "type": "applied",
+              "_id": "lBn9FBfTxdJqaKhk",
+              "_key": "lBn9FBfTxdJqaKhk",
+              "name": "",
+              "applied": {
+                "tier1": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " I<0 dazed (save ends)"
+                },
+                "tier2": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " I<1 dazed (save ends)"
+                },
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " I<2 dazed (save ends)"
+                }
+              }
             }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "8",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " I<1 dazed (save ends)"
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "9",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " I<2 dazed (save ends)"
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "The potency of this ability increases by 1 if it’s used while charging.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -490,11 +464,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -518,20 +487,19 @@
           "type": "creature",
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The minotaur charges the target using Flail and Blade or Goring Horns.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

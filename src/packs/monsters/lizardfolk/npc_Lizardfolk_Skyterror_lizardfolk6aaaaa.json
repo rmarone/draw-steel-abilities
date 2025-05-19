@@ -110,11 +110,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -140,77 +135,80 @@
           "type": "creature",
           "value": "1"
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "24DtZSNdSik1i0za": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "9",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "24DtZSNdSik1i0za",
+              "_key": "24DtZSNdSik1i0za",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "9",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " prone"
+            "phE5C82XjJzcUOsx": {
+              "type": "applied",
+              "_id": "phE5C82XjJzcUOsx",
+              "_key": "phE5C82XjJzcUOsx",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": null,
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " prone"
+                }
+              }
             }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "The skyterror can shift 4 after using this ability if they are flying.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -242,11 +240,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -271,97 +264,92 @@
           "type": "creature",
           "value": "1"
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "l7gbDqzmPSta54FP": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "3",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "l7gbDqzmPSta54FP",
+              "_key": "l7gbDqzmPSta54FP",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "3",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<0 weakened (save ends)"
+            "LLmTm5LWwbbMXI5I": {
+              "type": "applied",
+              "_id": "LLmTm5LWwbbMXI5I",
+              "_key": "LLmTm5LWwbbMXI5I",
+              "name": "",
+              "applied": {
+                "tier1": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<0 weakened (save ends)"
+                },
+                "tier2": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<1 weakened (save ends)"
+                },
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<2 weakened (save ends)"
+                }
+              }
             }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<1 weakened (save ends)"
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<2 weakened (save ends)"
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "A creature that ends their turn adjacent to a creature or object weakened by this ability is weakened (EoT).",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

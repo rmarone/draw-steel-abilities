@@ -109,11 +109,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -139,77 +134,80 @@
           "type": "creature",
           "value": 1
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "yzXSAlhOdiUx4YD6": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "3",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "yzXSAlhOdiUx4YD6",
+              "_key": "yzXSAlhOdiUx4YD6",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "3",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<3 bleeding (save ends)"
+            "SnWautaA5kk9wpQt": {
+              "type": "applied",
+              "_id": "SnWautaA5kk9wpQt",
+              "_key": "SnWautaA5kk9wpQt",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": null,
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<3 bleeding (save ends)"
+                }
+              }
             }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

@@ -109,11 +109,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -140,77 +135,80 @@
           "type": "creature",
           "value": 1
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "Zvf87nGmbcbcRbAC": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "3",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "4",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "5",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "Zvf87nGmbcbcRbAC",
+              "_key": "Zvf87nGmbcbcRbAC",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "3",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "4",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "5",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<2 bleeding (save ends)"
+            "IKqMZeFyM8Ps1491": {
+              "type": "applied",
+              "_id": "IKqMZeFyM8Ps1491",
+              "_key": "IKqMZeFyM8Ps1491",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": null,
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<2 bleeding (save ends)"
+                }
+              }
             }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -242,11 +240,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -270,20 +263,19 @@
           "type": null,
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The ghoul jumps 3 squares. If they land on a size 1 enemy, that enemy is knocked prone and the ghoul makes a free strike against them.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

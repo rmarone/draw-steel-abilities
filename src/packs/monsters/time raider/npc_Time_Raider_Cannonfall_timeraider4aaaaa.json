@@ -110,11 +110,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -141,87 +136,80 @@
           "type": "enemies",
           "value": 10
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "R83SN08Kn4usl2Xz": {
               "type": "damage",
-              "types": [
-                "sonic"
-              ],
-              "value": "4",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                "sonic"
-              ],
-              "value": "7",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                "sonic"
-              ],
-              "value": "10",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "R83SN08Kn4usl2Xz",
+              "_key": "R83SN08Kn4usl2Xz",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+                    "sonic"
+                  ],
+                  "value": "4",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+                    "sonic"
+                  ],
+                  "value": "7",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+                    "sonic"
+                  ],
+                  "value": "10",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " prone"
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " M<2 slowed (save ends)"
+            "KlzA21uIjEei7WFd": {
+              "type": "applied",
+              "_id": "KlzA21uIjEei7WFd",
+              "_key": "KlzA21uIjEei7WFd",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": null,
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " M<2 slowed (save ends)"
+                }
+              }
             }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "A layer of ground of floor beneath the area that is 1 square deep is destroyed.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 
@@ -253,11 +241,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -282,20 +265,19 @@
           "type": "and",
           "value": null
         },
-        "powerRoll": {
-          "enabled": false,
-          "formula": "@chr",
-          "characteristics": null,
-          "tier1": null,
-          "tier2": null,
-          "tier3": null,
-          "potencyCharacteristic": "reason"
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": null
+          },
+          "effects": null
         },
         "effect": "The damage is reduced by half for the cannonfall and each target also affected by the triggering ability.",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

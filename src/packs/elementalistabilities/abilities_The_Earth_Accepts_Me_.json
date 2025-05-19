@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You can slip into the stone."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -32,20 +27,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "You step into a mundane dirt, metal, or stone object (including a wall) that is as large as you or larger. You can remain inside the object for as long as you like. While inside the object, you can observe events and speak to creatures outside of it, but you don’t have line of effect to anything outside the object and vice versa. You can travel through the object freely until you exit it. If the object you meld with is destroyed, you take 10 damage and exit the object.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You can slip into the stone."
   },
   "effects": [
 
@@ -68,7 +62,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-1-3-1!astring",
-  "_id": "elementalist-sub-1-3-1",
+  "_id": "ementalistsub131",
   "category": "signature",
   "resource": null
 }

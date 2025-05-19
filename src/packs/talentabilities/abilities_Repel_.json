@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "They aren’t going anywhere, but you might!"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -32,20 +27,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The triggering damage is halved or distance of the triggering forced movement is reduced by a number of squares equal to your Reason score. If the target was damaged and force moved, you choose the effect. If the triggering forced movement is reduced to 0 squares, the target pushes the source of the forced movement a number of squares equal to your Reason score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "They aren’t going anywhere, but you might!"
   },
   "effects": [
 
@@ -68,7 +62,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-2-1-2!astring",
-  "_id": "talent-sub-2-1-2",
+  "_id": "talentsub212aaaa",
   "category": "signature",
   "resource": null
 }

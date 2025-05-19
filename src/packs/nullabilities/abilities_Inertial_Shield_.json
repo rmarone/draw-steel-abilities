@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your instincts for danger let you predict attacks before they happen."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "You halve the damage.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your instincts for danger let you predict attacks before they happen."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-1-5!astring",
-  "_id": "null-1-5",
+  "_id": "null15aaaaaaaaaa",
   "category": "signature",
   "resource": null
 }

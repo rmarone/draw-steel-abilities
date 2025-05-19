@@ -110,11 +110,6 @@
       "type": "ability",
       "img": "icons/svg/item-bag.svg",
       "system": {
-        "description": {
-          "value": "",
-          "gm": "",
-          "flavor": ""
-        },
         "source": {
           "book": "",
           "page": "",
@@ -140,87 +135,86 @@
           "type": "creature",
           "value": 1
         },
-        "powerRoll": {
-          "enabled": true,
-          "formula": "@chr",
-          "characteristics": [
+        "power": {
+          "roll": {
+            "formula": "@chr",
+            "characteristics": [
 
-          ],
-          "tier1": [
-            {
+            ]
+          },
+          "effects": {
+            "pVwC8Kwsh57YXr5A": {
               "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "1",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            }
-          ],
-          "tier2": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "2",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
+              "_id": "pVwC8Kwsh57YXr5A",
+              "_key": "pVwC8Kwsh57YXr5A",
+              "name": "",
+              "damage": {
+                "tier1": {
+                  "types": [
+
+                  ],
+                  "value": "1",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier2": {
+                  "types": [
+
+                  ],
+                  "value": "2",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                },
+                "tier3": {
+                  "types": [
+
+                  ],
+                  "value": "3",
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": ""
+                }
+              }
             },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " R<1 Magic weakness 3 (save ends)"
+            "0zrahVS5cXF1SiA4": {
+              "type": "applied",
+              "_id": "0zrahVS5cXF1SiA4",
+              "_key": "0zrahVS5cXF1SiA4",
+              "name": "",
+              "applied": {
+                "tier1": null,
+                "tier2": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " R<1 Magic weakness 3 (save ends)"
+                },
+                "tier3": {
+                  "potency": {
+                    "characteristic": null,
+                    "value": null
+                  },
+                  "display": " R<2 Magic weakness 3 (save ends)"
+                }
+              }
             }
-          ],
-          "tier3": [
-            {
-              "type": "damage",
-              "types": [
-                null
-              ],
-              "value": "3",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": ""
-            },
-            {
-              "type": "ae",
-              "potency": {
-                "enabled": false,
-                "characteristic": null,
-                "value": null,
-                "display": null
-              },
-              "display": " R<2 Magic weakness 3 (save ends)"
-            }
-          ],
-          "potencyCharacteristic": "reason"
+          }
         },
         "effect": "",
         "spend": {
           "value": null,
           "text": ""
-        }
+        },
+        "story": ""
       },
       "effects": [
 

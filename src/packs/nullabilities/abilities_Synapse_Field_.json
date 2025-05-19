@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Attacks made by allies in your null field disrupt your enemies’ thoughts, causing psychic pain."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "Until the end of the encounter, the area of your Null Field ability increases by 1. While the area is enlarged this way, enemies who take damage in the area taken additional psychic damage equal to twice your Intuition score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Attacks made by allies in your null field disrupt your enemies’ thoughts, causing psychic pain."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-20!astring",
-  "_id": "null-ability-20",
+  "_id": "nullability20aaa",
   "category": "heroic",
   "resource": 7
 }

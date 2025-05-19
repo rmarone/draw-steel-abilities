@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Give the chorus a little punch."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": "ally",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target chooses an additional target for the triggering ability within distance of that ability. They use the original power roll for all additional targets. Any damage dealt to an additional target is sonic damage.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Give the chorus a little punch."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-1-4!astring",
-  "_id": "troubadour-sub-3-1-4",
+  "_id": "troubadoursub314",
   "category": "heroic",
   "resource": 3
 }

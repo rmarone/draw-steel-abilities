@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You blast their soul out of their body, leaving it to helplessly float back to a weakened husk."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "SA1aZsa894hQPGlV": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "SA1aZsa894hQPGlV",
+          "_key": "SA1aZsa894hQPGlV",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "14+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "dazed (save ends)"
-          },
-          "display": " P < [weak], dazed (save ends)"
+        "o5VnZBJGpkpJdOQ4": {
+          "type": "applied",
+          "_id": "o5VnZBJGpkpJdOQ4",
+          "_key": "o5VnZBJGpkpJdOQ4",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], dazed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], dazed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], dazed (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "10+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "dazed (save ends)"
-          },
-          "display": " P < [average], dazed (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "14+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "dazed (save ends)"
-          },
-          "display": " P < [strong], dazed (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The target takes a bane on Presence tests until the end of the encounter.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You blast their soul out of their body, leaving it to helplessly float back to a weakened husk."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-20!astring",
-  "_id": "talent-ability-20",
+  "_id": "talentability20a",
   "category": "heroic",
   "resource": 7
 }

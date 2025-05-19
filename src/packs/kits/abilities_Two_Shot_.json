@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "When you fire two arrows back to back, both hit their mark."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,68 +28,64 @@
       "type": "creatures",
       "value": "2"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "agility"
+        ]
+      },
+      "effects": {
+        "Z8gjQV49feAYjwOC": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "Z8gjQV49feAYjwOC",
+          "_key": "Z8gjQV49feAYjwOC",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "4",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "When you fire two arrows back to back, both hit their mark."
   },
   "effects": [
 
@@ -117,7 +108,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-rapid-fire-signature!astring",
-  "_id": "kit-rapid-fire-signature",
+  "_id": "pidfiresignature",
   "category": "signature",
   "resource": null
 }

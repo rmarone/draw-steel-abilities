@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You add a little magic to an ally’s aggression at just the right time."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The forced movement distance gains a bonus equal to your Reason score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You add a little magic to an ally’s aggression at just the right time."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-2-1-3!astring",
-  "_id": "elementalist-sub-2-1-3",
+  "_id": "ementalistsub213",
   "category": "signature",
   "resource": null
 }

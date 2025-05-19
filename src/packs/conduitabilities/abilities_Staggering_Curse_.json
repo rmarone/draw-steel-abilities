@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A blast of judgment disorients your foe."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "7Xdu9oNX7eipjzkZ": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "7Xdu9oNX7eipjzkZ",
+          "_key": "7Xdu9oNX7eipjzkZ",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " slide 1"
+        "b8dHRDeoyoAzBGyr": {
+          "type": "forced",
+          "_id": "b8dHRDeoyoAzBGyr",
+          "_key": "b8dHRDeoyoAzBGyr",
+          "name": "",
+          "forced": {
+            "tier1": {
+              "movement": [
+                "slide"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier2": {
+              "movement": [
+                "slide"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "slide"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " slide 2"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " slide 3"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A blast of judgment disorients your foe."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-6!astring",
-  "_id": "conduit-ability-6",
+  "_id": "conduitability6a",
   "category": "signature",
   "resource": null
 }

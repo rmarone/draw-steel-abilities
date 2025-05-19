@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "To your ally, it seems as though the world has slowed down."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target immediately shifts up to a number of squares equal to your Reason score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "To your ally, it seems as though the world has slowed down."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-1-1-1!astring",
-  "_id": "talent-sub-1-1-1",
+  "_id": "talentsub111aaaa",
   "category": "signature",
   "resource": null
 }

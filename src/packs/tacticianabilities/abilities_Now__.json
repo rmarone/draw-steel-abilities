@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your allies wait for your command - then unleash death!"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -32,20 +27,19 @@
       "type": "allies",
       "value": 3
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "Each target can make a free strike.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your allies wait for your command - then unleash death!"
   },
   "effects": [
 
@@ -68,7 +62,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-7!astring",
-  "_id": "tactician-ability-7",
+  "_id": "acticianability7",
   "category": "heroic",
   "resource": 5
 }

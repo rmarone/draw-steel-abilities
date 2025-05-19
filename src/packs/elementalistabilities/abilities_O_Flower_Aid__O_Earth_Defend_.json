@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Revitalizing plants and jagged stones grow, helping allies and hindering foes."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -35,20 +30,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "\nUntil the start of your next turn, the area gains the following effects:\n\n* You and each ally in the area can spend any number of Recoveries at the start of your turn once as a free maneuver.\n* The area is difficult terrain for enemies.\n* Any enemy who enters the area for the first time in a round or starts their turn there takes damage equal to your Reason score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Revitalizing plants and jagged stones grow, helping allies and hindering foes."
   },
   "effects": [
 
@@ -71,7 +65,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-17!astring",
-  "_id": "elementalist-ability-17",
+  "_id": "ntalistability17",
   "category": "heroic",
   "resource": 5
 }

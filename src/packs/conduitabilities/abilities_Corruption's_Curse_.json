@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Cursed by you, your enemy takes more damage from your allies."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "ZYY63GZYTumpMjtm": {
           "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "ZYY63GZYTumpMjtm",
+          "_key": "ZYY63GZYTumpMjtm",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "corruption"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "corruption"
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "corruption"
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "damage weakness 5 (save ends)"
-          },
-          "display": " M < [weak], damage weakness 5 (save ends)"
+        "au2xx6adZeQW8SZv": {
+          "type": "applied",
+          "_id": "au2xx6adZeQW8SZv",
+          "_key": "au2xx6adZeQW8SZv",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], damage weakness 5 (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], damage weakness 5 (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], damage weakness 5 (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "damage weakness 5 (save ends)"
-          },
-          "display": " M < [average], damage weakness 5 (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "damage weakness 5 (save ends)"
-          },
-          "display": " M < [strong], damage weakness 5 (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Cursed by you, your enemy takes more damage from your allies."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-13!astring",
-  "_id": "conduit-ability-13",
+  "_id": "conduitability13",
   "category": "heroic",
   "resource": 5
 }

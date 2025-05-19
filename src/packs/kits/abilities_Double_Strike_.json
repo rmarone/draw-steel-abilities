@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Why strike once when you could do it twice?"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,68 +28,64 @@
       "type": "creatures",
       "value": "2"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "agility"
+        ]
+      },
+      "effects": {
+        "qs883YuMexMu0aWt": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "qs883YuMexMu0aWt",
+          "_key": "qs883YuMexMu0aWt",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "4",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "If you use this ability on your turn, you can target one creature or object with it then use your maneuver and move action for that turn before targeting a second creature or object. You still use the same power roll for both targets.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Why strike once when you could do it twice?"
   },
   "effects": [
 
@@ -117,7 +108,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-dual-wielder-signature!astring",
-  "_id": "kit-dual-wielder-signature",
+  "_id": "wieldersignature",
   "category": "signature",
   "resource": null
 }

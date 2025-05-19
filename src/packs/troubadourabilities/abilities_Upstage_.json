@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "As you bob and weave through the crowd, you can’t help but leave the audience wanting more."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,86 +28,52 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility",
-        "presence"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Taunted (EoT)"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.weak",
-            "display": "prone"
-          },
-          "display": " A < [weak], prone"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility",
+          "presence"
+        ]
+      },
+      "effects": {
+        "j91Ul6MPMKRBOhxv": {
+          "type": "applied",
+          "_id": "j91Ul6MPMKRBOhxv",
+          "_key": "j91Ul6MPMKRBOhxv",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.weak"
+              },
+              "display": " A < [weak], prone"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.average"
+              },
+              "display": " A < [average], prone"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], prone and can’t stand (EoT)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Taunted (EoT)"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.average",
-            "display": "prone"
-          },
-          "display": " A < [average], prone"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Taunted (EoT)"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "prone and can’t stand (EoT)"
-          },
-          "display": " A < [strong], prone and can’t stand (EoT)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "As you bob and weave through the crowd, you can’t help but leave the audience wanting more."
   },
   "effects": [
 
@@ -135,7 +96,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-8!astring",
-  "_id": "troubadour-ability-8",
+  "_id": "oubadourability8",
   "category": "heroic",
   "resource": 3
 }

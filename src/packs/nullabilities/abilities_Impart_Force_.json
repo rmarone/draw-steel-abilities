@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A single touch from you, and your enemy flies backward."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,55 +29,51 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 3"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "w5hMl9GqHDfxFCkA": {
+          "type": "applied",
+          "_id": "w5hMl9GqHDfxFCkA",
+          "_key": "w5hMl9GqHDfxFCkA",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Push 3"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Push 5"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Push 7"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 5"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 7"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You gain an edge on this ability. For each square you push the target, they take 1 psychic damage.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A single touch from you, and your enemy flies backward."
   },
   "effects": [
 
@@ -105,7 +96,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-14!astring",
-  "_id": "null-ability-14",
+  "_id": "nullability14aaa",
   "category": "heroic",
   "resource": 5
 }

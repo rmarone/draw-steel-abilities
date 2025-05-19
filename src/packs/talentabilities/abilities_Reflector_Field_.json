@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A protective field reverses the momentum of incoming attacks."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The aura lasts until the start of your next turn. Whenever an enemy targets an ally in the aura with a ranged ability, the ability is negated on the ally and reflected back at the enemy. The ability deals half the damage to the enemy that it would have dealt to the ally, and loses any additional effects.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A protective field reverses the momentum of incoming attacks."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-19!astring",
-  "_id": "talent-ability-19",
+  "_id": "talentability19a",
   "category": "heroic",
   "resource": 7
 }

@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your foe left an opening. You point this out to an ally!"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": "ally",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target can make a signature attack as a free triggered action.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your foe left an opening. You point this out to an ally!"
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-1-6!astring",
-  "_id": "tactician-1-6",
+  "_id": "tactician16aaaaa",
   "category": "signature",
   "resource": null
 }

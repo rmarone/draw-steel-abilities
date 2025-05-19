@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You write something unforeseen into the scene that hinders your enemy."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "x4Dz4oBbeQu4u2ML": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "x4Dz4oBbeQu4u2ML",
+          "_key": "x4Dz4oBbeQu4u2ML",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "slowed (save ends)"
-          },
-          "display": " P < [weak], slowed (save ends)"
+        "SyqXNpx6GSCA7Lnz": {
+          "type": "applied",
+          "_id": "SyqXNpx6GSCA7Lnz",
+          "_key": "SyqXNpx6GSCA7Lnz",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], slowed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], slowed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], restrained (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "slowed (save ends)"
-          },
-          "display": " P < [average], slowed (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "restrained (save ends)"
-          },
-          "display": " P < [strong], restrained (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The area becomes difficult terrain for enemies.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You write something unforeseen into the scene that hinders your enemy."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-7!astring",
-  "_id": "troubadour-ability-7",
+  "_id": "oubadourability7",
   "category": "heroic",
   "resource": 3
 }

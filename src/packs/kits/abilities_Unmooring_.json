@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your weapon unleashes psionic energy that reduces your target’s weight."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,100 +29,95 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "reason",
-        "intuition",
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "reason",
+          "intuition",
+          "presence"
+        ]
+      },
+      "effects": {
+        "dlkhC94HgiSert9W": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "3",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "dlkhC94HgiSert9W",
+          "_key": "dlkhC94HgiSert9W",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "3",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "9",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " stability reduced by 2 (EoT)"
+        "l8UHta4K0QkR28uO": {
+          "type": "applied",
+          "_id": "l8UHta4K0QkR28uO",
+          "_key": "l8UHta4K0QkR28uO",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " stability reduced by 2 (EoT)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " stability reduced by 3 (EoT)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " stability reduced by 4 (EoT)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " stability reduced by 3 (EoT)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "9",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " stability reduced by 4 (EoT)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your weapon unleashes psionic energy that reduces your target’s weight."
   },
   "effects": [
 
@@ -150,7 +140,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-battlemind-signature!astring",
-  "_id": "kit-battlemind-signature",
+  "_id": "tlemindsignature",
   "category": "signature",
   "resource": null
 }

@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your divine energy restores the righteous."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -32,20 +27,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target can spend a Recovery.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your divine energy restores the righteous."
   },
   "effects": [
 
@@ -68,7 +62,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-1-5!astring",
-  "_id": "conduit-1-5",
+  "_id": "conduit15aaaaaaa",
   "category": "signature",
   "resource": null
 }

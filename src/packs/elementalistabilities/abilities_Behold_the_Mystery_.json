@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You open a rift into the void to harry your foes."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,67 +29,63 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "7RclLQ0amPHZTWcZ": {
           "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "2",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "7RclLQ0amPHZTWcZ",
+          "_key": "7RclLQ0amPHZTWcZ",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "psychic"
+              ],
+              "value": "2",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "psychic"
+              ],
+              "value": "4",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "psychic"
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "4",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You open a rift into the void to harry your foes."
   },
   "effects": [
 
@@ -117,7 +108,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-9!astring",
-  "_id": "elementalist-ability-9",
+  "_id": "entalistability9",
   "category": "heroic",
   "resource": 3
 }

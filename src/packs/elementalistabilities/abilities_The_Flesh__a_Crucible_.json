@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Fire engulfs a target of your choice and burns at your command."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,67 +29,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "uZde0sYQE8k2KOaS": {
           "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "uZde0sYQE8k2KOaS",
+          "_key": "uZde0sYQE8k2KOaS",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "fire"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "fire"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "fire"
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Fire engulfs a target of your choice and burns at your command."
   },
   "effects": [
 
@@ -117,7 +108,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-10!astring",
-  "_id": "elementalist-ability-10",
+  "_id": "ntalistability10",
   "category": "heroic",
   "resource": 3
 }

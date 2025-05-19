@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A mighty strike leaves your foe reeling."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "oyIWPxQ9kezZZTSI": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "oyIWPxQ9kezZZTSI",
+          "_key": "oyIWPxQ9kezZZTSI",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "bleeding and weakened (save ends)"
-          },
-          "display": " M < [weak], bleeding and weakened (save ends)"
+        "QBZS7ONYmy08tXUL": {
+          "type": "applied",
+          "_id": "QBZS7ONYmy08tXUL",
+          "_key": "QBZS7ONYmy08tXUL",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], bleeding and weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], bleeding and weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], bleeding and weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "bleeding and weakened (save ends)"
-          },
-          "display": " M < [average], bleeding and weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "10+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "bleeding and weakened (save ends)"
-          },
-          "display": " M < [strong], bleeding and weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can deal 1d6 damage to yourself to deal 1d6 bonus damage to the target.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A mighty strike leaves your foe reeling."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-9!astring",
-  "_id": "fury-ability-9",
+  "_id": "furyability9aaaa",
   "category": "heroic",
   "resource": 5
 }

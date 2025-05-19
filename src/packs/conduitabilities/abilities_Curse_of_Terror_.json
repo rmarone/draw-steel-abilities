@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Fear of divine judgment overwhelms your foe."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "yACulrYfEw4pzr4I": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "yACulrYfEw4pzr4I",
+          "_key": "yACulrYfEw4pzr4I",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "13+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.weak",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [weak], frightened (save ends)"
+        "zEJC198vBVwnX89D": {
+          "type": "applied",
+          "_id": "zEJC198vBVwnX89D",
+          "_key": "zEJC198vBVwnX89D",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.weak"
+              },
+              "display": " I < [weak], frightened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.average"
+              },
+              "display": " I < [average], frightened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], frightened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.average",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [average], frightened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "13+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.strong",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [strong], frightened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Fear of divine judgment overwhelms your foe."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-14!astring",
-  "_id": "conduit-ability-14",
+  "_id": "conduitability14",
   "category": "heroic",
   "resource": 5
 }

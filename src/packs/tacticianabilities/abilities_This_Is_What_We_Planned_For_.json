@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "All those coordination drills you made them do finally pay off."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": "allies",
       "value": "2"
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "Each target who hasn’t acted yet this round can take their turn in any order immediately after yours.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "All those coordination drills you made them do finally pay off."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-8!astring",
-  "_id": "tactician-ability-8",
+  "_id": "acticianability8",
   "category": "heroic",
   "resource": 5
 }

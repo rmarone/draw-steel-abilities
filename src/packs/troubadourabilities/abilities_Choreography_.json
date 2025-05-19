@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Taps, kicks, steps. Now it’s all “choreography.”"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "and",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "While this routine is active, each target who starts their turn in the aura gains a +2 bonus to speed until the end of their turn.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Taps, kicks, steps. Now it’s all “choreography.”"
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-1-7!astring",
-  "_id": "troubadour-1-7",
+  "_id": "troubadour17aaaa",
   "category": "signature",
   "resource": null
 }

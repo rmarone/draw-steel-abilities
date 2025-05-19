@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You shout a phrase that galvanizes your team."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,55 +26,51 @@
       "type": "allies",
       "value": 3
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "the target gains one surge"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "MQ3rl8yYYvTQjRlA": {
+          "type": "applied",
+          "_id": "MQ3rl8yYYvTQjRlA",
+          "_key": "MQ3rl8yYYvTQjRlA",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "the target gains one surge"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "the target gains two surges"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "the target gains three surges"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "the target gains two surges"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "the target gains three surges"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You shout a phrase that galvanizes your team."
   },
   "effects": [
 
@@ -102,7 +93,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-1!astring",
-  "_id": "tactician-ability-1",
+  "_id": "acticianability1",
   "category": "heroic",
   "resource": 3
 }

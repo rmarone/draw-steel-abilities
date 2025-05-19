@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You lift and hurl your foe away from you."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,65 +28,51 @@
       "type": "size",
       "value": 1
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 3"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "M4idVddJR2ozWrJG": {
+          "type": "applied",
+          "_id": "M4idVddJR2ozWrJG",
+          "_key": "M4idVddJR2ozWrJG",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Push 3"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Push 5"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " prone"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 5"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "Push 7"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " prone"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can slide the target up to 2 squares before making the power roll.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You lift and hurl your foe away from you."
   },
   "effects": [
 
@@ -114,7 +95,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-4!astring",
-  "_id": "talent-ability-4",
+  "_id": "talentability4aa",
   "category": "signature",
   "resource": null
 }

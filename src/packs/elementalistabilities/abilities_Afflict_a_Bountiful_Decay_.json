@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your curse causes a foe’s flesh to rot off as spores that aid your allies."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -35,67 +30,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "WNcu8y5H2b35gNEl": {
           "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "WNcu8y5H2b35gNEl",
+          "_key": "WNcu8y5H2b35gNEl",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "corruption"
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "corruption"
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "corruption"
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You or one ally within distance can end one effect that is ended by a saving throw or that ends at the end of that creature’s turn.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your curse causes a foe’s flesh to rot off as spores that aid your allies."
   },
   "effects": [
 
@@ -118,7 +109,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-1!astring",
-  "_id": "elementalist-ability-1",
+  "_id": "entalistability1",
   "category": "signature",
   "resource": null
 }

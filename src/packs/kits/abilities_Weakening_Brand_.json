@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": ""
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,70 +29,66 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "reason",
-        "intuition",
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "reason",
+          "intuition",
+          "presence"
+        ]
+      },
+      "effects": {
+        "HAFkac1cdmEYH3TD": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "HAFkac1cdmEYH3TD",
+          "_key": "HAFkac1cdmEYH3TD",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The target has damage weakness equal to the characteristic score you used on this ability’s power roll (EoT).",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": ""
   },
   "effects": [
 
@@ -120,7 +111,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-warrior-priest-signature!astring",
-  "_id": "kit-warrior-priest-signature",
+  "_id": "rpriestsignature",
   "category": "signature",
   "resource": null
 }

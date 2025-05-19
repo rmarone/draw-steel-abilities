@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "And toniiight we can truly say 🎵 They will alllways find a way! 🎵"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "and",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "While this routine is active, each target who starts their turn dying while in the aura gains an edge on power rolls and ignores the effects of bleeding until the end of their turn.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "And toniiight we can truly say 🎵 They will alllways find a way! 🎵"
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-3-2!astring",
-  "_id": "troubadour-sub-3-3-2",
+  "_id": "troubadoursub332",
   "category": "signature",
   "resource": null
 }

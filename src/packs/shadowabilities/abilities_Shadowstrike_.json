@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "They have no idea what the college taught you."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "You make two signature strikes.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "They have no idea what the college taught you."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-12!astring",
-  "_id": "shadow-ability-12",
+  "_id": "shadowability12a",
   "category": "heroic",
   "resource": 5
 }

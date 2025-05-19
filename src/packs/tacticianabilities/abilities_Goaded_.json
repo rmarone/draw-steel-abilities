@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You have learned to leverage the psychology of your marked foes and goad them into acting before they are tactically ready."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "You retarget the attack to you or another one of your allies or yourself. The new target must be a valid option for the strike.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You have learned to leverage the psychology of your marked foes and goad them into acting before they are tactically ready."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-sub-2-2-1!astring",
-  "_id": "tactician-sub-2-2-1",
+  "_id": "tacticiansub221a",
   "category": "signature",
   "resource": null
 }

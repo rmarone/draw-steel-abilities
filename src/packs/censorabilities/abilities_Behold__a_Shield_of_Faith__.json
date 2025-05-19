@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "“Allow me to intercede.”"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,67 +28,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "XdOuJcbWQX1gKQMi": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "XdOuJcbWQX1gKQMi",
+          "_key": "XdOuJcbWQX1gKQMi",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "Until the start of your next turn, enemies have a bane on ability power rolls made against you and each ally adjacent to you.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "“Allow me to intercede.”"
   },
   "effects": [
 
@@ -116,7 +107,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-5!astring",
-  "_id": "censor-ability-5",
+  "_id": "censorability5aa",
   "category": "heroic",
   "resource": 3
 }

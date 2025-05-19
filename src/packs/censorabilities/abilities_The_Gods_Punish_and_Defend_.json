@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You channel holy energy to smite a foe and heal an ally."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,67 +28,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "Vtgd0Dy1wea8Kz1h": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "Vtgd0Dy1wea8Kz1h",
+          "_key": "Vtgd0Dy1wea8Kz1h",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can spend a Recovery to allow yourself or one ally within 10 squares of you to regain Stamina equal to your Recovery value.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You channel holy energy to smite a foe and heal an ally."
   },
   "effects": [
 
@@ -116,7 +107,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-7!astring",
-  "_id": "censor-ability-7",
+  "_id": "censorability7aa",
   "category": "heroic",
   "resource": 3
 }

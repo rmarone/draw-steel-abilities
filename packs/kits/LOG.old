@@ -1,15 +1,15 @@
-2025/04/26-23:12:07.045 5dd4 Recovering log #566
-2025/04/26-23:12:07.152 5dd4 Delete type=0 #566
-2025/04/26-23:12:07.152 5dd4 Delete type=3 #564
-2025/04/26-23:12:07.217 51b0 Level-0 table #572: started
-2025/04/26-23:12:07.239 51b0 Level-0 table #572: 24513 bytes OK
-2025/04/26-23:12:07.279 51b0 Delete type=0 #570
-2025/04/26-23:12:07.280 51b0 Manual compaction at level-0 from '!items!kit-arcane-archer-signature' @ 72057594037927935 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at (end)
-2025/04/26-23:12:07.280 51b0 Manual compaction at level-1 from '!items!kit-arcane-archer-signature' @ 72057594037927935 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at '!items!kit-whirlwind-signature!astring' @ 4482 : 1
-2025/04/26-23:12:07.280 51b0 Compacting 1@1 + 1@2 files
-2025/04/26-23:12:07.332 51b0 Generated table #573@1: 50 keys, 24513 bytes
-2025/04/26-23:12:07.332 51b0 Compacted 1@1 + 1@2 files => 24513 bytes
-2025/04/26-23:12:07.371 51b0 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/04/26-23:12:07.372 51b0 Delete type=2 #568
-2025/04/26-23:12:07.372 51b0 Delete type=2 #572
-2025/04/26-23:12:07.373 51b0 Manual compaction at level-1 from '!items!kit-whirlwind-signature!astring' @ 4482 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:32:44.434 78d8 Recovering log #596
+2025/05/19-00:32:44.539 78d8 Delete type=0 #596
+2025/05/19-00:32:44.539 78d8 Delete type=3 #594
+2025/05/19-00:32:44.591 69dc Level-0 table #602: started
+2025/05/19-00:32:44.614 69dc Level-0 table #602: 14835 bytes OK
+2025/05/19-00:32:44.661 69dc Delete type=0 #600
+2025/05/19-00:32:44.662 69dc Manual compaction at level-0 from '!items!kit-arcane-archer-signature!astring' @ 72057594037927935 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:32:44.662 69dc Manual compaction at level-1 from '!items!kit-arcane-archer-signature!astring' @ 72057594037927935 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at '!items!kit-whirlwind-signature!astring' @ 4707 : 1
+2025/05/19-00:32:44.662 69dc Compacting 1@1 + 1@2 files
+2025/05/19-00:32:44.718 69dc Generated table #603@1: 25 keys, 14835 bytes
+2025/05/19-00:32:44.718 69dc Compacted 1@1 + 1@2 files => 14835 bytes
+2025/05/19-00:32:44.761 69dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/19-00:32:44.762 69dc Delete type=2 #598
+2025/05/19-00:32:44.762 69dc Delete type=2 #602
+2025/05/19-00:32:44.763 69dc Manual compaction at level-1 from '!items!kit-whirlwind-signature!astring' @ 4707 : 1 .. '!items!kit-whirlwind-signature!astring' @ 0 : 0; will stop at (end)

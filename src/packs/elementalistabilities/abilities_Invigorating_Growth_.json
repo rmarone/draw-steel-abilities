@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,67 +29,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "ek11FVWog2MUGkQr": {
           "type": "damage",
-          "types": [
-            "poison"
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "ek11FVWog2MUGkQr",
+          "_key": "ek11FVWog2MUGkQr",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "poison"
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "poison"
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "poison"
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "poison"
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "poison"
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "Mushrooms cover the target’s body, and can be removed by the target or by an adjacent creature as an action. While the mushrooms are on the target, you and each of your allies adjacent to the target gains a surge whenever the target takes damage.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Mushrooms erupt from a foe, sapping their vitality to spread strengthening spores."
   },
   "effects": [
 
@@ -117,7 +108,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-11!astring",
-  "_id": "elementalist-ability-11",
+  "_id": "ntalistability11",
   "category": "heroic",
   "resource": 3
 }

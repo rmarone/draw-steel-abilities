@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "After some holy lightning, your enemy will think twice about their next attack."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,67 +28,63 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "x7UpV6oXP52mCcSt": {
           "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "x7UpV6oXP52mCcSt",
+          "_key": "x7UpV6oXP52mCcSt",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "lightning"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "lightning"
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "lightning"
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The first time on a turn that the target deals damage to another creature, the target of this ability takes another 1d10 lightning damage (save ends).",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "After some holy lightning, your enemy will think twice about their next attack."
   },
   "effects": [
 
@@ -116,7 +107,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-12!astring",
-  "_id": "conduit-ability-12",
+  "_id": "conduitability12",
   "category": "heroic",
   "resource": 3
 }

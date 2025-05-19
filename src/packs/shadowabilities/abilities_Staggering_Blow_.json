@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "There’s no recovering from this."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "4XZuz9TPH9MzrCRj": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "4XZuz9TPH9MzrCRj",
+          "_key": "4XZuz9TPH9MzrCRj",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "16+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "slowed (save ends)"
-          },
-          "display": " M < [weak], slowed (save ends)"
+        "Ch0HB3gRoBhKA8qp": {
+          "type": "applied",
+          "_id": "Ch0HB3gRoBhKA8qp",
+          "_key": "Ch0HB3gRoBhKA8qp",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], slowed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], prone and can’t stand (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], prone and can’t stand (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "prone and can’t stand (save ends)"
-          },
-          "display": " M < [average], prone and can’t stand (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "16+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "prone and can’t stand (save ends)"
-          },
-          "display": " M < [strong], prone and can’t stand (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "There’s no recovering from this."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-16!astring",
-  "_id": "shadow-ability-16",
+  "_id": "shadowability16a",
   "category": "heroic",
   "resource": 7
 }

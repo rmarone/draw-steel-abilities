@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "They’re so hurt by your performance, you sort of start to believe it yourself."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "V5QfcTxh5EdQQRh7": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "V5QfcTxh5EdQQRh7",
+          "_key": "V5QfcTxh5EdQQRh7",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "14+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [weak], weakened (save ends)"
+        "Ni4vIMgClPDqRfr0": {
+          "type": "applied",
+          "_id": "Ni4vIMgClPDqRfr0",
+          "_key": "Ni4vIMgClPDqRfr0",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "10+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [average], weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "14+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [strong], weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can become bleeding (save ends) to deal an additional 5 corruption damage to the target.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "They’re so hurt by your performance, you sort of start to believe it yourself."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-12!astring",
-  "_id": "troubadour-ability-12",
+  "_id": "ubadourability12",
   "category": "heroic",
   "resource": 5
 }

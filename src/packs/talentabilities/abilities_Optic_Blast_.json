@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your eyes emit rays of powerful enervating force."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": 1
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "RAifjAwd6nVlGurg": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "RAifjAwd6nVlGurg",
+          "_key": "RAifjAwd6nVlGurg",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "prone"
-          },
-          "display": " M < [weak], prone"
+        "RupFYCiiBhIOpgKO": {
+          "type": "applied",
+          "_id": "RupFYCiiBhIOpgKO",
+          "_key": "RupFYCiiBhIOpgKO",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], prone"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], prone"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], prone"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "prone"
-          },
-          "display": " M < [average], prone"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "prone"
-          },
-          "display": " M < [strong], prone"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (a mirror, an unpainted metal shield, shiny metal plate armor, and so forth), you can choose an additional target within 3 squares of the first target.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your eyes emit rays of powerful enervating force."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-7!astring",
-  "_id": "talent-ability-7",
+  "_id": "talentability7aa",
   "category": "signature",
   "resource": null
 }

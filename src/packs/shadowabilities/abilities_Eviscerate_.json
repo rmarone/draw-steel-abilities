@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You leave your foe bleeding out after a devastating attack."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "9Ue06wrDAq1HFGE2": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "9Ue06wrDAq1HFGE2",
+          "_key": "9Ue06wrDAq1HFGE2",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.weak",
-            "display": "bleeding (save ends)"
-          },
-          "display": " A < [weak], bleeding (save ends)"
+        "ShyH3C45iDB9apTS": {
+          "type": "applied",
+          "_id": "ShyH3C45iDB9apTS",
+          "_key": "ShyH3C45iDB9apTS",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.weak"
+              },
+              "display": " A < [weak], bleeding (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.average"
+              },
+              "display": " A < [average], bleeding (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], bleeding (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.average",
-            "display": "bleeding (save ends)"
-          },
-          "display": " A < [average], bleeding (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "10+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "bleeding (save ends)"
-          },
-          "display": " A < [strong], bleeding (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You leave your foe bleeding out after a devastating attack."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-6!astring",
-  "_id": "shadow-ability-6",
+  "_id": "shadowability6aa",
   "category": "heroic",
   "resource": 3
 }

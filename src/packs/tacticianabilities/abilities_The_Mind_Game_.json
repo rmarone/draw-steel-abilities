@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your attack demoralizes your foe. Your allies begin to think you can win."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": 1
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "ZFVxoiirXlLv7HMb": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "ZFVxoiirXlLv7HMb",
+          "_key": "ZFVxoiirXlLv7HMb",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "reason",
-            "value": "@potency.weak",
-            "display": "weakened (save ends)"
-          },
-          "display": " R < [weak], weakened (save ends)"
+        "pNZQIoP2EKPtVAlA": {
+          "type": "applied",
+          "_id": "pNZQIoP2EKPtVAlA",
+          "_key": "pNZQIoP2EKPtVAlA",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "reason",
+                "value": "@potency.weak"
+              },
+              "display": " R < [weak], weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "reason",
+                "value": "@potency.average"
+              },
+              "display": " R < [average], weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "reason",
+                "value": "@potency.strong"
+              },
+              "display": " R < [strong], weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "reason",
-            "value": "@potency.average",
-            "display": "weakened (save ends)"
-          },
-          "display": " R < [average], weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "10+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "reason",
-            "value": "@potency.strong",
-            "display": "weakened (save ends)"
-          },
-          "display": " R < [strong], weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The first time any ally deals damage any target you’ve marked before the start of your next turn, that ally can spend a Recovery.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your attack demoralizes your foe. Your allies begin to think you can win."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-6!astring",
-  "_id": "tactician-ability-6",
+  "_id": "acticianability6",
   "category": "heroic",
   "resource": 5
 }

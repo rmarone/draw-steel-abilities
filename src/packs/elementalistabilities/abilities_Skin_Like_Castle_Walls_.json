@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You make yourself or an ally covered in protective stone."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The damage is halved.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You make yourself or an ally covered in protective stone."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-1-1-3!astring",
-  "_id": "elementalist-sub-1-1-3",
+  "_id": "ementalistsub113",
   "category": "signature",
   "resource": null
 }

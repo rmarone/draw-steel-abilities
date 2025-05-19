@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "“Your race is run!”"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "6AnIBFs7mmIkpzIh": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "6AnIBFs7mmIkpzIh",
+          "_key": "6AnIBFs7mmIkpzIh",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "slowed (save ends)"
-          },
-          "display": " P < [weak], slowed (save ends)"
+        "1EcCpPIJLbe1lE5U": {
+          "type": "applied",
+          "_id": "1EcCpPIJLbe1lE5U",
+          "_key": "1EcCpPIJLbe1lE5U",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], slowed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], slowed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], slowed (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "slowed (save ends)"
-          },
-          "display": " P < [average], slowed (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "slowed (save ends)"
-          },
-          "display": " P < [strong], slowed (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "“Your race is run!”"
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-3!astring",
-  "_id": "censor-ability-3",
+  "_id": "censorability3aa",
   "category": "signature",
   "resource": null
 }

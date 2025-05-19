@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You strike at key nerve clusters to leave your foe staggered."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "XVK5rXKGxHYyCpei": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "XVK5rXKGxHYyCpei",
+          "_key": "XVK5rXKGxHYyCpei",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.weak",
-            "display": "weakened (save ends)"
-          },
-          "display": " A < [weak], weakened (save ends)"
+        "ZwGwtkv9czgOkuBN": {
+          "type": "applied",
+          "_id": "ZwGwtkv9czgOkuBN",
+          "_key": "ZwGwtkv9czgOkuBN",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.weak"
+              },
+              "display": " A < [weak], weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.average"
+              },
+              "display": " A < [average], weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.average",
-            "display": "weakened (save ends)"
-          },
-          "display": " A < [average], weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "weakened (save ends)"
-          },
-          "display": " A < [strong], weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You strike at key nerve clusters to leave your foe staggered."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-8!astring",
-  "_id": "null-ability-8",
+  "_id": "nullability8aaaa",
   "category": "signature",
   "resource": null
 }

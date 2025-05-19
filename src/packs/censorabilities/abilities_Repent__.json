@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You conjure memories of their sins."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "VnFaMf2dfwnEO9gg": {
           "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "VnFaMf2dfwnEO9gg",
+          "_key": "VnFaMf2dfwnEO9gg",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "holy"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "holy"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "holy"
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.weak",
-            "display": "dazed (save ends)"
-          },
-          "display": " I < [weak], dazed (save ends)"
+        "G1X6PAar6dAJ3xVm": {
+          "type": "applied",
+          "_id": "G1X6PAar6dAJ3xVm",
+          "_key": "G1X6PAar6dAJ3xVm",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.weak"
+              },
+              "display": " I < [weak], dazed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.average"
+              },
+              "display": " I < [average], dazed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], dazed (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.average",
-            "display": "dazed (save ends)"
-          },
-          "display": " I < [average], dazed (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "holy"
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.strong",
-            "display": "dazed (save ends)"
-          },
-          "display": " I < [strong], dazed (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You conjure memories of their sins."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-8!astring",
-  "_id": "censor-ability-8",
+  "_id": "censorability8aa",
   "category": "heroic",
   "resource": 3
 }

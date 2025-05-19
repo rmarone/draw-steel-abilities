@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your opponent staggers. They cannot ignore you."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,117 +29,115 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "eZPRCQniT1xs4M55": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "eZPRCQniT1xs4M55",
+          "_key": "eZPRCQniT1xs4M55",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " taunted (EoT)"
+        "FdEELzfT8VDWUzQM": {
+          "type": "forced",
+          "_id": "FdEELzfT8VDWUzQM",
+          "_key": "FdEELzfT8VDWUzQM",
+          "name": "",
+          "forced": {
+            "tier1": null,
+            "tier2": {
+              "movement": [
+                "slide"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "slide"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            }
+          }
+        },
+        "HpQbuBx8UgDYT1dc": {
+          "type": "applied",
+          "_id": "HpQbuBx8UgDYT1dc",
+          "_key": "HpQbuBx8UgDYT1dc",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " taunted (EoT)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " taunted (EoT)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " taunted (EoT)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " taunted (EoT)"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " slide 1"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " taunted (EoT)"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " slide 2"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your opponent staggers. They cannot ignore you."
   },
   "effects": [
 
@@ -167,7 +160,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-5!astring",
-  "_id": "null-ability-5",
+  "_id": "nullability5aaaa",
   "category": "signature",
   "resource": null
 }

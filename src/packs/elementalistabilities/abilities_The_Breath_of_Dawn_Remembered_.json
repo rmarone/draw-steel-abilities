@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "The power you channel grants the ability to get back in the fight."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target can spend a Recovery.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "The power you channel grants the ability to get back in the fight."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-3-1-3!astring",
-  "_id": "elementalist-sub-3-1-3",
+  "_id": "ementalistsub313",
   "category": "signature",
   "resource": null
 }

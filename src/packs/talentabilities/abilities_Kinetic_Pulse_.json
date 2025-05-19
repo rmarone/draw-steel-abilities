@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "The force of your mind hurls enemies backward."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,87 +28,86 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "nib9fOvcgtbsi7R9": {
           "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "2",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "5",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "nib9fOvcgtbsi7R9",
+          "_key": "nib9fOvcgtbsi7R9",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "psychic"
+              ],
+              "value": "2",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "psychic"
+              ],
+              "value": "5",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "psychic"
+              ],
+              "value": "7",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 1"
+        "q1qV0Gs5JamoZeU6": {
+          "type": "forced",
+          "_id": "q1qV0Gs5JamoZeU6",
+          "_key": "q1qV0Gs5JamoZeU6",
+          "name": "",
+          "forced": {
+            "tier1": null,
+            "tier2": {
+              "movement": [
+                "push"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "push"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "7",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 2"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "The force of your mind hurls enemies backward."
   },
   "effects": [
 
@@ -136,7 +130,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-5!astring",
-  "_id": "talent-ability-5",
+  "_id": "talentability5aa",
   "category": "signature",
   "resource": null
 }

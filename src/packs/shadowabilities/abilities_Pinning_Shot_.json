@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "One missile - placed well and placed hard."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "CN8Cn4m77NlbDfBd": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "CN8Cn4m77NlbDfBd",
+          "_key": "CN8Cn4m77NlbDfBd",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "12+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "16+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.weak",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [weak], restrained (save ends)"
+        "bBd3SvVstEfnu6Vn": {
+          "type": "applied",
+          "_id": "bBd3SvVstEfnu6Vn",
+          "_key": "bBd3SvVstEfnu6Vn",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.weak"
+              },
+              "display": " A < [weak], restrained (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.average"
+              },
+              "display": " A < [average], restrained (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], restrained (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "12+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.average",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [average], restrained (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "16+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [strong], restrained (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "One missile - placed well and placed hard."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-15!astring",
-  "_id": "shadow-ability-15",
+  "_id": "shadowability15a",
   "category": "heroic",
   "resource": 7
 }

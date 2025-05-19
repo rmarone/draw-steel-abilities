@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You plunge your weapon into your enemy like a boar upon a spit."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "S1QwXwNzBz84U96e": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "S1QwXwNzBz84U96e",
+          "_key": "S1QwXwNzBz84U96e",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "grabbed"
-          },
-          "display": " M < [weak], grabbed"
+        "LIG90fVMXyvumnqd": {
+          "type": "applied",
+          "_id": "LIG90fVMXyvumnqd",
+          "_key": "LIG90fVMXyvumnqd",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], grabbed"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], grabbed"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], grabbed"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "grabbed"
-          },
-          "display": " M < [average], grabbed"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "grabbed"
-          },
-          "display": " M < [strong], grabbed"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You plunge your weapon into your enemy like a boar upon a spit."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-3!astring",
-  "_id": "fury-ability-3",
+  "_id": "furyability3aaaa",
   "category": "signature",
   "resource": null
 }

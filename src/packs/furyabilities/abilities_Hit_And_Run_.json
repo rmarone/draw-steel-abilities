@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Keeping in constant motion helps you slip out of reach after a brutal assault."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,77 +28,80 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "ETPLv2AEVv7aFylO": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "ETPLv2AEVv7aFylO",
+          "_key": "ETPLv2AEVv7aFylO",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "slowed (save ends)"
-          },
-          "display": " A < [strong], slowed (save ends)"
+        "qQa2lHvavBeR8C19": {
+          "type": "applied",
+          "_id": "qQa2lHvavBeR8C19",
+          "_key": "qQa2lHvavBeR8C19",
+          "name": "",
+          "applied": {
+            "tier1": null,
+            "tier2": null,
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], slowed (save ends)"
+            }
+          }
         }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can shift 1 square.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Keeping in constant motion helps you slip out of reach after a brutal assault."
   },
   "effects": [
 
@@ -126,7 +124,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-2!astring",
-  "_id": "fury-ability-2",
+  "_id": "furyability2aaaa",
   "category": "signature",
   "resource": null
 }

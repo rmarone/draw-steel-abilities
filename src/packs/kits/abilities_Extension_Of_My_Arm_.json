@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "When you draw your whip back after an attack, your enemy comes ever closer."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,98 +28,93 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "agility"
+        ]
+      },
+      "effects": {
+        "Jlsk6NBZKPwjDOmV": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "Jlsk6NBZKPwjDOmV",
+          "_key": "Jlsk6NBZKPwjDOmV",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " vertical pull 1"
+        "LmET5mE33mHsEEeL": {
+          "type": "forced",
+          "_id": "LmET5mE33mHsEEeL",
+          "_key": "LmET5mE33mHsEEeL",
+          "name": "",
+          "forced": {
+            "tier1": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier2": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "6+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " vertical pull 2"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " vertical pull 3"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "When you draw your whip back after an attack, your enemy comes ever closer."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-whirlwind-signature!astring",
-  "_id": "kit-whirlwind-signature",
+  "_id": "irlwindsignature",
   "category": "signature",
   "resource": null
 }

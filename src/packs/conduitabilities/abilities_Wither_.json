@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A bolt of holy energy saps the life from a foe."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "rjjAcIu5XzfxcFOl": {
           "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "rjjAcIu5XzfxcFOl",
+          "_key": "rjjAcIu5XzfxcFOl",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "corruption"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "corruption"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "corruption"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "the target takes a bane on their next power roll"
-          },
-          "display": " P < [weak], the target takes a bane on their next power roll"
+        "NDy0btv44iuw7AzU": {
+          "type": "applied",
+          "_id": "NDy0btv44iuw7AzU",
+          "_key": "NDy0btv44iuw7AzU",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], the target takes a bane on their next power roll"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], the target takes a bane on their next power roll"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], the target takes a bane on their next power roll"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "the target takes a bane on their next power roll"
-          },
-          "display": " P < [average], the target takes a bane on their next power roll"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "the target takes a bane on their next power roll"
-          },
-          "display": " P < [strong], the target takes a bane on their next power roll"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A bolt of holy energy saps the life from a foe."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-8!astring",
-  "_id": "conduit-ability-8",
+  "_id": "conduitability8a",
   "category": "signature",
   "resource": null
 }

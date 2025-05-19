@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your blow reorders a foe’s body, causing pain if they attempt to channel sorcery."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "KrzrPLCKt8TUYxFs": {
           "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "KrzrPLCKt8TUYxFs",
+          "_key": "KrzrPLCKt8TUYxFs",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "psychic"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "psychic"
+              ],
+              "value": "12+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "psychic"
+              ],
+              "value": "16+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.weak",
-            "display": "weakened (save ends)"
-          },
-          "display": " M < [weak], weakened (save ends)"
+        "QvtGqRH9gmq2XXSI": {
+          "type": "applied",
+          "_id": "QvtGqRH9gmq2XXSI",
+          "_key": "QvtGqRH9gmq2XXSI",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "12+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.average",
-            "display": "weakened (save ends)"
-          },
-          "display": " M < [average], weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "16+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "might",
-            "value": "@potency.strong",
-            "display": "weakened (save ends)"
-          },
-          "display": " M < [strong], weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "While weakened this way, the target takes damage equal to your Intuition score when they use a supernatural or ability that costs Malice.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your blow reorders a foe’s body, causing pain if they attempt to channel sorcery."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-13!astring",
-  "_id": "null-ability-13",
+  "_id": "nullability13aaa",
   "category": "heroic",
   "resource": 5
 }

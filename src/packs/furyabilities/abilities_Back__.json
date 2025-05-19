@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Surrounded? The fools!"
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,87 +28,86 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "MbHi0ebLxDckMCBL": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "8",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "MbHi0ebLxDckMCBL",
+          "_key": "MbHi0ebLxDckMCBL",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "5",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "8",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "11",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 1"
+        "AWBOTLXj8m7ZY0Nr": {
+          "type": "forced",
+          "_id": "AWBOTLXj8m7ZY0Nr",
+          "_key": "AWBOTLXj8m7ZY0Nr",
+          "name": "",
+          "forced": {
+            "tier1": null,
+            "tier2": {
+              "movement": [
+                "push"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "push"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "11",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 3"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Surrounded? The fools!"
   },
   "effects": [
 
@@ -136,7 +130,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-5!astring",
-  "_id": "fury-ability-5",
+  "_id": "furyability5aaaa",
   "category": "heroic",
   "resource": 3
 }

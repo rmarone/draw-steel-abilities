@@ -1,15 +1,15 @@
-2025/04/26-23:15:45.651 2d74 Recovering log #576
-2025/04/26-23:15:45.753 2d74 Delete type=0 #576
-2025/04/26-23:15:45.753 2d74 Delete type=3 #574
-2025/04/26-23:15:45.806 5ee8 Level-0 table #582: started
-2025/04/26-23:15:45.832 5ee8 Level-0 table #582: 18205 bytes OK
-2025/04/26-23:15:45.875 5ee8 Delete type=0 #580
-2025/04/26-23:15:45.875 5ee8 Manual compaction at level-0 from '!items!censor-1-4' @ 72057594037927935 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at (end)
-2025/04/26-23:15:45.876 5ee8 Manual compaction at level-1 from '!items!censor-1-4' @ 72057594037927935 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at '!items!censor-ability-9!astring' @ 3295 : 1
-2025/04/26-23:15:45.876 5ee8 Compacting 1@1 + 1@2 files
-2025/04/26-23:15:45.925 5ee8 Generated table #583@1: 36 keys, 18205 bytes
-2025/04/26-23:15:45.925 5ee8 Compacted 1@1 + 1@2 files => 18205 bytes
-2025/04/26-23:15:45.967 5ee8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/04/26-23:15:45.967 5ee8 Delete type=2 #578
-2025/04/26-23:15:45.968 5ee8 Delete type=2 #582
-2025/04/26-23:15:45.968 5ee8 Manual compaction at level-1 from '!items!censor-ability-9!astring' @ 3295 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:42:10.374 49c0 Recovering log #606
+2025/05/19-00:42:10.502 49c0 Delete type=0 #606
+2025/05/19-00:42:10.502 49c0 Delete type=3 #604
+2025/05/19-00:42:10.573 7104 Level-0 table #612: started
+2025/05/19-00:42:10.607 7104 Level-0 table #612: 10727 bytes OK
+2025/05/19-00:42:10.645 7104 Delete type=0 #610
+2025/05/19-00:42:10.646 7104 Manual compaction at level-0 from '!items!censor-1-4!astring' @ 72057594037927935 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:42:10.646 7104 Manual compaction at level-1 from '!items!censor-1-4!astring' @ 72057594037927935 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at '!items!censor-ability-9!astring' @ 3439 : 1
+2025/05/19-00:42:10.646 7104 Compacting 1@1 + 1@2 files
+2025/05/19-00:42:10.715 7104 Generated table #613@1: 18 keys, 10727 bytes
+2025/05/19-00:42:10.715 7104 Compacted 1@1 + 1@2 files => 10727 bytes
+2025/05/19-00:42:10.787 7104 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/19-00:42:10.787 7104 Delete type=2 #608
+2025/05/19-00:42:10.787 7104 Delete type=2 #612
+2025/05/19-00:42:10.788 7104 Manual compaction at level-1 from '!items!censor-ability-9!astring' @ 3439 : 1 .. '!items!censor-ability-9!astring' @ 0 : 0; will stop at (end)

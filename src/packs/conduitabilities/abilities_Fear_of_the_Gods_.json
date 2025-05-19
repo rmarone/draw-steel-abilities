@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your divine magic makes a creature appear as what your enemies fear most."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,97 +28,92 @@
       "type": "enemy",
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "intuition"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "intuition"
+        ]
+      },
+      "effects": {
+        "FfHBem6kw9b5IpLm": {
           "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "FfHBem6kw9b5IpLm",
+          "_key": "FfHBem6kw9b5IpLm",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "psychic"
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "psychic"
+              ],
+              "value": "9",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "psychic"
+              ],
+              "value": "13",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.weak",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [weak], frightened (save ends)"
+        "D2icJbJLCS0ipYc3": {
+          "type": "applied",
+          "_id": "D2icJbJLCS0ipYc3",
+          "_key": "D2icJbJLCS0ipYc3",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.weak"
+              },
+              "display": " I < [weak], frightened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.average"
+              },
+              "display": " I < [average], frightened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], frightened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "9",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.average",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [average], frightened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "psychic"
-          ],
-          "value": "13",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.strong",
-            "display": "frightened (save ends)"
-          },
-          "display": " I < [strong], frightened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "The targets are frightened of you or a creature you choose within 10 squares.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your divine magic makes a creature appear as what your enemies fear most."
   },
   "effects": [
 
@@ -146,7 +136,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-17!astring",
-  "_id": "conduit-ability-17",
+  "_id": "conduitability17",
   "category": "heroic",
   "resource": 7
 }

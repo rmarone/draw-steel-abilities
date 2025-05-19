@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "In your hands, a shield isn’t just for protection."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,108 +28,110 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "agility"
+        ]
+      },
+      "effects": {
+        "CoJaSEn7m40RGaWl": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "CoJaSEn7m40RGaWl",
+          "_key": "CoJaSEn7m40RGaWl",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 1"
+        "LkkQb8IdpwKPFRYU": {
+          "type": "forced",
+          "_id": "LkkQb8IdpwKPFRYU",
+          "_key": "LkkQb8IdpwKPFRYU",
+          "name": "",
+          "forced": {
+            "tier1": {
+              "movement": [
+                "push"
+              ],
+              "distance": "1",
+              "display": "{{forced}}"
+            },
+            "tier2": {
+              "movement": [
+                "push"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "push"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            }
+          }
+        },
+        "Ew0TRCgX37VLug3M": {
+          "type": "applied",
+          "_id": "Ew0TRCgX37VLug3M",
+          "_key": "Ew0TRCgX37VLug3M",
+          "name": "",
+          "applied": {
+            "tier1": null,
+            "tier2": null,
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": " M < [strong] prone"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 2"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 3"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " M < [strong] prone"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "In your hands, a shield isn’t just for protection."
   },
   "effects": [
 
@@ -157,7 +154,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-sword-and-board-signature!astring",
-  "_id": "kit-sword-and-board-signature",
+  "_id": "ndboardsignature",
   "category": "signature",
   "resource": null
 }

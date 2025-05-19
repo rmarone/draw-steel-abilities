@@ -7,6 +7,23 @@ require 'securerandom'
 
 CHARACTERISTIC_MAP = {"M" => "might", "A" => "agility", "R" => "reason", "I"=> "intuition", "P" => "presence" }
 
+def create_damage_effect(clauses)
+  id = random_id
+  {id =>
+   {
+    "type": "damage",
+    "_id": id,
+    "_key": id,
+    "name": "",
+    "damage": {
+      "tier1": clauses["tier1"] ? damage_clause(clauses["tier1"]) : nil,
+      "tier2": clauses["tier2"] ? damage_clause(clauses["tier2"]) : nil,
+      "tier3": clauses["tier3"] ? damage_clause(clauses["tier3"]) : nil
+    }
+   }
+  }
+end
+
 def damage_clause(clause)
   types = ["acid", "cold", "corruption", "fire", "holy", "lightning", "poison", "psychic", "sonic"]
   attribute_match = clause.match(/\+ ([MARIP]) /)
@@ -20,11 +37,27 @@ def damage_clause(clause)
   }
   number = split_string[0]
   {
-    "type": "damage",
-    "types": [ type ],
+    "types": [ type ].compact,
     "value": "#{number}#{damage_addition}",
     "potency": potency_clause(clause),
     "display": ""
+  }
+end
+
+def create_move_effect(clauses)
+  id = random_id
+  {id =>
+   {
+    "type": "forced",
+    "_id": id,
+    "_key": id,
+    "name": "",
+    "forced": {
+      "tier1": clauses["tier1"] ? move_clause(clauses["tier1"]) : nil,
+      "tier2": clauses["tier2"] ? move_clause(clauses["tier2"]) : nil,
+      "tier3": clauses["tier3"] ? move_clause(clauses["tier3"]) : nil
+    }
+   }
   }
 end
 
@@ -36,18 +69,33 @@ def move_clause(clause)
   }
   number = split_string[-1]
   {
-    "type": "forced",
-    "types": [ type ],
-    "value": "#{number}",
-    "potency": potency_clause(clause),
-    "display": ""
+    "movement": [ type ],
+    "distance": "#{number}",
+    "display": "{{forced}}"
   }
+end
+
+def create_applied_effect(clauses)
+  id = random_id
+  {id =>
+   {
+    "type": "applied",
+    "_id": id,
+    "_key": id,
+    "name": "",
+    "applied": {
+      "tier1": clauses["tier1"] ? effect_clause(clauses["tier1"]) : nil,
+      "tier2": clauses["tier2"] ? effect_clause(clauses["tier2"]) : nil,
+      "tier3": clauses["tier3"] ? effect_clause(clauses["tier3"]) : nil
+    }
+   }
+  }
+
 end
 
 def effect_clause(clause)
   split_string = clause.split(/[\s\+]/).reject{|e| e.nil? or e.empty?}
   {
-    "type": "ae",
     "potency": potency_clause(clause),
     "display": clause
   }
@@ -64,11 +112,43 @@ def potency_clause(clause)
     potency_effect = attribute_match.captures[2]
   end
   {
-    "enabled": potency_characteristic ? true : false,
     "characteristic": CHARACTERISTIC_MAP[potency_characteristic],
     "value": potency_level ? "@potency.#{potency_level}" : nil,
-    "display": potency_effect
   }
+end
+
+def parse_effects(input_roll)
+  effects = {}
+  clauses = {damage: {exists: false}, 
+             move: {exists: false}, 
+             applied:{exists: false}
+  }
+  ["tier1", "tier2", "tier3"].each do |tier|
+    split_clauses = input_roll[tier].split(/;/)
+    split_clauses.each do |clause|
+      split_clause = clause.split(/[\s\+]/).reject{|e| e.nil? or e.empty?}
+      if split_clause.index("damage") == split_clause.length - 1
+        clauses[:damage][:exists] = true  
+        clauses[:damage][tier] = clause
+      elsif split_clause.index{ |i| ["push", "slide", "pull"].include? i }
+        clauses[:move][:exists] = true  
+        clauses[:move][tier] = clause
+      else
+        clauses[:applied][:exists] = true  
+        clauses[:applied][tier] = clause
+      end
+    end
+  end
+  if clauses[:damage][:exists] == true
+    effects.merge! create_damage_effect(clauses[:damage])
+  end
+  if clauses[:move][:exists]== true
+    effects.merge! create_move_effect(clauses[:move])
+  end
+  if clauses[:applied][:exists] == true
+    effects.merge! create_applied_effect(clauses[:applied])
+  end
+  return effects
 end
 
 def parse_power_tier(input_tier)
@@ -113,11 +193,10 @@ def parse_target(target_string)
 end
 
 def make_item(ability, monster_id=nil)
-  clean_ability_id = ability["id"].gsub('-','').ljust(16,'a')
-  clean_ability_id = clean_ability_id[-16..-1] || clean_ability_id
+  clean_ability_id = cleaned_id(ability["id"])
   key = monster_id ? "!actors.items!#{monster_id}.#{clean_ability_id}" : "!items!#{ability["id"]}!astring"
   item_key = {"_key": key,
-              "_id": monster_id ? clean_ability_id : ability["id"]
+              "_id": monster_id ? clean_ability_id : clean_ability_id
   }
   cost = if ability["cost"] == "signature" || ability["cost"] == 0
            { "category": "signature", "resource":  nil}
@@ -129,11 +208,6 @@ def make_item(ability, monster_id=nil)
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": ability["description"]
-    },
     "source": {
       "book": "",
       "page": "",
@@ -152,20 +226,19 @@ def make_item(ability, monster_id=nil)
     } : nil,
     "damageDisplay": "melee",
     "target": parse_target(ability["target"]),
-    "powerRoll": {
-      "enabled": ability["powerRoll"] ? true : false,
-      "formula": "@chr",
-      "characteristics": ability["powerRoll"] ? ability["powerRoll"]["characteristic"].collect(&:downcase) : nil,
-      "tier1": ability["powerRoll"] ? parse_power_tier(ability["powerRoll"]["tier1"]) : nil,
-      "tier2": ability["powerRoll"] ? parse_power_tier(ability["powerRoll"]["tier2"]) : nil,
-      "tier3": ability["powerRoll"] ? parse_power_tier(ability["powerRoll"]["tier3"]) : nil,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": ability["powerRoll"] ? ability["powerRoll"]["characteristic"].collect(&:downcase) : nil
+      },
+      "effects": ability["powerRoll"] ? parse_effects(ability["powerRoll"]) : nil
     },
     "effect": ability["effect"],
     "spend": {
       "value": nil,
       "text": ""
-    }
+    },
+    "story": ability["description"]
   },
   "effects": [],
   "folder": nil,
@@ -192,8 +265,7 @@ def make_item(ability, monster_id=nil)
 end
 
 def make_monster(monster, monster_group_folder_id)
-  cleaned_id = monster["id"].gsub('-','').ljust(16,'a')
-  id = cleaned_id[-16..-1] || cleaned_id
+  id = cleaned_id(monster["id"])
   return {"name": monster["name"],
    "_dsid": id,
    "type": "npc",
@@ -425,6 +497,16 @@ def monster_damage_immunities(monster)
   current_immunities
 end
 
+def cleaned_id(id)
+  clean_item_id = id.gsub('-','').ljust(16,'a')
+  clean_item_id = clean_item_id[-16..-1] || clean_item_id
+  return clean_item_id
+end
+
+def random_id()
+  SecureRandom.alphanumeric(16)
+end
+
 def make_monster_item(item, monster_id)
     if item["type"] == "Ability"
       return make_item(item["data"]["ability"], monster_id)
@@ -433,8 +515,7 @@ def make_monster_item(item, monster_id)
       return nil
     end
     if item["type"] == "Text"
-      clean_item_id = item["id"].gsub('-','').ljust(16,'a')
-      clean_item_id = clean_item_id[-16..-1] || clean_item_id
+      clean_item_id = cleaned_id(item["id"])
       return { 
         "name": item["name"],
         "type": "feature",

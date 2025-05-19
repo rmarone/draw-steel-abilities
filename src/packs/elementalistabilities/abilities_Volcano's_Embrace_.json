@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Wrap them up in fire and melting stone."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -35,97 +30,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "TORnKDleE55Wzra3": {
           "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "TORnKDleE55Wzra3",
+          "_key": "TORnKDleE55Wzra3",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "fire"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "fire"
+              ],
+              "value": "9+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "fire"
+              ],
+              "value": "12+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.weak",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [weak], restrained (save ends)"
+        "kUBJ4hAKfdKsfllM": {
+          "type": "applied",
+          "_id": "kUBJ4hAKfdKsfllM",
+          "_key": "kUBJ4hAKfdKsfllM",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.weak"
+              },
+              "display": " A < [weak], restrained (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.average"
+              },
+              "display": " A < [average], restrained (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "agility",
+                "value": "@potency.strong"
+              },
+              "display": " A < [strong], restrained (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "9+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.average",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [average], restrained (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "12+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "agility",
-            "value": "@potency.strong",
-            "display": "restrained (save ends)"
-          },
-          "display": " A < [strong], restrained (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Wrap them up in fire and melting stone."
   },
   "effects": [
 
@@ -148,7 +138,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-20!astring",
-  "_id": "elementalist-ability-20",
+  "_id": "ntalistability20",
   "category": "heroic",
   "resource": 5
 }

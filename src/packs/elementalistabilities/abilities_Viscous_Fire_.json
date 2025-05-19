@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "A jet of heavy fire erupts with elemental fury where it strikes."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "68vpKwPycZjdyfoW": {
           "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "2+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "68vpKwPycZjdyfoW",
+          "_key": "68vpKwPycZjdyfoW",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "fire"
+              ],
+              "value": "2+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "fire"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "fire"
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 2"
+        "faHqlRzvBxHF72tn": {
+          "type": "forced",
+          "_id": "faHqlRzvBxHF72tn",
+          "_key": "faHqlRzvBxHF72tn",
+          "name": "",
+          "forced": {
+            "tier1": {
+              "movement": [
+                "push"
+              ],
+              "distance": "2",
+              "display": "{{forced}}"
+            },
+            "tier2": {
+              "movement": [
+                "push"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "push"
+              ],
+              "distance": "4",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 3"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "fire"
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 4"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "A jet of heavy fire erupts with elemental fury where it strikes."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-8!astring",
-  "_id": "elementalist-ability-8",
+  "_id": "entalistability8",
   "category": "signature",
   "resource": null
 }

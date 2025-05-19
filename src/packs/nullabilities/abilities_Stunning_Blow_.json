@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You focus your psionic technique into a debilitating concussive punch."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,97 +29,92 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "gKwbVEUqh4Fn7olR": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "4+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "gKwbVEUqh4Fn7olR",
+          "_key": "gKwbVEUqh4Fn7olR",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "7+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.weak",
-            "display": "dazed and slowed (save ends)"
-          },
-          "display": " I < [weak], dazed and slowed (save ends)"
+        "2wLooe0oZVIyRmOa": {
+          "type": "applied",
+          "_id": "2wLooe0oZVIyRmOa",
+          "_key": "2wLooe0oZVIyRmOa",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.weak"
+              },
+              "display": " I < [weak], dazed and slowed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.average"
+              },
+              "display": " I < [average], dazed and slowed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], dazed and slowed (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.average",
-            "display": "dazed and slowed (save ends)"
-          },
-          "display": " I < [average], dazed and slowed (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "7+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.strong",
-            "display": "dazed and slowed (save ends)"
-          },
-          "display": " I < [strong], dazed and slowed (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You focus your psionic technique into a debilitating concussive punch."
   },
   "effects": [
 
@@ -147,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-12!astring",
-  "_id": "null-ability-12",
+  "_id": "nullability12aaa",
   "category": "heroic",
   "resource": 3
 }

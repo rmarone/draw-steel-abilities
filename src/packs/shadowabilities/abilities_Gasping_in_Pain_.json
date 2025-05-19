@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your precise strikes let your allies take advantage of a target’s agony."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,77 +28,80 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "agility"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "hXSloR9g1Lx1U0YL": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "hXSloR9g1Lx1U0YL",
+          "_key": "hXSloR9g1Lx1U0YL",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "intuition",
-            "value": "@potency.strong",
-            "display": "prone"
-          },
-          "display": " I < [strong], prone"
+        "9aGnXVBnUJ7GUPFv": {
+          "type": "applied",
+          "_id": "9aGnXVBnUJ7GUPFv",
+          "_key": "9aGnXVBnUJ7GUPFv",
+          "name": "",
+          "applied": {
+            "tier1": null,
+            "tier2": null,
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], prone"
+            }
+          }
         }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "An ally of your choice within 5 squares of the target gains a surge.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your precise strikes let your allies take advantage of a target’s agony."
   },
   "effects": [
 
@@ -126,7 +124,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-1!astring",
-  "_id": "shadow-ability-1",
+  "_id": "shadowability1aa",
   "category": "signature",
   "resource": null
 }

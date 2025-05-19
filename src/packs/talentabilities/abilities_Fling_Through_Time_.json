@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "You hurl the target through the annals of time, forcing them to witness every moment of their existence all at once."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,117 +29,92 @@
       "type": "creature",
       "value": 1
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "Y4hQ0hD0KWTVOAJ9": {
           "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "3+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "Y4hQ0hD0KWTVOAJ9",
+          "_key": "Y4hQ0hD0KWTVOAJ9",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "corruption"
+              ],
+              "value": "3+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "corruption"
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "corruption"
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.weak",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [weak], weakened (save ends)"
+        "020b4dOyeWIkZVAm": {
+          "type": "applied",
+          "_id": "020b4dOyeWIkZVAm",
+          "_key": "020b4dOyeWIkZVAm",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.weak"
+              },
+              "display": " P < [weak], weakened (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.average"
+              },
+              "display": " P < [average], weakened (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "presence",
+                "value": "@potency.strong"
+              },
+              "display": " P < [strong], weakened (save ends)"
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " the target is flung through time"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.average",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [average], weakened (save ends)"
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "corruption"
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " the target is flung through time"
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": true,
-            "characteristic": "presence",
-            "value": "@potency.strong",
-            "display": "weakened (save ends)"
-          },
-          "display": " P < [strong], weakened (save ends)"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "A target who is flung through time is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "You hurl the target through the annals of time, forcing them to witness every moment of their existence all at once."
   },
   "effects": [
 
@@ -167,7 +137,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-17!astring",
-  "_id": "talent-ability-17",
+  "_id": "talentability17a",
   "category": "heroic",
   "resource": 7
 }

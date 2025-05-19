@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Elusive as a hummingbird."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -31,20 +26,19 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "You take half damage from the attack and can shift up to a number of squares equal to your Agility score.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Elusive as a hummingbird."
   },
   "effects": [
 
@@ -67,7 +61,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-sub-2-1-4!astring",
-  "_id": "fury-sub-2-1-4",
+  "_id": "furysub214aaaaaa",
   "category": "signature",
   "resource": null
 }

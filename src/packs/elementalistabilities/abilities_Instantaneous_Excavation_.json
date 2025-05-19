@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "The surface of the world around you opens up at your command."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,55 +28,51 @@
       "type": null,
       "value": null
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "reason"
-      ],
-      "tier1": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "The target can shift 1 square from the edge of the hole to the nearest unoccupied space of their choice."
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "8fB8UkURoNSv4SCM": {
+          "type": "applied",
+          "_id": "8fB8UkURoNSv4SCM",
+          "_key": "8fB8UkURoNSv4SCM",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "The target can shift 1 square from the edge of the hole to the nearest unoccupied space of their choice."
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "The target falls into the hole."
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "The target falls into the hole and can’t reduce the height of the fall."
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "The target falls into the hole."
-        }
-      ],
-      "tier3": [
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": "The target falls into the hole and can’t reduce the height of the fall."
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "The surface of the world around you opens up at your command."
   },
   "effects": [
 
@@ -104,7 +95,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-14!astring",
-  "_id": "elementalist-ability-14",
+  "_id": "ntalistability14",
   "category": "heroic",
   "resource": 5
 }

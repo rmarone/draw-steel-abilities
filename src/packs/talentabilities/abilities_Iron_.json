@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "The target’s skin turns to hard, dark metal, impenetrable and dense."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -33,20 +28,19 @@
       "type": "or",
       "value": null
     },
-    "powerRoll": {
-      "enabled": false,
-      "formula": "@chr",
-      "characteristics": null,
-      "tier1": null,
-      "tier2": null,
-      "tier3": null,
-      "potencyCharacteristic": "reason"
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
     },
     "effect": "The target’s stability increases by 5 and they gain 10 temporary stamina and two surges.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "The target’s skin turns to hard, dark metal, impenetrable and dense."
   },
   "effects": [
 
@@ -69,7 +63,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-15!astring",
-  "_id": "talent-ability-15",
+  "_id": "talentability15a",
   "category": "heroic",
   "resource": 5
 }

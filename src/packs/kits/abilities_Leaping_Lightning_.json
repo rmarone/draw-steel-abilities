@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Lightning jumps from your weapon as you strike to harm a nearby foe."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -34,70 +29,66 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "might",
-        "reason",
-        "intuition",
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might",
+          "reason",
+          "intuition",
+          "presence"
+        ]
+      },
+      "effects": {
+        "orpHim3CvGoJJ6xS": {
           "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "3",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "orpHim3CvGoJJ6xS",
+          "_key": "orpHim3CvGoJJ6xS",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "lightning"
+              ],
+              "value": "3",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "lightning"
+              ],
+              "value": "6",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "lightning"
+              ],
+              "value": "9",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "6",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            "lightning"
-          ],
-          "value": "9",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "A creature or object within 2 squares of your target takes lightning damage equal to the characteristic you used for this ability’s power roll.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Lightning jumps from your weapon as you strike to harm a nearby foe."
   },
   "effects": [
 
@@ -120,7 +111,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-spellsword-signature!astring",
-  "_id": "kit-spellsword-signature",
+  "_id": "llswordsignature",
   "category": "signature",
   "resource": null
 }

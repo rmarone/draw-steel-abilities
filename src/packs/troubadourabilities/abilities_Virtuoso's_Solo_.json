@@ -3,11 +3,6 @@
   "type": "ability",
   "img": "icons/svg/item-bag.svg",
   "system": {
-    "description": {
-      "value": "",
-      "gm": "",
-      "flavor": "Your performance travels and doesn’t stop moving until your audience is completely rocked."
-    },
     "source": {
       "book": "",
       "page": "",
@@ -35,87 +30,86 @@
       "type": "creature",
       "value": "1"
     },
-    "powerRoll": {
-      "enabled": true,
-      "formula": "@chr",
-      "characteristics": [
-        "presence"
-      ],
-      "tier1": [
-        {
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "u1PUYNDAnksF9YPC": {
           "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "5+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        }
-      ],
-      "tier2": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "8+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
+          "_id": "u1PUYNDAnksF9YPC",
+          "_key": "u1PUYNDAnksF9YPC",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "5+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "8+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "11+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
         },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 3"
+        "m4KxqQP6DOsmmyEd": {
+          "type": "forced",
+          "_id": "m4KxqQP6DOsmmyEd",
+          "_key": "m4KxqQP6DOsmmyEd",
+          "name": "",
+          "forced": {
+            "tier1": null,
+            "tier2": {
+              "movement": [
+                "push"
+              ],
+              "distance": "3",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "push"
+              ],
+              "distance": "5",
+              "display": "{{forced}}"
+            }
+          }
         }
-      ],
-      "tier3": [
-        {
-          "type": "damage",
-          "types": [
-            null
-          ],
-          "value": "11+@chr",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": ""
-        },
-        {
-          "type": "ae",
-          "potency": {
-            "enabled": false,
-            "characteristic": null,
-            "value": null,
-            "display": null
-          },
-          "display": " push 5"
-        }
-      ],
-      "potencyCharacteristic": "reason"
+      }
     },
     "effect": "You can choose to have this ability deal sonic damage. Additionally, you can use this ability on the same target for the next 2 rounds without spending drama.",
     "spend": {
       "value": null,
       "text": ""
-    }
+    },
+    "story": "Your performance travels and doesn’t stop moving until your audience is completely rocked."
   },
   "effects": [
 
@@ -138,7 +132,7 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-15!astring",
-  "_id": "troubadour-ability-15",
+  "_id": "ubadourability15",
   "category": "heroic",
   "resource": 7
 }
