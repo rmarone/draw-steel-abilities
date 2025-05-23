@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "MCBNnpSN2YwNl4E1": {
+            "GwVIUear9oJoNR23": {
               "type": "damage",
-              "_id": "MCBNnpSN2YwNl4E1",
-              "_key": "MCBNnpSN2YwNl4E1",
+              "_id": "GwVIUear9oJoNR23",
+              "_key": "GwVIUear9oJoNR23",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "KnMuZVNGdViSuV6W": {
+            "5UItmz5Vcduz167Z": {
               "type": "forced",
-              "_id": "KnMuZVNGdViSuV6W",
-              "_key": "KnMuZVNGdViSuV6W",
+              "_id": "5UItmz5Vcduz167Z",
+              "_key": "5UItmz5Vcduz167Z",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -211,7 +213,10 @@
             }
           }
         },
-        "effect": "A target that is force moved into an obstacle is M<3 bleeding (save ends).",
+        "effect": {
+          "before": "",
+          "after": "A target that is force moved into an obstacle is M<3 bleeding (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -239,9 +244,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur4aaaaaaa.inotaur4feature1",
-      "_id": "inotaur4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur4feature1"
     },
     {
       "name": "Minotaur Sense",

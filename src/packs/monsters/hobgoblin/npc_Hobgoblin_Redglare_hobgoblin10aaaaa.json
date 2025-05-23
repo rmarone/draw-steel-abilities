@@ -125,6 +125,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "FeC1OfFbepppO6TQ": {
+            "bxPPXFBu4RmRE7Ww": {
               "type": "damage",
-              "_id": "FeC1OfFbepppO6TQ",
-              "_key": "FeC1OfFbepppO6TQ",
+              "_id": "bxPPXFBu4RmRE7Ww",
+              "_key": "bxPPXFBu4RmRE7Ww",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "gqNqGUyYJzfWhMgr": {
+            "3wDfVUxycnSrrpPu": {
               "type": "applied",
-              "_id": "gqNqGUyYJzfWhMgr",
-              "_key": "gqNqGUyYJzfWhMgr",
+              "_id": "3wDfVUxycnSrrpPu",
+              "_key": "3wDfVUxycnSrrpPu",
               "name": "",
               "applied": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin10aaaaa.hobgoblin102aaaa",
-      "_id": "hobgoblin102aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin102aaaa"
     },
     {
       "name": "Glare of the Old Judgements",
@@ -266,6 +269,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -286,10 +291,10 @@
             ]
           },
           "effects": {
-            "EZUWGS6ebePMhGCW": {
+            "80zpE1EPmvSmgoAY": {
               "type": "damage",
-              "_id": "EZUWGS6ebePMhGCW",
-              "_key": "EZUWGS6ebePMhGCW",
+              "_id": "80zpE1EPmvSmgoAY",
+              "_key": "80zpE1EPmvSmgoAY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -307,10 +312,10 @@
                 "tier3": null
               }
             },
-            "WQMozIUI6wCp2451": {
+            "AE7orJk8KV58o1CQ": {
               "type": "applied",
-              "_id": "WQMozIUI6wCp2451",
-              "_key": "WQMozIUI6wCp2451",
+              "_id": "AE7orJk8KV58o1CQ",
+              "_key": "AE7orJk8KV58o1CQ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -332,7 +337,10 @@
             }
           }
         },
-        "effect": "A judged target takes 10 corruption damage for each turn they’ve taken during the encounter. The target then regains 5 Stamina for each recovery they enabled a creature to spend during the encounter.",
+        "effect": {
+          "before": "",
+          "after": "A judged target takes 10 corruption damage for each turn they’ve taken during the encounter. The target then regains 5 Stamina for each recovery they enabled a creature to spend during the encounter."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -360,9 +368,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin10aaaaa.hobgoblin103aaaa",
-      "_id": "hobgoblin103aaaa",
-      "category": "heroic",
-      "resource": 5
+      "_id": "hobgoblin103aaaa"
     },
     {
       "name": "Infernal Ichor",

@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "rjjAcIu5XzfxcFOl": {
+        "9izh69gJKnJgCBUo": {
           "type": "damage",
-          "_id": "rjjAcIu5XzfxcFOl",
-          "_key": "rjjAcIu5XzfxcFOl",
+          "_id": "9izh69gJKnJgCBUo",
+          "_key": "9izh69gJKnJgCBUo",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "NDy0btv44iuw7AzU": {
+        "v7FdFVm7m7y6xLIj": {
           "type": "applied",
-          "_id": "NDy0btv44iuw7AzU",
-          "_key": "NDy0btv44iuw7AzU",
+          "_id": "v7FdFVm7m7y6xLIj",
+          "_key": "v7FdFVm7m7y6xLIj",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-8!astring",
-  "_id": "conduitability8a",
-  "category": "signature",
-  "resource": null
+  "_id": "conduitability8a"
 }

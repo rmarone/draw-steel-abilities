@@ -16,6 +16,8 @@
       "telepathy"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "nib9fOvcgtbsi7R9": {
+        "yMRiJjEsmImY0gXP": {
           "type": "damage",
-          "_id": "nib9fOvcgtbsi7R9",
-          "_key": "nib9fOvcgtbsi7R9",
+          "_id": "yMRiJjEsmImY0gXP",
+          "_key": "yMRiJjEsmImY0gXP",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "q1qV0Gs5JamoZeU6": {
+        "4X2nMsawEpLOSAqK": {
           "type": "forced",
-          "_id": "q1qV0Gs5JamoZeU6",
-          "_key": "q1qV0Gs5JamoZeU6",
+          "_id": "4X2nMsawEpLOSAqK",
+          "_key": "4X2nMsawEpLOSAqK",
           "name": "",
           "forced": {
             "tier1": null,
@@ -102,7 +104,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -130,7 +135,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-5!astring",
-  "_id": "talentability5aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability5aa"
 }

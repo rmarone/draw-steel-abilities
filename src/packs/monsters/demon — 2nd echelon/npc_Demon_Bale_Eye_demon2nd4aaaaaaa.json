@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "MAubO0AWl2CA6MHI": {
+            "shiZocYibbqjBSyU": {
               "type": "damage",
-              "_id": "MAubO0AWl2CA6MHI",
-              "_key": "MAubO0AWl2CA6MHI",
+              "_id": "shiZocYibbqjBSyU",
+              "_key": "shiZocYibbqjBSyU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The target has corruption weakness 5 (EoT).",
+        "effect": {
+          "before": "",
+          "after": "The target has corruption weakness 5 (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd4aaaaaaa.emon2nd4feature1",
-      "_id": "emon2nd4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd4feature1"
     },
     {
       "name": "Demonwarp Tears",
@@ -235,6 +238,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -255,10 +260,10 @@
             ]
           },
           "effects": {
-            "dnP0ii2yIeZL6TS0": {
+            "A2DTKiiremNzh6SG": {
               "type": "applied",
-              "_id": "dnP0ii2yIeZL6TS0",
-              "_key": "dnP0ii2yIeZL6TS0",
+              "_id": "A2DTKiiremNzh6SG",
+              "_key": "A2DTKiiremNzh6SG",
               "name": "",
               "applied": {
                 "tier1": {
@@ -286,7 +291,10 @@
             }
           }
         },
-        "effect": "A warped creature has all of their characteristic scores reversed. A score of +1 becomes -1, -2 becomes +2, etc.",
+        "effect": {
+          "before": "",
+          "after": "A warped creature has all of their characteristic scores reversed. A score of +1 becomes -1, -2 becomes +2, etc."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -314,9 +322,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd4aaaaaaa.emon2nd4feature2",
-      "_id": "emon2nd4feature2",
-      "category": "heroic",
-      "resource": 5
+      "_id": "emon2nd4feature2"
     },
     {
       "name": "Lethe",

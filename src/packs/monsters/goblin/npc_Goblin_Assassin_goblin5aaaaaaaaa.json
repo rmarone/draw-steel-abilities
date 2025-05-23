@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "KTcDpaVL9niCRsbq": {
+            "KmS49cDPBEzlv6Mu": {
               "type": "damage",
-              "_id": "KTcDpaVL9niCRsbq",
-              "_key": "KTcDpaVL9niCRsbq",
+              "_id": "KmS49cDPBEzlv6Mu",
+              "_key": "KmS49cDPBEzlv6Mu",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "This ability deals an additional 2 damage if the scoundrel has an edge on the power roll.",
+        "effect": {
+          "before": "",
+          "after": "This ability deals an additional 2 damage if the scoundrel has an edge on the power roll."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin5aaaaaaaaa.goblin5feature1a",
-      "_id": "goblin5feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin5feature1a"
     },
     {
       "name": "Shadow Chains",
@@ -235,6 +238,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -255,10 +260,10 @@
             ]
           },
           "effects": {
-            "U89No1UjqzLy718d": {
+            "RDiixrNJjqcsn4Wh": {
               "type": "damage",
-              "_id": "U89No1UjqzLy718d",
-              "_key": "U89No1UjqzLy718d",
+              "_id": "RDiixrNJjqcsn4Wh",
+              "_key": "RDiixrNJjqcsn4Wh",
               "name": "",
               "damage": {
                 "tier1": {
@@ -296,10 +301,10 @@
                 }
               }
             },
-            "9xOIIo2kEEt51Bhm": {
+            "KDIvJOmUks70Kbgz": {
               "type": "applied",
-              "_id": "9xOIIo2kEEt51Bhm",
-              "_key": "9xOIIo2kEEt51Bhm",
+              "_id": "KDIvJOmUks70Kbgz",
+              "_key": "KDIvJOmUks70Kbgz",
               "name": "",
               "applied": {
                 "tier1": {
@@ -327,7 +332,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -355,9 +363,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin5aaaaaaaaa.goblin5feature2a",
-      "_id": "goblin5feature2a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "goblin5feature2a"
     },
     {
       "name": "Crafty",

@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "4pqqzRvZyytDLRUr": {
+            "fcW8ukkTexGPFdXr": {
               "type": "damage",
-              "_id": "4pqqzRvZyytDLRUr",
-              "_key": "4pqqzRvZyytDLRUr",
+              "_id": "fcW8ukkTexGPFdXr",
+              "_key": "fcW8ukkTexGPFdXr",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "Fpx9c0fPlxZTkXWg": {
+            "KxcmECzFo7aLXRsN": {
               "type": "forced",
-              "_id": "Fpx9c0fPlxZTkXWg",
-              "_key": "Fpx9c0fPlxZTkXWg",
+              "_id": "KxcmECzFo7aLXRsN",
+              "_key": "KxcmECzFo7aLXRsN",
               "name": "",
               "forced": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "A target is grabbed if they are pulled adjacent to the sunderer.",
+        "effect": {
+          "before": "",
+          "after": "A target is grabbed if they are pulled adjacent to the sunderer."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur2aaaaaaa.inotaur2feature1",
-      "_id": "inotaur2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur2feature1"
     },
     {
       "name": "Fearsome Bay",
@@ -265,6 +268,8 @@
           "area"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -285,10 +290,10 @@
             ]
           },
           "effects": {
-            "hEcw3EfDwhNo5KEM": {
+            "zjkNRKfPwBQWKANb": {
               "type": "applied",
-              "_id": "hEcw3EfDwhNo5KEM",
-              "_key": "hEcw3EfDwhNo5KEM",
+              "_id": "zjkNRKfPwBQWKANb",
+              "_key": "zjkNRKfPwBQWKANb",
               "name": "",
               "applied": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "The minotaur has damage immunity 2 and deals an additional 5 damage with their strikes until the end of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "The minotaur has damage immunity 2 and deals an additional 5 damage with their strikes until the end of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur2aaaaaaa.inotaur2feature2",
-      "_id": "inotaur2feature2",
-      "category": "heroic",
-      "resource": 5
+      "_id": "inotaur2feature2"
     },
     {
       "name": "Disemboweling Horns",
@@ -367,6 +373,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -387,10 +395,10 @@
             ]
           },
           "effects": {
-            "fWyBXNqt7IIaT8AI": {
+            "GSMobe3Z3DSCaupC": {
               "type": "damage",
-              "_id": "fWyBXNqt7IIaT8AI",
-              "_key": "fWyBXNqt7IIaT8AI",
+              "_id": "GSMobe3Z3DSCaupC",
+              "_key": "GSMobe3Z3DSCaupC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -428,10 +436,10 @@
                 }
               }
             },
-            "vxZfWxxk613ZLkAz": {
+            "o6EpOfXJ8Nz8MjE9": {
               "type": "forced",
-              "_id": "vxZfWxxk613ZLkAz",
-              "_key": "vxZfWxxk613ZLkAz",
+              "_id": "o6EpOfXJ8Nz8MjE9",
+              "_key": "o6EpOfXJ8Nz8MjE9",
               "name": "",
               "forced": {
                 "tier1": {
@@ -457,10 +465,10 @@
                 }
               }
             },
-            "DxbxqOIA1kJw5TtS": {
+            "QW6eRj6FuEkAQtta": {
               "type": "applied",
-              "_id": "DxbxqOIA1kJw5TtS",
-              "_key": "DxbxqOIA1kJw5TtS",
+              "_id": "QW6eRj6FuEkAQtta",
+              "_key": "QW6eRj6FuEkAQtta",
               "name": "",
               "applied": {
                 "tier1": {
@@ -488,7 +496,10 @@
             }
           }
         },
-        "effect": "The target takes 1d6 damage at the start of each of their turns while bleeding from this ability.",
+        "effect": {
+          "before": "",
+          "after": "The target takes 1d6 damage at the start of each of their turns while bleeding from this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -516,9 +527,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur2aaaaaaa.inotaur2feature3",
-      "_id": "inotaur2feature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "inotaur2feature3"
     },
     {
       "name": "Retaliatory Gore",
@@ -536,6 +545,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -555,7 +566,10 @@
           },
           "effects": null
         },
-        "effect": "The sunderer charges the target using Spiked Maul.",
+        "effect": {
+          "before": "",
+          "after": "The sunderer charges the target using Spiked Maul."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -583,9 +597,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur2aaaaaaa.inotaur2feature4",
-      "_id": "inotaur2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur2feature4"
     },
     {
       "name": "Minotaur Sense",

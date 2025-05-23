@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "CoJaSEn7m40RGaWl": {
+        "NuTQzs98rMki1P4C": {
           "type": "damage",
-          "_id": "CoJaSEn7m40RGaWl",
-          "_key": "CoJaSEn7m40RGaWl",
+          "_id": "NuTQzs98rMki1P4C",
+          "_key": "NuTQzs98rMki1P4C",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "LkkQb8IdpwKPFRYU": {
+        "kJxgFyyQ2WVCwivy": {
           "type": "forced",
-          "_id": "LkkQb8IdpwKPFRYU",
-          "_key": "LkkQb8IdpwKPFRYU",
+          "_id": "kJxgFyyQ2WVCwivy",
+          "_key": "kJxgFyyQ2WVCwivy",
           "name": "",
           "forced": {
             "tier1": {
@@ -107,10 +109,10 @@
             }
           }
         },
-        "Ew0TRCgX37VLug3M": {
+        "LgkvYw3ktrN4FFCx": {
           "type": "applied",
-          "_id": "Ew0TRCgX37VLug3M",
-          "_key": "Ew0TRCgX37VLug3M",
+          "_id": "LgkvYw3ktrN4FFCx",
+          "_key": "LgkvYw3ktrN4FFCx",
           "name": "",
           "applied": {
             "tier1": null,
@@ -126,7 +128,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -154,7 +159,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-sword-and-board-signature!astring",
-  "_id": "ndboardsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "ndboardsignature"
 }

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "23MNg1ymdEQskFTl": {
+            "ISGBfR8na0teJtCB": {
               "type": "damage",
-              "_id": "23MNg1ymdEQskFTl",
-              "_key": "23MNg1ymdEQskFTl",
+              "_id": "ISGBfR8na0teJtCB",
+              "_key": "ISGBfR8na0teJtCB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,10 +190,10 @@
                 }
               }
             },
-            "duIcw9Dj2tSCvp5F": {
+            "edLaNq85PchitoRk": {
               "type": "applied",
-              "_id": "duIcw9Dj2tSCvp5F",
-              "_key": "duIcw9Dj2tSCvp5F",
+              "_id": "edLaNq85PchitoRk",
+              "_key": "edLaNq85PchitoRk",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -207,7 +209,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -235,9 +240,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold11aaaaaaaa.kobold11feature1",
-      "_id": "kobold11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold11feature1"
     },
     {
       "name": "Shield, Boss?",

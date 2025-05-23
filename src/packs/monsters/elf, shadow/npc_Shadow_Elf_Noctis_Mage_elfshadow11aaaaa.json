@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "Aqc4oVfftauX4vnq": {
+            "xuRue3Ddn8DijFZf": {
               "type": "damage",
-              "_id": "Aqc4oVfftauX4vnq",
-              "_key": "Aqc4oVfftauX4vnq",
+              "_id": "xuRue3Ddn8DijFZf",
+              "_key": "xuRue3Ddn8DijFZf",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The target has a bane on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "The target has a bane on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow11aaaaa.shadow11feature1",
-      "_id": "shadow11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "shadow11feature1"
     },
     {
       "name": "Enemies in the Dark",
@@ -237,6 +240,8 @@
           "strike"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -257,10 +262,10 @@
             ]
           },
           "effects": {
-            "AnekPNJ5eg7XyxtS": {
+            "DfK77JaMk2oqPVVN": {
               "type": "damage",
-              "_id": "AnekPNJ5eg7XyxtS",
-              "_key": "AnekPNJ5eg7XyxtS",
+              "_id": "DfK77JaMk2oqPVVN",
+              "_key": "DfK77JaMk2oqPVVN",
               "name": "",
               "damage": {
                 "tier1": {
@@ -298,10 +303,10 @@
                 }
               }
             },
-            "OoJN1ZhfT9Tt9grz": {
+            "8X8SY8BVRNHvf5jj": {
               "type": "applied",
-              "_id": "OoJN1ZhfT9Tt9grz",
-              "_key": "OoJN1ZhfT9Tt9grz",
+              "_id": "8X8SY8BVRNHvf5jj",
+              "_key": "8X8SY8BVRNHvf5jj",
               "name": "",
               "applied": {
                 "tier1": {
@@ -329,7 +334,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -357,9 +365,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow11aaaaa.shadow11feature2",
-      "_id": "shadow11feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "shadow11feature2"
     },
     {
       "name": "Of the Umbra",

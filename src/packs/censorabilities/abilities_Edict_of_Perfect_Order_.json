@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "Until the end of the encounter or you are dying, whenever a target uses an ability that requires Malice, they take holy damage equal to three times your Presence score. A target judged by you takes an additional 2d6 holy damage.",
+    "effect": {
+      "before": "",
+      "after": "Until the end of the encounter or you are dying, whenever a target uses an ability that requires Malice, they take holy damage equal to three times your Presence score. A target judged by you takes an additional 2d6 holy damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-14!astring",
-  "_id": "censorability14a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "censorability14a"
 }

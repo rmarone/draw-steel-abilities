@@ -17,6 +17,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "wall",
@@ -36,7 +38,10 @@
       },
       "effects": null
     },
-    "effect": "The wall lasts until the start of your next turn, and can be placed in occupied squares. Creatures can enter and pass through the wall. When an enemy enters or starts their turn in a square of the wall, they take fire damage equal to your Reason score.",
+    "effect": {
+      "before": "",
+      "after": "The wall lasts until the start of your next turn, and can be placed in occupied squares. Creatures can enter and pass through the wall. When an enemy enters or starts their turn in a square of the wall, they take fire damage equal to your Reason score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -64,7 +69,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-24!astring",
-  "_id": "ntalistability24",
-  "category": "heroic",
-  "resource": 7
+  "_id": "ntalistability24"
 }

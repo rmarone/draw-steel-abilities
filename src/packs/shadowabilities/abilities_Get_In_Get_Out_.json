@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "fCSWIzgxLhL0vwI5": {
+        "J0L4A25UPPbY3Zpe": {
           "type": "damage",
-          "_id": "fCSWIzgxLhL0vwI5",
-          "_key": "fCSWIzgxLhL0vwI5",
+          "_id": "J0L4A25UPPbY3Zpe",
+          "_key": "J0L4A25UPPbY3Zpe",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "You can shift up to your speed, dividing that movement before or after your strike as desired.",
+    "effect": {
+      "before": "",
+      "after": "You can shift up to your speed, dividing that movement before or after your strike as desired."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-7!astring",
-  "_id": "shadowability7aa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "shadowability7aa"
 }

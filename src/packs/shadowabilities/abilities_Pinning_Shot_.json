@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "CN8Cn4m77NlbDfBd": {
+        "m3FiyBfoi5QRhC23": {
           "type": "damage",
-          "_id": "CN8Cn4m77NlbDfBd",
-          "_key": "CN8Cn4m77NlbDfBd",
+          "_id": "m3FiyBfoi5QRhC23",
+          "_key": "m3FiyBfoi5QRhC23",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "bBd3SvVstEfnu6Vn": {
+        "duucnOev0yaMWqTE": {
           "type": "applied",
-          "_id": "bBd3SvVstEfnu6Vn",
-          "_key": "bBd3SvVstEfnu6Vn",
+          "_id": "duucnOev0yaMWqTE",
+          "_key": "duucnOev0yaMWqTE",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-15!astring",
-  "_id": "shadowability15a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "shadowability15a"
 }

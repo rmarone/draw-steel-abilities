@@ -122,6 +122,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "4q94XGWaE7IbPTF9": {
+            "pjklAwBT3uo2OwXM": {
               "type": "applied",
-              "_id": "4q94XGWaE7IbPTF9",
-              "_key": "4q94XGWaE7IbPTF9",
+              "_id": "pjklAwBT3uo2OwXM",
+              "_key": "pjklAwBT3uo2OwXM",
               "name": "",
               "applied": {
                 "tier1": {
@@ -173,7 +175,10 @@
             }
           }
         },
-        "effect": "A charmed creature moves up to their speed and makes a free strike against an enemy of Xorannox’s choice as a free triggered action, and then is no longer charmed.",
+        "effect": {
+          "before": "",
+          "after": "A charmed creature moves up to their speed and makes a free strike against an enemy of Xorannox’s choice as a free triggered action, and then is no longer charmed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -201,9 +206,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox2aaaaaaa.orannox2feature1",
-      "_id": "orannox2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox2feature1"
     },
     {
       "name": "Psionic Barrier",

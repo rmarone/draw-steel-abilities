@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "c1vG9SAIyi4a2zTg": {
+            "BSdYa5MPQeTDdtcJ": {
               "type": "damage",
-              "_id": "c1vG9SAIyi4a2zTg",
-              "_key": "c1vG9SAIyi4a2zTg",
+              "_id": "BSdYa5MPQeTDdtcJ",
+              "_key": "BSdYa5MPQeTDdtcJ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "A creature within 5 squares of the death acolyte regains 1 Stamina.",
+        "effect": {
+          "before": "",
+          "after": "A creature within 5 squares of the death acolyte regains 1 Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human5aaaaaaaaaa.human5feature3aa",
-      "_id": "human5feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human5feature3aa"
     },
     {
       "name": "Supernatural Insight",

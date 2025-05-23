@@ -122,6 +122,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "9bUBW53jRqOoxmNA": {
+            "QMXtqhF05Qrh6Hyb": {
               "type": "damage",
-              "_id": "9bUBW53jRqOoxmNA",
-              "_key": "9bUBW53jRqOoxmNA",
+              "_id": "QMXtqhF05Qrh6Hyb",
+              "_key": "QMXtqhF05Qrh6Hyb",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "Z6SXNRlnk53z1rq7": {
+            "hXhljwhu6RLAnnFZ": {
               "type": "applied",
-              "_id": "Z6SXNRlnk53z1rq7",
-              "_key": "Z6SXNRlnk53z1rq7",
+              "_id": "hXhljwhu6RLAnnFZ",
+              "_key": "hXhljwhu6RLAnnFZ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead7aaaaaaaaa.undead7feature2a",
-      "_id": "undead7feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead7feature2a"
     },
     {
       "name": "Hidden Movement",
@@ -262,6 +265,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -281,7 +286,10 @@
           },
           "effects": null
         },
-        "effect": "The specter turns invisible, moves up to their speed, and becomes visible again.",
+        "effect": {
+          "before": "",
+          "after": "The specter turns invisible, moves up to their speed, and becomes visible again."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -309,9 +317,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead7aaaaaaaaa.undead7feature3a",
-      "_id": "undead7feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead7feature3a"
     },
     {
       "name": "Corruptive Phasing",

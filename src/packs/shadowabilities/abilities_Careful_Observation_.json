@@ -14,6 +14,8 @@
 
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "special",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "As long as you remain within distance of the target, maintain line of effect to them, and strike no other creature first, you gain a surge and an edge on the next strike you make against the assessed creature.",
+    "effect": {
+      "before": "",
+      "after": "As long as you remain within distance of the target, maintain line of effect to them, and strike no other creature first, you gain a surge and an edge on the next strike you make against the assessed creature."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-3-1!astring",
-  "_id": "shadow31aaaaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "shadow31aaaaaaaa"
 }

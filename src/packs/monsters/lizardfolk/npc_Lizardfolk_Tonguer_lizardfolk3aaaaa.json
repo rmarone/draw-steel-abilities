@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "dCcfiEoBbpUY4lXP": {
+            "n5CF4wRYZUvqdFcF": {
               "type": "damage",
-              "_id": "dCcfiEoBbpUY4lXP",
-              "_key": "dCcfiEoBbpUY4lXP",
+              "_id": "n5CF4wRYZUvqdFcF",
+              "_key": "n5CF4wRYZUvqdFcF",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "YKUacMxdLYrDqh2u": {
+            "QPl6BTEOJLGEbj9w": {
               "type": "forced",
-              "_id": "YKUacMxdLYrDqh2u",
-              "_key": "YKUacMxdLYrDqh2u",
+              "_id": "QPl6BTEOJLGEbj9w",
+              "_key": "QPl6BTEOJLGEbj9w",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the target ends up in a space adjacent to the tonguer, they are also grabbed.",
+        "effect": {
+          "before": "",
+          "after": "If the target ends up in a space adjacent to the tonguer, they are also grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk3aaaaa.ardfolk3feature1",
-      "_id": "ardfolk3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk3feature1"
     },
     {
       "name": "Reptilian Escape",

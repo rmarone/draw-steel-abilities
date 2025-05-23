@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "l7NQD8K8JZPNzX2A": {
+            "6yVJuWcUQRxlT4wY": {
               "type": "damage",
-              "_id": "l7NQD8K8JZPNzX2A",
-              "_key": "l7NQD8K8JZPNzX2A",
+              "_id": "6yVJuWcUQRxlT4wY",
+              "_key": "6yVJuWcUQRxlT4wY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "ZmAEtOomBpTchkmZ": {
+            "kbx8iAVGG76Tsxgd": {
               "type": "forced",
-              "_id": "ZmAEtOomBpTchkmZ",
-              "_key": "ZmAEtOomBpTchkmZ",
+              "_id": "kbx8iAVGG76Tsxgd",
+              "_key": "kbx8iAVGG76Tsxgd",
               "name": "",
               "forced": {
                 "tier1": {
@@ -213,10 +215,10 @@
                 }
               }
             },
-            "jlFEEU6YTPEBHacF": {
+            "1hj88K38I6CcAfzk": {
               "type": "applied",
-              "_id": "jlFEEU6YTPEBHacF",
-              "_key": "jlFEEU6YTPEBHacF",
+              "_id": "1hj88K38I6CcAfzk",
+              "_key": "1hj88K38I6CcAfzk",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -232,7 +234,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pushed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pushed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -260,9 +265,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf10aaaaaaaaa.dwarf10feature1a",
-      "_id": "dwarf10feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf10feature1a"
     },
     {
       "name": "Concussive Shockwave",
@@ -281,6 +284,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -301,10 +306,10 @@
             ]
           },
           "effects": {
-            "UNUxQfHNXTtGqANO": {
+            "kOP7aEVz2gv5bjy5": {
               "type": "damage",
-              "_id": "UNUxQfHNXTtGqANO",
-              "_key": "UNUxQfHNXTtGqANO",
+              "_id": "kOP7aEVz2gv5bjy5",
+              "_key": "kOP7aEVz2gv5bjy5",
               "name": "",
               "damage": {
                 "tier1": {
@@ -342,10 +347,10 @@
                 }
               }
             },
-            "DTEn2u7hiGUWoglU": {
+            "ZoRIb2VEWUVJreMI": {
               "type": "forced",
-              "_id": "DTEn2u7hiGUWoglU",
-              "_key": "DTEn2u7hiGUWoglU",
+              "_id": "ZoRIb2VEWUVJreMI",
+              "_key": "ZoRIb2VEWUVJreMI",
               "name": "",
               "forced": {
                 "tier1": {
@@ -371,10 +376,10 @@
                 }
               }
             },
-            "uRfm5oYII3fDKc9F": {
+            "vfYW0uc1M9juqomI": {
               "type": "applied",
-              "_id": "uRfm5oYII3fDKc9F",
-              "_key": "uRfm5oYII3fDKc9F",
+              "_id": "vfYW0uc1M9juqomI",
+              "_key": "vfYW0uc1M9juqomI",
               "name": "",
               "applied": {
                 "tier1": {
@@ -402,7 +407,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pushed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pushed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -430,9 +438,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf10aaaaaaaaa.dwarf10feature2a",
-      "_id": "dwarf10feature2a",
-      "category": "heroic",
-      "resource": 5
+      "_id": "dwarf10feature2a"
     },
     {
       "name": "Escort the Prisoners",

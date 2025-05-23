@@ -126,11 +126,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "iC0cuN9aM4rl2u79": {
+            "nPANO8E6zgfPTSGv": {
               "type": "damage",
-              "_id": "iC0cuN9aM4rl2u79",
-              "_key": "iC0cuN9aM4rl2u79",
+              "_id": "nPANO8E6zgfPTSGv",
+              "_key": "nPANO8E6zgfPTSGv",
               "name": "",
               "damage": {
                 "tier1": {
@@ -189,7 +191,10 @@
             }
           }
         },
-        "effect": "The runner can shift 2 before charging while using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The runner can shift 2 before charging while using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -217,9 +222,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode2aaaaaaaa.elfwode2feature1",
-      "_id": "elfwode2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode2feature1"
     },
     {
       "name": "Masking Glamor",

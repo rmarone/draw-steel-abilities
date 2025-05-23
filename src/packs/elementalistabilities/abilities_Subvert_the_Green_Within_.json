@@ -18,6 +18,8 @@
       "void"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "D2hTZumogZjSsdES": {
+        "OHZDi04Vrtm0IpNb": {
           "type": "damage",
-          "_id": "D2hTZumogZjSsdES",
-          "_key": "D2hTZumogZjSsdES",
+          "_id": "OHZDi04Vrtm0IpNb",
+          "_key": "OHZDi04Vrtm0IpNb",
           "name": "",
           "damage": {
             "tier1": {
@@ -81,7 +83,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -109,7 +114,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-18!astring",
-  "_id": "ntalistability18",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ntalistability18"
 }

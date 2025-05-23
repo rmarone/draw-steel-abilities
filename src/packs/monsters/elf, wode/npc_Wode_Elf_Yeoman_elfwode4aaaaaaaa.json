@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "okbh3zQoJtkgt95O": {
+            "sQR9ANX2dSeEsAKo": {
               "type": "damage",
-              "_id": "okbh3zQoJtkgt95O",
-              "_key": "okbh3zQoJtkgt95O",
+              "_id": "sQR9ANX2dSeEsAKo",
+              "_key": "sQR9ANX2dSeEsAKo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "ceFPCKeZtROBP559": {
+            "dU3S1qiSIpV9j0Kg": {
               "type": "forced",
-              "_id": "ceFPCKeZtROBP559",
-              "_key": "ceFPCKeZtROBP559",
+              "_id": "dU3S1qiSIpV9j0Kg",
+              "_key": "dU3S1qiSIpV9j0Kg",
               "name": "",
               "forced": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode4aaaaaaaa.elfwode4feature1",
-      "_id": "elfwode4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode4feature1"
     },
     {
       "name": "Masking Glamor",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "LG1M1ijW21lQfXEO": {
+            "DkQcmTyFJqBIXx27": {
               "type": "damage",
-              "_id": "LG1M1ijW21lQfXEO",
-              "_key": "LG1M1ijW21lQfXEO",
+              "_id": "DkQcmTyFJqBIXx27",
+              "_key": "DkQcmTyFJqBIXx27",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "FiZnhyfFfgMOAxvX": {
+            "A2RRkxH3fiUBh0qN": {
               "type": "applied",
-              "_id": "FiZnhyfFfgMOAxvX",
-              "_key": "FiZnhyfFfgMOAxvX",
+              "_id": "A2RRkxH3fiUBh0qN",
+              "_key": "A2RRkxH3fiUBh0qN",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "This ability has a double edge if the target dealt damage to the rampart this round.",
+        "effect": {
+          "before": "",
+          "after": "This ability has a double edge if the target dealt damage to the rampart this round."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc12aaaaaaaaaaa.orc12feature1aaa",
-      "_id": "orc12feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc12feature1aaa"
     },
     {
       "name": "Castling",
@@ -257,6 +260,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The rampart moves or shifts up to their speed to a square adjacent to the target and then swamps places with the target.",
+        "effect": {
+          "before": "",
+          "after": "The rampart moves or shifts up to their speed to a square adjacent to the target and then swamps places with the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc12aaaaaaaaaaa.orc12feature2aaa",
-      "_id": "orc12feature2aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc12feature2aaa"
     },
     {
       "name": "No.",
@@ -324,6 +330,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -343,7 +351,10 @@
           },
           "effects": null
         },
-        "effect": "The rampart becomes the new target.",
+        "effect": {
+          "before": "",
+          "after": "The rampart becomes the new target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -371,9 +382,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc12aaaaaaaaaaa.orc12feature3aaa",
-      "_id": "orc12feature3aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc12feature3aaa"
     },
     {
       "name": "Relentless",

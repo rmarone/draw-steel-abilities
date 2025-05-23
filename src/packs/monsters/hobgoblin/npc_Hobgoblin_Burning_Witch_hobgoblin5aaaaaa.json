@@ -125,6 +125,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "oaLyHxOsrb6vlF8z": {
+            "k5nLSl1XvcCxTciB": {
               "type": "damage",
-              "_id": "oaLyHxOsrb6vlF8z",
-              "_key": "oaLyHxOsrb6vlF8z",
+              "_id": "k5nLSl1XvcCxTciB",
+              "_key": "k5nLSl1XvcCxTciB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "qew1Hs3SomtZOB8I": {
+            "GWODxV6DkPeMaxt0": {
               "type": "applied",
-              "_id": "qew1Hs3SomtZOB8I",
-              "_key": "qew1Hs3SomtZOB8I",
+              "_id": "GWODxV6DkPeMaxt0",
+              "_key": "GWODxV6DkPeMaxt0",
               "name": "",
               "applied": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin5aaaaaa.hobgoblin52aaaaa",
-      "_id": "hobgoblin52aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin52aaaaa"
     },
     {
       "name": "Burning Legion",
@@ -265,6 +268,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "Teleport 5. Each creature within 1 of a target where they appear takes 3 fire damage.",
+        "effect": {
+          "before": "",
+          "after": "Teleport 5. Each creature within 1 of a target where they appear takes 3 fire damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin5aaaaaa.hobgoblin53aaaaa",
-      "_id": "hobgoblin53aaaaa",
-      "category": "heroic",
-      "resource": 1
+      "_id": "hobgoblin53aaaaa"
     },
     {
       "name": "Infernal Ichor",

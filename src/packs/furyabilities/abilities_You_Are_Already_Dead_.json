@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "If the target is not a leader or solo creature, they die at the end of their next turn. If the target is a leader or solo creature, you gain three surges and can make a melee free strike against them.",
+    "effect": {
+      "before": "",
+      "after": "If the target is not a leader or solo creature, they die at the end of their next turn. If the target is a leader or solo creature, you gain three surges and can make a melee free strike against them."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-16!astring",
-  "_id": "furyability16aaa",
-  "category": "heroic",
-  "resource": 7
+  "_id": "furyability16aaa"
 }

@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "hm3qhP5c1ayAx4WP": {
+            "2FyYVG4n1R71dGBy": {
               "type": "damage",
-              "_id": "hm3qhP5c1ayAx4WP",
-              "_key": "hm3qhP5c1ayAx4WP",
+              "_id": "2FyYVG4n1R71dGBy",
+              "_key": "2FyYVG4n1R71dGBy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "vTm2W4j913McpDCT": {
+            "JUI6CyCQ2cID6i2v": {
               "type": "forced",
-              "_id": "vTm2W4j913McpDCT",
-              "_key": "vTm2W4j913McpDCT",
+              "_id": "JUI6CyCQ2cID6i2v",
+              "_key": "JUI6CyCQ2cID6i2v",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal3aaaaaaaaa.animal31aaaaaaaa",
-      "_id": "animal31aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal31aaaaaaaa"
     },
     {
       "name": "Trundle",
@@ -256,6 +259,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -275,7 +280,10 @@
           },
           "effects": null
         },
-        "effect": "The beast moves up to their speed. The beast can make a free strike on each creature that makes an opportunity attack against them during this movement.",
+        "effect": {
+          "before": "",
+          "after": "The beast moves up to their speed. The beast can make a free strike on each creature that makes an opportunity attack against them during this movement."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -303,9 +311,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal3aaaaaaaaa.animal32aaaaaaaa",
-      "_id": "animal32aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal32aaaaaaaa"
     },
     {
       "name": "Animal Rally",
@@ -323,6 +329,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -342,7 +350,10 @@
           },
           "effects": null
         },
-        "effect": "The beast moves up to their speed. If they end their turn adjacent to the triggering ally, they can pick the ally up and allow them to climb on top of the beast.",
+        "effect": {
+          "before": "",
+          "after": "The beast moves up to their speed. If they end their turn adjacent to the triggering ally, they can pick the ally up and allow them to climb on top of the beast."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -370,9 +381,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal3aaaaaaaaa.animal33aaaaaaaa",
-      "_id": "animal33aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal33aaaaaaaa"
     },
     {
       "name": "Beast of Burden",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "LDaQXCSwiHkSDmsc": {
+            "yJB2mNaM6xKNgdvL": {
               "type": "damage",
-              "_id": "LDaQXCSwiHkSDmsc",
-              "_key": "LDaQXCSwiHkSDmsc",
+              "_id": "yJB2mNaM6xKNgdvL",
+              "_key": "yJB2mNaM6xKNgdvL",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "w9SeCo5tgK2SPLnt": {
+            "EpxOL67ielWyydxG": {
               "type": "applied",
-              "_id": "w9SeCo5tgK2SPLnt",
-              "_key": "w9SeCo5tgK2SPLnt",
+              "_id": "EpxOL67ielWyydxG",
+              "_key": "EpxOL67ielWyydxG",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "A creature restrained by this attack moves along with the slaughter demon until the condition ends. The slaughter demon can have up to 6 creatures or objects restrained on their weapons.",
+        "effect": {
+          "before": "",
+          "after": "A creature restrained by this attack moves along with the slaughter demon until the condition ends. The slaughter demon can have up to 6 creatures or objects restrained on their weapons."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin14aaaaa.hobgoblin142aaaa",
-      "_id": "hobgoblin142aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin142aaaa"
     },
     {
       "name": "Tail Stinger",
@@ -260,6 +263,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "ngpBA06GJ8oTibsg": {
+            "Ze7cQPGBSlEOeUUS": {
               "type": "damage",
-              "_id": "ngpBA06GJ8oTibsg",
-              "_key": "ngpBA06GJ8oTibsg",
+              "_id": "Ze7cQPGBSlEOeUUS",
+              "_key": "Ze7cQPGBSlEOeUUS",
               "name": "",
               "damage": {
                 "tier1": {
@@ -321,10 +326,10 @@
                 }
               }
             },
-            "pVbmt7rqeGI6Yh1t": {
+            "fAIBNdc74RuqAxgA": {
               "type": "applied",
-              "_id": "pVbmt7rqeGI6Yh1t",
-              "_key": "pVbmt7rqeGI6Yh1t",
+              "_id": "fAIBNdc74RuqAxgA",
+              "_key": "fAIBNdc74RuqAxgA",
               "name": "",
               "applied": {
                 "tier1": {
@@ -352,7 +357,10 @@
             }
           }
         },
-        "effect": "A target weakened by this ability has damage weakness 3 until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A target weakened by this ability has damage weakness 3 until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -380,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin14aaaaa.hobgoblin143aaaa",
-      "_id": "hobgoblin143aaaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "hobgoblin143aaaa"
     },
     {
       "name": "Drag Below",
@@ -402,6 +408,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -421,7 +429,10 @@
           },
           "effects": null
         },
-        "effect": "The slaughter demon makes a free strike against the target and burrows up to their speed. The target is pulled the same number of squares the slaughter demon burrows into, including vertically.",
+        "effect": {
+          "before": "",
+          "after": "The slaughter demon makes a free strike against the target and burrows up to their speed. The target is pulled the same number of squares the slaughter demon burrows into, including vertically."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -449,9 +460,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin14aaaaa.hobgoblin144aaaa",
-      "_id": "hobgoblin144aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin144aaaa"
     },
     {
       "name": "Devour Soul",
@@ -469,6 +478,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -488,7 +499,10 @@
           },
           "effects": null
         },
-        "effect": "The target can’t be brought back to life. The slaughter demon gains an edge on all power rolls for the rest of the encounter.",
+        "effect": {
+          "before": "",
+          "after": "The target can’t be brought back to life. The slaughter demon gains an edge on all power rolls for the rest of the encounter."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -516,9 +530,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin14aaaaa.hobgoblin145aaaa",
-      "_id": "hobgoblin145aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin145aaaa"
     },
     {
       "name": "Soulsight",

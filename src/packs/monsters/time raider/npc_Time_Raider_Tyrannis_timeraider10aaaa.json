@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 2,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "WzT2Q0X4YYBTdVSH": {
+            "7wa5xXZAxyY6uoA3": {
               "type": "damage",
-              "_id": "WzT2Q0X4YYBTdVSH",
-              "_key": "WzT2Q0X4YYBTdVSH",
+              "_id": "7wa5xXZAxyY6uoA3",
+              "_key": "7wa5xXZAxyY6uoA3",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "Each target's speed is reduced by 2 until the start of the tyrannis' next turn.",
+        "effect": {
+          "before": "",
+          "after": "Each target's speed is reduced by 2 until the start of the tyrannis' next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature1",
-      "_id": "raider10feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "raider10feature1"
     },
     {
       "name": "Air Raid!",
@@ -237,6 +240,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -256,7 +261,10 @@
           },
           "effects": null
         },
-        "effect": "Each target is psionically lifted into the air, flies up to their speed and makes a free strike. If a target doesn't land in an unoccupied space, they fall.",
+        "effect": {
+          "before": "",
+          "after": "Each target is psionically lifted into the air, flies up to their speed and makes a free strike. If a target doesn't land in an unoccupied space, they fall."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -284,9 +292,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature2",
-      "_id": "raider10feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "raider10feature2"
     },
     {
       "name": "Precog Reflexes",
@@ -305,6 +311,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -324,7 +332,10 @@
           },
           "effects": null
         },
-        "effect": "The strike has a bane. After the strike resolves, the tyrannis makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The strike has a bane. After the strike resolves, the tyrannis makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -352,9 +363,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature3",
-      "_id": "raider10feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "raider10feature3"
     },
     {
       "name": "End Effect",
@@ -399,6 +408,8 @@
           "ranged"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -418,7 +429,10 @@
           },
           "effects": null
         },
-        "effect": "Each target gains 15 temporary Stamina and has their speed doubled until the end of their turn.",
+        "effect": {
+          "before": "",
+          "after": "Each target gains 15 temporary Stamina and has their speed doubled until the end of their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -446,9 +460,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature7",
-      "_id": "raider10feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "raider10feature7"
     },
     {
       "name": "Stick to the Plan!",
@@ -466,6 +478,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -485,7 +499,10 @@
           },
           "effects": null
         },
-        "effect": "Each target can end one effect or condition affecting them or can move up to their speed.",
+        "effect": {
+          "before": "",
+          "after": "Each target can end one effect or condition affecting them or can move up to their speed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -513,9 +530,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature8",
-      "_id": "raider10feature8",
-      "category": "signature",
-      "resource": null
+      "_id": "raider10feature8"
     },
     {
       "name": "Armageddon",
@@ -533,6 +548,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -552,7 +569,10 @@
           },
           "effects": null
         },
-        "effect": "The tyrannis fires a sensor mine into each unoccupied square in the burst and a gravity well (see Gravity Well) into one of their own squares. Whenever an enemy moves into a square with a sensor mine in it, the mine explodes, dealing 3 damage to the enemy.",
+        "effect": {
+          "before": "",
+          "after": "The tyrannis fires a sensor mine into each unoccupied square in the burst and a gravity well (see Gravity Well) into one of their own squares. Whenever an enemy moves into a square with a sensor mine in it, the mine explodes, dealing 3 damage to the enemy."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -580,9 +600,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider10aaaa.raider10feature9",
-      "_id": "raider10feature9",
-      "category": "signature",
-      "resource": null
+      "_id": "raider10feature9"
     }
   ],
   "effects": [

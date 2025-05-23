@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "no action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "AMZ4kw7Zet8nXul6": {
+        "mdvAIyoH5i5mUX32": {
           "type": "applied",
-          "_id": "AMZ4kw7Zet8nXul6",
-          "_key": "AMZ4kw7Zet8nXul6",
+          "_id": "mdvAIyoH5i5mUX32",
+          "_key": "mdvAIyoH5i5mUX32",
           "name": "",
           "applied": {
             "tier1": {
@@ -68,7 +70,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -96,7 +101,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-1-2!astring",
-  "_id": "troubadoursub312",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub312"
 }

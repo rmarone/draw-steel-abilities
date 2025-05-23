@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "UKIEfPOmJmhMmUgt": {
+        "QtVrP9rIR85jYfdY": {
           "type": "damage",
-          "_id": "UKIEfPOmJmhMmUgt",
-          "_key": "UKIEfPOmJmhMmUgt",
+          "_id": "QtVrP9rIR85jYfdY",
+          "_key": "QtVrP9rIR85jYfdY",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score.",
+    "effect": {
+      "before": "",
+      "after": "Each enemy adjacent to the target is pushed away from the target up to a number of squares equal to your Presence score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-4!astring",
-  "_id": "censorability4aa",
-  "category": "signature",
-  "resource": null
+  "_id": "censorability4aa"
 }

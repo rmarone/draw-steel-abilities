@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "68vpKwPycZjdyfoW": {
+        "FArKVJ8RRJKBuTTr": {
           "type": "damage",
-          "_id": "68vpKwPycZjdyfoW",
-          "_key": "68vpKwPycZjdyfoW",
+          "_id": "FArKVJ8RRJKBuTTr",
+          "_key": "FArKVJ8RRJKBuTTr",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "faHqlRzvBxHF72tn": {
+        "3bLDEGcPWZr2qodB": {
           "type": "forced",
-          "_id": "faHqlRzvBxHF72tn",
-          "_key": "faHqlRzvBxHF72tn",
+          "_id": "3bLDEGcPWZr2qodB",
+          "_key": "3bLDEGcPWZr2qodB",
           "name": "",
           "forced": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-8!astring",
-  "_id": "entalistability8",
-  "category": "signature",
-  "resource": null
+  "_id": "entalistability8"
 }

@@ -17,6 +17,8 @@
       "void"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "7RclLQ0amPHZTWcZ": {
+        "u1HIQd9Oxt1z1Msh": {
           "type": "damage",
-          "_id": "7RclLQ0amPHZTWcZ",
-          "_key": "7RclLQ0amPHZTWcZ",
+          "_id": "u1HIQd9Oxt1z1Msh",
+          "_key": "u1HIQd9Oxt1z1Msh",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-9!astring",
-  "_id": "entalistability9",
-  "category": "heroic",
-  "resource": 3
+  "_id": "entalistability9"
 }

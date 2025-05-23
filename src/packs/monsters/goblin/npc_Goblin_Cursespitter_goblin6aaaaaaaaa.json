@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "20TZU6YZ18VIToNF": {
+            "ZHLTDw5HN8rB21ze": {
               "type": "damage",
-              "_id": "20TZU6YZ18VIToNF",
-              "_key": "20TZU6YZ18VIToNF",
+              "_id": "ZHLTDw5HN8rB21ze",
+              "_key": "ZHLTDw5HN8rB21ze",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "gg2SxgKZzuYBslCi": {
+            "mdjRKlg3eOLmamBx": {
               "type": "applied",
-              "_id": "gg2SxgKZzuYBslCi",
-              "_key": "gg2SxgKZzuYBslCi",
+              "_id": "mdjRKlg3eOLmamBx",
+              "_key": "mdjRKlg3eOLmamBx",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin6aaaaaaaaa.goblin6feature1a",
-      "_id": "goblin6feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin6feature1a"
     },
     {
       "name": "Dizzying Hex",
@@ -264,6 +267,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -284,10 +289,10 @@
             ]
           },
           "effects": {
-            "hdDZx9KMyIyQgf9d": {
+            "KQsAexFP7A4tFw82": {
               "type": "applied",
-              "_id": "hdDZx9KMyIyQgf9d",
-              "_key": "hdDZx9KMyIyQgf9d",
+              "_id": "KQsAexFP7A4tFw82",
+              "_key": "KQsAexFP7A4tFw82",
               "name": "",
               "applied": {
                 "tier1": {
@@ -315,7 +320,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -343,9 +351,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin6aaaaaaaaa.goblin6feature2a",
-      "_id": "goblin6feature2a",
-      "category": "heroic",
-      "resource": 1
+      "_id": "goblin6feature2a"
     },
     {
       "name": "Crafty",

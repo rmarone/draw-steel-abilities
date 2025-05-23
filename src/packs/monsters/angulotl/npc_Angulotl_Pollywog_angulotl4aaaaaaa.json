@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "EkSmd7gPDJSdm9B2": {
+            "BAj4z3RrRKwoxx4Q": {
               "type": "damage",
-              "_id": "EkSmd7gPDJSdm9B2",
-              "_key": "EkSmd7gPDJSdm9B2",
+              "_id": "BAj4z3RrRKwoxx4Q",
+              "_key": "BAj4z3RrRKwoxx4Q",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "J007JWj53wC7e6cF": {
+            "gafj59lrlMU7HCBW": {
               "type": "applied",
-              "_id": "J007JWj53wC7e6cF",
-              "_key": "J007JWj53wC7e6cF",
+              "_id": "gafj59lrlMU7HCBW",
+              "_key": "gafj59lrlMU7HCBW",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl4aaaaaaa.ngulotl4feature1",
-      "_id": "ngulotl4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl4feature1"
     },
     {
       "name": "Quick Snack",

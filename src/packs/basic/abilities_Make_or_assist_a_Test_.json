@@ -1,0 +1,108 @@
+{
+  "folder": "",
+  "name": "Make or assist a Test",
+  "type": "ability",
+  "img": "icons/magic/control/buff-strength-muscle-damage-red.webp",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "aid-attack",
+    "keywords": [
+
+    ],
+    "type": "maneuver",
+    "category": "",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": null,
+      "secondary": null,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "self",
+      "value": null
+    },
+    "effect": {
+      "before": "<p>When you attempt to assist another creature, make an test using the skill you choose, and with a characteristic chosen by the Director based on the action you take to help. The outcome of that test determines the bonus applied to the test you’re assisting:</p>",
+      "after": ""
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "power": {
+      "effects": {
+        "KKkeFQGYcwqEKFcS": {
+          "type": "other",
+          "_id": "KKkeFQGYcwqEKFcS",
+          "_key": "KKkeFQGYcwqEKFcS",
+          "other": {
+            "tier1": {
+              "display": "You get in the way or make things worse. The creature takes a bane on their test.",
+              "potency": {
+                "value": "@potency.weak",
+                "characteristic": "none"
+              }
+            },
+            "tier2": {
+              "display": "Your help grants the other creature an edge on their test.",
+              "potency": {
+                "value": "@potency.average",
+                "characteristic": ""
+              }
+            },
+            "tier3": {
+              "display": "Your help gives the other creature a double edge on their test.",
+              "potency": {
+                "value": "@potency.strong",
+                "characteristic": ""
+              }
+            }
+          },
+          "name": ""
+        }
+      },
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+
+        ]
+      }
+    },
+    "story": ""
+  },
+  "effects": [
+
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "0bb3e15e21a3d0b01fc5888c371ce5d2f1a761bd",
+      "sourceId": "Item.7Tm68hFSPrplEouj",
+      "defaultPermission": 2
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": "draw-steel",
+    "systemVersion": "0.7.0",
+    "createdTime": 1741064589734,
+    "modifiedTime": 1747565973572,
+    "lastModifiedBy": "DeRzeWQa8Rcq3sIu",
+    "exportSource": {
+      "worldId": "draw-steel2",
+      "uuid": "Item.7Tm68hFSPrplEouj",
+      "coreVersion": "13.342",
+      "systemId": "draw-steel",
+      "systemVersion": "0.7.0"
+    }
+  },
+  "_key": "!items!basic-test!astring",
+  "_id": "lllllllbasictest"
+}

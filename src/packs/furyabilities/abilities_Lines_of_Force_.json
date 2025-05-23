@@ -15,6 +15,8 @@
       "melee"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "You can select a new target of the same size or smaller within distance to be force moved instead, and you can turn that forced movement into a push instead. You become the source of the forced movement and decide where the new target’s destination. Additionally, the forced movement distance gains a bonus equal to your Might score.",
+    "effect": {
+      "before": "",
+      "after": "You can select a new target of the same size or smaller within distance to be force moved instead, and you can turn that forced movement into a push instead. You become the source of the forced movement and decide where the new target’s destination. Additionally, the forced movement distance gains a bonus equal to your Might score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-sub-1-1-4!astring",
-  "_id": "furysub114aaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "furysub114aaaaaa"
 }

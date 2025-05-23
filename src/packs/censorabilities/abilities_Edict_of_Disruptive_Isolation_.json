@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "Until the end of the encounter or you are dying, at the end of each of your turns, each target takes holy damage equal to your Presence score. Any target adjacent to one or more enemies takes an extra 2d6 holy damage if they are judged by you or adjacent to one of your enemies.",
+    "effect": {
+      "before": "",
+      "after": "Until the end of the encounter or you are dying, at the end of each of your turns, each target takes holy damage equal to your Presence score. Any target adjacent to one or more enemies takes an extra 2d6 holy damage if they are judged by you or adjacent to one of your enemies."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-13!astring",
-  "_id": "censorability13a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "censorability13a"
 }

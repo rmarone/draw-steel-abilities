@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "5d7pN17a5gzOH3W8": {
+            "1rwZCYxtuO9KuMYY": {
               "type": "damage",
-              "_id": "5d7pN17a5gzOH3W8",
-              "_key": "5d7pN17a5gzOH3W8",
+              "_id": "1rwZCYxtuO9KuMYY",
+              "_key": "1rwZCYxtuO9KuMYY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "3cBorO9ZoLhnbw9Z": {
+            "SzRENdTwKSo5Zu9D": {
               "type": "applied",
-              "_id": "3cBorO9ZoLhnbw9Z",
-              "_key": "3cBorO9ZoLhnbw9Z",
+              "_id": "SzRENdTwKSo5Zu9D",
+              "_key": "SzRENdTwKSo5Zu9D",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The bloodletter and each ally has a double edge on abilities targeting a creature or object bleeding from this ability.",
+        "effect": {
+          "before": "",
+          "after": "The bloodletter and each ally has a double edge on abilities targeting a creature or object bleeding from this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh6aaaaaaaa.elfhigh6feature1",
-      "_id": "elfhigh6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh6feature1"
     },
     {
       "name": "Blood Haze",
@@ -254,6 +257,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -273,7 +278,10 @@
           },
           "effects": null
         },
-        "effect": "The bloodletter creates a cloud of blood vapor in the area until the end of the next round. The cloud blocks line of effect for enemies, and an enemy has Magic weakness 3 occupying an affected square. The bloodletter then shifts up to their speed, hiding if they end their movement under concealment.",
+        "effect": {
+          "before": "",
+          "after": "The bloodletter creates a cloud of blood vapor in the area until the end of the next round. The cloud blocks line of effect for enemies, and an enemy has Magic weakness 3 occupying an affected square. The bloodletter then shifts up to their speed, hiding if they end their movement under concealment."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -301,9 +309,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh6aaaaaaaa.elfhigh6feature2",
-      "_id": "elfhigh6feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "elfhigh6feature2"
     },
     {
       "name": "Otherwordly Grace",

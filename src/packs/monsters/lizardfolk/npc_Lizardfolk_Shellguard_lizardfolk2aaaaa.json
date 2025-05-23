@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "eBz1vU0jk6GjyPLE": {
+            "Uvir9M8uIFUo9xEE": {
               "type": "damage",
-              "_id": "eBz1vU0jk6GjyPLE",
-              "_key": "eBz1vU0jk6GjyPLE",
+              "_id": "Uvir9M8uIFUo9xEE",
+              "_key": "Uvir9M8uIFUo9xEE",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The target has a bane on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "The target has a bane on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk2aaaaa.ardfolk2feature1",
-      "_id": "ardfolk2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk2feature1"
     },
     {
       "name": "Reptilian Escape",

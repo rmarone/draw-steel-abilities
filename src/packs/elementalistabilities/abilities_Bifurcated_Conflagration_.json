@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "q4EhmyH4a18TyWc1": {
+        "zo53uTDIHfXZitPn": {
           "type": "damage",
-          "_id": "q4EhmyH4a18TyWc1",
-          "_key": "q4EhmyH4a18TyWc1",
+          "_id": "zo53uTDIHfXZitPn",
+          "_key": "zo53uTDIHfXZitPn",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-2!astring",
-  "_id": "entalistability2",
-  "category": "signature",
-  "resource": null
+  "_id": "entalistability2"
 }

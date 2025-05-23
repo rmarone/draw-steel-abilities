@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "02BNEzcofqWyhiqm": {
+            "JFlNc16FeNH484kx": {
               "type": "damage",
-              "_id": "02BNEzcofqWyhiqm",
-              "_key": "02BNEzcofqWyhiqm",
+              "_id": "JFlNc16FeNH484kx",
+              "_key": "JFlNc16FeNH484kx",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "DpFJ3x0nWfUshMlZ": {
+            "boxPbQqvKtQ60t13": {
               "type": "applied",
-              "_id": "DpFJ3x0nWfUshMlZ",
-              "_key": "DpFJ3x0nWfUshMlZ",
+              "_id": "boxPbQqvKtQ60t13",
+              "_key": "boxPbQqvKtQ60t13",
               "name": "",
               "applied": {
                 "tier1": {
@@ -241,7 +243,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -269,9 +274,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ingmoundfeature3",
-      "_id": "ingmoundfeature3",
-      "category": "signature",
-      "resource": null
+      "_id": "ingmoundfeature3"
     },
     {
       "name": "Seismic Slam",
@@ -290,6 +293,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -310,10 +315,10 @@
             ]
           },
           "effects": {
-            "ugI7AngoDGXPeo7f": {
+            "iu2c28A9omJf1qVM": {
               "type": "damage",
-              "_id": "ugI7AngoDGXPeo7f",
-              "_key": "ugI7AngoDGXPeo7f",
+              "_id": "iu2c28A9omJf1qVM",
+              "_key": "iu2c28A9omJf1qVM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -351,10 +356,10 @@
                 }
               }
             },
-            "uHHAovEevWMwTcmF": {
+            "WoDRc0dQ6dXaCObc": {
               "type": "applied",
-              "_id": "uHHAovEevWMwTcmF",
-              "_key": "uHHAovEevWMwTcmF",
+              "_id": "WoDRc0dQ6dXaCObc",
+              "_key": "WoDRc0dQ6dXaCObc",
               "name": "",
               "applied": {
                 "tier1": {
@@ -382,7 +387,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -410,9 +418,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ingmoundfeature4",
-      "_id": "ingmoundfeature4",
-      "category": "signature",
-      "resource": null
+      "_id": "ingmoundfeature4"
     },
     {
       "name": "Engulf",
@@ -431,6 +437,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -450,7 +458,10 @@
           },
           "effects": null
         },
-        "effect": "The shambling mound reaches out with writhing vines and A<3 engulfs an enemy size 1L or smaller into their sack. The potency increases by 1 if the target is grabbed by the shambling mound. An engulfed creature is restrained, takes 3 poison damage at the start of each turn of combat, and can’t take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the mound dies or their engulfing sack is destroyed, each engulfed creature is freed and shunted to an unoccupied square within 2 squares.",
+        "effect": {
+          "before": "",
+          "after": "The shambling mound reaches out with writhing vines and A<3 engulfs an enemy size 1L or smaller into their sack. The potency increases by 1 if the target is grabbed by the shambling mound. An engulfed creature is restrained, takes 3 poison damage at the start of each turn of combat, and can’t take damage from abilities used from outside the sack. When the shambling mound moves, the engulfed creature moves with them. If the mound dies or their engulfing sack is destroyed, each engulfed creature is freed and shunted to an unoccupied square within 2 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -478,9 +489,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ingmoundfeature5",
-      "_id": "ingmoundfeature5",
-      "category": "heroic",
-      "resource": 2
+      "_id": "ingmoundfeature5"
     },
     {
       "name": "Leech",
@@ -498,6 +507,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -517,7 +528,10 @@
           },
           "effects": null
         },
-        "effect": "5 poison damage. The shambling mound gains 5 temporary Stamina for each creature affected by this maneuver.",
+        "effect": {
+          "before": "",
+          "after": "5 poison damage. The shambling mound gains 5 temporary Stamina for each creature affected by this maneuver."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -545,9 +559,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ingmoundfeature6",
-      "_id": "ingmoundfeature6",
-      "category": "signature",
-      "resource": null
+      "_id": "ingmoundfeature6"
     },
     {
       "name": "Tether Down",
@@ -565,6 +577,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -585,10 +599,10 @@
             ]
           },
           "effects": {
-            "tNdiqGsxbbvZhgIQ": {
+            "y6xXBRzeX1qDEn5S": {
               "type": "damage",
-              "_id": "tNdiqGsxbbvZhgIQ",
-              "_key": "tNdiqGsxbbvZhgIQ",
+              "_id": "y6xXBRzeX1qDEn5S",
+              "_key": "y6xXBRzeX1qDEn5S",
               "name": "",
               "damage": {
                 "tier1": {
@@ -626,10 +640,10 @@
                 }
               }
             },
-            "6mVeWRgnEXCqYuYg": {
+            "9f2vLGhHzSUQscEE": {
               "type": "applied",
-              "_id": "6mVeWRgnEXCqYuYg",
-              "_key": "6mVeWRgnEXCqYuYg",
+              "_id": "9f2vLGhHzSUQscEE",
+              "_key": "9f2vLGhHzSUQscEE",
               "name": "",
               "applied": {
                 "tier1": {
@@ -657,7 +671,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -685,9 +702,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ingmoundfeature7",
-      "_id": "ingmoundfeature7",
-      "category": "heroic",
-      "resource": 1
+      "_id": "ingmoundfeature7"
     },
     {
       "name": "False Appearance",
@@ -733,6 +748,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -753,10 +770,10 @@
             ]
           },
           "effects": {
-            "OUk8UPU4Eilv0WLE": {
+            "YzHlI02gAEfXK0Du": {
               "type": "damage",
-              "_id": "OUk8UPU4Eilv0WLE",
-              "_key": "OUk8UPU4Eilv0WLE",
+              "_id": "YzHlI02gAEfXK0Du",
+              "_key": "YzHlI02gAEfXK0Du",
               "name": "",
               "damage": {
                 "tier1": {
@@ -794,10 +811,10 @@
                 }
               }
             },
-            "PNB6wivsCFEH5mOA": {
+            "l4E01MwXaNoIN7EC": {
               "type": "forced",
-              "_id": "PNB6wivsCFEH5mOA",
-              "_key": "PNB6wivsCFEH5mOA",
+              "_id": "l4E01MwXaNoIN7EC",
+              "_key": "l4E01MwXaNoIN7EC",
               "name": "",
               "forced": {
                 "tier1": {
@@ -823,10 +840,10 @@
                 }
               }
             },
-            "3X3RwwFmu7swT7pG": {
+            "76YGIODD8jopGbNj": {
               "type": "applied",
-              "_id": "3X3RwwFmu7swT7pG",
-              "_key": "3X3RwwFmu7swT7pG",
+              "_id": "76YGIODD8jopGbNj",
+              "_key": "76YGIODD8jopGbNj",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -848,7 +865,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -876,9 +896,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ngmoundfeature10",
-      "_id": "ngmoundfeature10",
-      "category": "signature",
-      "resource": null
+      "_id": "ngmoundfeature10"
     },
     {
       "name": "Composting",
@@ -898,6 +916,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -917,7 +937,10 @@
           },
           "effects": null
         },
-        "effect": "The shambling mound attempts to devour each enemy within distance with its Engulf action without spending malice.",
+        "effect": {
+          "before": "",
+          "after": "The shambling mound attempts to devour each enemy within distance with its Engulf action without spending malice."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -945,9 +968,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ngmoundfeature11",
-      "_id": "ngmoundfeature11",
-      "category": "signature",
-      "resource": null
+      "_id": "ngmoundfeature11"
     },
     {
       "name": "Exposed Crux",
@@ -965,6 +986,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -984,7 +1007,10 @@
           },
           "effects": null
         },
-        "effect": "The shambling mound rips themself apart to lay waste, exposing the crux of magic holding them together. The distance of the shambling mound’s melee abilities increases to 10, they have a double edge on power rolls, and strikes have an edge against them.",
+        "effect": {
+          "before": "",
+          "after": "The shambling mound rips themself apart to lay waste, exposing the crux of magic holding them together. The distance of the shambling mound’s melee abilities increases to 10, they have a double edge on power rolls, and strikes have an edge against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -1012,9 +1038,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!shamblingmound1a.ngmoundfeature12",
-      "_id": "ngmoundfeature12",
-      "category": "signature",
-      "resource": null
+      "_id": "ngmoundfeature12"
     }
   ],
   "effects": [

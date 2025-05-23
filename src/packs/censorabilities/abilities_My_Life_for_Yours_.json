@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "You spend a Recovery and the target regains Stamina equal to your Recovery value.",
+    "effect": {
+      "before": "",
+      "after": "You spend a Recovery and the target regains Stamina equal to your Recovery value."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-1-6!astring",
-  "_id": "censor16aaaaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "censor16aaaaaaaa"
 }

@@ -14,6 +14,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,10 +36,10 @@
         ]
       },
       "effects": {
-        "MQ3rl8yYYvTQjRlA": {
+        "21v0qTKTuBMTj1VZ": {
           "type": "applied",
-          "_id": "MQ3rl8yYYvTQjRlA",
-          "_key": "MQ3rl8yYYvTQjRlA",
+          "_id": "21v0qTKTuBMTj1VZ",
+          "_key": "21v0qTKTuBMTj1VZ",
           "name": "",
           "applied": {
             "tier1": {
@@ -65,7 +67,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -93,7 +98,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-1!astring",
-  "_id": "acticianability1",
-  "category": "heroic",
-  "resource": 3
+  "_id": "acticianability1"
 }

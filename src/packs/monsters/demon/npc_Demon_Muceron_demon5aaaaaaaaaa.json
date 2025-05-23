@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "HntwYNXG0ilM6km8": {
+            "nwH0jIfLBs7hNrY4": {
               "type": "damage",
-              "_id": "HntwYNXG0ilM6km8",
-              "_key": "HntwYNXG0ilM6km8",
+              "_id": "nwH0jIfLBs7hNrY4",
+              "_key": "nwH0jIfLBs7hNrY4",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "DBfWSsFjMwzeK6YX": {
+            "Hsv68GAx5PK9etLm": {
               "type": "forced",
-              "_id": "DBfWSsFjMwzeK6YX",
-              "_key": "DBfWSsFjMwzeK6YX",
+              "_id": "Hsv68GAx5PK9etLm",
+              "_key": "Hsv68GAx5PK9etLm",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the target is pulled adjacent to the muceron, the muceron either makes a free strike against them or grabs them.",
+        "effect": {
+          "before": "",
+          "after": "If the target is pulled adjacent to the muceron, the muceron either makes a free strike against them or grabs them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon5aaaaaaaaaa.demon5feature1aa",
-      "_id": "demon5feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon5feature1aa"
     },
     {
       "name": "Tongue Pull",
@@ -265,6 +268,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "The muceron pulls each target 5 squares.",
+        "effect": {
+          "before": "",
+          "after": "The muceron pulls each target 5 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon5aaaaaaaaaa.demon5feature2aa",
-      "_id": "demon5feature2aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "demon5feature2aa"
     },
     {
       "name": "Lethe",

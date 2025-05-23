@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "nJZakxwf7CNsRXae": {
+            "DbwK6bCh7cayGGCq": {
               "type": "damage",
-              "_id": "nJZakxwf7CNsRXae",
-              "_key": "nJZakxwf7CNsRXae",
+              "_id": "DbwK6bCh7cayGGCq",
+              "_key": "DbwK6bCh7cayGGCq",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "0897mPJyrLHRERr1": {
+            "3N7WSrmzNA5wYOLa": {
               "type": "forced",
-              "_id": "0897mPJyrLHRERr1",
-              "_key": "0897mPJyrLHRERr1",
+              "_id": "3N7WSrmzNA5wYOLa",
+              "_key": "3N7WSrmzNA5wYOLa",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -206,10 +208,10 @@
                 }
               }
             },
-            "9wnhs66MkJUrVmx5": {
+            "hDwuHWJRrxbbL8Yn": {
               "type": "applied",
-              "_id": "9wnhs66MkJUrVmx5",
-              "_key": "9wnhs66MkJUrVmx5",
+              "_id": "hDwuHWJRrxbbL8Yn",
+              "_key": "hDwuHWJRrxbbL8Yn",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -225,7 +227,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -253,9 +258,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll2aaaaaaaaaa.troll2feature1aa",
-      "_id": "troll2feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll2feature1aa"
     },
     {
       "name": "Lingering Hunger",

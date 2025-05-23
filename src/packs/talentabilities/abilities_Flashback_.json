@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "The target immediately uses an ability they’ve previously used this round without spending any heroic resources.",
+    "effect": {
+      "before": "",
+      "after": "The target immediately uses an ability they’ve previously used this round without spending any heroic resources."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-13!astring",
-  "_id": "talentability13a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "talentability13a"
 }

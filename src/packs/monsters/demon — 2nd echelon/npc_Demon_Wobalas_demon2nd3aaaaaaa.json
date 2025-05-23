@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "1nqER2cUTAihbTWY": {
+            "pCoiWC0k4u1IQqwM": {
               "type": "damage",
-              "_id": "1nqER2cUTAihbTWY",
-              "_key": "1nqER2cUTAihbTWY",
+              "_id": "pCoiWC0k4u1IQqwM",
+              "_key": "pCoiWC0k4u1IQqwM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The target has a bane on their next attack. If the target is winded, they have a double bane on their next attack instead.",
+        "effect": {
+          "before": "",
+          "after": "The target has a bane on their next attack. If the target is winded, they have a double bane on their next attack instead."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd3aaaaaaa.emon2nd3feature1",
-      "_id": "emon2nd3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd3feature1"
     },
     {
       "name": "Soulsight",

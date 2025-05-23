@@ -126,6 +126,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "q1pIbBLJPLBXzqjT": {
+            "RkDXW6cSPhgp7BbU": {
               "type": "damage",
-              "_id": "q1pIbBLJPLBXzqjT",
-              "_key": "q1pIbBLJPLBXzqjT",
+              "_id": "RkDXW6cSPhgp7BbU",
+              "_key": "RkDXW6cSPhgp7BbU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +189,10 @@
                 }
               }
             },
-            "h7BRoze5IzpnFQ7l": {
+            "JF3xcypeLbh46QE9": {
               "type": "applied",
-              "_id": "h7BRoze5IzpnFQ7l",
-              "_key": "h7BRoze5IzpnFQ7l",
+              "_id": "JF3xcypeLbh46QE9",
+              "_key": "JF3xcypeLbh46QE9",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -212,7 +214,10 @@
             }
           }
         },
-        "effect": "Each creature that the stampede moves through as a part of charging with this ability is M<4 knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "Each creature that the stampede moves through as a part of charging with this ability is M<4 knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -240,9 +245,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur5aaaaaaa.inotaur5feature1",
-      "_id": "inotaur5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur5feature1"
     },
     {
       "name": "Swarm",

@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "asLCPWZknGMBNaCR": {
+        "uSuMs9F4Rt0JajQ3": {
           "type": "forced",
-          "_id": "asLCPWZknGMBNaCR",
-          "_key": "asLCPWZknGMBNaCR",
+          "_id": "uSuMs9F4Rt0JajQ3",
+          "_key": "uSuMs9F4Rt0JajQ3",
           "name": "",
           "forced": {
             "tier1": {
@@ -65,10 +67,10 @@
             }
           }
         },
-        "RrMAIHN2p8XAa4MV": {
+        "ISsX0YZ1uctXA8Tp": {
           "type": "applied",
-          "_id": "RrMAIHN2p8XAa4MV",
-          "_key": "RrMAIHN2p8XAa4MV",
+          "_id": "ISsX0YZ1uctXA8Tp",
+          "_key": "ISsX0YZ1uctXA8Tp",
           "name": "",
           "applied": {
             "tier1": {
@@ -96,7 +98,10 @@
         }
       }
     },
-    "effect": "Instead of sliding a target, you can swap their location with another target as long as each can fit into the other’s space. You can’t slide targets into other creatures or objects using this ability.",
+    "effect": {
+      "before": "",
+      "after": "Instead of sliding a target, you can swap their location with another target as long as each can fit into the other’s space. You can’t slide targets into other creatures or objects using this ability."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -124,7 +129,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-13!astring",
-  "_id": "ubadourability13",
-  "category": "heroic",
-  "resource": 7
+  "_id": "ubadourability13"
 }

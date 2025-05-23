@@ -123,6 +123,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "qgQ40qgyCAHP5NxK": {
+            "1r3V0ySIPZ9BRmGr": {
               "type": "damage",
-              "_id": "qgQ40qgyCAHP5NxK",
-              "_key": "qgQ40qgyCAHP5NxK",
+              "_id": "1r3V0ySIPZ9BRmGr",
+              "_key": "1r3V0ySIPZ9BRmGr",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT).",
+        "effect": {
+          "before": "",
+          "after": "If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human1aaaaaaaaaa.human1feature3aa",
-      "_id": "human1feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human1feature3aa"
     },
     {
       "name": "Supernatural Insight",

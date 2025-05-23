@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "BGI6MQiFTdLOdjqY": {
+            "Aj29AcQz5s44cuW0": {
               "type": "damage",
-              "_id": "BGI6MQiFTdLOdjqY",
-              "_key": "BGI6MQiFTdLOdjqY",
+              "_id": "Aj29AcQz5s44cuW0",
+              "_key": "Aj29AcQz5s44cuW0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "MbyPYxEkOhFjFTvB": {
+            "6SfaFKkJF6pB6oRc": {
               "type": "applied",
-              "_id": "MbyPYxEkOhFjFTvB",
-              "_key": "MbyPYxEkOhFjFTvB",
+              "_id": "6SfaFKkJF6pB6oRc",
+              "_key": "6SfaFKkJF6pB6oRc",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin8aaaaaa.hobgoblin82aaaaa",
-      "_id": "hobgoblin82aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin82aaaaa"
     },
     {
       "name": "Blazing Trail",
@@ -253,6 +256,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "The firerunner moves up to their speed and creates a 8 wall of fire. Each segment must include one of the squares the firerunner touched. Creatures can enter and pass through the wall. Any enemy who enters the wall for the first time in a round or starts their turn there takes 5 fire damage.",
+        "effect": {
+          "before": "",
+          "after": "The firerunner moves up to their speed and creates a 8 wall of fire. Each segment must include one of the squares the firerunner touched. Creatures can enter and pass through the wall. Any enemy who enters the wall for the first time in a round or starts their turn there takes 5 fire damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin8aaaaaa.hobgoblin83aaaaa",
-      "_id": "hobgoblin83aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin83aaaaa"
     },
     {
       "name": "Hot to Go",

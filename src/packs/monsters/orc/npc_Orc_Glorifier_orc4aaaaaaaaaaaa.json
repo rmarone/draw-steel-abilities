@@ -124,11 +124,13 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "gSuPq8rbdVclTgHX": {
+            "2ba9UJjReT732iKn": {
               "type": "damage",
-              "_id": "gSuPq8rbdVclTgHX",
-              "_key": "gSuPq8rbdVclTgHX",
+              "_id": "2ba9UJjReT732iKn",
+              "_key": "2ba9UJjReT732iKn",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "qG7Wn1LxZy8EU2kJ": {
+            "bPtM3tKDKBItrFP0": {
               "type": "applied",
-              "_id": "qG7Wn1LxZy8EU2kJ",
-              "_key": "qG7Wn1LxZy8EU2kJ",
+              "_id": "bPtM3tKDKBItrFP0",
+              "_key": "bPtM3tKDKBItrFP0",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "Each ally has an edge on melee strikes against the target until the glorifier and all other glorifiers in their square are killed.",
+        "effect": {
+          "before": "",
+          "after": "Each ally has an edge on melee strikes against the target until the glorifier and all other glorifiers in their square are killed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc4aaaaaaaaaaaa.orc4feature1aaaa",
-      "_id": "orc4feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc4feature1aaaa"
     },
     {
       "name": "Bloodfire Burn",

@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "pBpWRa8gUH34AwNv": {
+            "6ilzFtSWrJ9rEJ2e": {
               "type": "damage",
-              "_id": "pBpWRa8gUH34AwNv",
-              "_key": "pBpWRa8gUH34AwNv",
+              "_id": "6ilzFtSWrJ9rEJ2e",
+              "_key": "6ilzFtSWrJ9rEJ2e",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "obNyye9OzCXiUaNF": {
+            "BKjeEsGfIpyZ5ZCY": {
               "type": "forced",
-              "_id": "obNyye9OzCXiUaNF",
-              "_key": "obNyye9OzCXiUaNF",
+              "_id": "BKjeEsGfIpyZ5ZCY",
+              "_key": "BKjeEsGfIpyZ5ZCY",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker1.stalker1feature1",
-      "_id": "stalker1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker1feature1"
     },
     {
       "name": "Psionic Conductor",

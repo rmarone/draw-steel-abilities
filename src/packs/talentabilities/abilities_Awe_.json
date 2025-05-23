@@ -17,6 +17,8 @@
       "telepathy"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "YJTS6hnGJysPJzZ7": {
+        "H3JfAQ2n6ioT5J6B": {
           "type": "damage",
-          "_id": "YJTS6hnGJysPJzZ7",
-          "_key": "YJTS6hnGJysPJzZ7",
+          "_id": "H3JfAQ2n6ioT5J6B",
+          "_key": "H3JfAQ2n6ioT5J6B",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "PIm11U16Hq3SZmFV": {
+        "XxecHp0U3SiINxD1": {
           "type": "applied",
-          "_id": "PIm11U16Hq3SZmFV",
-          "_key": "PIm11U16Hq3SZmFV",
+          "_id": "XxecHp0U3SiINxD1",
+          "_key": "XxecHp0U3SiINxD1",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-9!astring",
-  "_id": "talentability9aa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "talentability9aa"
 }

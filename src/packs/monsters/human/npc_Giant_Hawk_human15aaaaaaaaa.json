@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "q0rGfv7arraIj15H": {
+            "vi3lICkOKLHsVjQW": {
               "type": "damage",
-              "_id": "q0rGfv7arraIj15H",
-              "_key": "q0rGfv7arraIj15H",
+              "_id": "vi3lICkOKLHsVjQW",
+              "_key": "vi3lICkOKLHsVjQW",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "sKZTctzF26KxKt59": {
+            "ez90vP0wQ6lDZjZg": {
               "type": "applied",
-              "_id": "sKZTctzF26KxKt59",
-              "_key": "sKZTctzF26KxKt59",
+              "_id": "ez90vP0wQ6lDZjZg",
+              "_key": "ez90vP0wQ6lDZjZg",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human15aaaaaaaaa.human15feature1a",
-      "_id": "human15feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "human15feature1a"
     },
     {
       "name": "Dive",
@@ -251,6 +254,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -270,7 +275,10 @@
           },
           "effects": null
         },
-        "effect": "The hawk moves up to their speed.",
+        "effect": {
+          "before": "",
+          "after": "The hawk moves up to their speed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -298,9 +306,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human15aaaaaaaaa.human15feature2a",
-      "_id": "human15feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "human15feature2a"
     },
     {
       "name": "Mounted Platform",

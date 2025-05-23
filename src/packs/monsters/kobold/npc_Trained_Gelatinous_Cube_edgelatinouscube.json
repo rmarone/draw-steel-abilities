@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "hgO5RVLstwjxhCFR": {
+            "05OL5OebNenLyGBK": {
               "type": "damage",
-              "_id": "hgO5RVLstwjxhCFR",
-              "_key": "hgO5RVLstwjxhCFR",
+              "_id": "05OL5OebNenLyGBK",
+              "_key": "05OL5OebNenLyGBK",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "rukEASKHazZ4BWBI": {
+            "REglOVbGObPxgkVd": {
               "type": "applied",
-              "_id": "rukEASKHazZ4BWBI",
-              "_key": "rukEASKHazZ4BWBI",
+              "_id": "REglOVbGObPxgkVd",
+              "_key": "REglOVbGObPxgkVd",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "A size 2 or smaller creature restrained by this ability is pulled into one of the cube’s squares and moves with the cube. The creature takes 4 acid damage at the start of each of their turn while restrained. When restrained ends, the creature moves to the nearest unoccupied square adjacent to the cube.",
+        "effect": {
+          "before": "",
+          "after": "A size 2 or smaller creature restrained by this ability is pulled into one of the cube’s squares and moves with the cube. The creature takes 4 acid damage at the start of each of their turn while restrained. When restrained ends, the creature moves to the nearest unoccupied square adjacent to the cube."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!edgelatinouscube.nouscubefeature1",
-      "_id": "nouscubefeature1",
-      "category": "signature",
-      "resource": null
+      "_id": "nouscubefeature1"
     },
     {
       "name": "You Didn’t Pay Attention!",
@@ -263,6 +266,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The cube uses Engulf with a double edge",
+        "effect": {
+          "before": "",
+          "after": "The cube uses Engulf with a double edge"
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!edgelatinouscube.nouscubefeature2",
-      "_id": "nouscubefeature2",
-      "category": "signature",
-      "resource": null
+      "_id": "nouscubefeature2"
     },
     {
       "name": "Translucent Cube",

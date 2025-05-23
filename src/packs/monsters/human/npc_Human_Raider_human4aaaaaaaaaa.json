@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "Pwc84bmOrekSwbr1": {
+            "hpfPn5I1XUXuYY5R": {
               "type": "damage",
-              "_id": "Pwc84bmOrekSwbr1",
-              "_key": "Pwc84bmOrekSwbr1",
+              "_id": "hpfPn5I1XUXuYY5R",
+              "_key": "hpfPn5I1XUXuYY5R",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "If this ability is used while charging, the raider can make a ranged free strike before using the ability.",
+        "effect": {
+          "before": "",
+          "after": "If this ability is used while charging, the raider can make a ranged free strike before using the ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human4aaaaaaaaaa.human4feature3aa",
-      "_id": "human4feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human4feature3aa"
     },
     {
       "name": "Supernatural Insight",

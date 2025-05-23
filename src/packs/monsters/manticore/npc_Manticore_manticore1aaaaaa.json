@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "jR1ZGggL2JXA51gr": {
+            "ArGPnPh0lWnIBLdi": {
               "type": "damage",
-              "_id": "jR1ZGggL2JXA51gr",
-              "_key": "jR1ZGggL2JXA51gr",
+              "_id": "ArGPnPh0lWnIBLdi",
+              "_key": "ArGPnPh0lWnIBLdi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "ph4Z1Ym2uaMxdoZh": {
+            "3kLUmSy3MaZNFP5I": {
               "type": "applied",
-              "_id": "ph4Z1Ym2uaMxdoZh",
-              "_key": "ph4Z1Ym2uaMxdoZh",
+              "_id": "3kLUmSy3MaZNFP5I",
+              "_key": "3kLUmSy3MaZNFP5I",
               "name": "",
               "applied": {
                 "tier1": {
@@ -241,7 +243,10 @@
             }
           }
         },
-        "effect": "This ability has an edge against frightened targets.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge against frightened targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -269,9 +274,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature3",
-      "_id": "anticorefeature3",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature3"
     },
     {
       "name": "Tail Spike",
@@ -290,6 +293,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -310,10 +315,10 @@
             ]
           },
           "effects": {
-            "FgCH31xfJFybrndo": {
+            "vKoAnULyaJ4SDz7i": {
               "type": "damage",
-              "_id": "FgCH31xfJFybrndo",
-              "_key": "FgCH31xfJFybrndo",
+              "_id": "vKoAnULyaJ4SDz7i",
+              "_key": "vKoAnULyaJ4SDz7i",
               "name": "",
               "damage": {
                 "tier1": {
@@ -351,10 +356,10 @@
                 }
               }
             },
-            "DhZcdfRIEBGxu37E": {
+            "BAsky6YAc3TxjtXR": {
               "type": "applied",
-              "_id": "DhZcdfRIEBGxu37E",
-              "_key": "DhZcdfRIEBGxu37E",
+              "_id": "BAsky6YAc3TxjtXR",
+              "_key": "BAsky6YAc3TxjtXR",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -376,7 +381,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -404,9 +412,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature4",
-      "_id": "anticorefeature4",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature4"
     },
     {
       "name": "Harrying Claws",
@@ -424,6 +430,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -444,10 +452,10 @@
             ]
           },
           "effects": {
-            "7N1Gu5Mp0m8IbfV5": {
+            "O2nAbRqgt16Lvcll": {
               "type": "damage",
-              "_id": "7N1Gu5Mp0m8IbfV5",
-              "_key": "7N1Gu5Mp0m8IbfV5",
+              "_id": "O2nAbRqgt16Lvcll",
+              "_key": "O2nAbRqgt16Lvcll",
               "name": "",
               "damage": {
                 "tier1": {
@@ -485,10 +493,10 @@
                 }
               }
             },
-            "qEQccZk7pFeufzSg": {
+            "QrbtQ3l8ZuuPABIV": {
               "type": "applied",
-              "_id": "qEQccZk7pFeufzSg",
-              "_key": "qEQccZk7pFeufzSg",
+              "_id": "QrbtQ3l8ZuuPABIV",
+              "_key": "QrbtQ3l8ZuuPABIV",
               "name": "",
               "applied": {
                 "tier1": {
@@ -516,7 +524,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -544,9 +555,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature5",
-      "_id": "anticorefeature5",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature5"
     },
     {
       "name": "Reflexive Instinct",
@@ -564,6 +573,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -583,7 +594,10 @@
           },
           "effects": null
         },
-        "effect": "The manticore shifts up to 5 into the air, then uses their Tail Spike ability against the target.",
+        "effect": {
+          "before": "",
+          "after": "The manticore shifts up to 5 into the air, then uses their Tail Spike ability against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -611,9 +625,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature6",
-      "_id": "anticorefeature6",
-      "category": "heroic",
-      "resource": 2
+      "_id": "anticorefeature6"
     },
     {
       "name": "Trumpeting Howl",
@@ -632,6 +644,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -652,10 +666,10 @@
             ]
           },
           "effects": {
-            "MYyve3JNvzuyOHme": {
+            "sR9EWwuqMrVVygbH": {
               "type": "applied",
-              "_id": "MYyve3JNvzuyOHme",
-              "_key": "MYyve3JNvzuyOHme",
+              "_id": "sR9EWwuqMrVVygbH",
+              "_key": "sR9EWwuqMrVVygbH",
               "name": "",
               "applied": {
                 "tier1": {
@@ -683,7 +697,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -711,9 +728,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature7",
-      "_id": "anticorefeature7",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature7"
     },
     {
       "name": "Cornered Predator",
@@ -732,6 +747,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -751,7 +768,10 @@
           },
           "effects": null
         },
-        "effect": "The manticore shifts up to their speed, then uses their Tail Spike ability against each enemy within 10 squares.",
+        "effect": {
+          "before": "",
+          "after": "The manticore shifts up to their speed, then uses their Tail Spike ability against each enemy within 10 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -779,9 +799,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature8",
-      "_id": "anticorefeature8",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature8"
     },
     {
       "name": "Debilitating Poison",
@@ -799,6 +817,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -818,7 +838,10 @@
           },
           "effects": null
         },
-        "effect": "The manticore sours their own poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls targeting weakened creatures. A creature weakened by the manticore’s Tail Spike ability has their speed halved and takes an additional 1d3 poison damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "The manticore sours their own poison with enmity. Until the end of the encounter, the manticore has a double edge on power rolls targeting weakened creatures. A creature weakened by the manticore’s Tail Spike ability has their speed halved and takes an additional 1d3 poison damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -846,9 +869,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!manticore1aaaaaa.anticorefeature9",
-      "_id": "anticorefeature9",
-      "category": "signature",
-      "resource": null
+      "_id": "anticorefeature9"
     }
   ],
   "effects": [

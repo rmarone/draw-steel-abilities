@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "ovIE7HeSp6IiZA5x": {
+        "moIDw2ulZIcD66e5": {
           "type": "damage",
-          "_id": "ovIE7HeSp6IiZA5x",
-          "_key": "ovIE7HeSp6IiZA5x",
+          "_id": "moIDw2ulZIcD66e5",
+          "_key": "moIDw2ulZIcD66e5",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "kQwAck7VpSEQSZFZ": {
+        "RdX2rXDYI22MopZG": {
           "type": "forced",
-          "_id": "kQwAck7VpSEQSZFZ",
-          "_key": "kQwAck7VpSEQSZFZ",
+          "_id": "RdX2rXDYI22MopZG",
+          "_key": "RdX2rXDYI22MopZG",
           "name": "",
           "forced": {
             "tier1": null,
@@ -102,7 +104,10 @@
         }
       }
     },
-    "effect": "You can shift up to the same number of squares that you pushed the target.",
+    "effect": {
+      "before": "",
+      "after": "You can shift up to the same number of squares that you pushed the target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -130,7 +135,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-raden-signature!astring",
-  "_id": "itradensignature",
-  "category": "signature",
-  "resource": null
+  "_id": "itradensignature"
 }

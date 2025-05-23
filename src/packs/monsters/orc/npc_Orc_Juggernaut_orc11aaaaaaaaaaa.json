@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "dd4ofNYbiuHMVWGH": {
+            "xLNcItqgwcfHOg1L": {
               "type": "damage",
-              "_id": "dd4ofNYbiuHMVWGH",
-              "_key": "dd4ofNYbiuHMVWGH",
+              "_id": "xLNcItqgwcfHOg1L",
+              "_key": "xLNcItqgwcfHOg1L",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "6FUWvJyScXlEhVyR": {
+            "SdKAvpWsPaAUBESl": {
               "type": "applied",
-              "_id": "6FUWvJyScXlEhVyR",
-              "_key": "6FUWvJyScXlEhVyR",
+              "_id": "SdKAvpWsPaAUBESl",
+              "_key": "SdKAvpWsPaAUBESl",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The ability deals an additional 6 damage against already prone targets.",
+        "effect": {
+          "before": "",
+          "after": "The ability deals an additional 6 damage against already prone targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc11aaaaaaaaaaa.orc11feature1aaa",
-      "_id": "orc11feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc11feature1aaa"
     },
     {
       "name": "Hrraaaaaagh!",
@@ -257,6 +260,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The juggernaut moves up to their speed and makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "The juggernaut moves up to their speed and makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc11aaaaaaaaaaa.orc11feature2aaa",
-      "_id": "orc11feature2aaa",
-      "category": "heroic",
-      "resource": 1
+      "_id": "orc11feature2aaa"
     },
     {
       "name": "Blood in the Water",

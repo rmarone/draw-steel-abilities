@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "8qf0nkPoA88QtVBW": {
+            "TSYdcOmKHATc1Cty": {
               "type": "damage",
-              "_id": "8qf0nkPoA88QtVBW",
-              "_key": "8qf0nkPoA88QtVBW",
+              "_id": "TSYdcOmKHATc1Cty",
+              "_key": "TSYdcOmKHATc1Cty",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "GvIOA2j1wMJTuyDj": {
+            "xU8uupSmJ071nl1r": {
               "type": "forced",
-              "_id": "GvIOA2j1wMJTuyDj",
-              "_key": "GvIOA2j1wMJTuyDj",
+              "_id": "xU8uupSmJ071nl1r",
+              "_key": "xU8uupSmJ071nl1r",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The razor has an edge on strikes against targets already affected by a condition.",
+        "effect": {
+          "before": "",
+          "after": "The razor has an edge on strikes against targets already affected by a condition."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc5aaaaaaaaaaaa.orc5feature1aaaa",
-      "_id": "orc5feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc5feature1aaaa"
     },
     {
       "name": "Bloodfire Burn",

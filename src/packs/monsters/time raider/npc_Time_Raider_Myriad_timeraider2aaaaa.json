@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "HY71PATDMhTN8OdJ": {
+            "CPaMuFdtBpF2IdfM": {
               "type": "damage",
-              "_id": "HY71PATDMhTN8OdJ",
-              "_key": "HY71PATDMhTN8OdJ",
+              "_id": "CPaMuFdtBpF2IdfM",
+              "_key": "CPaMuFdtBpF2IdfM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "XY4XMX0CRB1McwCa": {
+            "SSwODUkft5D1fjAu": {
               "type": "forced",
-              "_id": "XY4XMX0CRB1McwCa",
-              "_key": "XY4XMX0CRB1McwCa",
+              "_id": "SSwODUkft5D1fjAu",
+              "_key": "SSwODUkft5D1fjAu",
               "name": "",
               "forced": {
                 "tier1": {
@@ -214,10 +216,10 @@
                 }
               }
             },
-            "5rbmA4LnyJ0n1BvY": {
+            "xFDcclM4CIC6lLy2": {
               "type": "applied",
-              "_id": "5rbmA4LnyJ0n1BvY",
-              "_key": "5rbmA4LnyJ0n1BvY",
+              "_id": "xFDcclM4CIC6lLy2",
+              "_key": "xFDcclM4CIC6lLy2",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -233,7 +235,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -261,9 +266,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider2aaaaa.eraider2feature1",
-      "_id": "eraider2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider2feature1"
     },
     {
       "name": "Foresight",

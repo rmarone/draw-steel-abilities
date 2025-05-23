@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "2h3IM76t7efrX3hE": {
+        "vRNOFuqanOps4GWv": {
           "type": "damage",
-          "_id": "2h3IM76t7efrX3hE",
-          "_key": "2h3IM76t7efrX3hE",
+          "_id": "vRNOFuqanOps4GWv",
+          "_key": "vRNOFuqanOps4GWv",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "1pGd3Fk7W9pvtDge": {
+        "IU92AsZINeqhzRFv": {
           "type": "applied",
-          "_id": "1pGd3Fk7W9pvtDge",
-          "_key": "1pGd3Fk7W9pvtDge",
+          "_id": "IU92AsZINeqhzRFv",
+          "_key": "IU92AsZINeqhzRFv",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-ranger-signature!astring",
-  "_id": "trangersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "trangersignature"
 }

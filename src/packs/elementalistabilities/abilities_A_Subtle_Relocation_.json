@@ -16,6 +16,8 @@
       "void"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move.",
+    "effect": {
+      "before": "",
+      "after": "You teleport the target up to a number of squares equal to your Reason score. If the target moves to trigger this ability, you can teleport them at any point during the move."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-4-1-4!astring",
-  "_id": "ementalistsub414",
-  "category": "signature",
-  "resource": null
+  "_id": "ementalistsub414"
 }

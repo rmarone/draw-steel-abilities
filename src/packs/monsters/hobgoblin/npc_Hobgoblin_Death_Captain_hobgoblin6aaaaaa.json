@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "F8ZkiGitwoKutjLH": {
+            "OYxUxD4nKs1pGo5H": {
               "type": "damage",
-              "_id": "F8ZkiGitwoKutjLH",
-              "_key": "F8ZkiGitwoKutjLH",
+              "_id": "OYxUxD4nKs1pGo5H",
+              "_key": "OYxUxD4nKs1pGo5H",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "The next strike made against the target has a double edge.",
+        "effect": {
+          "before": "",
+          "after": "The next strike made against the target has a double edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin6aaaaaa.hobgoblin62aaaaa",
-      "_id": "hobgoblin62aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin62aaaaa"
     },
     {
       "name": "On My Mark!",
@@ -236,6 +239,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -255,7 +260,10 @@
           },
           "effects": null
         },
-        "effect": "The target moves up to their speed and makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "The target moves up to their speed and makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -283,9 +291,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin6aaaaaa.hobgoblin63aaaaa",
-      "_id": "hobgoblin63aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin63aaaaa"
     },
     {
       "name": "Battle Ready",

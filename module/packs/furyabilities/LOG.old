@@ -1,0 +1,15 @@
+2025/05/19-00:32:43.892 78d8 Recovering log #596
+2025/05/19-00:32:44.063 78d8 Delete type=0 #596
+2025/05/19-00:32:44.063 78d8 Delete type=3 #594
+2025/05/19-00:32:44.122 69dc Level-0 table #602: started
+2025/05/19-00:32:44.172 69dc Level-0 table #602: 10438 bytes OK
+2025/05/19-00:32:44.220 69dc Delete type=0 #600
+2025/05/19-00:32:44.220 69dc Manual compaction at level-0 from '!items!fury-ability-1!astring' @ 72057594037927935 : 1 .. '!items!fury-sub-3-1-5!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:32:44.221 69dc Manual compaction at level-1 from '!items!fury-ability-1!astring' @ 72057594037927935 : 1 .. '!items!fury-sub-3-1-5!astring' @ 0 : 0; will stop at '!items!fury-sub-3-1-5!astring' @ 3761 : 1
+2025/05/19-00:32:44.221 69dc Compacting 1@1 + 1@2 files
+2025/05/19-00:32:44.274 69dc Generated table #603@1: 20 keys, 10438 bytes
+2025/05/19-00:32:44.274 69dc Compacted 1@1 + 1@2 files => 10438 bytes
+2025/05/19-00:32:44.311 69dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/19-00:32:44.311 69dc Delete type=2 #598
+2025/05/19-00:32:44.311 69dc Delete type=2 #602
+2025/05/19-00:32:44.312 69dc Manual compaction at level-1 from '!items!fury-sub-3-1-5!astring' @ 3761 : 1 .. '!items!fury-sub-3-1-5!astring' @ 0 : 0; will stop at (end)

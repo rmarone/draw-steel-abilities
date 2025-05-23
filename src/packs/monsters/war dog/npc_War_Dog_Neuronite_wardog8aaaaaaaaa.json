@@ -122,6 +122,8 @@
           "psionic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "0XQjFrte8e1PZtDy": {
+            "ic0hqSXEMhSYHJSP": {
               "type": "damage",
-              "_id": "0XQjFrte8e1PZtDy",
-              "_key": "0XQjFrte8e1PZtDy",
+              "_id": "ic0hqSXEMhSYHJSP",
+              "_key": "ic0hqSXEMhSYHJSP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "EOmdDU9o4tcEX5qL": {
+            "Q6stx6k5b1tKZP1b": {
               "type": "forced",
-              "_id": "EOmdDU9o4tcEX5qL",
-              "_key": "EOmdDU9o4tcEX5qL",
+              "_id": "Q6stx6k5b1tKZP1b",
+              "_key": "Q6stx6k5b1tKZP1b",
               "name": "",
               "forced": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog8aaaaaaaaa.wardog8feature2a",
-      "_id": "wardog8feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog8feature2a"
     },
     {
       "name": "Posthumous Promotion",
@@ -263,6 +266,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog8aaaaaaaaa.wardog8feature3a",
-      "_id": "wardog8feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog8feature3a"
     },
     {
       "name": "The Voice",
@@ -331,6 +337,8 @@
           "psionic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -350,7 +358,10 @@
           },
           "effects": null
         },
-        "effect": "The neuronite chooses an ally within 10 squares, then chooses whether each target is taunted by the ally or the ally has damage immunity 3 whenever they’re attacked by a target until the start of the neuronite’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The neuronite chooses an ally within 10 squares, then chooses whether each target is taunted by the ally or the ally has damage immunity 3 whenever they’re attacked by a target until the start of the neuronite’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog8aaaaaaaaa.wardog8feature4a",
-      "_id": "wardog8feature4a",
-      "category": "heroic",
-      "resource": 1
+      "_id": "wardog8feature4a"
     },
     {
       "name": "Loyalty Collar",

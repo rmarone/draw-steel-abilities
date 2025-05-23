@@ -1,0 +1,106 @@
+{
+  "folder": "",
+  "name": "Search for hidden Creatures",
+  "type": "ability",
+  "img": "icons/skills/targeting/target-strike-triple-blue.webp",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "escape-grab",
+    "keywords": [
+      "melee"
+    ],
+    "type": "maneuver",
+    "category": "",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": null,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": null
+    },
+    "effect": {
+      "before": "<p>You can search for creatures who are hidden from you as long as those creatures are within 10 squares of you and you have line of effect to them. To do so, you make an Intuition test as a maneuver and assess the result:</p>",
+      "after": "<p>As part of this maneuver, you can point out any creatures you find to allies within 10 squares of you, making those creatures no longer hidden from those allies. If a creature is hidden from your allies but not from you, you can use a maneuver without making a test to point them out to your allies.</p>"
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "power": {
+      "roll": {
+        "characteristics": [
+          "intuition"
+        ],
+        "formula": "@chr"
+      },
+      "effects": {
+        "bXOXdHuSEogqxUxB": {
+          "type": "other",
+          "_id": "bXOXdHuSEogqxUxB",
+          "_key": "bXOXdHuSEogqxUxB",
+          "other": {
+            "tier1": {
+              "display": "You find any hidden creatures with an Agility of 0 or lower and who don’t have the Hide skill.",
+              "potency": {
+                "value": "@potency.weak",
+                "characteristic": "none"
+              }
+            },
+            "tier2": {
+              "display": "You find any hidden creatures who don’t have the Hide skill.",
+              "potency": {
+                "value": "@potency.average",
+                "characteristic": ""
+              }
+            },
+            "tier3": {
+              "display": "You find all hidden creatures.",
+              "potency": {
+                "value": "@potency.strong",
+                "characteristic": ""
+              }
+            }
+          },
+          "name": ""
+        }
+      }
+    },
+    "story": ""
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "498810ba68c2df6e652a921b72c05649a3a431b8",
+      "sourceId": "Item.lSEzd67TmDudA0wh",
+      "defaultPermission": 2
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": "draw-steel",
+    "systemVersion": "0.7.0",
+    "createdTime": 1741064862990,
+    "modifiedTime": 1747566101180,
+    "lastModifiedBy": "DeRzeWQa8Rcq3sIu",
+    "exportSource": {
+      "worldId": "draw-steel2",
+      "uuid": "Item.lSEzd67TmDudA0wh",
+      "coreVersion": "13.342",
+      "systemId": "draw-steel",
+      "systemVersion": "0.7.0"
+    }
+  },
+  "_key": "!items!basic-search!astring",
+  "_id": "lllllbasicsearch"
+}

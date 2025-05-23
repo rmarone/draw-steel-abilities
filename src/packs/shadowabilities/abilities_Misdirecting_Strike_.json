@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "uijuW49h9PbZcVbd": {
+        "NjYzWl0IleeBlEhm": {
           "type": "damage",
-          "_id": "uijuW49h9PbZcVbd",
-          "_key": "uijuW49h9PbZcVbd",
+          "_id": "NjYzWl0IleeBlEhm",
+          "_key": "NjYzWl0IleeBlEhm",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "The target is taunted by a willing ally within 5 squares of you until the end of the target’s next turn.",
+    "effect": {
+      "before": "",
+      "after": "The target is taunted by a willing ally within 5 squares of you until the end of the target’s next turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-14!astring",
-  "_id": "shadowability14a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "shadowability14a"
 }

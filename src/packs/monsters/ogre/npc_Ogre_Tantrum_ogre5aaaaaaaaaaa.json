@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "cTxbRX0TDDZkw8FT": {
+            "axhYAxOYb0P8wRVC": {
               "type": "damage",
-              "_id": "cTxbRX0TDDZkw8FT",
-              "_key": "cTxbRX0TDDZkw8FT",
+              "_id": "axhYAxOYb0P8wRVC",
+              "_key": "axhYAxOYb0P8wRVC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "rE9i62667Dls0uuR": {
+            "MYjdcSNlHxOOgwr7": {
               "type": "forced",
-              "_id": "rE9i62667Dls0uuR",
-              "_key": "rE9i62667Dls0uuR",
+              "_id": "MYjdcSNlHxOOgwr7",
+              "_key": "MYjdcSNlHxOOgwr7",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The tantrum unearths a rock or a hunk of terrain and tosses it. The tantrum can A<3 grab an adjacent size-1 or smaller creature or object to use as the projectile for this ability.",
+        "effect": {
+          "before": "",
+          "after": "The tantrum unearths a rock or a hunk of terrain and tosses it. The tantrum can A<3 grab an adjacent size-1 or smaller creature or object to use as the projectile for this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre5aaaaaaaaaaa.ogre5feature1aaa",
-      "_id": "ogre5feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre5feature1aaa"
     },
     {
       "name": "Excessive Anger",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "tst4PXxBEj8k5tdb": {
+            "lU1qtPcE2jxRhnvo": {
               "type": "damage",
-              "_id": "tst4PXxBEj8k5tdb",
-              "_key": "tst4PXxBEj8k5tdb",
+              "_id": "lU1qtPcE2jxRhnvo",
+              "_key": "lU1qtPcE2jxRhnvo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "uSDbyRqGafcsF00L": {
+            "5J5qpaP5mmrYZkZi": {
               "type": "forced",
-              "_id": "uSDbyRqGafcsF00L",
-              "_key": "uSDbyRqGafcsF00L",
+              "_id": "5J5qpaP5mmrYZkZi",
+              "_key": "5J5qpaP5mmrYZkZi",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The eviscerite can grab a target pulled adjacent to them by this ability.",
+        "effect": {
+          "before": "",
+          "after": "The eviscerite can grab a target pulled adjacent to them by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog6aaaaaaaaa.wardog6feature1a",
-      "_id": "wardog6feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog6feature1a"
     },
     {
       "name": "Posthumous Promotion",
@@ -258,6 +261,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -277,7 +282,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -305,9 +313,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog6aaaaaaaaa.wardog6feature2a",
-      "_id": "wardog6feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog6feature2a"
     },
     {
       "name": "Loyalty Collar",

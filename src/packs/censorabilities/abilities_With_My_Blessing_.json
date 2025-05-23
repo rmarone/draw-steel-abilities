@@ -1,0 +1,71 @@
+{
+  "name": "With My Blessing",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "censor-sub-2-2-3b",
+    "keywords": [
+      "magic",
+      "ranged"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "or",
+      "value": null
+    },
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": null
+      },
+      "effects": null
+    },
+    "effect": {
+      "before": "",
+      "after": "When you use this ability, the target can use a free triggered action to make a signature strike or a heroic ability that is a strike, and has a double edge on the power roll."
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "A word in prayer, and the gods show the way."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!censor-sub-2-2-3b!astring",
+  "_id": "censorsub223baaa"
+}

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "WDTK8oPHpWsmKzDc": {
+            "xyHZ04xGoyonAD7L": {
               "type": "damage",
-              "_id": "WDTK8oPHpWsmKzDc",
-              "_key": "WDTK8oPHpWsmKzDc",
+              "_id": "xyHZ04xGoyonAD7L",
+              "_key": "xyHZ04xGoyonAD7L",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "8QnOVouXIX5QYJQX": {
+            "kCExz6ZbDqCgrz7E": {
               "type": "forced",
-              "_id": "8QnOVouXIX5QYJQX",
-              "_key": "8QnOVouXIX5QYJQX",
+              "_id": "kCExz6ZbDqCgrz7E",
+              "_key": "kCExz6ZbDqCgrz7E",
               "name": "",
               "forced": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "A target who is adjacent to the bandit chief after the ability resolves takes 5 corruption damage.",
+        "effect": {
+          "before": "",
+          "after": "A target who is adjacent to the bandit chief after the ability resolves takes 5 corruption damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature3a",
-      "_id": "human14feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature3a"
     },
     {
       "name": "Kneel, Peasant!",
@@ -265,6 +268,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -285,10 +290,10 @@
             ]
           },
           "effects": {
-            "7W2GhhuQssFanPE2": {
+            "2CmqG3Hkc6ZplRgM": {
               "type": "applied",
-              "_id": "7W2GhhuQssFanPE2",
-              "_key": "7W2GhhuQssFanPE2",
+              "_id": "2CmqG3Hkc6ZplRgM",
+              "_key": "2CmqG3Hkc6ZplRgM",
               "name": "",
               "applied": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature4a",
-      "_id": "human14feature4a",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature4a"
     },
     {
       "name": "Bloodstones",
@@ -364,6 +370,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -383,7 +391,10 @@
           },
           "effects": null
         },
-        "effect": "The bandit chief takes 4 corruption damage and increases the result of the power roll by one tier.",
+        "effect": {
+          "before": "",
+          "after": "The bandit chief takes 4 corruption damage and increases the result of the power roll by one tier."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -411,9 +422,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature5a",
-      "_id": "human14feature5a",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature5a"
     },
     {
       "name": "End Effect",
@@ -457,6 +466,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -476,7 +487,10 @@
           },
           "effects": null
         },
-        "effect": "Each target makes a ranged free strike",
+        "effect": {
+          "before": "",
+          "after": "Each target makes a ranged free strike"
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -504,9 +518,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature8a",
-      "_id": "human14feature8a",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature8a"
     },
     {
       "name": "Form UP!",
@@ -524,6 +536,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -543,7 +557,10 @@
           },
           "effects": null
         },
-        "effect": "Each target shifts up to their speed. Until the end of the encounter, the bandit chief and all allies have damage immunity 2 while adjacent to a target.",
+        "effect": {
+          "before": "",
+          "after": "Each target shifts up to their speed. Until the end of the encounter, the bandit chief and all allies have damage immunity 2 while adjacent to a target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -571,9 +588,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature9a",
-      "_id": "human14feature9a",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature9a"
     },
     {
       "name": "Lead From the Front",
@@ -591,6 +606,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -610,7 +627,10 @@
           },
           "effects": null
         },
-        "effect": "Shift 10. During or after this movement, the bandit chief can use their Whip & Magic Longsword against up to four targets. Each ally adjacent to a target can make a free strike against them.",
+        "effect": {
+          "before": "",
+          "after": "Shift 10. During or after this movement, the bandit chief can use their Whip & Magic Longsword against up to four targets. Each ally adjacent to a target can make a free strike against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -638,9 +658,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human14aaaaaaaaa.human14feature10",
-      "_id": "human14feature10",
-      "category": "signature",
-      "resource": null
+      "_id": "human14feature10"
     }
   ],
   "effects": [

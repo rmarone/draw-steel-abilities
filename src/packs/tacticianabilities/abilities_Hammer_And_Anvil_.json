@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "FePNwtJHe71ai5rf": {
+        "SZ9u6LD3JUjKPM1y": {
           "type": "damage",
-          "_id": "FePNwtJHe71ai5rf",
-          "_key": "FePNwtJHe71ai5rf",
+          "_id": "SZ9u6LD3JUjKPM1y",
+          "_key": "SZ9u6LD3JUjKPM1y",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "nDXPqsVcrPsiNNEb": {
+        "N5u8KBnC89ibOI6K": {
           "type": "applied",
-          "_id": "nDXPqsVcrPsiNNEb",
-          "_key": "nDXPqsVcrPsiNNEb",
+          "_id": "N5u8KBnC89ibOI6K",
+          "_key": "N5u8KBnC89ibOI6K",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "If the target is reduced to 0 Stamina and a strike granted by this ability hasn’t been made, the striker can pick a different target.",
+    "effect": {
+      "before": "",
+      "after": "If the target is reduced to 0 Stamina and a strike granted by this ability hasn’t been made, the striker can pick a different target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-5!astring",
-  "_id": "acticianability5",
-  "category": "heroic",
-  "resource": 5
+  "_id": "acticianability5"
 }

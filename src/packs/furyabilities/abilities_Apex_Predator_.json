@@ -1,0 +1,146 @@
+{
+  "name": "Apex Predator",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "fury-sub-3-2-2a",
+    "keywords": [
+      "animal",
+      "melee",
+      "strike",
+      "weapon"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "melee",
+      "primary": 1,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": "1"
+    },
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "might"
+        ]
+      },
+      "effects": {
+        "RCO9fL1GIJzTcUzj": {
+          "type": "damage",
+          "_id": "RCO9fL1GIJzTcUzj",
+          "_key": "RCO9fL1GIJzTcUzj",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "4+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
+        },
+        "s4pnneVRDxLTQwED": {
+          "type": "applied",
+          "_id": "s4pnneVRDxLTQwED",
+          "_key": "s4pnneVRDxLTQwED",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.weak"
+              },
+              "display": " I < [weak], slowed (save ends)"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.average"
+              },
+              "display": " I < [average], slowed (save ends)"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "intuition",
+                "value": "@potency.strong"
+              },
+              "display": " I < [strong], slowed (save ends)"
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "before": "",
+      "after": "The target can’t be hidden from you for 24 hours. For the rest of the encounter, whenever the target moves, you can use a free triggered action to move."
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "I will hunt you down."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!fury-sub-3-2-2a!astring",
+  "_id": "furysub322aaaaaa"
+}

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "mS8sDUIfcgAIDgtQ": {
+            "3xDhny3LaquI8cbP": {
               "type": "damage",
-              "_id": "mS8sDUIfcgAIDgtQ",
-              "_key": "mS8sDUIfcgAIDgtQ",
+              "_id": "3xDhny3LaquI8cbP",
+              "_key": "3xDhny3LaquI8cbP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The target takes 3 damage if they start their next turn adjacent to 3 or more blizters.",
+        "effect": {
+          "before": "",
+          "after": "The target takes 3 damage if they start their next turn adjacent to 3 or more blizters."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc2aaaaaaaaaaaa.orc2feature1aaaa",
-      "_id": "orc2feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc2feature1aaaa"
     },
     {
       "name": "Bloodfire Burn",

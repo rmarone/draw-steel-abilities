@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "Xn5OvCJU8ipk1xkV": {
+            "4ExAcqnxw4xYlr4W": {
               "type": "damage",
-              "_id": "Xn5OvCJU8ipk1xkV",
-              "_key": "Xn5OvCJU8ipk1xkV",
+              "_id": "4ExAcqnxw4xYlr4W",
+              "_key": "4ExAcqnxw4xYlr4W",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "rOFrYd76bzPWGw4E": {
+            "1WpZNy2Bdy0dZb89": {
               "type": "applied",
-              "_id": "rOFrYd76bzPWGw4E",
-              "_key": "rOFrYd76bzPWGw4E",
+              "_id": "1WpZNy2Bdy0dZb89",
+              "_key": "1WpZNy2Bdy0dZb89",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll1aaaaaaaaaa.gnoll1feature1aa",
-      "_id": "gnoll1feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll1feature1aa"
     },
     {
       "name": "Death Snap",

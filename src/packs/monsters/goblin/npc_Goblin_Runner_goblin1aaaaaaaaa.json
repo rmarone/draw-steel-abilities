@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "agGXuhP3805n7Ydv": {
+            "J1R0h5dukyQPiOYw": {
               "type": "damage",
-              "_id": "agGXuhP3805n7Ydv",
-              "_key": "agGXuhP3805n7Ydv",
+              "_id": "J1R0h5dukyQPiOYw",
+              "_key": "J1R0h5dukyQPiOYw",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin1aaaaaaaaa.goblin1feature1a",
-      "_id": "goblin1feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin1feature1a"
     },
     {
       "name": "Crafty",

@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "kHEb42D4UkJFvFwq": {
+            "1KAK1FzLfSULUCOD": {
               "type": "damage",
-              "_id": "kHEb42D4UkJFvFwq",
-              "_key": "kHEb42D4UkJFvFwq",
+              "_id": "1KAK1FzLfSULUCOD",
+              "_key": "1KAK1FzLfSULUCOD",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "qNElY0xN8kup7teg": {
+            "XBkonQREZPiz1mtR": {
               "type": "forced",
-              "_id": "qNElY0xN8kup7teg",
-              "_key": "qNElY0xN8kup7teg",
+              "_id": "XBkonQREZPiz1mtR",
+              "_key": "XBkonQREZPiz1mtR",
               "name": "",
               "forced": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pushed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pushed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf9aaaaaaaaaa.dwarf9feature1aa",
-      "_id": "dwarf9feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf9feature1aa"
     },
     {
       "name": "Steam Powered Snare",
@@ -266,6 +269,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -285,7 +290,10 @@
           },
           "effects": null
         },
-        "effect": "The snare remains until the end of the encounter. An enemy that moves into an affected square for the first time on their turn must make the test.",
+        "effect": {
+          "before": "",
+          "after": "The snare remains until the end of the encounter. An enemy that moves into an affected square for the first time on their turn must make the test."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -313,9 +321,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf9aaaaaaaaaa.dwarf9feature2aa",
-      "_id": "dwarf9feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dwarf9feature2aa"
     }
   ],
   "effects": [

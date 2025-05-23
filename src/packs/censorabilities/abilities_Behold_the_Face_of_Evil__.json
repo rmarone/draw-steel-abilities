@@ -18,11 +18,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "i0TA0rQ8eRckPvhB": {
+        "V8aq4lbXf58nTSa5": {
           "type": "damage",
-          "_id": "i0TA0rQ8eRckPvhB",
-          "_key": "i0TA0rQ8eRckPvhB",
+          "_id": "V8aq4lbXf58nTSa5",
+          "_key": "V8aq4lbXf58nTSa5",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +81,10 @@
             }
           }
         },
-        "oxaukBXtGe0xgVGL": {
+        "uuNeSc5dLzyy7wUK": {
           "type": "applied",
-          "_id": "oxaukBXtGe0xgVGL",
-          "_key": "oxaukBXtGe0xgVGL",
+          "_id": "uuNeSc5dLzyy7wUK",
+          "_key": "uuNeSc5dLzyy7wUK",
           "name": "",
           "applied": {
             "tier1": {
@@ -110,7 +112,10 @@
         }
       }
     },
-    "effect": "Each enemy frightened by this ability is pushed 2 squares away from the target and takes psychic damage equal to your Presence score.",
+    "effect": {
+      "before": "",
+      "after": "Each enemy frightened by this ability is pushed 2 squares away from the target and takes psychic damage equal to your Presence score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -138,7 +143,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-10!astring",
-  "_id": "censorability10a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "censorability10a"
 }

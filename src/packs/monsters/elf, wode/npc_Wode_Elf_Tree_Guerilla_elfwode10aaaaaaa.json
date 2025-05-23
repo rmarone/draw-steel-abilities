@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "wudQ8U1R31V34Prv": {
+            "FnY9hOekHG9IkpUP": {
               "type": "damage",
-              "_id": "wudQ8U1R31V34Prv",
-              "_key": "wudQ8U1R31V34Prv",
+              "_id": "FnY9hOekHG9IkpUP",
+              "_key": "FnY9hOekHG9IkpUP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "lUar8xFeockH2Iza": {
+            "bPVX0xEaiP8Y1CxJ": {
               "type": "applied",
-              "_id": "lUar8xFeockH2Iza",
-              "_key": "lUar8xFeockH2Iza",
+              "_id": "bPVX0xEaiP8Y1CxJ",
+              "_key": "bPVX0xEaiP8Y1CxJ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "The tree guerilla can teleport 3 after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The tree guerilla can teleport 3 after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode10aaaaaaa.lfwode10feature1",
-      "_id": "lfwode10feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode10feature1"
     },
     {
       "name": "Do Not Hesitate in the wode",
@@ -253,6 +256,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "The targets take their turn immediately. Each target has an edge on their abilities until the end of their turn.",
+        "effect": {
+          "before": "",
+          "after": "The targets take their turn immediately. Each target has an edge on their abilities until the end of their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode10aaaaaaa.lfwode10feature2",
-      "_id": "lfwode10feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode10feature2"
     },
     {
       "name": "Hunter’s Glamor",

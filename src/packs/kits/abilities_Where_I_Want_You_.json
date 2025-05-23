@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "NDGLh12Jv6b6s6BD": {
+        "1TZieJ1tkdj8eIk2": {
           "type": "damage",
-          "_id": "NDGLh12Jv6b6s6BD",
-          "_key": "NDGLh12Jv6b6s6BD",
+          "_id": "1TZieJ1tkdj8eIk2",
+          "_key": "1TZieJ1tkdj8eIk2",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "8oGn7exUoqg3gU4U": {
+        "fpNLl27OE5sg257y": {
           "type": "forced",
-          "_id": "8oGn7exUoqg3gU4U",
-          "_key": "8oGn7exUoqg3gU4U",
+          "_id": "fpNLl27OE5sg257y",
+          "_key": "fpNLl27OE5sg257y",
           "name": "",
           "forced": {
             "tier1": null,
@@ -103,7 +105,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -131,7 +136,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-stick-and-robe-signature!astring",
-  "_id": "androbesignature",
-  "category": "signature",
-  "resource": null
+  "_id": "androbesignature"
 }

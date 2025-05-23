@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "f9XApP8Z6cJ4rQ0v": {
+            "6V6iysNRfEJkc9LV": {
               "type": "damage",
-              "_id": "f9XApP8Z6cJ4rQ0v",
-              "_key": "f9XApP8Z6cJ4rQ0v",
+              "_id": "6V6iysNRfEJkc9LV",
+              "_key": "6V6iysNRfEJkc9LV",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "NNPn0P3QcwEhh47Y": {
+            "zcksdODzwKRHXjIA": {
               "type": "applied",
-              "_id": "NNPn0P3QcwEhh47Y",
-              "_key": "NNPn0P3QcwEhh47Y",
+              "_id": "zcksdODzwKRHXjIA",
+              "_key": "zcksdODzwKRHXjIA",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "An ally target by this ability makes a free strike instead of taking damage.",
+        "effect": {
+          "before": "",
+          "after": "An ally target by this ability makes a free strike instead of taking damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll8aaaaaaaaaa.gnoll8feature1aa",
-      "_id": "gnoll8feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll8feature1aa"
     },
     {
       "name": "Cackletongue",
@@ -264,6 +267,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 4,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost.",
+        "effect": {
+          "before": "",
+          "after": "Targets who haven't used a cackletongue maneuver on this turn use it immediately at no cost."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll8aaaaaaaaaa.gnoll8feature2aa",
-      "_id": "gnoll8feature2aa",
-      "category": "heroic",
-      "resource": 4
+      "_id": "gnoll8feature2aa"
     },
     {
       "name": "Death Frenzy",

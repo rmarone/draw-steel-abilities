@@ -1,0 +1,145 @@
+{
+  "name": "Tough Crowd",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "troubadour-sub-3-2-1b",
+    "keywords": [
+      "area",
+      "magic",
+      "ranged"
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "cube",
+      "primary": 3,
+      "secondary": 10,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": null,
+      "value": null
+    },
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "presence"
+        ]
+      },
+      "effects": {
+        "dYsrDbOCFnXjUcNO": {
+          "type": "damage",
+          "_id": "dYsrDbOCFnXjUcNO",
+          "_key": "dYsrDbOCFnXjUcNO",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+                "corruption"
+              ],
+              "value": "5",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+                "corruption"
+              ],
+              "value": "9",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+                "corruption"
+              ],
+              "value": "12",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
+        },
+        "MbKgaH2baCsClUis": {
+          "type": "forced",
+          "_id": "MbKgaH2baCsClUis",
+          "_key": "MbKgaH2baCsClUis",
+          "name": "",
+          "forced": {
+            "tier1": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "area",
+              "display": "{{forced}}"
+            },
+            "tier2": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "area",
+              "display": "{{forced}}"
+            },
+            "tier3": {
+              "movement": [
+                "pull"
+              ],
+              "distance": "area",
+              "display": "{{forced}}"
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "before": "",
+      "after": ""
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "Your fans don’t seem to like the opening act …"
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!troubadour-sub-3-2-1b!astring",
+  "_id": "roubadoursub321b"
+}

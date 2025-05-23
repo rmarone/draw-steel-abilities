@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "NgJwA8H4pQXagZCn": {
+        "1yyrAN98qDNoWA5P": {
           "type": "damage",
-          "_id": "NgJwA8H4pQXagZCn",
-          "_key": "NgJwA8H4pQXagZCn",
+          "_id": "1yyrAN98qDNoWA5P",
+          "_key": "1yyrAN98qDNoWA5P",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "0n1b74aGrQELwJGJ": {
+        "SgzPuxxQ7Ccs2FXz": {
           "type": "forced",
-          "_id": "0n1b74aGrQELwJGJ",
-          "_key": "0n1b74aGrQELwJGJ",
+          "_id": "SgzPuxxQ7Ccs2FXz",
+          "_key": "SgzPuxxQ7Ccs2FXz",
           "name": "",
           "forced": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "Before the push is resolved, teleport the target to a square adjacent to you opposite the one they started in. If the target cannot be teleported, then they ignore the push.",
+    "effect": {
+      "before": "",
+      "after": "Before the push is resolved, teleport the target to a square adjacent to you opposite the one they started in. If the target cannot be teleported, then they ignore the push."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-7!astring",
-  "_id": "nullability7aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "nullability7aaaa"
 }

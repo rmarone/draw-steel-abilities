@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "VkBfkYKTzDRzjzSi": {
+            "5i9sH3VM6Arc7C5U": {
               "type": "damage",
-              "_id": "VkBfkYKTzDRzjzSi",
-              "_key": "VkBfkYKTzDRzjzSi",
+              "_id": "5i9sH3VM6Arc7C5U",
+              "_key": "5i9sH3VM6Arc7C5U",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human11aaaaaaaaa.human11feature3a",
-      "_id": "human11feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "human11feature3a"
     },
     {
       "name": "Gust of Wind",
@@ -235,6 +238,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -255,10 +260,10 @@
             ]
           },
           "effects": {
-            "IfMerluAMmofu0Z8": {
+            "RrGughkJIYkbasDG": {
               "type": "applied",
-              "_id": "IfMerluAMmofu0Z8",
-              "_key": "IfMerluAMmofu0Z8",
+              "_id": "RrGughkJIYkbasDG",
+              "_key": "RrGughkJIYkbasDG",
               "name": "",
               "applied": {
                 "tier1": {
@@ -286,7 +291,10 @@
             }
           }
         },
-        "effect": "The gust of wind disperses gas or vapor and extinguishes any flames, including persistent effects.",
+        "effect": {
+          "before": "",
+          "after": "The gust of wind disperses gas or vapor and extinguishes any flames, including persistent effects."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -314,9 +322,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human11aaaaaaaaa.human11feature4a",
-      "_id": "human11feature4a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "human11feature4a"
     },
     {
       "name": "Arcane Shield",

@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "JdqiVaTQEnnHTPiA": {
+            "VMZwu54subrbuqca": {
               "type": "damage",
-              "_id": "JdqiVaTQEnnHTPiA",
-              "_key": "JdqiVaTQEnnHTPiA",
+              "_id": "VMZwu54subrbuqca",
+              "_key": "VMZwu54subrbuqca",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "5ZViqRBuc770DYct": {
+            "sVR8L2uxPVB7jABL": {
               "type": "applied",
-              "_id": "5ZViqRBuc770DYct",
-              "_key": "5ZViqRBuc770DYct",
+              "_id": "sVR8L2uxPVB7jABL",
+              "_key": "sVR8L2uxPVB7jABL",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "The area beneath the target becomes difficult terrain.",
+        "effect": {
+          "before": "",
+          "after": "The area beneath the target becomes difficult terrain."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental5aaaaaa.emental5feature1",
-      "_id": "emental5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emental5feature1"
     },
     {
       "name": "Convocation of Quartz",
@@ -257,6 +260,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The target imposes a bane on melee strikes made against them until the start of the force’s next turn if they don’t already have it.",
+        "effect": {
+          "before": "",
+          "after": "The target imposes a bane on melee strikes made against them until the start of the force’s next turn if they don’t already have it."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental5aaaaaa.emental5feature2",
-      "_id": "emental5feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "emental5feature2"
     },
     {
       "name": "Break Armor",
@@ -324,6 +330,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -343,7 +351,10 @@
           },
           "effects": null
         },
-        "effect": " The force halves the damage, gains damage weakness 3, and increases their speed by 3. The damage weakness increases by 3 each time the force uses this ability in an encounter.",
+        "effect": {
+          "before": "",
+          "after": " The force halves the damage, gains damage weakness 3, and increases their speed by 3. The damage weakness increases by 3 each time the force uses this ability in an encounter."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -371,9 +382,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental5aaaaaa.emental5feature3",
-      "_id": "emental5feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emental5feature3"
     },
     {
       "name": "Primordial Strength",

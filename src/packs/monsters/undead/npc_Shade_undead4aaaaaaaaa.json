@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "HSx1dkFBfzeooKEb": {
+            "eKC6wIbY3LNXjhIo": {
               "type": "damage",
-              "_id": "HSx1dkFBfzeooKEb",
-              "_key": "HSx1dkFBfzeooKEb",
+              "_id": "eKC6wIbY3LNXjhIo",
+              "_key": "eKC6wIbY3LNXjhIo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "8nEIrfePWB1TySpe": {
+            "fns608JzVzmhi8KZ": {
               "type": "applied",
-              "_id": "8nEIrfePWB1TySpe",
-              "_key": "8nEIrfePWB1TySpe",
+              "_id": "fns608JzVzmhi8KZ",
+              "_key": "fns608JzVzmhi8KZ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -202,7 +204,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -230,9 +235,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead4aaaaaaaaa.undead4feature2a",
-      "_id": "undead4feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead4feature2a"
     },
     {
       "name": "Corruptive Phasing",

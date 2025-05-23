@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "YAFy1yKeDFUHbWrZ": {
+            "7fBwK2TXebbisWWs": {
               "type": "damage",
-              "_id": "YAFy1yKeDFUHbWrZ",
-              "_key": "YAFy1yKeDFUHbWrZ",
+              "_id": "7fBwK2TXebbisWWs",
+              "_key": "7fBwK2TXebbisWWs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "bRubKs1x6O1M6eEj": {
+            "i1PSdFHocEOrusdy": {
               "type": "applied",
-              "_id": "bRubKs1x6O1M6eEj",
-              "_key": "bRubKs1x6O1M6eEj",
+              "_id": "i1PSdFHocEOrusdy",
+              "_key": "i1PSdFHocEOrusdy",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pushed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pushed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf4aaaaaaaaaa.dwarf4feature1aa",
-      "_id": "dwarf4feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf4feature1aa"
     },
     {
       "name": "Sleep Grenade",
@@ -258,6 +261,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -278,10 +283,10 @@
             ]
           },
           "effects": {
-            "EJso83jwGzeGj58v": {
+            "oq4AAMWQJ1CSiFPg": {
               "type": "damage",
-              "_id": "EJso83jwGzeGj58v",
-              "_key": "EJso83jwGzeGj58v",
+              "_id": "oq4AAMWQJ1CSiFPg",
+              "_key": "oq4AAMWQJ1CSiFPg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -319,10 +324,10 @@
                 }
               }
             },
-            "ZvSWdrQDImkpHSxi": {
+            "mJ6M5b4p8wTO3PBF": {
               "type": "applied",
-              "_id": "ZvSWdrQDImkpHSxi",
-              "_key": "ZvSWdrQDImkpHSxi",
+              "_id": "mJ6M5b4p8wTO3PBF",
+              "_key": "mJ6M5b4p8wTO3PBF",
               "name": "",
               "applied": {
                 "tier1": {
@@ -350,7 +355,10 @@
             }
           }
         },
-        "effect": "A creature dazed by this ability has -1 to all characteristics while resisting potent effects until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A creature dazed by this ability has -1 to all characteristics while resisting potent effects until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +386,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf4aaaaaaaaaa.dwarf4feature2aa",
-      "_id": "dwarf4feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dwarf4feature2aa"
     },
     {
       "name": "Indirect Fire",

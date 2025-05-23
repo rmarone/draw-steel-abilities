@@ -126,6 +126,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "R1eTK7g35bnBSItj": {
+            "apEVrJt9bWYQIZwV": {
               "type": "damage",
-              "_id": "R1eTK7g35bnBSItj",
-              "_key": "R1eTK7g35bnBSItj",
+              "_id": "apEVrJt9bWYQIZwV",
+              "_key": "apEVrJt9bWYQIZwV",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +189,10 @@
                 }
               }
             },
-            "B0Qe2go6YN2YwoEF": {
+            "JPiG7m7eTf8w3Hn4": {
               "type": "applied",
-              "_id": "B0Qe2go6YN2YwoEF",
-              "_key": "B0Qe2go6YN2YwoEF",
+              "_id": "JPiG7m7eTf8w3Hn4",
+              "_key": "JPiG7m7eTf8w3Hn4",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -212,7 +214,10 @@
             }
           }
         },
-        "effect": "A target grabbed by the knightmare can be immediately vertically pushed 5.",
+        "effect": {
+          "before": "",
+          "after": "A target grabbed by the knightmare can be immediately vertically pushed 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -240,9 +245,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear5aaaaaaaa.bugbear5feature1",
-      "_id": "bugbear5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear5feature1"
     },
     {
       "name": "Bu’gathic Inspiration",

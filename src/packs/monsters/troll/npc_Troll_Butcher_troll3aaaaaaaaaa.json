@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "kHN02gvRFo1gcjZG": {
+            "mrjGGqY4isKaQ51u": {
               "type": "damage",
-              "_id": "kHN02gvRFo1gcjZG",
-              "_key": "kHN02gvRFo1gcjZG",
+              "_id": "mrjGGqY4isKaQ51u",
+              "_key": "mrjGGqY4isKaQ51u",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "Tjd3GcEPi07NwPST": {
+            "7xNUxbVSTZ46QhOk": {
               "type": "applied",
-              "_id": "Tjd3GcEPi07NwPST",
-              "_key": "Tjd3GcEPi07NwPST",
+              "_id": "7xNUxbVSTZ46QhOk",
+              "_key": "7xNUxbVSTZ46QhOk",
               "name": "",
               "applied": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll3aaaaaaaaaa.troll3feature1aa",
-      "_id": "troll3feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll3feature1aa"
     },
     {
       "name": "Rotten Scraps",
@@ -263,6 +266,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -283,10 +288,10 @@
             ]
           },
           "effects": {
-            "8bnIaMBeqzrvN6au": {
+            "Xhmt3SE80iOrG2Vc": {
               "type": "damage",
-              "_id": "8bnIaMBeqzrvN6au",
-              "_key": "8bnIaMBeqzrvN6au",
+              "_id": "Xhmt3SE80iOrG2Vc",
+              "_key": "Xhmt3SE80iOrG2Vc",
               "name": "",
               "damage": {
                 "tier1": {
@@ -324,10 +329,10 @@
                 }
               }
             },
-            "b6SUMGnYUzESBQ1S": {
+            "toxUGCtJFpuMB9hA": {
               "type": "applied",
-              "_id": "b6SUMGnYUzESBQ1S",
-              "_key": "b6SUMGnYUzESBQ1S",
+              "_id": "toxUGCtJFpuMB9hA",
+              "_key": "toxUGCtJFpuMB9hA",
               "name": "",
               "applied": {
                 "tier1": {
@@ -355,7 +360,10 @@
             }
           }
         },
-        "effect": "Each troll in the cube regains 3 Stamina.",
+        "effect": {
+          "before": "",
+          "after": "Each troll in the cube regains 3 Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -383,9 +391,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll3aaaaaaaaaa.troll3feature2aa",
-      "_id": "troll3feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll3feature2aa"
     },
     {
       "name": "Gourmet Flesh",
@@ -403,6 +409,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -422,7 +430,10 @@
           },
           "effects": null
         },
-        "effect": "The butcher enhances their next Savoring Bite ability, changing the damage type and inflicted condition to one of the following combinations: corruption and dazed, acid and restrained, or lightning and frightened.",
+        "effect": {
+          "before": "",
+          "after": "The butcher enhances their next Savoring Bite ability, changing the damage type and inflicted condition to one of the following combinations: corruption and dazed, acid and restrained, or lightning and frightened."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -450,9 +461,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll3aaaaaaaaaa.troll3feature3aa",
-      "_id": "troll3feature3aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "troll3feature3aa"
     },
     {
       "name": "Acquired Taste",
@@ -470,6 +479,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -489,7 +500,10 @@
           },
           "effects": null
         },
-        "effect": "The butcher makes a free strike against the target. The butcher has an edge on power rolls and deals an additional 3 damage on strikes until the end of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "The butcher makes a free strike against the target. The butcher has an edge on power rolls and deals an additional 3 damage on strikes until the end of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -517,9 +531,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll3aaaaaaaaaa.troll3feature4aa",
-      "_id": "troll3feature4aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll3feature4aa"
     },
     {
       "name": "Bloody Feast",

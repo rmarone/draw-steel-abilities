@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "qs883YuMexMu0aWt": {
+        "udopx7LYbCUqRIBj": {
           "type": "damage",
-          "_id": "qs883YuMexMu0aWt",
-          "_key": "qs883YuMexMu0aWt",
+          "_id": "udopx7LYbCUqRIBj",
+          "_key": "udopx7LYbCUqRIBj",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "If you use this ability on your turn, you can target one creature or object with it then use your maneuver and move action for that turn before targeting a second creature or object. You still use the same power roll for both targets.",
+    "effect": {
+      "before": "",
+      "after": "If you use this ability on your turn, you can target one creature or object with it then use your maneuver and move action for that turn before targeting a second creature or object. You still use the same power roll for both targets."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-dual-wielder-signature!astring",
-  "_id": "wieldersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "wieldersignature"
 }

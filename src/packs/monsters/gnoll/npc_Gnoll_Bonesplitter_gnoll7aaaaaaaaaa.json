@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "32Euu0NdOq5qn9aU": {
+            "SyuoYI5VwqugPom4": {
               "type": "damage",
-              "_id": "32Euu0NdOq5qn9aU",
-              "_key": "32Euu0NdOq5qn9aU",
+              "_id": "SyuoYI5VwqugPom4",
+              "_key": "SyuoYI5VwqugPom4",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "IjcEC8dcCPZXiaKa": {
+            "1oeQCjN3jc1lniNY": {
               "type": "forced",
-              "_id": "IjcEC8dcCPZXiaKa",
-              "_key": "IjcEC8dcCPZXiaKa",
+              "_id": "1oeQCjN3jc1lniNY",
+              "_key": "1oeQCjN3jc1lniNY",
               "name": "",
               "forced": {
                 "tier1": {
@@ -207,10 +209,10 @@
                 "tier3": null
               }
             },
-            "L5aUdnrOQyEoqVzw": {
+            "mFvNfNIFBn3Zq2dS": {
               "type": "applied",
-              "_id": "L5aUdnrOQyEoqVzw",
-              "_key": "L5aUdnrOQyEoqVzw",
+              "_id": "mFvNfNIFBn3Zq2dS",
+              "_key": "mFvNfNIFBn3Zq2dS",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -226,7 +228,10 @@
             }
           }
         },
-        "effect": "The bone splitter can't use three-tail flail on another target while the current target is grabbed.",
+        "effect": {
+          "before": "",
+          "after": "The bone splitter can't use three-tail flail on another target while the current target is grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -254,9 +259,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll7aaaaaaaaaa.gnoll7feature1aa",
-      "_id": "gnoll7feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll7feature1aa"
     },
     {
       "name": "Cackletongue",
@@ -274,6 +277,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -293,7 +298,10 @@
           },
           "effects": null
         },
-        "effect": "Each target makes a free strike. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost.",
+        "effect": {
+          "before": "",
+          "after": "Each target makes a free strike. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -321,9 +329,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll7aaaaaaaaaa.gnoll7feature2aa",
-      "_id": "gnoll7feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "gnoll7feature2aa"
     },
     {
       "name": "Death Frenzy",

@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "Kp7Fn7jqlvDNQ99o": {
+        "P5o6KWwkoRJymz3Z": {
           "type": "damage",
-          "_id": "Kp7Fn7jqlvDNQ99o",
-          "_key": "Kp7Fn7jqlvDNQ99o",
+          "_id": "P5o6KWwkoRJymz3Z",
+          "_key": "P5o6KWwkoRJymz3Z",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "Df9DR6h7cLdsW880": {
+        "jDQtPAx4A2yRiYoM": {
           "type": "forced",
-          "_id": "Df9DR6h7cLdsW880",
-          "_key": "Df9DR6h7cLdsW880",
+          "_id": "jDQtPAx4A2yRiYoM",
+          "_key": "jDQtPAx4A2yRiYoM",
           "name": "",
           "forced": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-1!astring",
-  "_id": "censorability1aa",
-  "category": "signature",
-  "resource": null
+  "_id": "censorability1aa"
 }

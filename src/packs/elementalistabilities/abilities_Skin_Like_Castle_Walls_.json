@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "The damage is halved.",
+    "effect": {
+      "before": "",
+      "after": "The damage is halved."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-sub-1-1-3!astring",
-  "_id": "ementalistsub113",
-  "category": "signature",
-  "resource": null
+  "_id": "ementalistsub113"
 }

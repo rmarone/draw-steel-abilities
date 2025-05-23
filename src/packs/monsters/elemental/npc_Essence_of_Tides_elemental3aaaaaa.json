@@ -122,6 +122,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "w7UuOWI9PreJ8dtV": {
+            "ZzrsrubL9audglvP": {
               "type": "damage",
-              "_id": "w7UuOWI9PreJ8dtV",
-              "_key": "w7UuOWI9PreJ8dtV",
+              "_id": "ZzrsrubL9audglvP",
+              "_key": "ZzrsrubL9audglvP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "TuqSAF7Z2MPYBjUq": {
+            "LUr7MYoPbwXUv6ii": {
               "type": "forced",
-              "_id": "TuqSAF7Z2MPYBjUq",
-              "_key": "TuqSAF7Z2MPYBjUq",
+              "_id": "LUr7MYoPbwXUv6ii",
+              "_key": "LUr7MYoPbwXUv6ii",
               "name": "",
               "forced": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "P<2 the target's stability is reduced to 0 and they move 2 additional squares whenver they are force moved (save ends).",
+        "effect": {
+          "before": "",
+          "after": "P<2 the target's stability is reduced to 0 and they move 2 additional squares whenver they are force moved (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental3aaaaaa.emental3feature1",
-      "_id": "emental3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emental3feature1"
     },
     {
       "name": "Convocation of Waves",
@@ -263,6 +266,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": " The target receives cold immunity 5 until the start of the essence’s next turn if they don’t already have it.",
+        "effect": {
+          "before": "",
+          "after": " The target receives cold immunity 5 until the start of the essence’s next turn if they don’t already have it."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental3aaaaaa.emental3feature2",
-      "_id": "emental3feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "emental3feature2"
     },
     {
       "name": "Sea Salted Wounds",
@@ -330,6 +336,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -349,7 +357,10 @@
           },
           "effects": null
         },
-        "effect": "The essence makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The essence makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -377,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental3aaaaaa.emental3feature3",
-      "_id": "emental3feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emental3feature3"
     },
     {
       "name": "Water Glide",

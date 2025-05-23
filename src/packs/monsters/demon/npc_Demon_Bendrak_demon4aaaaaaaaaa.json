@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "JtCvZmrjn8Ykxefa": {
+            "evVqrpqMBuXEmgYi": {
               "type": "damage",
-              "_id": "JtCvZmrjn8Ykxefa",
-              "_key": "JtCvZmrjn8Ykxefa",
+              "_id": "evVqrpqMBuXEmgYi",
+              "_key": "evVqrpqMBuXEmgYi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "5Ut5ULytdZdKGQ5C": {
+            "wEuJtOJzN7mwqLZD": {
               "type": "applied",
-              "_id": "5Ut5ULytdZdKGQ5C",
-              "_key": "5Ut5ULytdZdKGQ5C",
+              "_id": "wEuJtOJzN7mwqLZD",
+              "_key": "wEuJtOJzN7mwqLZD",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike, then evenly divides any damage from the strike between the two targets.",
+        "effect": {
+          "before": "",
+          "after": "If the target makes a strike while weakened this way, the bendrak can choose a second target within distance for the strike, then evenly divides any damage from the strike between the two targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon4aaaaaaaaaa.demon4feature1aa",
-      "_id": "demon4feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon4feature1aa"
     },
     {
       "name": "Vanish",
@@ -258,6 +261,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -277,7 +282,10 @@
           },
           "effects": null
         },
-        "effect": "The target immediately becomes hidden, regardless of whether they have cover or concealment.",
+        "effect": {
+          "before": "",
+          "after": "The target immediately becomes hidden, regardless of whether they have cover or concealment."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -305,9 +313,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon4aaaaaaaaaa.demon4feature2aa",
-      "_id": "demon4feature2aa",
-      "category": "heroic",
-      "resource": 1
+      "_id": "demon4feature2aa"
     },
     {
       "name": "Lethe",

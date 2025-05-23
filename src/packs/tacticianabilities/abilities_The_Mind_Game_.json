@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "ZFVxoiirXlLv7HMb": {
+        "hitUmtFIxQCDUUDh": {
           "type": "damage",
-          "_id": "ZFVxoiirXlLv7HMb",
-          "_key": "ZFVxoiirXlLv7HMb",
+          "_id": "hitUmtFIxQCDUUDh",
+          "_key": "hitUmtFIxQCDUUDh",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "pNZQIoP2EKPtVAlA": {
+        "mZ1lSWc8PQdks5qR": {
           "type": "applied",
-          "_id": "pNZQIoP2EKPtVAlA",
-          "_key": "pNZQIoP2EKPtVAlA",
+          "_id": "mZ1lSWc8PQdks5qR",
+          "_key": "mZ1lSWc8PQdks5qR",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "The first time any ally deals damage any target you’ve marked before the start of your next turn, that ally can spend a Recovery.",
+    "effect": {
+      "before": "",
+      "after": "The first time any ally deals damage any target you’ve marked before the start of your next turn, that ally can spend a Recovery."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-6!astring",
-  "_id": "acticianability6",
-  "category": "heroic",
-  "resource": 5
+  "_id": "acticianability6"
 }

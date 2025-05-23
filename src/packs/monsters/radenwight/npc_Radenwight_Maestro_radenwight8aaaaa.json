@@ -122,6 +122,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "PeUfvky9pqxGrAB5": {
+            "lrDLOxxqlNGQQ4uF": {
               "type": "damage",
-              "_id": "PeUfvky9pqxGrAB5",
-              "_key": "PeUfvky9pqxGrAB5",
+              "_id": "lrDLOxxqlNGQQ4uF",
+              "_key": "lrDLOxxqlNGQQ4uF",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "hLNYEmQMxr0t29WZ": {
+            "vbaYLLZARoihdZyg": {
               "type": "forced",
-              "_id": "hLNYEmQMxr0t29WZ",
-              "_key": "hLNYEmQMxr0t29WZ",
+              "_id": "vbaYLLZARoihdZyg",
+              "_key": "vbaYLLZARoihdZyg",
               "name": "",
               "forced": {
                 "tier1": {
@@ -212,10 +214,10 @@
                 }
               }
             },
-            "0jQaLUMzSTXd1tyz": {
+            "qupg58qgvWKDpBdq": {
               "type": "applied",
-              "_id": "0jQaLUMzSTXd1tyz",
-              "_key": "0jQaLUMzSTXd1tyz",
+              "_id": "qupg58qgvWKDpBdq",
+              "_key": "qupg58qgvWKDpBdq",
               "name": "",
               "applied": {
                 "tier1": {
@@ -243,7 +245,10 @@
             }
           }
         },
-        "effect": "Each all within distance can use Ready Roden as a free triggered action once before the end of the round.",
+        "effect": {
+          "before": "",
+          "after": "Each all within distance can use Ready Roden as a free triggered action once before the end of the round."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -271,9 +276,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature1",
-      "_id": "enwight8feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight8feature1"
     },
     {
       "name": "Tempo Change",
@@ -292,6 +295,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -312,10 +317,10 @@
             ]
           },
           "effects": {
-            "1qAxx8EgaXmvJSm0": {
+            "VWYOxna83O5K6bQM": {
               "type": "applied",
-              "_id": "1qAxx8EgaXmvJSm0",
-              "_key": "1qAxx8EgaXmvJSm0",
+              "_id": "VWYOxna83O5K6bQM",
+              "_key": "VWYOxna83O5K6bQM",
               "name": "",
               "applied": {
                 "tier1": {
@@ -343,7 +348,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -371,9 +379,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature2",
-      "_id": "enwight8feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight8feature2"
     },
     {
       "name": "Ever Ready Rodent",
@@ -393,6 +399,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -412,7 +420,10 @@
           },
           "effects": null
         },
-        "effect": "The maestro makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The maestro makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -440,9 +451,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature3",
-      "_id": "enwight8feature3",
-      "category": "heroic",
-      "resource": 2
+      "_id": "enwight8feature3"
     },
     {
       "name": "End Effect",
@@ -473,6 +482,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -492,7 +503,10 @@
           },
           "effects": null
         },
-        "effect": "Each target shifts up to their speed or takes the Defend action.",
+        "effect": {
+          "before": "",
+          "after": "Each target shifts up to their speed or takes the Defend action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -520,9 +534,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature5",
-      "_id": "enwight8feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight8feature5"
     },
     {
       "name": "Solo Act",
@@ -540,6 +552,8 @@
           "ranged"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -559,7 +573,10 @@
           },
           "effects": null
         },
-        "effect": "Until the end of their next turn, the target halves incoming damage, deals an additional 4 damage on strikes, and their speed is doubled.",
+        "effect": {
+          "before": "",
+          "after": "Until the end of their next turn, the target halves incoming damage, deals an additional 4 damage on strikes, and their speed is doubled."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -587,9 +604,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature6",
-      "_id": "enwight8feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight8feature6"
     },
     {
       "name": "Rondo of Rat",
@@ -607,6 +622,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -626,7 +643,10 @@
           },
           "effects": null
         },
-        "effect": "Each target stands, makes a free strike, then collapses again. Allies of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.",
+        "effect": {
+          "before": "",
+          "after": "Each target stands, makes a free strike, then collapses again. Allies of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -654,9 +674,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight8aaaaa.enwight8feature7",
-      "_id": "enwight8feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight8feature7"
     }
   ],
   "effects": [

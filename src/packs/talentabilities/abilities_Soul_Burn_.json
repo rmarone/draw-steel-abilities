@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "SA1aZsa894hQPGlV": {
+        "MZLruIMFKR7geOF8": {
           "type": "damage",
-          "_id": "SA1aZsa894hQPGlV",
-          "_key": "SA1aZsa894hQPGlV",
+          "_id": "MZLruIMFKR7geOF8",
+          "_key": "MZLruIMFKR7geOF8",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "o5VnZBJGpkpJdOQ4": {
+        "lqZVAcjWdG0o2YgH": {
           "type": "applied",
-          "_id": "o5VnZBJGpkpJdOQ4",
-          "_key": "o5VnZBJGpkpJdOQ4",
+          "_id": "lqZVAcjWdG0o2YgH",
+          "_key": "lqZVAcjWdG0o2YgH",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "The target takes a bane on Presence tests until the end of the encounter.",
+    "effect": {
+      "before": "",
+      "after": "The target takes a bane on Presence tests until the end of the encounter."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-20!astring",
-  "_id": "talentability20a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "talentability20a"
 }

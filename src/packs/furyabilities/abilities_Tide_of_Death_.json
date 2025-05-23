@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "zJnwFoGmRsdmVKFi": {
+        "aiSUWtY3HX0yYiBD": {
           "type": "damage",
-          "_id": "zJnwFoGmRsdmVKFi",
-          "_key": "zJnwFoGmRsdmVKFi",
+          "_id": "aiSUWtY3HX0yYiBD",
+          "_key": "aiSUWtY3HX0yYiBD",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "The last target you damage takes extra damage equal to your Might score for every free strike you triggered during your move.",
+    "effect": {
+      "before": "",
+      "after": "The last target you damage takes extra damage equal to your Might score for every free strike you triggered during your move."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-7!astring",
-  "_id": "furyability7aaaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "furyability7aaaa"
 }

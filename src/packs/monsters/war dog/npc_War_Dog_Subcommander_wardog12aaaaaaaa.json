@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "FOIkWy5ztwLUb6gI": {
+            "uWAN5c8LeyM1x8Sg": {
               "type": "damage",
-              "_id": "FOIkWy5ztwLUb6gI",
-              "_key": "FOIkWy5ztwLUb6gI",
+              "_id": "uWAN5c8LeyM1x8Sg",
+              "_key": "uWAN5c8LeyM1x8Sg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "An ally within 5 squares of the subcommander can make a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "An ally within 5 squares of the subcommander can make a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog12aaaaaaaa.wardog12feature1",
-      "_id": "wardog12feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog12feature1"
     },
     {
       "name": "Posthumous Promotion",
@@ -235,6 +238,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -254,7 +259,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -282,9 +290,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog12aaaaaaaa.wardog12feature2",
-      "_id": "wardog12feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog12feature2"
     },
     {
       "name": "The Iron Saint Does Not Recognize Retreat",

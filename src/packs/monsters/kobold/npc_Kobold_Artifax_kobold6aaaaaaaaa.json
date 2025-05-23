@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "MgjZDaEbZPjXCK5r": {
+            "Yc0gkrJdyhaSs2m7": {
               "type": "damage",
-              "_id": "MgjZDaEbZPjXCK5r",
-              "_key": "MgjZDaEbZPjXCK5r",
+              "_id": "Yc0gkrJdyhaSs2m7",
+              "_key": "Yc0gkrJdyhaSs2m7",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "4KZNtANA8pWQmC4q": {
+            "egNQuBtyCF1B7qfL": {
               "type": "forced",
-              "_id": "4KZNtANA8pWQmC4q",
-              "_key": "4KZNtANA8pWQmC4q",
+              "_id": "egNQuBtyCF1B7qfL",
+              "_key": "egNQuBtyCF1B7qfL",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the target’s forced movement triggers a trap, the trap has a double edge on its power roll.",
+        "effect": {
+          "before": "",
+          "after": "If the target’s forced movement triggers a trap, the trap has a double edge on its power roll."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold6aaaaaaaaa.kobold6feature1a",
-      "_id": "kobold6feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold6feature1a"
     },
     {
       "name": "Activate Trap",
@@ -263,6 +266,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The trap or terrain object instantly triggers.",
+        "effect": {
+          "before": "",
+          "after": "The trap or terrain object instantly triggers."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold6aaaaaaaaa.kobold6feature2a",
-      "_id": "kobold6feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold6feature2a"
     },
     {
       "name": "Shield? Shield!",

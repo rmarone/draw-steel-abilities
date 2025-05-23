@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "O6o3fyZHDLbeG1Mf": {
+        "HVTOrAYIBeJyhchb": {
           "type": "damage",
-          "_id": "O6o3fyZHDLbeG1Mf",
-          "_key": "O6o3fyZHDLbeG1Mf",
+          "_id": "HVTOrAYIBeJyhchb",
+          "_key": "HVTOrAYIBeJyhchb",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "IxM4u8WTOiMb0CEH": {
+        "HpmjKzeiaXPHld6x": {
           "type": "applied",
-          "_id": "IxM4u8WTOiMb0CEH",
-          "_key": "IxM4u8WTOiMb0CEH",
+          "_id": "HpmjKzeiaXPHld6x",
+          "_key": "HpmjKzeiaXPHld6x",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-retiarius-signature!astring",
-  "_id": "tiariussignature",
-  "category": "signature",
-  "resource": null
+  "_id": "tiariussignature"
 }

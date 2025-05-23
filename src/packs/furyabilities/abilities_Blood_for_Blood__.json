@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "oyIWPxQ9kezZZTSI": {
+        "9jrupsPgsKzOlcab": {
           "type": "damage",
-          "_id": "oyIWPxQ9kezZZTSI",
-          "_key": "oyIWPxQ9kezZZTSI",
+          "_id": "9jrupsPgsKzOlcab",
+          "_key": "9jrupsPgsKzOlcab",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "QBZS7ONYmy08tXUL": {
+        "I2lfxqNRIUDZpNsj": {
           "type": "applied",
-          "_id": "QBZS7ONYmy08tXUL",
-          "_key": "QBZS7ONYmy08tXUL",
+          "_id": "I2lfxqNRIUDZpNsj",
+          "_key": "I2lfxqNRIUDZpNsj",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "You can deal 1d6 damage to yourself to deal 1d6 bonus damage to the target.",
+    "effect": {
+      "before": "",
+      "after": "You can deal 1d6 damage to yourself to deal 1d6 bonus damage to the target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-9!astring",
-  "_id": "furyability9aaaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "furyability9aaaa"
 }

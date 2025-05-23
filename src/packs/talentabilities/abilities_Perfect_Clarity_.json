@@ -16,6 +16,8 @@
       "telepathy"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "Until the start of your next turn, the target gains a +3 bonus to speed, and they have a double edge on the next power roll they make. If the target gets a tier 3 result on that roll, you gain 1 clarity.",
+    "effect": {
+      "before": "",
+      "after": "Until the start of your next turn, the target gains a +3 bonus to speed, and they have a double edge on the next power roll they make. If the target gets a tier 3 result on that roll, you gain 1 clarity."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-16!astring",
-  "_id": "talentability16a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "talentability16a"
 }

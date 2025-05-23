@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "dfKDiAqCnBcSsZsv": {
+            "6MYrFbCyCkJE0K34": {
               "type": "damage",
-              "_id": "dfKDiAqCnBcSsZsv",
-              "_key": "dfKDiAqCnBcSsZsv",
+              "_id": "6MYrFbCyCkJE0K34",
+              "_key": "6MYrFbCyCkJE0K34",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "1U9NXhD0id6HeMeQ": {
+            "tG0Ut92gLLbhm3mg": {
               "type": "applied",
-              "_id": "1U9NXhD0id6HeMeQ",
-              "_key": "1U9NXhD0id6HeMeQ",
+              "_id": "tG0Ut92gLLbhm3mg",
+              "_key": "tG0Ut92gLLbhm3mg",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow2aaaaaa.fshadow2feature1",
-      "_id": "fshadow2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow2feature1"
     },
     {
       "name": "Of the Umbra",

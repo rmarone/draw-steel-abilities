@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "zu1Vz3Xgbavdnm7O": {
+            "8vqLXKYYFhafnlFD": {
               "type": "damage",
-              "_id": "zu1Vz3Xgbavdnm7O",
-              "_key": "zu1Vz3Xgbavdnm7O",
+              "_id": "8vqLXKYYFhafnlFD",
+              "_key": "8vqLXKYYFhafnlFD",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "Q0YQnFKoNsQvz2WG": {
+            "7aXvk2WvldnRsQHJ": {
               "type": "applied",
-              "_id": "Q0YQnFKoNsQvz2WG",
-              "_key": "Q0YQnFKoNsQvz2WG",
+              "_id": "7aXvk2WvldnRsQHJ",
+              "_key": "7aXvk2WvldnRsQHJ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight2aaaaa.enwight2feature1",
-      "_id": "enwight2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight2feature1"
     },
     {
       "name": "Ready Rodent",
@@ -259,6 +262,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -278,7 +283,10 @@
           },
           "effects": null
         },
-        "effect": "The scrapper makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The scrapper makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -306,9 +314,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight2aaaaa.enwight2feature2",
-      "_id": "enwight2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight2feature2"
     }
   ],
   "effects": [

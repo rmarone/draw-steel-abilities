@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "You slide the target up to a number of squares equal to your Reason score.",
+    "effect": {
+      "before": "",
+      "after": "You slide the target up to a number of squares equal to your Reason score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-2-1-1!astring",
-  "_id": "talentsub211aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentsub211aaaa"
 }

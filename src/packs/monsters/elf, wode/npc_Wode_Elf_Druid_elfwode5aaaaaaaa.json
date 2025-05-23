@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -143,7 +145,10 @@
           },
           "effects": null
         },
-        "effect": "A creature slowed by this ability can’t search for hidden creatures until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A creature slowed by this ability can’t search for hidden creatures until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -171,9 +176,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode5aaaaaaaa.elfwode5feature1",
-      "_id": "elfwode5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode5feature1"
     },
     {
       "name": "The Wode Protects Us",
@@ -191,6 +194,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -210,7 +215,10 @@
           },
           "effects": null
         },
-        "effect": "Each target teleports to a square within 10 that has cover or concealment from all enemies.",
+        "effect": {
+          "before": "",
+          "after": "Each target teleports to a square within 10 that has cover or concealment from all enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +246,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode5aaaaaaaa.elfwode5feature2",
-      "_id": "elfwode5feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "elfwode5feature2"
     },
     {
       "name": "Masking Glamor",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "ew2B7lpkLTnmp5sl": {
+            "ob8dq6NNbd5ArGl7": {
               "type": "damage",
-              "_id": "ew2B7lpkLTnmp5sl",
-              "_key": "ew2B7lpkLTnmp5sl",
+              "_id": "ob8dq6NNbd5ArGl7",
+              "_key": "ob8dq6NNbd5ArGl7",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "6dBaHiMMlPtgSSbZ": {
+            "6AhKFBq4Z3iIaDxH": {
               "type": "forced",
-              "_id": "6dBaHiMMlPtgSSbZ",
-              "_key": "6dBaHiMMlPtgSSbZ",
+              "_id": "6AhKFBq4Z3iIaDxH",
+              "_key": "6AhKFBq4Z3iIaDxH",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The shieldwall can shift 1 to remain adjacent to the target. A target restrained by a dwarf can be slid by this ability.",
+        "effect": {
+          "before": "",
+          "after": "The shieldwall can shift 1 to remain adjacent to the target. A target restrained by a dwarf can be slid by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf7aaaaaaaaaa.dwarf7feature1aa",
-      "_id": "dwarf7feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf7feature1aa"
     },
     {
       "name": "Intercepting Shield",
@@ -263,6 +266,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The shieldwall becomes the strike’s target and halves the damage.",
+        "effect": {
+          "before": "",
+          "after": "The shieldwall becomes the strike’s target and halves the damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf7aaaaaaaaaa.dwarf7feature2aa",
-      "_id": "dwarf7feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf7feature2aa"
     },
     {
       "name": "Call to the Wall",

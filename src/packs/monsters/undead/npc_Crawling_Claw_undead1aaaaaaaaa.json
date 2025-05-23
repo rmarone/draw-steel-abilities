@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "MYbLn0gjaN9ixjpI": {
+            "i6411CHpBE817OeN": {
               "type": "damage",
-              "_id": "MYbLn0gjaN9ixjpI",
-              "_key": "MYbLn0gjaN9ixjpI",
+              "_id": "i6411CHpBE817OeN",
+              "_key": "i6411CHpBE817OeN",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The crawling claw shifts a number of squares equal to the damage dealt.",
+        "effect": {
+          "before": "",
+          "after": "The crawling claw shifts a number of squares equal to the damage dealt."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead1aaaaaaaaa.undead1feature2a",
-      "_id": "undead1feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead1feature2a"
     },
     {
       "name": "Disorganizaed",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "Uq63AMPtUZTY5JW5": {
+            "x71Hh6bAB7NXNudQ": {
               "type": "damage",
-              "_id": "Uq63AMPtUZTY5JW5",
-              "_key": "Uq63AMPtUZTY5JW5",
+              "_id": "x71Hh6bAB7NXNudQ",
+              "_key": "x71Hh6bAB7NXNudQ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "Uha6OPis8ruY4ijm": {
+            "iPpD1QTXRQf0j16D": {
               "type": "applied",
-              "_id": "Uha6OPis8ruY4ijm",
-              "_key": "Uha6OPis8ruY4ijm",
+              "_id": "iPpD1QTXRQf0j16D",
+              "_key": "iPpD1QTXRQf0j16D",
               "name": "",
               "applied": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "The affected area pools with slime. The slime is difficult terrain for enemies, and an enemy is bleeding while occupying an affected square.",
+        "effect": {
+          "before": "",
+          "after": "The affected area pools with slime. The slime is difficult terrain for enemies, and an enemy is bleeding while occupying an affected square."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd6aaaaaaa.emon2nd6feature1",
-      "_id": "emon2nd6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd6feature1"
     },
     {
       "name": "Spew Slide",
@@ -264,6 +267,8 @@
           "area"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "The gunge vomits and shifts up to their speed, ignoring any additional effects from the strike. Each square they started in is covered in slime. The slime is difficult terrain for enemies, and an enemy is bleeding while occupying an affected square.",
+        "effect": {
+          "before": "",
+          "after": "The gunge vomits and shifts up to their speed, ignoring any additional effects from the strike. Each square they started in is covered in slime. The slime is difficult terrain for enemies, and an enemy is bleeding while occupying an affected square."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd6aaaaaaa.emon2nd6feature2",
-      "_id": "emon2nd6feature2",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emon2nd6feature2"
     },
     {
       "name": "Lethe",

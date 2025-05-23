@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "wdMbr08lZtB2rX3l": {
+        "NdIBBkFzslDufVyD": {
           "type": "damage",
-          "_id": "wdMbr08lZtB2rX3l",
-          "_key": "wdMbr08lZtB2rX3l",
+          "_id": "NdIBBkFzslDufVyD",
+          "_key": "NdIBBkFzslDufVyD",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "GhoCAAWN1yp0BeaP": {
+        "dwEwIx2v7C5ZeTnB": {
           "type": "applied",
-          "_id": "GhoCAAWN1yp0BeaP",
-          "_key": "GhoCAAWN1yp0BeaP",
+          "_id": "dwEwIx2v7C5ZeTnB",
+          "_key": "dwEwIx2v7C5ZeTnB",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "The target takes 1 extra corruption damage for each additional time they are targeted by this ability in the encounter.",
+    "effect": {
+      "before": "",
+      "after": "The target takes 1 extra corruption damage for each additional time they are targeted by this ability in the encounter."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-1!astring",
-  "_id": "talentability1aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability1aa"
 }

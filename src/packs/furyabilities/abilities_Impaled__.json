@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "S1QwXwNzBz84U96e": {
+        "u3kSUCivciFBM1Ql": {
           "type": "damage",
-          "_id": "S1QwXwNzBz84U96e",
-          "_key": "S1QwXwNzBz84U96e",
+          "_id": "u3kSUCivciFBM1Ql",
+          "_key": "u3kSUCivciFBM1Ql",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "LIG90fVMXyvumnqd": {
+        "G66AjpwPj6sUx5iF": {
           "type": "applied",
-          "_id": "LIG90fVMXyvumnqd",
-          "_key": "LIG90fVMXyvumnqd",
+          "_id": "G66AjpwPj6sUx5iF",
+          "_key": "G66AjpwPj6sUx5iF",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-3!astring",
-  "_id": "furyability3aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "furyability3aaaa"
 }

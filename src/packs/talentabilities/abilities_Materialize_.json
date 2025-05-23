@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "CEz3FlEXvJY9Zo91": {
+        "WDg2FbydzYWPK0VS": {
           "type": "damage",
-          "_id": "CEz3FlEXvJY9Zo91",
-          "_key": "CEz3FlEXvJY9Zo91",
+          "_id": "WDg2FbydzYWPK0VS",
+          "_key": "WDg2FbydzYWPK0VS",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "A size 1M object drops onto the target and then rolls into an adjacent, unoccupied space of your choice. The object is made of wood, stone, or metal (your choice).",
+    "effect": {
+      "before": "",
+      "after": "A size 1M object drops onto the target and then rolls into an adjacent, unoccupied space of your choice. The object is made of wood, stone, or metal (your choice)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-6!astring",
-  "_id": "talentability6aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability6aa"
 }

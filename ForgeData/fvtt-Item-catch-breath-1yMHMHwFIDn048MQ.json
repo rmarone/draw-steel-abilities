@@ -1,0 +1,72 @@
+{
+  "folder": "",
+  "name": "Catch Breath",
+  "type": "ability",
+  "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "catch-breath",
+    "keywords": [],
+    "type": "maneuver",
+    "category": "",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": null,
+      "secondary": null,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "self",
+      "value": null
+    },
+    "effect": {
+      "before": "<p>By using the Catch Breath ,amuver, you spend a Recovery and regain Stamina in an amount equal to your recovery value.</p><p>If you are dying (see <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Dying and Death</span></span> in <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Stamina</span></span>), you can’t take the Catch Breath maneuver, but other creatures can help you spend recoveries.</p>",
+      "after": ""
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "",
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": []
+      },
+      "effects": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "362001e95ac49f7531eaadfc30f8663b427e7599",
+      "sourceId": "Item.1yMHMHwFIDn048MQ",
+      "defaultPermission": 2
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": "draw-steel",
+    "systemVersion": "0.7.0",
+    "createdTime": 1741041520493,
+    "modifiedTime": 1747565378446,
+    "lastModifiedBy": "DeRzeWQa8Rcq3sIu",
+    "exportSource": {
+      "worldId": "draw-steel2",
+      "uuid": "Item.1yMHMHwFIDn048MQ",
+      "coreVersion": "13.342",
+      "systemId": "draw-steel",
+      "systemVersion": "0.7.0"
+    }
+  },
+  "_key": "!items!basic-catch-breath!astring",
+  "_id": "basiccatchbreath"
+}

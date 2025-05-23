@@ -17,6 +17,8 @@
       "void"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "eLXXmnH1KQeh9NE7": {
+        "zprX1049605TOzUh": {
           "type": "damage",
-          "_id": "eLXXmnH1KQeh9NE7",
-          "_key": "eLXXmnH1KQeh9NE7",
+          "_id": "zprX1049605TOzUh",
+          "_key": "zprX1049605TOzUh",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "You can teleport up to a number of squares equal to your Reason score.",
+    "effect": {
+      "before": "",
+      "after": "You can teleport up to a number of squares equal to your Reason score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-3!astring",
-  "_id": "entalistability3",
-  "category": "signature",
-  "resource": null
+  "_id": "entalistability3"
 }

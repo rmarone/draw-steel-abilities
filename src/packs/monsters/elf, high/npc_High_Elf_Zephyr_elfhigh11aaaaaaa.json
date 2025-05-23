@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "rozHAfhZXW5rabog": {
+            "yD4gUXupzxWaFMJL": {
               "type": "damage",
-              "_id": "rozHAfhZXW5rabog",
-              "_key": "rozHAfhZXW5rabog",
+              "_id": "yD4gUXupzxWaFMJL",
+              "_key": "yD4gUXupzxWaFMJL",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "KYfDYD7XffT5PCMJ": {
+            "F9pbYrkXr4ifjzBE": {
               "type": "applied",
-              "_id": "KYfDYD7XffT5PCMJ",
-              "_key": "KYfDYD7XffT5PCMJ",
+              "_id": "F9pbYrkXr4ifjzBE",
+              "_key": "F9pbYrkXr4ifjzBE",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "Shift 2.",
+        "effect": {
+          "before": "",
+          "after": "Shift 2."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh11aaaaaaa.lfhigh11feature1",
-      "_id": "lfhigh11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfhigh11feature1"
     },
     {
       "name": "Windwalk",
@@ -252,6 +255,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -271,7 +276,10 @@
           },
           "effects": null
         },
-        "effect": "The zephyr moves up to their speed through the air. They must end this movement on solid ground or immediately fall prone.",
+        "effect": {
+          "before": "",
+          "after": "The zephyr moves up to their speed through the air. They must end this movement on solid ground or immediately fall prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -299,9 +307,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh11aaaaaaa.lfhigh11feature2",
-      "_id": "lfhigh11feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "lfhigh11feature2"
     },
     {
       "name": "Like the Wind",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "caxg5o2jfrEdOdrg": {
+            "OmZcWcgIcXmpOprS": {
               "type": "damage",
-              "_id": "caxg5o2jfrEdOdrg",
-              "_key": "caxg5o2jfrEdOdrg",
+              "_id": "OmZcWcgIcXmpOprS",
+              "_key": "OmZcWcgIcXmpOprS",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "vTsK7uVbvFpu1E7q": {
+            "wvQLSSlvGifsz5q0": {
               "type": "forced",
-              "_id": "vTsK7uVbvFpu1E7q",
-              "_key": "vTsK7uVbvFpu1E7q",
+              "_id": "wvQLSSlvGifsz5q0",
+              "_key": "wvQLSSlvGifsz5q0",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the target is pulled adjacent ot the ensarer, the ensnarer makes a free strike against them.",
+        "effect": {
+          "before": "",
+          "after": "If the target is pulled adjacent ot the ensarer, the ensnarer makes a free strike against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon1aaaaaaaaaa.demon1feature1aa",
-      "_id": "demon1feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon1feature1aa"
     },
     {
       "name": "Soulsight",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "ZdRWB8oDL7WwUwwi": {
+            "UF2WLk4JlFnBOqsX": {
               "type": "damage",
-              "_id": "ZdRWB8oDL7WwUwwi",
-              "_key": "ZdRWB8oDL7WwUwwi",
+              "_id": "UF2WLk4JlFnBOqsX",
+              "_key": "UF2WLk4JlFnBOqsX",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "RhGKeFyh1WQFsAyD": {
+            "KI3v0uUBYVZQTAMO": {
               "type": "applied",
-              "_id": "RhGKeFyh1WQFsAyD",
-              "_key": "RhGKeFyh1WQFsAyD",
+              "_id": "KI3v0uUBYVZQTAMO",
+              "_key": "KI3v0uUBYVZQTAMO",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "The pouncer makes a free strike against each target they have knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "The pouncer makes a free strike against each target they have knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lightbender2aaaa.tbender2feature1",
-      "_id": "tbender2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "tbender2feature1"
     },
     {
       "name": "Sparkling Tail Whip",
@@ -259,6 +262,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "pv5YNqZzrpVFH59X": {
+            "vqnyeVu7fc3kSZQA": {
               "type": "damage",
-              "_id": "pv5YNqZzrpVFH59X",
-              "_key": "pv5YNqZzrpVFH59X",
+              "_id": "vqnyeVu7fc3kSZQA",
+              "_key": "vqnyeVu7fc3kSZQA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,10 +325,10 @@
                 }
               }
             },
-            "VwEEuUgJAVh0yTmi": {
+            "RkEElCucJ42pFydt": {
               "type": "applied",
-              "_id": "VwEEuUgJAVh0yTmi",
-              "_key": "VwEEuUgJAVh0yTmi",
+              "_id": "RkEElCucJ42pFydt",
+              "_key": "RkEElCucJ42pFydt",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -345,7 +350,10 @@
             }
           }
         },
-        "effect": "A dazzled creature has a bane on strikes and can’t have line of effect to targets who aren’t adjacent to them.",
+        "effect": {
+          "before": "",
+          "after": "A dazzled creature has a bane on strikes and can’t have line of effect to targets who aren’t adjacent to them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +381,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lightbender2aaaa.tbender2feature2",
-      "_id": "tbender2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "tbender2feature2"
     },
     {
       "name": "Illusory Feint",
@@ -394,6 +400,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -414,10 +422,10 @@
             ]
           },
           "effects": {
-            "YWjrjwBNIMMoBFWR": {
+            "OppCz68xyh4cLVCt": {
               "type": "applied",
-              "_id": "YWjrjwBNIMMoBFWR",
-              "_key": "YWjrjwBNIMMoBFWR",
+              "_id": "OppCz68xyh4cLVCt",
+              "_key": "OppCz68xyh4cLVCt",
               "name": "",
               "applied": {
                 "tier1": {
@@ -445,7 +453,10 @@
             }
           }
         },
-        "effect": "Targets dazed by this ability have a speed of 0 while dazed. If a dazed target takes damage or if someone else spends an action to shake the creature out of their stupor, the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "Targets dazed by this ability have a speed of 0 while dazed. If a dazed target takes damage or if someone else spends an action to shake the creature out of their stupor, the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -473,9 +484,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lightbender2aaaa.tbender2feature3",
-      "_id": "tbender2feature3",
-      "category": "heroic",
-      "resource": 5
+      "_id": "tbender2feature3"
     },
     {
       "name": "Striking Afterimage",
@@ -493,6 +502,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -512,7 +523,10 @@
           },
           "effects": null
         },
-        "effect": "The pouncer halves the damage, doesn’t suffer any effect associated with it, and teleports 5 squares. The pouncer makes a free strike if they teleport into a space adjacent to an enemy.",
+        "effect": {
+          "before": "",
+          "after": "The pouncer halves the damage, doesn’t suffer any effect associated with it, and teleports 5 squares. The pouncer makes a free strike if they teleport into a space adjacent to an enemy."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -540,9 +554,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lightbender2aaaa.tbender2feature4",
-      "_id": "tbender2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "tbender2feature4"
     },
     {
       "name": "Avoidance",

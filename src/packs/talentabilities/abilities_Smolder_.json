@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "mcCthuBZuw9ss6SU": {
+        "AOk90YLyiihFZb5w": {
           "type": "damage",
-          "_id": "mcCthuBZuw9ss6SU",
-          "_key": "mcCthuBZuw9ss6SU",
+          "_id": "AOk90YLyiihFZb5w",
+          "_key": "AOk90YLyiihFZb5w",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "u2FAGtMfWwcMNLGd": {
+        "SgwSAcHVbq9zIXsx": {
           "type": "applied",
-          "_id": "u2FAGtMfWwcMNLGd",
-          "_key": "u2FAGtMfWwcMNLGd",
+          "_id": "SgwSAcHVbq9zIXsx",
+          "_key": "SgwSAcHVbq9zIXsx",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-12!astring",
-  "_id": "talentability12a",
-  "category": "heroic",
-  "resource": 3
+  "_id": "talentability12a"
 }

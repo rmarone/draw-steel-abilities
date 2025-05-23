@@ -1,0 +1,72 @@
+{
+  "folder": "",
+  "name": "Hide",
+  "type": "ability",
+  "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "aid-attack",
+    "keywords": [],
+    "type": "maneuver",
+    "category": "",
+    "resource": null,
+    "trigger": "",
+    "distance": {
+      "type": "self",
+      "primary": null,
+      "secondary": null,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "self",
+      "value": null
+    },
+    "effect": {
+      "before": "<p>Using the Hide maneuver, you attempt to hide from other creatures who aren’t observing you while you have cover or concealment (see Hide and Sneak).</p>",
+      "after": ""
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "",
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": []
+      },
+      "effects": {}
+    }
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "687278dfe84f6d5df87cbc7615ca1bf2132063d2",
+      "sourceId": "Item.KzzrDI3cCAKFYsqk",
+      "defaultPermission": 2
+    }
+  },
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": "draw-steel",
+    "systemVersion": "0.7.0",
+    "createdTime": 1741063090323,
+    "modifiedTime": 1747565755603,
+    "lastModifiedBy": "DeRzeWQa8Rcq3sIu",
+    "exportSource": {
+      "worldId": "draw-steel2",
+      "uuid": "Item.KzzrDI3cCAKFYsqk",
+      "coreVersion": "13.342",
+      "systemId": "draw-steel",
+      "systemVersion": "0.7.0"
+    }
+  },
+  "_key": "!items!basic-hide!astring",
+  "_id": "lllllllbasichide"
+}

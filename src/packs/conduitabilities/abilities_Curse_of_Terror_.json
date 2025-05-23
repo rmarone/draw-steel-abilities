@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "yACulrYfEw4pzr4I": {
+        "M6o0dukP5KyHjbsj": {
           "type": "damage",
-          "_id": "yACulrYfEw4pzr4I",
-          "_key": "yACulrYfEw4pzr4I",
+          "_id": "M6o0dukP5KyHjbsj",
+          "_key": "M6o0dukP5KyHjbsj",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "zEJC198vBVwnX89D": {
+        "L6QgwrPCKlbGqeWF": {
           "type": "applied",
-          "_id": "zEJC198vBVwnX89D",
-          "_key": "zEJC198vBVwnX89D",
+          "_id": "L6QgwrPCKlbGqeWF",
+          "_key": "L6QgwrPCKlbGqeWF",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-14!astring",
-  "_id": "conduitability14",
-  "category": "heroic",
-  "resource": 5
+  "_id": "conduitability14"
 }

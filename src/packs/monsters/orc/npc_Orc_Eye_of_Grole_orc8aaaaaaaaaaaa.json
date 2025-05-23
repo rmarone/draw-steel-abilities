@@ -136,6 +136,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -156,10 +158,10 @@
             ]
           },
           "effects": {
-            "70pL7aeZMNaj69ZS": {
+            "O7aDVG1zxX7BcIoP": {
               "type": "damage",
-              "_id": "70pL7aeZMNaj69ZS",
-              "_key": "70pL7aeZMNaj69ZS",
+              "_id": "O7aDVG1zxX7BcIoP",
+              "_key": "O7aDVG1zxX7BcIoP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -197,10 +199,10 @@
                 }
               }
             },
-            "EK73jmTmKerr77Hw": {
+            "8jVFqYnu3NCxKrVm": {
               "type": "forced",
-              "_id": "EK73jmTmKerr77Hw",
-              "_key": "EK73jmTmKerr77Hw",
+              "_id": "8jVFqYnu3NCxKrVm",
+              "_key": "8jVFqYnu3NCxKrVm",
               "name": "",
               "forced": {
                 "tier1": {
@@ -228,7 +230,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -256,9 +261,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc8aaaaaaaaaaaa.orc8feature2aaaa",
-      "_id": "orc8feature2aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc8feature2aaaa"
     },
     {
       "name": "Power Burst",
@@ -277,6 +280,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -297,10 +302,10 @@
             ]
           },
           "effects": {
-            "pBOGMefTxPDyb9yw": {
+            "VhZA9tkXkKtUtDeD": {
               "type": "damage",
-              "_id": "pBOGMefTxPDyb9yw",
-              "_key": "pBOGMefTxPDyb9yw",
+              "_id": "VhZA9tkXkKtUtDeD",
+              "_key": "VhZA9tkXkKtUtDeD",
               "name": "",
               "damage": {
                 "tier1": {
@@ -338,10 +343,10 @@
                 }
               }
             },
-            "rlz3cMMUl5AWHYXD": {
+            "VazIedBVByPNSe8o": {
               "type": "forced",
-              "_id": "rlz3cMMUl5AWHYXD",
-              "_key": "rlz3cMMUl5AWHYXD",
+              "_id": "VazIedBVByPNSe8o",
+              "_key": "VazIedBVByPNSe8o",
               "name": "",
               "forced": {
                 "tier1": {
@@ -367,10 +372,10 @@
                 }
               }
             },
-            "wDFMmWvsBSarwVfH": {
+            "cJfnHTLNwxTPGztV": {
               "type": "applied",
-              "_id": "wDFMmWvsBSarwVfH",
-              "_key": "wDFMmWvsBSarwVfH",
+              "_id": "cJfnHTLNwxTPGztV",
+              "_key": "cJfnHTLNwxTPGztV",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -386,7 +391,10 @@
             }
           }
         },
-        "effect": "An enemy has affinity weakness 3 in the affected area.",
+        "effect": {
+          "before": "",
+          "after": "An enemy has affinity weakness 3 in the affected area."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -414,9 +422,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc8aaaaaaaaaaaa.orc8feature3aaaa",
-      "_id": "orc8feature3aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc8feature3aaaa"
     },
     {
       "name": "Relentless",

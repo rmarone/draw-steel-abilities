@@ -123,6 +123,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "vk2T0eq4VzbTYGVV": {
+            "Ah5qpOLweMZ7B3Gs": {
               "type": "damage",
-              "_id": "vk2T0eq4VzbTYGVV",
-              "_key": "vk2T0eq4VzbTYGVV",
+              "_id": "Ah5qpOLweMZ7B3Gs",
+              "_key": "Ah5qpOLweMZ7B3Gs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "Each target loses all Surges.",
+        "effect": {
+          "before": "",
+          "after": "Each target loses all Surges."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox7aaaaaaa.orannox7feature1",
-      "_id": "orannox7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox7feature1"
     },
     {
       "name": "Psionic Barrier",

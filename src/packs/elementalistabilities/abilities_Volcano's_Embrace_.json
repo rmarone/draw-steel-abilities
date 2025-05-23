@@ -18,6 +18,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "TORnKDleE55Wzra3": {
+        "rUw4IigJEnIzv9Fa": {
           "type": "damage",
-          "_id": "TORnKDleE55Wzra3",
-          "_key": "TORnKDleE55Wzra3",
+          "_id": "rUw4IigJEnIzv9Fa",
+          "_key": "rUw4IigJEnIzv9Fa",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +81,10 @@
             }
           }
         },
-        "kUBJ4hAKfdKsfllM": {
+        "ywlv6cEYpumwOy0A": {
           "type": "applied",
-          "_id": "kUBJ4hAKfdKsfllM",
-          "_key": "kUBJ4hAKfdKsfllM",
+          "_id": "ywlv6cEYpumwOy0A",
+          "_key": "ywlv6cEYpumwOy0A",
           "name": "",
           "applied": {
             "tier1": {
@@ -110,7 +112,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -138,7 +143,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-20!astring",
-  "_id": "ntalistability20",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ntalistability20"
 }

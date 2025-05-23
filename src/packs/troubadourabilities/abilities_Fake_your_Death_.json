@@ -14,6 +14,8 @@
       "magic"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "You turn invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 bonus to speed and you ignore difficult terrain. The illusion melts into the ground and your invisibility ends at the end of your next turn, or earlier if the illusion is interacted with, if you take damage, or if you use an action or a maneuver.",
+    "effect": {
+      "before": "",
+      "after": "You turn invisible and create a magical illusion of your corpse falling in your space. While you are invisible, you gain a +3 bonus to speed and you ignore difficult terrain. The illusion melts into the ground and your invisibility ends at the end of your next turn, or earlier if the illusion is interacted with, if you take damage, or if you use an action or a maneuver."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-10!astring",
-  "_id": "ubadourability10",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ubadourability10"
 }

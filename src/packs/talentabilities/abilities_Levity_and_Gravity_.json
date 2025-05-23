@@ -1,0 +1,146 @@
+{
+  "name": "Levity and Gravity",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "talent-sub-2-2-2b",
+    "keywords": [
+      "psionic",
+      "ranged",
+      "strike",
+      "telekinesis"
+    ],
+    "type": "action",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "ranged",
+      "primary": 10,
+      "secondary": 0,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "creature",
+      "value": 1
+    },
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "reason"
+        ]
+      },
+      "effects": {
+        "U286TTSEOmglgV2X": {
+          "type": "damage",
+          "_id": "U286TTSEOmglgV2X",
+          "_key": "U286TTSEOmglgV2X",
+          "name": "",
+          "damage": {
+            "tier1": {
+              "types": [
+
+              ],
+              "value": "6+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier2": {
+              "types": [
+
+              ],
+              "value": "10+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            },
+            "tier3": {
+              "types": [
+
+              ],
+              "value": "14+@chr",
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": ""
+            }
+          }
+        },
+        "3Hw3Dd4kaYC5Glh7": {
+          "type": "applied",
+          "_id": "3Hw3Dd4kaYC5Glh7",
+          "_key": "3Hw3Dd4kaYC5Glh7",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.weak"
+              },
+              "display": " M < [weak], prone"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.average"
+              },
+              "display": " M < [average], prone"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": "might",
+                "value": "@potency.strong"
+              },
+              "display": " M < [strong], prone and can’t stand (save ends)"
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "before": "",
+      "after": "A target made prone by this ability is lifted 2 squares into the air before falling immediately to the ground, taking damage as usual."
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "You raise the target into the air, then smother them against the ground."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!talent-sub-2-2-2b!astring",
+  "_id": "talentsub222baaa"
+}

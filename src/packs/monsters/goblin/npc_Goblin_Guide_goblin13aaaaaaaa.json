@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "35AyYDo6NISsHiSt": {
+            "d419MFbsSVDxREul": {
               "type": "damage",
-              "_id": "35AyYDo6NISsHiSt",
-              "_key": "35AyYDo6NISsHiSt",
+              "_id": "d419MFbsSVDxREul",
+              "_key": "d419MFbsSVDxREul",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "The target can’t make opportunity attacks until the end of the guide’s turn.",
+        "effect": {
+          "before": "",
+          "after": "The target can’t make opportunity attacks until the end of the guide’s turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin13aaaaaaaa.goblin13feature1",
-      "_id": "goblin13feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin13feature1"
     },
     {
       "name": "Crafty",

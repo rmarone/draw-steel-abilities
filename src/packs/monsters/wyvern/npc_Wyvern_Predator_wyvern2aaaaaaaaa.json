@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "Rs0yAUKRFC4DMMm1": {
+            "URv0q44B5Or5NKfz": {
               "type": "damage",
-              "_id": "Rs0yAUKRFC4DMMm1",
-              "_key": "Rs0yAUKRFC4DMMm1",
+              "_id": "URv0q44B5Or5NKfz",
+              "_key": "URv0q44B5Or5NKfz",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "jh5CLTlqgCvSCpOE": {
+            "wplsf2idauqzrlf0": {
               "type": "applied",
-              "_id": "jh5CLTlqgCvSCpOE",
-              "_key": "jh5CLTlqgCvSCpOE",
+              "_id": "wplsf2idauqzrlf0",
+              "_key": "wplsf2idauqzrlf0",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The target is restrained (save ends) if they are already slowed.",
+        "effect": {
+          "before": "",
+          "after": "The target is restrained (save ends) if they are already slowed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern2aaaaaaaaa.wyvern2feature1a",
-      "_id": "wyvern2feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wyvern2feature1a"
     },
     {
       "name": "Tail Sweep",
@@ -259,6 +262,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "SqhdWFe9nohB9ubH": {
+            "YnYqGAoMPRlftlgZ": {
               "type": "damage",
-              "_id": "SqhdWFe9nohB9ubH",
-              "_key": "SqhdWFe9nohB9ubH",
+              "_id": "YnYqGAoMPRlftlgZ",
+              "_key": "YnYqGAoMPRlftlgZ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -322,7 +327,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -350,9 +358,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern2aaaaaaaaa.wyvern2feature2a",
-      "_id": "wyvern2feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wyvern2feature2a"
     },
     {
       "name": "Grasping Jaws",
@@ -372,6 +378,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -392,10 +400,10 @@
             ]
           },
           "effects": {
-            "LPtJ5VVWfOK6Rd5K": {
+            "zp6sxHtNGd3oRoUR": {
               "type": "damage",
-              "_id": "LPtJ5VVWfOK6Rd5K",
-              "_key": "LPtJ5VVWfOK6Rd5K",
+              "_id": "zp6sxHtNGd3oRoUR",
+              "_key": "zp6sxHtNGd3oRoUR",
               "name": "",
               "damage": {
                 "tier1": {
@@ -433,10 +441,10 @@
                 }
               }
             },
-            "s3gzCGwjQ7iCK2GX": {
+            "iY62MiFWWcgnNRhZ": {
               "type": "applied",
-              "_id": "s3gzCGwjQ7iCK2GX",
-              "_key": "s3gzCGwjQ7iCK2GX",
+              "_id": "iY62MiFWWcgnNRhZ",
+              "_key": "iY62MiFWWcgnNRhZ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -464,7 +472,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -492,9 +503,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern2aaaaaaaaa.wyvern2feature3a",
-      "_id": "wyvern2feature3a",
-      "category": "heroic",
-      "resource": 2
+      "_id": "wyvern2feature3a"
     },
     {
       "name": "Deterring Sting",
@@ -512,6 +521,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -531,7 +542,10 @@
           },
           "effects": null
         },
-        "effect": "The predator uses their Sedating Stinger ability against the target and then shifts 3.",
+        "effect": {
+          "before": "",
+          "after": "The predator uses their Sedating Stinger ability against the target and then shifts 3."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -559,9 +573,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern2aaaaaaaaa.wyvern2feature4a",
-      "_id": "wyvern2feature4a",
-      "category": "heroic",
-      "resource": 1
+      "_id": "wyvern2feature4a"
     },
     {
       "name": "Stubborn Rage",

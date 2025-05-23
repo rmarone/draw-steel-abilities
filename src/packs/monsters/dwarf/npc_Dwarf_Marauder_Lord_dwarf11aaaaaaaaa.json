@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "EsTYGaVTv5Jnv3Co": {
+            "5fd9QEyz1pMhv1tP": {
               "type": "damage",
-              "_id": "EsTYGaVTv5Jnv3Co",
-              "_key": "EsTYGaVTv5Jnv3Co",
+              "_id": "5fd9QEyz1pMhv1tP",
+              "_key": "5fd9QEyz1pMhv1tP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "AlZcRcge0eD9f71u": {
+            "CrZQEwQStqbwgLhw": {
               "type": "forced",
-              "_id": "AlZcRcge0eD9f71u",
-              "_key": "AlZcRcge0eD9f71u",
+              "_id": "CrZQEwQStqbwgLhw",
+              "_key": "CrZQEwQStqbwgLhw",
               "name": "",
               "forced": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be slid by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be slid by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature1a",
-      "_id": "dwarf11feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature1a"
     },
     {
       "name": "Magnetomancy",
@@ -265,6 +268,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "Vertical slide 5. A target restrained by a dwarf can be slid by this ability.",
+        "effect": {
+          "before": "",
+          "after": "Vertical slide 5. A target restrained by a dwarf can be slid by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature2a",
-      "_id": "dwarf11feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature2a"
     },
     {
       "name": "Your Weapon is Useless",
@@ -332,6 +338,8 @@
           "psionic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -351,7 +359,10 @@
           },
           "effects": null
         },
-        "effect": "The target takes half damage from the attack. The attacker takes 4 damage.",
+        "effect": {
+          "before": "",
+          "after": "The target takes half damage from the attack. The attacker takes 4 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -379,9 +390,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature3a",
-      "_id": "dwarf11feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature3a"
     },
     {
       "name": "End Effect",
@@ -414,6 +423,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -433,7 +444,10 @@
           },
           "effects": null
         },
-        "effect": "The marauder lord uses Levitating Axes against each target. The marauder lord makes one power roll against all targets.",
+        "effect": {
+          "before": "",
+          "after": "The marauder lord uses Levitating Axes against each target. The marauder lord makes one power roll against all targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -461,9 +475,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature5a",
-      "_id": "dwarf11feature5a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature5a"
     },
     {
       "name": "Don’t Let Them Escape!",
@@ -481,6 +493,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -500,7 +514,10 @@
           },
           "effects": null
         },
-        "effect": "Each target shift up to their speed. The marauder lord then uses Levitating Axes.",
+        "effect": {
+          "before": "",
+          "after": "Each target shift up to their speed. The marauder lord then uses Levitating Axes."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -528,9 +545,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature6a",
-      "_id": "dwarf11feature6a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature6a"
     },
     {
       "name": "Test Your Metal!",
@@ -548,6 +563,8 @@
           "psionic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -567,7 +584,10 @@
           },
           "effects": null
         },
-        "effect": "The marauder lord creates three 2-square metal objects in unoccupied squares within distance. When the marauder lord uses Magnetomancy, they can additionally target one of these objects.",
+        "effect": {
+          "before": "",
+          "after": "The marauder lord creates three 2-square metal objects in unoccupied squares within distance. When the marauder lord uses Magnetomancy, they can additionally target one of these objects."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -595,9 +615,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf11aaaaaaaaa.dwarf11feature7a",
-      "_id": "dwarf11feature7a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf11feature7a"
     }
   ],
   "effects": [

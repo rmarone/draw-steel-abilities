@@ -18,6 +18,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -37,7 +39,10 @@
       },
       "effects": null
     },
-    "effect": "\nUntil the start of your next turn, the area gains the following effects:\n\n* You and each ally in the area can spend any number of Recoveries at the start of your turn once as a free maneuver.\n* The area is difficult terrain for enemies.\n* Any enemy who enters the area for the first time in a round or starts their turn there takes damage equal to your Reason score.",
+    "effect": {
+      "before": "",
+      "after": "\nUntil the start of your next turn, the area gains the following effects:\n\n* You and each ally in the area can spend any number of Recoveries at the start of your turn once as a free maneuver.\n* The area is difficult terrain for enemies.\n* Any enemy who enters the area for the first time in a round or starts their turn there takes damage equal to your Reason score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -65,7 +70,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-17!astring",
-  "_id": "ntalistability17",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ntalistability17"
 }

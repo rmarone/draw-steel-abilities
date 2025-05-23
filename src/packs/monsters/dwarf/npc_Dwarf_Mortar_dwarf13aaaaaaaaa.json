@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "ReCnh3rA5PvSrT3r": {
+            "Di7gHnQ8otgYJlmx": {
               "type": "damage",
-              "_id": "ReCnh3rA5PvSrT3r",
-              "_key": "ReCnh3rA5PvSrT3r",
+              "_id": "Di7gHnQ8otgYJlmx",
+              "_key": "Di7gHnQ8otgYJlmx",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "The attack ignores cover and Temporary Stamina.",
+        "effect": {
+          "before": "",
+          "after": "The attack ignores cover and Temporary Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf13aaaaaaaaa.dwarf13feature1a",
-      "_id": "dwarf13feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf13feature1a"
     },
     {
       "name": "Voice Thrower",

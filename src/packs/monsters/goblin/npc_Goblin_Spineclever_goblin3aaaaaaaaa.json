@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "I6qzJMdjZOKWE7hX": {
+            "dtfvKE99eIS5zonH": {
               "type": "damage",
-              "_id": "I6qzJMdjZOKWE7hX",
-              "_key": "I6qzJMdjZOKWE7hX",
+              "_id": "dtfvKE99eIS5zonH",
+              "_key": "dtfvKE99eIS5zonH",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "xQTvaD4GsvqxPUd6": {
+            "2PVMLss9I4IPQmFP": {
               "type": "forced",
-              "_id": "xQTvaD4GsvqxPUd6",
-              "_key": "xQTvaD4GsvqxPUd6",
+              "_id": "2PVMLss9I4IPQmFP",
+              "_key": "2PVMLss9I4IPQmFP",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the spinecleaver doesn’t use a move action this turn, the ability has an edge.",
+        "effect": {
+          "before": "",
+          "after": "If the spinecleaver doesn’t use a move action this turn, the ability has an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin3aaaaaaaaa.goblin3feature1a",
-      "_id": "goblin3feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin3feature1a"
     },
     {
       "name": "Crafty",

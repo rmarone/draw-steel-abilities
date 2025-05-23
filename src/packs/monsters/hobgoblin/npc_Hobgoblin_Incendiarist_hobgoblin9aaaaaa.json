@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "Cno49TYnTe8Lcqxk": {
+            "YuEgmF0dDiR7WIGP": {
               "type": "damage",
-              "_id": "Cno49TYnTe8Lcqxk",
-              "_key": "Cno49TYnTe8Lcqxk",
+              "_id": "YuEgmF0dDiR7WIGP",
+              "_key": "YuEgmF0dDiR7WIGP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "TY8HQIPpLqjR410Z": {
+            "11Ha0XEE7tmNHwyE": {
               "type": "applied",
-              "_id": "TY8HQIPpLqjR410Z",
-              "_key": "TY8HQIPpLqjR410Z",
+              "_id": "11Ha0XEE7tmNHwyE",
+              "_key": "11Ha0XEE7tmNHwyE",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A burning target takes 1d6 fire damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin9aaaaaa.hobgoblin92aaaaa",
-      "_id": "hobgoblin92aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin92aaaaa"
     },
     {
       "name": "Fire Ball Volley",
@@ -254,6 +257,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -274,10 +279,10 @@
             ]
           },
           "effects": {
-            "bpMvVvjuh05FsecU": {
+            "nM7rQwjBB8e1DNzy": {
               "type": "damage",
-              "_id": "bpMvVvjuh05FsecU",
-              "_key": "bpMvVvjuh05FsecU",
+              "_id": "nM7rQwjBB8e1DNzy",
+              "_key": "nM7rQwjBB8e1DNzy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -315,10 +320,10 @@
                 }
               }
             },
-            "e3w2UtI5khBU8f0U": {
+            "K5S878hwPdMrlMZO": {
               "type": "applied",
-              "_id": "e3w2UtI5khBU8f0U",
-              "_key": "e3w2UtI5khBU8f0U",
+              "_id": "K5S878hwPdMrlMZO",
+              "_key": "K5S878hwPdMrlMZO",
               "name": "",
               "applied": {
                 "tier1": {
@@ -346,7 +351,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -374,9 +382,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin9aaaaaa.hobgoblin93aaaaa",
-      "_id": "hobgoblin93aaaaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "hobgoblin93aaaaa"
     },
     {
       "name": "Raining Cinders",

@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -40,10 +42,10 @@
         ]
       },
       "effects": {
-        "dlkhC94HgiSert9W": {
+        "tSDHIk2E5Ebv2B0e": {
           "type": "damage",
-          "_id": "dlkhC94HgiSert9W",
-          "_key": "dlkhC94HgiSert9W",
+          "_id": "tSDHIk2E5Ebv2B0e",
+          "_key": "tSDHIk2E5Ebv2B0e",
           "name": "",
           "damage": {
             "tier1": {
@@ -81,10 +83,10 @@
             }
           }
         },
-        "l8UHta4K0QkR28uO": {
+        "ERdEYvw5CkHOislC": {
           "type": "applied",
-          "_id": "l8UHta4K0QkR28uO",
-          "_key": "l8UHta4K0QkR28uO",
+          "_id": "ERdEYvw5CkHOislC",
+          "_key": "ERdEYvw5CkHOislC",
           "name": "",
           "applied": {
             "tier1": {
@@ -112,7 +114,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -140,7 +145,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-battlemind-signature!astring",
-  "_id": "tlemindsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "tlemindsignature"
 }

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "SU56BLHKlHeJrpeo": {
+            "mVhFWh1tIjGfNuzM": {
               "type": "damage",
-              "_id": "SU56BLHKlHeJrpeo",
-              "_key": "SU56BLHKlHeJrpeo",
+              "_id": "mVhFWh1tIjGfNuzM",
+              "_key": "mVhFWh1tIjGfNuzM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "7FKI9LevgJpV9Cjw": {
+            "Nhm02eSvhua7FkJa": {
               "type": "forced",
-              "_id": "7FKI9LevgJpV9Cjw",
-              "_key": "7FKI9LevgJpV9Cjw",
+              "_id": "Nhm02eSvhua7FkJa",
+              "_key": "Nhm02eSvhua7FkJa",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pulled by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pulled by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf3aaaaaaaaaa.dwarf3feature1aa",
-      "_id": "dwarf3feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf3feature1aa"
     }
   ],
   "effects": [

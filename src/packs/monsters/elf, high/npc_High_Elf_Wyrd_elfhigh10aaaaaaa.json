@@ -124,6 +124,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "YyZ4L5L9fhEXszYs": {
+            "Zsz7OAlt6dJFYepc": {
               "type": "forced",
-              "_id": "YyZ4L5L9fhEXszYs",
-              "_key": "YyZ4L5L9fhEXszYs",
+              "_id": "Zsz7OAlt6dJFYepc",
+              "_key": "Zsz7OAlt6dJFYepc",
               "name": "",
               "forced": {
                 "tier1": {
@@ -175,7 +177,10 @@
             }
           }
         },
-        "effect": "The area of the cube increases by 1 for each elemental mote adjacent to the wyrd.",
+        "effect": {
+          "before": "",
+          "after": "The area of the cube increases by 1 for each elemental mote adjacent to the wyrd."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -203,9 +208,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature1",
-      "_id": "lfhigh10feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfhigh10feature1"
     },
     {
       "name": "Summon Elemental",
@@ -223,6 +226,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -242,7 +247,10 @@
           },
           "effects": null
         },
-        "effect": "The wyrd summons 2 **elemental motes** or 2 **soot crows** into unoccupied squares within distance.",
+        "effect": {
+          "before": "",
+          "after": "The wyrd summons 2 **elemental motes** or 2 **soot crows** into unoccupied squares within distance."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -270,9 +278,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature2",
-      "_id": "lfhigh10feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "lfhigh10feature2"
     },
     {
       "name": "Wyrd Warp",
@@ -292,6 +298,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "wall",
@@ -311,7 +319,10 @@
           },
           "effects": null
         },
-        "effect": "The wyrd shapes the land as if it were loose clay. Each wall segment takes up the entire square. A segment can also be used to push a square of the terrain further into the ground. An enemy on top of an affected square moves with the elevation of the terrain.",
+        "effect": {
+          "before": "",
+          "after": "The wyrd shapes the land as if it were loose clay. Each wall segment takes up the entire square. A segment can also be used to push a square of the terrain further into the ground. An enemy on top of an affected square moves with the elevation of the terrain."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -339,9 +350,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh10aaaaaaa.lfhigh10feature3",
-      "_id": "lfhigh10feature3",
-      "category": "heroic",
-      "resource": 2
+      "_id": "lfhigh10feature3"
     },
     {
       "name": "Otherwordly Grace",

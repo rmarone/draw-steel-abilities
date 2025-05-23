@@ -18,6 +18,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "WNcu8y5H2b35gNEl": {
+        "0iPM5lVgQN8DuBAe": {
           "type": "damage",
-          "_id": "WNcu8y5H2b35gNEl",
-          "_key": "WNcu8y5H2b35gNEl",
+          "_id": "0iPM5lVgQN8DuBAe",
+          "_key": "0iPM5lVgQN8DuBAe",
           "name": "",
           "damage": {
             "tier1": {
@@ -81,7 +83,10 @@
         }
       }
     },
-    "effect": "You or one ally within distance can end one effect that is ended by a saving throw or that ends at the end of that creature’s turn.",
+    "effect": {
+      "before": "",
+      "after": "You or one ally within distance can end one effect that is ended by a saving throw or that ends at the end of that creature’s turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -109,7 +114,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-1!astring",
-  "_id": "entalistability1",
-  "category": "signature",
-  "resource": null
+  "_id": "entalistability1"
 }

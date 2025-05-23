@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "gKwbVEUqh4Fn7olR": {
+        "GZyUyVVfSIugv9zB": {
           "type": "damage",
-          "_id": "gKwbVEUqh4Fn7olR",
-          "_key": "gKwbVEUqh4Fn7olR",
+          "_id": "GZyUyVVfSIugv9zB",
+          "_key": "GZyUyVVfSIugv9zB",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "2wLooe0oZVIyRmOa": {
+        "k5TC9rGDXJVtmGbV": {
           "type": "applied",
-          "_id": "2wLooe0oZVIyRmOa",
-          "_key": "2wLooe0oZVIyRmOa",
+          "_id": "k5TC9rGDXJVtmGbV",
+          "_key": "k5TC9rGDXJVtmGbV",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-12!astring",
-  "_id": "nullability12aaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "nullability12aaa"
 }

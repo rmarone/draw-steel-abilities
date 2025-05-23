@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "rcpuMdNrmBqdabsn": {
+        "F2PkjwYjZEMLDNpu": {
           "type": "damage",
-          "_id": "rcpuMdNrmBqdabsn",
-          "_key": "rcpuMdNrmBqdabsn",
+          "_id": "F2PkjwYjZEMLDNpu",
+          "_key": "F2PkjwYjZEMLDNpu",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "x4kY3Y1zLqiWq6oW": {
+        "a0JjeD2N4MMGc72C": {
           "type": "applied",
-          "_id": "x4kY3Y1zLqiWq6oW",
-          "_key": "x4kY3Y1zLqiWq6oW",
+          "_id": "a0JjeD2N4MMGc72C",
+          "_key": "a0JjeD2N4MMGc72C",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "If the target makes a strike against a creature while grabbed by you, you can then spend 3 wrath to deal holy damage to them equal to your Presence score and change the target of the strike to another target within the strike’s distance.",
+    "effect": {
+      "before": "",
+      "after": "If the target makes a strike against a creature while grabbed by you, you can then spend 3 wrath to deal holy damage to them equal to your Presence score and change the target of the strike to another target within the strike’s distance."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-9!astring",
-  "_id": "censorability9aa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "censorability9aa"
 }

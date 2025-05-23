@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "Rb7yDsd9lENkngDh": {
+            "oOHhnysA3WFbDtC0": {
               "type": "damage",
-              "_id": "Rb7yDsd9lENkngDh",
-              "_key": "Rb7yDsd9lENkngDh",
+              "_id": "oOHhnysA3WFbDtC0",
+              "_key": "oOHhnysA3WFbDtC0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "This ability has an edge against targets that the basilisk has previously dealt poison damage to.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge against targets that the basilisk has previously dealt poison damage to."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk1aaaaaaa.asilisk1feature1",
-      "_id": "asilisk1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk1feature1"
     },
     {
       "name": "Petrifying Eye Beams",
@@ -236,6 +239,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -256,10 +261,10 @@
             ]
           },
           "effects": {
-            "eQfanmqfOWFFnhgn": {
+            "z9tbuj56mpR7SEAa": {
               "type": "applied",
-              "_id": "eQfanmqfOWFFnhgn",
-              "_key": "eQfanmqfOWFFnhgn",
+              "_id": "z9tbuj56mpR7SEAa",
+              "_key": "z9tbuj56mpR7SEAa",
               "name": "",
               "applied": {
                 "tier1": {
@@ -287,7 +292,10 @@
             }
           }
         },
-        "effect": "\nThe basilisk targets the first unobstructed creature in each column of the area. An already slowed target has -1 to resisting the potency. Each target magically begins to turn to stone. A creature restrained by this ability or a creature adjacent to them can use an action to cut the encroaching stone from their body, taking 8 damage which can’t be reduced in any way and ending the effect.\n\nA target that ends two consecutive turns restrained by this ability is petrified until they are cured (see Alchemical Ingredients).",
+        "effect": {
+          "before": "",
+          "after": "\nThe basilisk targets the first unobstructed creature in each column of the area. An already slowed target has -1 to resisting the potency. Each target magically begins to turn to stone. A creature restrained by this ability or a creature adjacent to them can use an action to cut the encroaching stone from their body, taking 8 damage which can’t be reduced in any way and ending the effect.\n\nA target that ends two consecutive turns restrained by this ability is petrified until they are cured (see Alchemical Ingredients)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -315,9 +323,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk1aaaaaaa.asilisk1feature2",
-      "_id": "asilisk1feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk1feature2"
     },
     {
       "name": "Poison Fumes",
@@ -336,6 +342,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -356,10 +364,10 @@
             ]
           },
           "effects": {
-            "pnNRe8RSDFDZEFEy": {
+            "US16EQheY4CTcxms": {
               "type": "damage",
-              "_id": "pnNRe8RSDFDZEFEy",
-              "_key": "pnNRe8RSDFDZEFEy",
+              "_id": "US16EQheY4CTcxms",
+              "_key": "US16EQheY4CTcxms",
               "name": "",
               "damage": {
                 "tier1": {
@@ -397,10 +405,10 @@
                 }
               }
             },
-            "XnhwewTgW3WHL0dr": {
+            "GATSLVMqVg3P1oXD": {
               "type": "applied",
-              "_id": "XnhwewTgW3WHL0dr",
-              "_key": "XnhwewTgW3WHL0dr",
+              "_id": "GATSLVMqVg3P1oXD",
+              "_key": "GATSLVMqVg3P1oXD",
               "name": "",
               "applied": {
                 "tier1": {
@@ -428,7 +436,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -456,9 +467,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk1aaaaaaa.asilisk1feature3",
-      "_id": "asilisk1feature3",
-      "category": "heroic",
-      "resource": 5
+      "_id": "asilisk1feature3"
     },
     {
       "name": "Lash Out",
@@ -476,6 +485,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -495,7 +506,10 @@
           },
           "effects": null
         },
-        "effect": "Each target takes 5 damage and is A<2 bleeding (save ends).",
+        "effect": {
+          "before": "",
+          "after": "Each target takes 5 damage and is A<2 bleeding (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -523,9 +537,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk1aaaaaaa.asilisk1feature4",
-      "_id": "asilisk1feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk1feature4"
     },
     {
       "name": "Calcifying Presence",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "g98Qs0Ktfv4eS4SK": {
+            "QYa83TSqn3J29MHb": {
               "type": "damage",
-              "_id": "g98Qs0Ktfv4eS4SK",
-              "_key": "g98Qs0Ktfv4eS4SK",
+              "_id": "QYa83TSqn3J29MHb",
+              "_key": "QYa83TSqn3J29MHb",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "Taunted (EoT). The greenskeeper can shift 3 after making the attack.",
+        "effect": {
+          "before": "",
+          "after": "Taunted (EoT). The greenskeeper can shift 3 after making the attack."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode7aaaaaaaa.elfwode7feature1",
-      "_id": "elfwode7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode7feature1"
     },
     {
       "name": "Overgrowth",
@@ -235,6 +238,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -254,7 +259,10 @@
           },
           "effects": null
         },
-        "effect": "The affected area is overgrown with heavy brush and bramble. It provides cover and concealment for the greenskeeper and all allies, and is considered difficult terrain for enemies. An enemy that starts their turn in an affected square takes 3 damage.",
+        "effect": {
+          "before": "",
+          "after": "The affected area is overgrown with heavy brush and bramble. It provides cover and concealment for the greenskeeper and all allies, and is considered difficult terrain for enemies. An enemy that starts their turn in an affected square takes 3 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -282,9 +290,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode7aaaaaaaa.elfwode7feature2",
-      "_id": "elfwode7feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "elfwode7feature2"
     },
     {
       "name": "Masking Glamor",

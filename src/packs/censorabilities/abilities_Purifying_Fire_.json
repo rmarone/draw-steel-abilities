@@ -18,11 +18,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "QjKCgc3efKthguTq": {
+        "5rlSvThcsrldN8cu": {
           "type": "damage",
-          "_id": "QjKCgc3efKthguTq",
-          "_key": "QjKCgc3efKthguTq",
+          "_id": "5rlSvThcsrldN8cu",
+          "_key": "5rlSvThcsrldN8cu",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +81,10 @@
             }
           }
         },
-        "3byvZbEIstjZTc9S": {
+        "oidX9ZxKCHryr0PH": {
           "type": "applied",
-          "_id": "3byvZbEIstjZTc9S",
-          "_key": "3byvZbEIstjZTc9S",
+          "_id": "oidX9ZxKCHryr0PH",
+          "_key": "oidX9ZxKCHryr0PH",
           "name": "",
           "applied": {
             "tier1": {
@@ -110,7 +112,10 @@
         }
       }
     },
-    "effect": "While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage.",
+    "effect": {
+      "before": "",
+      "after": "While the target has fire weakness from this ability, you can choose to have your abilities deal fire damage to the target instead of holy damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -138,7 +143,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-12!astring",
-  "_id": "censorability12a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "censorability12a"
 }

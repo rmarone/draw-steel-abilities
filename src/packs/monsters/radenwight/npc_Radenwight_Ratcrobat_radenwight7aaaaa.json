@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "BQf0CPECT9vvad51": {
+            "FH3xgNjDCX4a201B": {
               "type": "damage",
-              "_id": "BQf0CPECT9vvad51",
-              "_key": "BQf0CPECT9vvad51",
+              "_id": "FH3xgNjDCX4a201B",
+              "_key": "FH3xgNjDCX4a201B",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The ratcrobat can shift up to 2 squares after striking the first target, then can shift 1 square after striking the second target.",
+        "effect": {
+          "before": "",
+          "after": "The ratcrobat can shift up to 2 squares after striking the first target, then can shift 1 square after striking the second target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight7aaaaa.enwight7feature2",
-      "_id": "enwight7feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight7feature2"
     },
     {
       "name": "Over Here, Thanks",
@@ -234,6 +237,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "Slide 3; the ratcrobat can then shift into the any of the squares the target left.",
+        "effect": {
+          "before": "",
+          "after": "Slide 3; the ratcrobat can then shift into the any of the squares the target left."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight7aaaaa.enwight7feature3",
-      "_id": "enwight7feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight7feature3"
     },
     {
       "name": "Ready Rodent",
@@ -302,6 +308,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -321,7 +329,10 @@
           },
           "effects": null
         },
-        "effect": "The ratcrobat makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The ratcrobat makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -349,9 +360,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight7aaaaa.enwight7feature4",
-      "_id": "enwight7feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight7feature4"
     },
     {
       "name": "Gymratstics",

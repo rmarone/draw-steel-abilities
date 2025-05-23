@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "wQrubug42Jth7FaY": {
+            "ojagEMcElVat7vjc": {
               "type": "damage",
-              "_id": "wQrubug42Jth7FaY",
-              "_key": "wQrubug42Jth7FaY",
+              "_id": "ojagEMcElVat7vjc",
+              "_key": "ojagEMcElVat7vjc",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "oMIlPxk9pC0ifxXB": {
+            "ngh7myk1eZW3SYJR": {
               "type": "applied",
-              "_id": "oMIlPxk9pC0ifxXB",
-              "_key": "oMIlPxk9pC0ifxXB",
+              "_id": "ngh7myk1eZW3SYJR",
+              "_key": "ngh7myk1eZW3SYJR",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker6.stalker6feature1",
-      "_id": "stalker6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker6feature1"
     },
     {
       "name": "Psionic Boom",
@@ -258,6 +261,8 @@
           "psionic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -278,10 +283,10 @@
             ]
           },
           "effects": {
-            "Ec4H9EuH2lTlstXr": {
+            "wISjfGv8h7Nd0Oux": {
               "type": "forced",
-              "_id": "Ec4H9EuH2lTlstXr",
-              "_key": "Ec4H9EuH2lTlstXr",
+              "_id": "wISjfGv8h7Nd0Oux",
+              "_key": "wISjfGv8h7Nd0Oux",
               "name": "",
               "forced": {
                 "tier1": {
@@ -309,7 +314,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -337,9 +345,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker6.stalker6feature2",
-      "_id": "stalker6feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "stalker6feature2"
     },
     {
       "name": "Tentacle Toss",
@@ -358,6 +364,8 @@
           "psionic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -378,10 +386,10 @@
             ]
           },
           "effects": {
-            "qwR8Sawh6crljxfw": {
+            "NPsmGwP17Y0hsXGm": {
               "type": "damage",
-              "_id": "qwR8Sawh6crljxfw",
-              "_key": "qwR8Sawh6crljxfw",
+              "_id": "NPsmGwP17Y0hsXGm",
+              "_key": "NPsmGwP17Y0hsXGm",
               "name": "",
               "damage": {
                 "tier1": {
@@ -419,10 +427,10 @@
                 }
               }
             },
-            "KjcBd2hUeiWKcHOx": {
+            "GrIxcM8o1COFf67i": {
               "type": "forced",
-              "_id": "KjcBd2hUeiWKcHOx",
-              "_key": "KjcBd2hUeiWKcHOx",
+              "_id": "GrIxcM8o1COFf67i",
+              "_key": "GrIxcM8o1COFf67i",
               "name": "",
               "forced": {
                 "tier1": {
@@ -450,7 +458,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -478,9 +489,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker6.stalker6feature3",
-      "_id": "stalker6feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker6feature3"
     },
     {
       "name": "Brain Drain",
@@ -498,6 +507,8 @@
           "psionic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -517,7 +528,10 @@
           },
           "effects": null
         },
-        "effect": "The potency of the effect increases by 2.",
+        "effect": {
+          "before": "",
+          "after": "The potency of the effect increases by 2."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -545,9 +559,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker6.stalker6feature4",
-      "_id": "stalker6feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker6feature4"
     },
     {
       "name": "Psionic Amplifier",

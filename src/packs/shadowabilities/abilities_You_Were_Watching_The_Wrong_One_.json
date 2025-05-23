@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "9RqIU6C20aHphBlc": {
+        "I9KwERF1hnC0St0j": {
           "type": "damage",
-          "_id": "9RqIU6C20aHphBlc",
-          "_key": "9RqIU6C20aHphBlc",
+          "_id": "I9KwERF1hnC0St0j",
+          "_key": "I9KwERF1hnC0St0j",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "As long as you have at least one ally within 5 squares of the target, you gain a surge. If you are flanking the target when you use this ability, choose one ally who is flanking with you. That ally also gain a surge.",
+    "effect": {
+      "before": "",
+      "after": "As long as you have at least one ally within 5 squares of the target, you gain a surge. If you are flanking the target when you use this ability, choose one ally who is flanking with you. That ally also gain a surge."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-4!astring",
-  "_id": "shadowability4aa",
-  "category": "signature",
-  "resource": null
+  "_id": "shadowability4aa"
 }

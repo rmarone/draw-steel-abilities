@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "7bR0txgrIDd5EdAt": {
+            "A4ABawx83iDLPckU": {
               "type": "damage",
-              "_id": "7bR0txgrIDd5EdAt",
-              "_key": "7bR0txgrIDd5EdAt",
+              "_id": "A4ABawx83iDLPckU",
+              "_key": "A4ABawx83iDLPckU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "A4ALBFC7bgz0pyja": {
+            "UpBxlk93uTmgmzXY": {
               "type": "applied",
-              "_id": "A4ALBFC7bgz0pyja",
-              "_key": "A4ALBFC7bgz0pyja",
+              "_id": "UpBxlk93uTmgmzXY",
+              "_key": "UpBxlk93uTmgmzXY",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian3aaaaaa.aconian3feature1",
-      "_id": "aconian3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian3feature1"
     },
     {
       "name": "Ice Lob",
@@ -260,6 +263,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "R0wJ1M68I1E5xJih": {
+            "3wSP8Jw0I0lrPk9Z": {
               "type": "damage",
-              "_id": "R0wJ1M68I1E5xJih",
-              "_key": "R0wJ1M68I1E5xJih",
+              "_id": "3wSP8Jw0I0lrPk9Z",
+              "_key": "3wSP8Jw0I0lrPk9Z",
               "name": "",
               "damage": {
                 "tier1": {
@@ -321,10 +326,10 @@
                 }
               }
             },
-            "BreKQ1XgaVtPrG44": {
+            "vxSxhiUTHd06GMgZ": {
               "type": "applied",
-              "_id": "BreKQ1XgaVtPrG44",
-              "_key": "BreKQ1XgaVtPrG44",
+              "_id": "vxSxhiUTHd06GMgZ",
+              "_key": "vxSxhiUTHd06GMgZ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -352,7 +357,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -380,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian3aaaaaa.aconian3feature2",
-      "_id": "aconian3feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian3feature2"
     },
     {
       "name": "Parting Gift",
@@ -400,6 +406,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -419,7 +427,10 @@
           },
           "effects": null
         },
-        "effect": "Lydixavus flies up to their speed, leaving a size 1S ice mine in the square they took off from. The ice mine explodes when an enemy enters a square containing it. Lydixavus rolls power for an exploding ice mine as if they used their Ice Lob ability, targeting the triggering creature and each creature and object within 1 of the ice mine.",
+        "effect": {
+          "before": "",
+          "after": "Lydixavus flies up to their speed, leaving a size 1S ice mine in the square they took off from. The ice mine explodes when an enemy enters a square containing it. Lydixavus rolls power for an exploding ice mine as if they used their Ice Lob ability, targeting the triggering creature and each creature and object within 1 of the ice mine."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -447,9 +458,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian3aaaaaa.aconian3feature3",
-      "_id": "aconian3feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian3feature3"
     },
     {
       "name": "Wasn't Aiming For You",
@@ -467,6 +476,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -486,7 +497,10 @@
           },
           "effects": null
         },
-        "effect": "Lydixavus uses an additional signature action targeting a creature within 5 of the original target.",
+        "effect": {
+          "before": "",
+          "after": "Lydixavus uses an additional signature action targeting a creature within 5 of the original target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -514,9 +528,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian3aaaaaa.aconian3feature4",
-      "_id": "aconian3feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian3feature4"
     },
     {
       "name": "Scorekeeping Scales",

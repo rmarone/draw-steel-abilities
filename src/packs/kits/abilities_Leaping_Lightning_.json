@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -40,10 +42,10 @@
         ]
       },
       "effects": {
-        "orpHim3CvGoJJ6xS": {
+        "PmZay3EHQwZTf2TH": {
           "type": "damage",
-          "_id": "orpHim3CvGoJJ6xS",
-          "_key": "orpHim3CvGoJJ6xS",
+          "_id": "PmZay3EHQwZTf2TH",
+          "_key": "PmZay3EHQwZTf2TH",
           "name": "",
           "damage": {
             "tier1": {
@@ -83,7 +85,10 @@
         }
       }
     },
-    "effect": "A creature or object within 2 squares of your target takes lightning damage equal to the characteristic you used for this ability’s power roll.",
+    "effect": {
+      "before": "",
+      "after": "A creature or object within 2 squares of your target takes lightning damage equal to the characteristic you used for this ability’s power roll."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -111,7 +116,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-spellsword-signature!astring",
-  "_id": "llswordsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "llswordsignature"
 }

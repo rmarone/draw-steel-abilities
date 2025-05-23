@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "FLEtBYReP9Ht5FPn": {
+            "mgI8iSmgl5iewx0Q": {
               "type": "damage",
-              "_id": "FLEtBYReP9Ht5FPn",
-              "_key": "FLEtBYReP9Ht5FPn",
+              "_id": "mgI8iSmgl5iewx0Q",
+              "_key": "mgI8iSmgl5iewx0Q",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "zBqN9Bzdb4bYr1XK": {
+            "tpEbCaueng7ZW8MV": {
               "type": "applied",
-              "_id": "zBqN9Bzdb4bYr1XK",
-              "_key": "zBqN9Bzdb4bYr1XK",
+              "_id": "tpEbCaueng7ZW8MV",
+              "_key": "tpEbCaueng7ZW8MV",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "A burning creature or object takes 1d6 fire damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A burning creature or object takes 1d6 fire damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil4aaaaaaaaaa.devil4feature1aa",
-      "_id": "devil4feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil4feature1aa"
     },
     {
       "name": "Dismissal with Prejudice",
@@ -258,6 +261,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -278,10 +283,10 @@
             ]
           },
           "effects": {
-            "cgjeu3gOTEikuAGI": {
+            "ajUmv0ztW8SenKYk": {
               "type": "damage",
-              "_id": "cgjeu3gOTEikuAGI",
-              "_key": "cgjeu3gOTEikuAGI",
+              "_id": "ajUmv0ztW8SenKYk",
+              "_key": "ajUmv0ztW8SenKYk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -319,10 +324,10 @@
                 }
               }
             },
-            "6JvsLb2k15K5p2T6": {
+            "IAzQuauajSBxNbZC": {
               "type": "forced",
-              "_id": "6JvsLb2k15K5p2T6",
-              "_key": "6JvsLb2k15K5p2T6",
+              "_id": "IAzQuauajSBxNbZC",
+              "_key": "IAzQuauajSBxNbZC",
               "name": "",
               "forced": {
                 "tier1": {
@@ -350,7 +355,10 @@
             }
           }
         },
-        "effect": "M<2 the target slides an additional 3 squares.",
+        "effect": {
+          "before": "",
+          "after": "M<2 the target slides an additional 3 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +386,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil4aaaaaaaaaa.devil4feature2aa",
-      "_id": "devil4feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil4feature2aa"
     },
     {
       "name": "Ashes to Ashes",
@@ -398,6 +404,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -417,7 +425,10 @@
           },
           "effects": null
         },
-        "effect": "The target takes 6 fire damage.",
+        "effect": {
+          "before": "",
+          "after": "The target takes 6 fire damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -445,9 +456,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil4aaaaaaaaaa.devil4feature3aa",
-      "_id": "devil4feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil4feature3aa"
     },
     {
       "name": "Devilish Charm",
@@ -465,6 +474,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -484,7 +495,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -512,9 +526,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil4aaaaaaaaaa.devil4feature4aa",
-      "_id": "devil4feature4aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "devil4feature4aa"
     },
     {
       "name": "Hellfire",

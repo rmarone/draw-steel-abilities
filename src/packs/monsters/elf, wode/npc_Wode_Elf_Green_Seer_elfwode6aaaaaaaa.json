@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "b338Le8lPZLfjZel": {
+            "CNg1ycbkvYSg8COs": {
               "type": "damage",
-              "_id": "b338Le8lPZLfjZel",
-              "_key": "b338Le8lPZLfjZel",
+              "_id": "CNg1ycbkvYSg8COs",
+              "_key": "CNg1ycbkvYSg8COs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "Fe1CfoxNgqVmVmjd": {
+            "KhQaCd0NOVOvNQKz": {
               "type": "applied",
-              "_id": "Fe1CfoxNgqVmVmjd",
-              "_key": "Fe1CfoxNgqVmVmjd",
+              "_id": "KhQaCd0NOVOvNQKz",
+              "_key": "KhQaCd0NOVOvNQKz",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "A creature restrained by this ability can’t search for hidden creatures until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A creature restrained by this ability can’t search for hidden creatures until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode6aaaaaaaa.elfwode6feature1",
-      "_id": "elfwode6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode6feature1"
     },
     {
       "name": "The Natural Cycle",
@@ -259,6 +262,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "urJ0y5B15YOrf3Sp": {
+            "4x245xSWgJ1aCwWq": {
               "type": "damage",
-              "_id": "urJ0y5B15YOrf3Sp",
-              "_key": "urJ0y5B15YOrf3Sp",
+              "_id": "4x245xSWgJ1aCwWq",
+              "_key": "4x245xSWgJ1aCwWq",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,10 +325,10 @@
                 }
               }
             },
-            "v279mXwGnpjt6zjN": {
+            "QP5Bdhdcf274KdWk": {
               "type": "applied",
-              "_id": "v279mXwGnpjt6zjN",
-              "_key": "v279mXwGnpjt6zjN",
+              "_id": "QP5Bdhdcf274KdWk",
+              "_key": "QP5Bdhdcf274KdWk",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -345,7 +350,10 @@
             }
           }
         },
-        "effect": "The green seer causes lichen to form and encroach upon each target.",
+        "effect": {
+          "before": "",
+          "after": "The green seer causes lichen to form and encroach upon each target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +381,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode6aaaaaaaa.elfwode6feature2",
-      "_id": "elfwode6feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "elfwode6feature2"
     },
     {
       "name": "Foreseen Punishment",
@@ -393,6 +399,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -412,7 +420,10 @@
           },
           "effects": null
         },
-        "effect": "The green seer makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The green seer makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -440,9 +451,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode6aaaaaaaa.elfwode6feature3",
-      "_id": "elfwode6feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode6feature3"
     },
     {
       "name": "Masking Glamor",

@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "V5QfcTxh5EdQQRh7": {
+        "70Ii8DH0R29mWv5N": {
           "type": "damage",
-          "_id": "V5QfcTxh5EdQQRh7",
-          "_key": "V5QfcTxh5EdQQRh7",
+          "_id": "70Ii8DH0R29mWv5N",
+          "_key": "70Ii8DH0R29mWv5N",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "Ni4vIMgClPDqRfr0": {
+        "hvlkQ3C2XIZukbpp": {
           "type": "applied",
-          "_id": "Ni4vIMgClPDqRfr0",
-          "_key": "Ni4vIMgClPDqRfr0",
+          "_id": "hvlkQ3C2XIZukbpp",
+          "_key": "hvlkQ3C2XIZukbpp",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "You can become bleeding (save ends) to deal an additional 5 corruption damage to the target.",
+    "effect": {
+      "before": "",
+      "after": "You can become bleeding (save ends) to deal an additional 5 corruption damage to the target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-12!astring",
-  "_id": "ubadourability12",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ubadourability12"
 }

@@ -1,0 +1,15 @@
+2025/05/19-00:32:54.372 78d8 Recovering log #317
+2025/05/19-00:32:54.472 78d8 Delete type=0 #317
+2025/05/19-00:32:54.472 78d8 Delete type=3 #315
+2025/05/19-00:32:54.549 69dc Level-0 table #323: started
+2025/05/19-00:32:54.617 69dc Level-0 table #323: 10253 bytes OK
+2025/05/19-00:32:54.656 69dc Delete type=0 #321
+2025/05/19-00:32:54.657 69dc Manual compaction at level-0 from '!items!tactician-1-5!astring' @ 72057594037927935 : 1 .. '!items!tactician-sub-3-1-3!astring' @ 0 : 0; will stop at (end)
+2025/05/19-00:32:54.657 69dc Manual compaction at level-1 from '!items!tactician-1-5!astring' @ 72057594037927935 : 1 .. '!items!tactician-sub-3-1-3!astring' @ 0 : 0; will stop at '!items!tactician-sub-3-1-3!astring' @ 2046 : 1
+2025/05/19-00:32:54.657 69dc Compacting 1@1 + 1@2 files
+2025/05/19-00:32:54.715 69dc Generated table #324@1: 19 keys, 10253 bytes
+2025/05/19-00:32:54.715 69dc Compacted 1@1 + 1@2 files => 10253 bytes
+2025/05/19-00:32:54.756 69dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/19-00:32:54.756 69dc Delete type=2 #319
+2025/05/19-00:32:54.757 69dc Delete type=2 #323
+2025/05/19-00:32:54.757 69dc Manual compaction at level-1 from '!items!tactician-sub-3-1-3!astring' @ 2046 : 1 .. '!items!tactician-sub-3-1-3!astring' @ 0 : 0; will stop at (end)

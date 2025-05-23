@@ -16,6 +16,8 @@
       "routine"
     ],
     "type": "no action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "While this routine is active, choose a number of targets equal to your Presence score at the end of your turn. Each chosen target can spend a Recovery.",
+    "effect": {
+      "before": "",
+      "after": "While this routine is active, choose a number of targets equal to your Presence score at the end of your turn. Each chosen target can spend a Recovery."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-1-8!astring",
-  "_id": "troubadour18aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadour18aaaa"
 }

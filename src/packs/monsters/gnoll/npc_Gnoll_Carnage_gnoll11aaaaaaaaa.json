@@ -121,6 +121,8 @@
 
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -141,10 +143,10 @@
             ]
           },
           "effects": {
-            "dAaK4rHJLE3o2Z8Q": {
+            "tQd8iPNo2DAJzEsX": {
               "type": "damage",
-              "_id": "dAaK4rHJLE3o2Z8Q",
-              "_key": "dAaK4rHJLE3o2Z8Q",
+              "_id": "tQd8iPNo2DAJzEsX",
+              "_key": "tQd8iPNo2DAJzEsX",
               "name": "",
               "damage": {
                 "tier1": {
@@ -182,10 +184,10 @@
                 }
               }
             },
-            "DeXNrOufCb2ENvw0": {
+            "HfagBTOhabyzSwVm": {
               "type": "applied",
-              "_id": "DeXNrOufCb2ENvw0",
-              "_key": "DeXNrOufCb2ENvw0",
+              "_id": "HfagBTOhabyzSwVm",
+              "_key": "HfagBTOhabyzSwVm",
               "name": "",
               "applied": {
                 "tier1": {
@@ -213,7 +215,10 @@
             }
           }
         },
-        "effect": "An ally targeted by this ability makes a free strike instead of taking damage.",
+        "effect": {
+          "before": "",
+          "after": "An ally targeted by this ability makes a free strike instead of taking damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -241,9 +246,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll11aaaaaaaaa.gnoll11feature1a",
-      "_id": "gnoll11feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll11feature1a"
     },
     {
       "name": "Cackletongue",
@@ -261,6 +264,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 4,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -280,7 +285,10 @@
           },
           "effects": null
         },
-        "effect": "Each target deals an additional 3 damage with their strikes until the start of the carnage's next turn. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost.",
+        "effect": {
+          "before": "",
+          "after": "Each target deals an additional 3 damage with their strikes until the start of the carnage's next turn. Targets who haven’t used a cackletongue maneuver on this turn use it immediately at no cost."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -308,9 +316,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll11aaaaaaaaa.gnoll11feature2a",
-      "_id": "gnoll11feature2a",
-      "category": "heroic",
-      "resource": 4
+      "_id": "gnoll11feature2a"
     },
     {
       "name": "Death Rampage",
@@ -354,6 +360,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -373,7 +381,10 @@
           },
           "effects": null
         },
-        "effect": "The carnage summons 5 **gnoll wildlings** and 5 **abyssal hyenas** into unoccupied spaces.",
+        "effect": {
+          "before": "",
+          "after": "The carnage summons 5 **gnoll wildlings** and 5 **abyssal hyenas** into unoccupied spaces."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -401,9 +412,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll11aaaaaaaaa.gnoll11feature5a",
-      "_id": "gnoll11feature5a",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll11feature5a"
     },
     {
       "name": "Edacity",
@@ -421,6 +430,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -440,7 +451,10 @@
           },
           "effects": null
         },
-        "effect": "Each target moves up to their speed and makes a free strike. A creature that takes damage from this villain action is also knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "Each target moves up to their speed and makes a free strike. A creature that takes damage from this villain action is also knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -468,9 +482,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll11aaaaaaaaa.gnoll11feature6a",
-      "_id": "gnoll11feature6a",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll11feature6a"
     },
     {
       "name": "Deepest Wounds",
@@ -489,6 +501,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -508,7 +522,10 @@
           },
           "effects": null
         },
-        "effect": "Until the end of the encounter, each gnoll has a double edge on power rolls that target a winded enemy.",
+        "effect": {
+          "before": "",
+          "after": "Until the end of the encounter, each gnoll has a double edge on power rolls that target a winded enemy."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -536,9 +553,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll11aaaaaaaaa.gnoll11feature7a",
-      "_id": "gnoll11feature7a",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll11feature7a"
     }
   ],
   "effects": [

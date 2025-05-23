@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "lybVfrYNWn49BVyW": {
+            "6vDZLpxbCrjv6rEg": {
               "type": "applied",
-              "_id": "lybVfrYNWn49BVyW",
-              "_key": "lybVfrYNWn49BVyW",
+              "_id": "6vDZLpxbCrjv6rEg",
+              "_key": "6vDZLpxbCrjv6rEg",
               "name": "",
               "applied": {
                 "tier1": {
@@ -174,7 +176,10 @@
             }
           }
         },
-        "effect": "Push X is equal to the number of squares the bloodrunner moved on their turn before using this ability.",
+        "effect": {
+          "before": "",
+          "after": "Push X is equal to the number of squares the bloodrunner moved on their turn before using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -202,9 +207,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc6aaaaaaaaaaaa.orc6feature1aaaa",
-      "_id": "orc6feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc6feature1aaaa"
     },
     {
       "name": "Unimpeded",

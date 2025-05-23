@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "x2vHiCCjJ5ijIvAV": {
+            "0N3CCMugAv95ZDDy": {
               "type": "damage",
-              "_id": "x2vHiCCjJ5ijIvAV",
-              "_key": "x2vHiCCjJ5ijIvAV",
+              "_id": "0N3CCMugAv95ZDDy",
+              "_key": "0N3CCMugAv95ZDDy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "KSlqywBIbChQ2ZFw": {
+            "mggLD1iK9xAWpA7Q": {
               "type": "applied",
-              "_id": "KSlqywBIbChQ2ZFw",
-              "_key": "KSlqywBIbChQ2ZFw",
+              "_id": "mggLD1iK9xAWpA7Q",
+              "_key": "mggLD1iK9xAWpA7Q",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "The vampire spawn regains Stamina equal to the corruption damage they deal.",
+        "effect": {
+          "before": "",
+          "after": "The vampire spawn regains Stamina equal to the corruption damage they deal."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd7aaaaaa.dead2nd7feature2",
-      "_id": "dead2nd7feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd7feature2"
     },
     {
       "name": "Vampire Celerity",
@@ -256,6 +259,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -275,7 +280,10 @@
           },
           "effects": null
         },
-        "effect": "The vampire spawn shifts 1 and then moves up to their speed. The next ability the vampire uses before the start of their next turn has an edge.",
+        "effect": {
+          "before": "",
+          "after": "The vampire spawn shifts 1 and then moves up to their speed. The next ability the vampire uses before the start of their next turn has an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -303,9 +311,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd7aaaaaa.dead2nd7feature3",
-      "_id": "dead2nd7feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd7feature3"
     },
     {
       "name": "Unslakable Bloodthirst",

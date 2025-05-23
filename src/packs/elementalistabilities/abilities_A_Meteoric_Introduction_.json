@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "45zE9RzgXXf04d1j": {
+        "sTHGUkRMw25luC5t": {
           "type": "damage",
-          "_id": "45zE9RzgXXf04d1j",
-          "_key": "45zE9RzgXXf04d1j",
+          "_id": "sTHGUkRMw25luC5t",
+          "_key": "sTHGUkRMw25luC5t",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "xVFDzdpPnskfz0Om": {
+        "tT8CvZbdvWFRMNPo": {
           "type": "forced",
-          "_id": "xVFDzdpPnskfz0Om",
-          "_key": "xVFDzdpPnskfz0Om",
+          "_id": "tT8CvZbdvWFRMNPo",
+          "_key": "tT8CvZbdvWFRMNPo",
           "name": "",
           "forced": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-5!astring",
-  "_id": "entalistability5",
-  "category": "signature",
-  "resource": null
+  "_id": "entalistability5"
 }

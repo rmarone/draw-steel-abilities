@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "jbabVD3MGhl148FC": {
+            "Tg9LygiID0s8nbNd": {
               "type": "damage",
-              "_id": "jbabVD3MGhl148FC",
-              "_key": "jbabVD3MGhl148FC",
+              "_id": "Tg9LygiID0s8nbNd",
+              "_key": "Tg9LygiID0s8nbNd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The duskcaller can target an additional creature or object while concealed.",
+        "effect": {
+          "before": "",
+          "after": "The duskcaller can target an additional creature or object while concealed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow7aaaaaa.fshadow7feature1",
-      "_id": "fshadow7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow7feature1"
     },
     {
       "name": "Shadesong",
@@ -235,6 +238,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -254,7 +259,10 @@
           },
           "effects": null
         },
-        "effect": "The affected area is covered in darkness and is considered concealment until the start of the duskcaller’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The affected area is covered in darkness and is considered concealment until the start of the duskcaller’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -282,9 +290,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow7aaaaaa.fshadow7feature2",
-      "_id": "fshadow7feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow7feature2"
     },
     {
       "name": "Of the Umbra",

@@ -124,11 +124,13 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "IBkDHwKbNCOlIy8W": {
+            "guQE1azX4Dq4ymZk": {
               "type": "damage",
-              "_id": "IBkDHwKbNCOlIy8W",
-              "_key": "IBkDHwKbNCOlIy8W",
+              "_id": "guQE1azX4Dq4ymZk",
+              "_key": "guQE1azX4Dq4ymZk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "ZsTMpUtEfpiKG3sP": {
+            "8PFyTPf5gdBF16wF": {
               "type": "applied",
-              "_id": "ZsTMpUtEfpiKG3sP",
-              "_key": "ZsTMpUtEfpiKG3sP",
+              "_id": "8PFyTPf5gdBF16wF",
+              "_key": "8PFyTPf5gdBF16wF",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc10aaaaaaaaaaa.orc10feature1aaa",
-      "_id": "orc10feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc10feature1aaa"
     },
     {
       "name": "Cadenza",
@@ -253,6 +256,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "The target moves up to their speed and uses an action.",
+        "effect": {
+          "before": "",
+          "after": "The target moves up to their speed and uses an action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc10aaaaaaaaaaa.orc10feature2aaa",
-      "_id": "orc10feature2aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc10feature2aaa"
     },
     {
       "name": "Rally Ostinato",
@@ -320,6 +326,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -339,7 +347,10 @@
           },
           "effects": null
         },
-        "effect": "Each target regains 15 Stamina and ignores difficult terrain until the end of the encounter.",
+        "effect": {
+          "before": "",
+          "after": "Each target regains 15 Stamina and ignores difficult terrain until the end of the encounter."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -367,9 +378,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc10aaaaaaaaaaa.orc10feature3aaa",
-      "_id": "orc10feature3aaa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "orc10feature3aaa"
     },
     {
       "name": "Relentless",

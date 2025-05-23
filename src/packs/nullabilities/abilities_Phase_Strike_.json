@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "pg1DCqOd7msu64Yg": {
+        "ySIuOyDOmcPulocj": {
           "type": "damage",
-          "_id": "pg1DCqOd7msu64Yg",
-          "_key": "pg1DCqOd7msu64Yg",
+          "_id": "ySIuOyDOmcPulocj",
+          "_key": "ySIuOyDOmcPulocj",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "sAABWOxJusLHANJM": {
+        "mZmSCFh1ta47E5XK": {
           "type": "applied",
-          "_id": "sAABWOxJusLHANJM",
-          "_key": "sAABWOxJusLHANJM",
+          "_id": "mZmSCFh1ta47E5XK",
+          "_key": "mZmSCFh1ta47E5XK",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "A target who goes out of phase is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space.",
+    "effect": {
+      "before": "",
+      "after": "A target who goes out of phase is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-15!astring",
-  "_id": "nullability15aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "nullability15aaa"
 }

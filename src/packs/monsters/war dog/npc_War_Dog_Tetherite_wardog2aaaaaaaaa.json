@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "byhaBOn6JXQC2FHj": {
+            "93qf9ZhWUi4fFRgU": {
               "type": "damage",
-              "_id": "byhaBOn6JXQC2FHj",
-              "_key": "byhaBOn6JXQC2FHj",
+              "_id": "93qf9ZhWUi4fFRgU",
+              "_key": "93qf9ZhWUi4fFRgU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog2aaaaaaaaa.wardog2feature1a",
-      "_id": "wardog2feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog2feature1a"
     },
     {
       "name": "Tethered",

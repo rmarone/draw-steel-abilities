@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -149,10 +151,10 @@
             ]
           },
           "effects": {
-            "b1nwhLXZcFb1AFt0": {
+            "99EKc2KWophf1H85": {
               "type": "damage",
-              "_id": "b1nwhLXZcFb1AFt0",
-              "_key": "b1nwhLXZcFb1AFt0",
+              "_id": "99EKc2KWophf1H85",
+              "_key": "99EKc2KWophf1H85",
               "name": "",
               "damage": {
                 "tier1": {
@@ -192,7 +194,10 @@
             }
           }
         },
-        "effect": "Gain a surge if the commando started their turn concealed or hidden from the target.",
+        "effect": {
+          "before": "",
+          "after": "Gain a surge if the commando started their turn concealed or hidden from the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -220,9 +225,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear8aaaaaaaa.bugbear8feature1",
-      "_id": "bugbear8feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear8feature1"
     },
     {
       "name": "Throw",
@@ -241,6 +244,8 @@
           "strike"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -260,7 +265,10 @@
           },
           "effects": null
         },
-        "effect": "Vertical push 5. An ally target doesn’t take damage from being force moved.",
+        "effect": {
+          "before": "",
+          "after": "Vertical push 5. An ally target doesn’t take damage from being force moved."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -288,9 +296,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear8aaaaaaaa.bugbear8feature2",
-      "_id": "bugbear8feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear8feature2"
     },
     {
       "name": "Catcher",
@@ -308,6 +314,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -327,7 +335,10 @@
           },
           "effects": null
         },
-        "effect": "The target is grabbed by the commando.",
+        "effect": {
+          "before": "",
+          "after": "The target is grabbed by the commando."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -355,9 +366,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear8aaaaaaaa.bugbear8feature3",
-      "_id": "bugbear8feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear8feature3"
     }
   ],
   "effects": [

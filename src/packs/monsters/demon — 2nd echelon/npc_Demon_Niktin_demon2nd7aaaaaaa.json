@@ -123,6 +123,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "zaju2oRCNeU5UTy4": {
+            "6hVaQpsBwA4t20kh": {
               "type": "damage",
-              "_id": "zaju2oRCNeU5UTy4",
-              "_key": "zaju2oRCNeU5UTy4",
+              "_id": "6hVaQpsBwA4t20kh",
+              "_key": "6hVaQpsBwA4t20kh",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "ajpZz1UqbzXmfNSZ": {
+            "HoDtCl1XbBfnzCy0": {
               "type": "applied",
-              "_id": "ajpZz1UqbzXmfNSZ",
-              "_key": "ajpZz1UqbzXmfNSZ",
+              "_id": "HoDtCl1XbBfnzCy0",
+              "_key": "HoDtCl1XbBfnzCy0",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The niktin violently changes shape. The niktin deals an additional 6 damage to each target they were hidden from with their Aggressive Mimicry ability.",
+        "effect": {
+          "before": "",
+          "after": "The niktin violently changes shape. The niktin deals an additional 6 damage to each target they were hidden from with their Aggressive Mimicry ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd7aaaaaaa.emon2nd7feature1",
-      "_id": "emon2nd7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd7feature1"
     },
     {
       "name": "Aggressive Mimicry",
@@ -251,6 +254,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -270,7 +275,10 @@
           },
           "effects": null
         },
-        "effect": "The nitkin can become a mundane object the same size or smaller and is hidden. They can change back as a free action.",
+        "effect": {
+          "before": "",
+          "after": "The nitkin can become a mundane object the same size or smaller and is hidden. They can change back as a free action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -298,9 +306,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd7aaaaaaa.emon2nd7feature2",
-      "_id": "emon2nd7feature2",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emon2nd7feature2"
     },
     {
       "name": "Lethe",

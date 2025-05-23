@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "BWcpwiJ5u3tdZZ7z": {
+            "WZOIfDGZunx2eZmg": {
               "type": "damage",
-              "_id": "BWcpwiJ5u3tdZZ7z",
-              "_key": "BWcpwiJ5u3tdZZ7z",
+              "_id": "WZOIfDGZunx2eZmg",
+              "_key": "WZOIfDGZunx2eZmg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "yP6LrLM3YCaBhAU7": {
+            "LOL4SjRyGH7yEhdQ": {
               "type": "applied",
-              "_id": "yP6LrLM3YCaBhAU7",
-              "_key": "yP6LrLM3YCaBhAU7",
+              "_id": "LOL4SjRyGH7yEhdQ",
+              "_key": "LOL4SjRyGH7yEhdQ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The scyza roars and the target is I<2 frightened (save ends).",
+        "effect": {
+          "before": "",
+          "after": "The scyza roars and the target is I<2 frightened (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc15aaaaaaaaaaa.orc15feature1aaa",
-      "_id": "orc15feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc15feature1aaa"
     },
     {
       "name": "Whiptail",
@@ -259,6 +262,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "AdIsUDA5fhjycjP1": {
+            "qUz2Ca6OGB6WiRt0": {
               "type": "damage",
-              "_id": "AdIsUDA5fhjycjP1",
-              "_key": "AdIsUDA5fhjycjP1",
+              "_id": "qUz2Ca6OGB6WiRt0",
+              "_key": "qUz2Ca6OGB6WiRt0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,10 +325,10 @@
                 }
               }
             },
-            "C7XFuQZziHiKVSwR": {
+            "jl795VCJPd6A0FW3": {
               "type": "applied",
-              "_id": "C7XFuQZziHiKVSwR",
-              "_key": "C7XFuQZziHiKVSwR",
+              "_id": "jl795VCJPd6A0FW3",
+              "_key": "jl795VCJPd6A0FW3",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -339,7 +344,10 @@
             }
           }
         },
-        "effect": "This ability has an edge against a target on top of the scyza and knocks the target prone inot an unoccupied adjacent square.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge against a target on top of the scyza and knocks the target prone inot an unoccupied adjacent square."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -367,9 +375,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc15aaaaaaaaaaa.orc15feature2aaa",
-      "_id": "orc15feature2aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc15feature2aaa"
     },
     {
       "name": "Crestfall",
@@ -389,6 +395,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -409,10 +417,10 @@
             ]
           },
           "effects": {
-            "VbOMcFdDQ3MqrJO5": {
+            "E1n3TbYAIYEh1NcD": {
               "type": "damage",
-              "_id": "VbOMcFdDQ3MqrJO5",
-              "_key": "VbOMcFdDQ3MqrJO5",
+              "_id": "E1n3TbYAIYEh1NcD",
+              "_key": "E1n3TbYAIYEh1NcD",
               "name": "",
               "damage": {
                 "tier1": {
@@ -450,10 +458,10 @@
                 }
               }
             },
-            "yZc5SBr6mTWXar0Z": {
+            "TFeA2cp9Zh5akPMm": {
               "type": "applied",
-              "_id": "yZc5SBr6mTWXar0Z",
-              "_key": "yZc5SBr6mTWXar0Z",
+              "_id": "TFeA2cp9Zh5akPMm",
+              "_key": "TFeA2cp9Zh5akPMm",
               "name": "",
               "applied": {
                 "tier1": {
@@ -481,7 +489,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -509,9 +520,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc15aaaaaaaaaaa.orc15feature3aaa",
-      "_id": "orc15feature3aaa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "orc15feature3aaa"
     },
     {
       "name": "Sandstorm",
@@ -529,6 +538,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -548,7 +559,10 @@
           },
           "effects": null
         },
-        "effect": "The scyza kicks up a sandstorm concealing themselves and each ally in the affected area until the end of the scyza's next turn. Each enemy in the burst makes an **Intuition test**.",
+        "effect": {
+          "before": "",
+          "after": "The scyza kicks up a sandstorm concealing themselves and each ally in the affected area until the end of the scyza's next turn. Each enemy in the burst makes an **Intuition test**."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -576,9 +590,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc15aaaaaaaaaaa.orc15feature4aaa",
-      "_id": "orc15feature4aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc15feature4aaa"
     },
     {
       "name": "Skitter",
@@ -596,6 +608,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -615,7 +629,10 @@
           },
           "effects": null
         },
-        "effect": "Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 of the scyza, the scyza makes a free strike against them.",
+        "effect": {
+          "before": "",
+          "after": "Any damage dealt by the triggering ability is halved. If the creature or object who used the ability is within 3 of the scyza, the scyza makes a free strike against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -643,9 +660,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc15aaaaaaaaaaa.orc15feature5aaa",
-      "_id": "orc15feature5aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc15feature5aaa"
     },
     {
       "name": "War Harness",

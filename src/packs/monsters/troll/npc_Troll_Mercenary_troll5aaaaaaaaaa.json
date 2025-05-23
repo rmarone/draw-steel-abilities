@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "waXSxGnKPIKBKB9B": {
+            "qDA0o2ipf3K8PLOx": {
               "type": "damage",
-              "_id": "waXSxGnKPIKBKB9B",
-              "_key": "waXSxGnKPIKBKB9B",
+              "_id": "qDA0o2ipf3K8PLOx",
+              "_key": "qDA0o2ipf3K8PLOx",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "The mercenary regains Stamina equal to half the damage dealt.",
+        "effect": {
+          "before": "",
+          "after": "The mercenary regains Stamina equal to half the damage dealt."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll5aaaaaaaaaa.troll5feature1aa",
-      "_id": "troll5feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll5feature1aa"
     },
     {
       "name": "Troll Roar",
@@ -238,6 +241,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -262,10 +267,10 @@
             ]
           },
           "effects": {
-            "T63D5CKoO0sLU1Ys": {
+            "WLNgNjbxrNoqgyQG": {
               "type": "applied",
-              "_id": "T63D5CKoO0sLU1Ys",
-              "_key": "T63D5CKoO0sLU1Ys",
+              "_id": "WLNgNjbxrNoqgyQG",
+              "_key": "WLNgNjbxrNoqgyQG",
               "name": "",
               "applied": {
                 "tier1": {
@@ -293,7 +298,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -321,9 +329,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll5aaaaaaaaaa.troll5feature2aa",
-      "_id": "troll5feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll5feature2aa"
     },
     {
       "name": "Relentless Hunger",

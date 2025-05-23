@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "eWU0TdikmYBRbc9d": {
+            "WwemWTHvSo1IqI0Z": {
               "type": "damage",
-              "_id": "eWU0TdikmYBRbc9d",
-              "_key": "eWU0TdikmYBRbc9d",
+              "_id": "WwemWTHvSo1IqI0Z",
+              "_key": "WwemWTHvSo1IqI0Z",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "QbKb2mtVQ6RXHlbp": {
+            "yAKMdVOl7eDAcMgi": {
               "type": "forced",
-              "_id": "QbKb2mtVQ6RXHlbp",
-              "_key": "QbKb2mtVQ6RXHlbp",
+              "_id": "yAKMdVOl7eDAcMgi",
+              "_key": "yAKMdVOl7eDAcMgi",
               "name": "",
               "forced": {
                 "tier1": {
@@ -239,10 +241,10 @@
                 }
               }
             },
-            "do9ezNdY2QoHK1l8": {
+            "9AeobNWLRDiWz3En": {
               "type": "applied",
-              "_id": "do9ezNdY2QoHK1l8",
-              "_key": "do9ezNdY2QoHK1l8",
+              "_id": "9AeobNWLRDiWz3En",
+              "_key": "9AeobNWLRDiWz3En",
               "name": "",
               "applied": {
                 "tier1": {
@@ -270,7 +272,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -298,9 +303,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.orannox1feature3",
-      "_id": "orannox1feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox1feature3"
     },
     {
       "name": "Grav Spike",
@@ -320,6 +323,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -340,10 +345,10 @@
             ]
           },
           "effects": {
-            "BvlHr5pDYQIfrkbG": {
+            "CvctjH1ydPsY0SdX": {
               "type": "forced",
-              "_id": "BvlHr5pDYQIfrkbG",
-              "_key": "BvlHr5pDYQIfrkbG",
+              "_id": "CvctjH1ydPsY0SdX",
+              "_key": "CvctjH1ydPsY0SdX",
               "name": "",
               "forced": {
                 "tier1": {
@@ -371,7 +376,10 @@
             }
           }
         },
-        "effect": "Xorannox shifts up to his speed before or after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "Xorannox shifts up to his speed before or after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -399,9 +407,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.orannox1feature4",
-      "_id": "orannox1feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox1feature4"
     },
     {
       "name": "Optical Collusion",
@@ -420,6 +426,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -439,7 +447,10 @@
           },
           "effects": null
         },
-        "effect": "Xorannox commands all eyestalks to move up to their speed.",
+        "effect": {
+          "before": "",
+          "after": "Xorannox commands all eyestalks to move up to their speed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -467,9 +478,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.orannox1feature5",
-      "_id": "orannox1feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox1feature5"
     },
     {
       "name": "Shutout",
@@ -487,6 +496,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -506,7 +517,10 @@
           },
           "effects": null
         },
-        "effect": "Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from equipment in the affected area. New supernatural effects cannot activate in the affected area until the end of Xorannox’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "Xorannox ends all ongoing supernatural effects and suppresses supernatural effects from equipment in the affected area. New supernatural effects cannot activate in the affected area until the end of Xorannox’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -534,9 +548,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.orannox1feature6",
-      "_id": "orannox1feature6",
-      "category": "heroic",
-      "resource": 2
+      "_id": "orannox1feature6"
     },
     {
       "name": "Cower!",
@@ -555,6 +567,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -574,7 +588,10 @@
           },
           "effects": null
         },
-        "effect": "The triggering creature is I<3 frightened (save ends).",
+        "effect": {
+          "before": "",
+          "after": "The triggering creature is I<3 frightened (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -602,9 +619,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.orannox1feature7",
-      "_id": "orannox1feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox1feature7"
     },
     {
       "name": "Above It All",
@@ -650,6 +665,8 @@
           "strike"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -670,10 +687,10 @@
             ]
           },
           "effects": {
-            "4iHjfUx9NoaOftad": {
+            "PLX2Or6jjn9fwIdi": {
               "type": "damage",
-              "_id": "4iHjfUx9NoaOftad",
-              "_key": "4iHjfUx9NoaOftad",
+              "_id": "PLX2Or6jjn9fwIdi",
+              "_key": "PLX2Or6jjn9fwIdi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -711,10 +728,10 @@
                 }
               }
             },
-            "BqIxhL5Vt6H9GAPi": {
+            "55OdWglNLMhNL0XI": {
               "type": "applied",
-              "_id": "BqIxhL5Vt6H9GAPi",
-              "_key": "BqIxhL5Vt6H9GAPi",
+              "_id": "55OdWglNLMhNL0XI",
+              "_key": "55OdWglNLMhNL0XI",
               "name": "",
               "applied": {
                 "tier1": {
@@ -742,7 +759,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -770,9 +790,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.rannox1feature10",
-      "_id": "rannox1feature10",
-      "category": "signature",
-      "resource": null
+      "_id": "rannox1feature10"
     },
     {
       "name": "All Eyes, All Rise",
@@ -790,6 +808,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -809,7 +829,10 @@
           },
           "effects": null
         },
-        "effect": "Xorannox reforms all destroyed eyestalks and raises them at full Stamina.",
+        "effect": {
+          "before": "",
+          "after": "Xorannox reforms all destroyed eyestalks and raises them at full Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -837,9 +860,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.rannox1feature11",
-      "_id": "rannox1feature11",
-      "category": "signature",
-      "resource": null
+      "_id": "rannox1feature11"
     },
     {
       "name": "Panoptibeam",
@@ -859,6 +880,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -878,7 +901,10 @@
           },
           "effects": null
         },
-        "effect": "Xorannox directs each remaining eyestalk to use a signature action, targeting each creature in the area.",
+        "effect": {
+          "before": "",
+          "after": "Xorannox directs each remaining eyestalk to use a signature action, targeting each creature in the area."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -906,9 +932,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox1aaaaaaa.rannox1feature12",
-      "_id": "rannox1feature12",
-      "category": "signature",
-      "resource": null
+      "_id": "rannox1feature12"
     }
   ],
   "effects": [

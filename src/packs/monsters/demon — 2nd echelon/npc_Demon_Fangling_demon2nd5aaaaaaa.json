@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "ThWxlafPj5QDcjpO": {
+            "ZFVDH9M9AHVh0enu": {
               "type": "damage",
-              "_id": "ThWxlafPj5QDcjpO",
-              "_key": "ThWxlafPj5QDcjpO",
+              "_id": "ZFVDH9M9AHVh0enu",
+              "_key": "ZFVDH9M9AHVh0enu",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "Each enemy adjacent to the fangling takes 2 damage.",
+        "effect": {
+          "before": "",
+          "after": "Each enemy adjacent to the fangling takes 2 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd5aaaaaaa.emon2nd5feature1",
-      "_id": "emon2nd5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd5feature1"
     },
     {
       "name": "Tumbling Gore",
@@ -236,6 +239,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -256,10 +261,10 @@
             ]
           },
           "effects": {
-            "PulLTkW3o8xiJ0gV": {
+            "GZjhiGJt75YtLXPK": {
               "type": "damage",
-              "_id": "PulLTkW3o8xiJ0gV",
-              "_key": "PulLTkW3o8xiJ0gV",
+              "_id": "GZjhiGJt75YtLXPK",
+              "_key": "GZjhiGJt75YtLXPK",
               "name": "",
               "damage": {
                 "tier1": {
@@ -297,10 +302,10 @@
                 }
               }
             },
-            "05ropjaaYzn9qEXs": {
+            "V44vpMCyxOMRtX2n": {
               "type": "forced",
-              "_id": "05ropjaaYzn9qEXs",
-              "_key": "05ropjaaYzn9qEXs",
+              "_id": "V44vpMCyxOMRtX2n",
+              "_key": "V44vpMCyxOMRtX2n",
               "name": "",
               "forced": {
                 "tier1": {
@@ -326,10 +331,10 @@
                 }
               }
             },
-            "6z0zyi5ikyjXI061": {
+            "cBZFUJKXd3muymkd": {
               "type": "applied",
-              "_id": "6z0zyi5ikyjXI061",
-              "_key": "6z0zyi5ikyjXI061",
+              "_id": "cBZFUJKXd3muymkd",
+              "_key": "cBZFUJKXd3muymkd",
               "name": "",
               "applied": {
                 "tier1": {
@@ -357,7 +362,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -385,9 +393,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd5aaaaaaa.emon2nd5feature2",
-      "_id": "emon2nd5feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "emon2nd5feature2"
     },
     {
       "name": "Made of Teeth",

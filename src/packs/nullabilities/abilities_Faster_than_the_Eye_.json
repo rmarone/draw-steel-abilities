@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "UlwflsnLiL0yduBF": {
+        "MdWVFW2daj41ru5l": {
           "type": "damage",
-          "_id": "UlwflsnLiL0yduBF",
-          "_key": "UlwflsnLiL0yduBF",
+          "_id": "MdWVFW2daj41ru5l",
+          "_key": "MdWVFW2daj41ru5l",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "You can deal damage equal to your Agility score to an adjacent creature or object.",
+    "effect": {
+      "before": "",
+      "after": "You can deal damage equal to your Agility score to an adjacent creature or object."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-2!astring",
-  "_id": "nullability2aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "nullability2aaaa"
 }

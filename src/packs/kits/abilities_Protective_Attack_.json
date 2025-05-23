@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "v9xISp72AgZ6YcxO": {
+        "78NgYviXI9okD91G": {
           "type": "damage",
-          "_id": "v9xISp72AgZ6YcxO",
-          "_key": "v9xISp72AgZ6YcxO",
+          "_id": "78NgYviXI9okD91G",
+          "_key": "78NgYviXI9okD91G",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "The target is taunted (EoT).",
+    "effect": {
+      "before": "",
+      "after": "The target is taunted (EoT)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-shining-armor-signature!astring",
-  "_id": "ngarmorsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "ngarmorsignature"
 }

@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "4ZoW10N0KbkTElKs": {
+            "MH4UcCnT30hNyjPU": {
               "type": "damage",
-              "_id": "4ZoW10N0KbkTElKs",
-              "_key": "4ZoW10N0KbkTElKs",
+              "_id": "MH4UcCnT30hNyjPU",
+              "_key": "MH4UcCnT30hNyjPU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The target is bleeding (save ends) if the shambler has an edge on this ability.",
+        "effect": {
+          "before": "",
+          "after": "The target is bleeding (save ends) if the shambler has an edge on this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd1aaaaaa.dead2nd1feature2",
-      "_id": "dead2nd1feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd1feature2"
     },
     {
       "name": "Fleshfused Spines",

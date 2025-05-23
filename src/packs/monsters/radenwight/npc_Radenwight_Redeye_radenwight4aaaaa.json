@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "uZptrt3aK8oCAEXN": {
+            "Moek9yneuXmxXnOt": {
               "type": "damage",
-              "_id": "uZptrt3aK8oCAEXN",
-              "_key": "uZptrt3aK8oCAEXN",
+              "_id": "Moek9yneuXmxXnOt",
+              "_key": "Moek9yneuXmxXnOt",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "An ally of the redeye within 2 squares of the target can shift up to 2 squares.",
+        "effect": {
+          "before": "",
+          "after": "An ally of the redeye within 2 squares of the target can shift up to 2 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight4aaaaa.enwight4feature1",
-      "_id": "enwight4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight4feature1"
     },
     {
       "name": "Ready Rodent",
@@ -235,6 +238,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -254,7 +259,10 @@
           },
           "effects": null
         },
-        "effect": "The redeye makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The redeye makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -282,9 +290,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight4aaaaa.enwight4feature2",
-      "_id": "enwight4feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight4feature2"
     }
   ],
   "effects": [

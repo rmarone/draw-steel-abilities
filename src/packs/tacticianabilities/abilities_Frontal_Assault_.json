@@ -14,6 +14,8 @@
 
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "Until the end of the encounter or you are dying, whenever you or any ally deals damage a target marked by you, the damage dealer can push the target up to 2 squares, then shift up to 2 squares. Additionally, any ally using the Charge action to attack a target marked by you can use a signature or heroic ability in place of a melee free strike.",
+    "effect": {
+      "before": "",
+      "after": "Until the end of the encounter or you are dying, whenever you or any ally deals damage a target marked by you, the damage dealer can push the target up to 2 squares, then shift up to 2 squares. Additionally, any ally using the Charge action to attack a target marked by you can use a signature or heroic ability in place of a melee free strike."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-10!astring",
-  "_id": "cticianability10",
-  "category": "heroic",
-  "resource": 7
+  "_id": "cticianability10"
 }

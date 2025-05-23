@@ -164,6 +164,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -184,10 +186,10 @@
             ]
           },
           "effects": {
-            "ZKdKdMxBcNYCIWOZ": {
+            "Vh8e4oE5xeGeyN6K": {
               "type": "damage",
-              "_id": "ZKdKdMxBcNYCIWOZ",
-              "_key": "ZKdKdMxBcNYCIWOZ",
+              "_id": "Vh8e4oE5xeGeyN6K",
+              "_key": "Vh8e4oE5xeGeyN6K",
               "name": "",
               "damage": {
                 "tier1": {
@@ -225,10 +227,10 @@
                 }
               }
             },
-            "ysL8IswC2lUU2Xth": {
+            "WxInsxros9H86mBz": {
               "type": "applied",
-              "_id": "ysL8IswC2lUU2Xth",
-              "_key": "ysL8IswC2lUU2Xth",
+              "_id": "WxInsxros9H86mBz",
+              "_key": "WxInsxros9H86mBz",
               "name": "",
               "applied": {
                 "tier1": {
@@ -256,7 +258,10 @@
             }
           }
         },
-        "effect": "A creature afflicted with lycanthropy accumulates 2 ferocity at the end of each of their turns whenever they’re in combat. Their ferocity does not disappear after completing a respite; they must complete the Find a Cure project to end this condition.",
+        "effect": {
+          "before": "",
+          "after": "A creature afflicted with lycanthropy accumulates 2 ferocity at the end of each of their turns whenever they’re in combat. Their ferocity does not disappear after completing a respite; they must complete the Find a Cure project to end this condition."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -284,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.werewolffeature4",
-      "_id": "werewolffeature4",
-      "category": "signature",
-      "resource": null
+      "_id": "werewolffeature4"
     },
     {
       "name": "Claws",
@@ -306,6 +309,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -326,10 +331,10 @@
             ]
           },
           "effects": {
-            "dzObEbkRPIrzDAon": {
+            "EB6URvnf6P6HG19X": {
               "type": "damage",
-              "_id": "dzObEbkRPIrzDAon",
-              "_key": "dzObEbkRPIrzDAon",
+              "_id": "EB6URvnf6P6HG19X",
+              "_key": "EB6URvnf6P6HG19X",
               "name": "",
               "damage": {
                 "tier1": {
@@ -367,10 +372,10 @@
                 }
               }
             },
-            "bekZwNjIgKDviN4v": {
+            "8HQndHBNOCSwYv1D": {
               "type": "forced",
-              "_id": "bekZwNjIgKDviN4v",
-              "_key": "bekZwNjIgKDviN4v",
+              "_id": "8HQndHBNOCSwYv1D",
+              "_key": "8HQndHBNOCSwYv1D",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -390,10 +395,10 @@
                 }
               }
             },
-            "jAJuyaUmu4wbxZq3": {
+            "G7zD4fK3MC3kHzHt": {
               "type": "applied",
-              "_id": "jAJuyaUmu4wbxZq3",
-              "_key": "jAJuyaUmu4wbxZq3",
+              "_id": "G7zD4fK3MC3kHzHt",
+              "_key": "G7zD4fK3MC3kHzHt",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -415,7 +420,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -443,9 +451,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.werewolffeature5",
-      "_id": "werewolffeature5",
-      "category": "signature",
-      "resource": null
+      "_id": "werewolffeature5"
     },
     {
       "name": "Berserker Slash",
@@ -463,6 +469,8 @@
 
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -482,7 +490,10 @@
           },
           "effects": null
         },
-        "effect": "The werewolf shifts up to their speed and uses Claws against each creature who comes within 1 of the werewolf during the move. The werewolf makes one power roll against all targets.",
+        "effect": {
+          "before": "",
+          "after": "The werewolf shifts up to their speed and uses Claws against each creature who comes within 1 of the werewolf during the move. The werewolf makes one power roll against all targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -510,9 +521,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.werewolffeature6",
-      "_id": "werewolffeature6",
-      "category": "heroic",
-      "resource": 5
+      "_id": "werewolffeature6"
     },
     {
       "name": "Wall Leap",
@@ -530,6 +539,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -549,7 +560,10 @@
           },
           "effects": null
         },
-        "effect": "The werewolf jumps 4 squares. If they end this movement at a wall, the werewolf jumps off the wall 4 squares and makes a melee free strike.",
+        "effect": {
+          "before": "",
+          "after": "The werewolf jumps 4 squares. If they end this movement at a wall, the werewolf jumps off the wall 4 squares and makes a melee free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -577,9 +591,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.werewolffeature7",
-      "_id": "werewolffeature7",
-      "category": "signature",
-      "resource": null
+      "_id": "werewolffeature7"
     },
     {
       "name": "Facepalm and Head Slam",
@@ -597,6 +609,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -616,7 +630,10 @@
           },
           "effects": null
         },
-        "effect": "The target is knocked prone and takes 5 damage before executing the ability.",
+        "effect": {
+          "before": "",
+          "after": "The target is knocked prone and takes 5 damage before executing the ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -644,9 +661,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.werewolffeature8",
-      "_id": "werewolffeature8",
-      "category": "heroic",
-      "resource": 2
+      "_id": "werewolffeature8"
     },
     {
       "name": "Vukenstep",
@@ -677,6 +692,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -696,7 +713,10 @@
           },
           "effects": null
         },
-        "effect": "Enemies that have 1 or more ferocity gain 4 ferocity and howl along with the werewolf.",
+        "effect": {
+          "before": "",
+          "after": "Enemies that have 1 or more ferocity gain 4 ferocity and howl along with the werewolf."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -724,9 +744,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.erewolffeature10",
-      "_id": "erewolffeature10",
-      "category": "signature",
-      "resource": null
+      "_id": "erewolffeature10"
     },
     {
       "name": "Full Wolf",
@@ -744,6 +762,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -763,7 +783,10 @@
           },
           "effects": null
         },
-        "effect": "The werewolf changes into a massive wolf, pushing adjacent creatures out of their way and moving into a square that can accommodate their new size. Until they die or the end of the encounter, their Speed is 10, their Size is 3, and their Stability is 2. Each of the werewolf’s strikes deal an additional 3 damage and inflict an additional 1 ferocity. The potency of the werewolf’s Accursed Bite increases by 1.",
+        "effect": {
+          "before": "",
+          "after": "The werewolf changes into a massive wolf, pushing adjacent creatures out of their way and moving into a square that can accommodate their new size. Until they die or the end of the encounter, their Speed is 10, their Size is 3, and their Stability is 2. Each of the werewolf’s strikes deal an additional 3 damage and inflict an additional 1 ferocity. The potency of the werewolf’s Accursed Bite increases by 1."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -791,9 +814,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.erewolffeature11",
-      "_id": "erewolffeature11",
-      "category": "signature",
-      "resource": null
+      "_id": "erewolffeature11"
     },
     {
       "name": "Rampage",
@@ -813,6 +834,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -833,10 +856,10 @@
             ]
           },
           "effects": {
-            "HaAxCqvWwMaAYbg3": {
+            "VYN7wCa4C3Mnl5br": {
               "type": "damage",
-              "_id": "HaAxCqvWwMaAYbg3",
-              "_key": "HaAxCqvWwMaAYbg3",
+              "_id": "VYN7wCa4C3Mnl5br",
+              "_key": "VYN7wCa4C3Mnl5br",
               "name": "",
               "damage": {
                 "tier1": {
@@ -874,10 +897,10 @@
                 }
               }
             },
-            "SE7RvD88AeihLo4R": {
+            "BBYpoAXaDC4r1vFb": {
               "type": "applied",
-              "_id": "SE7RvD88AeihLo4R",
-              "_key": "SE7RvD88AeihLo4R",
+              "_id": "BBYpoAXaDC4r1vFb",
+              "_key": "BBYpoAXaDC4r1vFb",
               "name": "",
               "applied": {
                 "tier1": {
@@ -905,7 +928,10 @@
             }
           }
         },
-        "effect": "The werewolf shifts up to twice their speed either before or after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The werewolf shifts up to twice their speed either before or after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -933,9 +959,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!werewolfaaaaaaaa.erewolffeature12",
-      "_id": "erewolffeature12",
-      "category": "signature",
-      "resource": null
+      "_id": "erewolffeature12"
     }
   ],
   "effects": [

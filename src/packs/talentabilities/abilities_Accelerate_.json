@@ -14,6 +14,8 @@
       "psionic"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "The target immediately shifts up to a number of squares equal to your Reason score.",
+    "effect": {
+      "before": "",
+      "after": "The target immediately shifts up to a number of squares equal to your Reason score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-1-1-1!astring",
-  "_id": "talentsub111aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentsub111aaaa"
 }

@@ -122,6 +122,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "GQucO5tLOVyWdCMI": {
+            "B5OWvNhu2BidYzQp": {
               "type": "damage",
-              "_id": "GQucO5tLOVyWdCMI",
-              "_key": "GQucO5tLOVyWdCMI",
+              "_id": "B5OWvNhu2BidYzQp",
+              "_key": "B5OWvNhu2BidYzQp",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "0bfY05Bt1chroMfR": {
+            "XUJPujP9jWDpF08T": {
               "type": "applied",
-              "_id": "0bfY05Bt1chroMfR",
-              "_key": "0bfY05Bt1chroMfR",
+              "_id": "XUJPujP9jWDpF08T",
+              "_key": "XUJPujP9jWDpF08T",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "This ability inflicts restrained (save ends) on targets that are already prone. When the restrained condition ends, any can’t stand effects also end.",
+        "effect": {
+          "before": "",
+          "after": "This ability inflicts restrained (save ends) on targets that are already prone. When the restrained condition ends, any can’t stand effects also end."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental4aaaaaa.emental4feature1",
-      "_id": "emental4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emental4feature1"
     },
     {
       "name": "Convocation of Verdure",
@@ -257,6 +260,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The target gains 15 temporary Stamina that lasts until the start of the field’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The target gains 15 temporary Stamina that lasts until the start of the field’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental4aaaaaa.emental4feature2",
-      "_id": "emental4feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "emental4feature2"
     },
     {
       "name": "Rose Lash Wounds",
@@ -326,6 +332,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -345,7 +353,10 @@
           },
           "effects": null
         },
-        "effect": "The field deals 6 damage to the target and A<2 bleeding (save ends).",
+        "effect": {
+          "before": "",
+          "after": "The field deals 6 damage to the target and A<2 bleeding (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +384,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental4aaaaaa.emental4feature3",
-      "_id": "emental4feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emental4feature3"
     },
     {
       "name": "Roots Run Deep",

@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "FEARLYpZGDbfmQFg": {
+            "6AEUjsz4CBpEZUah": {
               "type": "damage",
-              "_id": "FEARLYpZGDbfmQFg",
-              "_key": "FEARLYpZGDbfmQFg",
+              "_id": "6AEUjsz4CBpEZUah",
+              "_key": "6AEUjsz4CBpEZUah",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "lnXK66lUGF2uGG2Z": {
+            "ousXg7cT4GW6NeHw": {
               "type": "applied",
-              "_id": "lnXK66lUGF2uGG2Z",
-              "_key": "lnXK66lUGF2uGG2Z",
+              "_id": "ousXg7cT4GW6NeHw",
+              "_key": "ousXg7cT4GW6NeHw",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "Taunted (EoT).",
+        "effect": {
+          "before": "",
+          "after": "Taunted (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human8aaaaaaaaaa.human8feature3aa",
-      "_id": "human8feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human8feature3aa"
     },
     {
       "name": "I'm Your Enemy",

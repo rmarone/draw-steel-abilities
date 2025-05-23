@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "b64k3pjLLFX0kVa4": {
+            "7ZdvPzl0o9Typ8rC": {
               "type": "damage",
-              "_id": "b64k3pjLLFX0kVa4",
-              "_key": "b64k3pjLLFX0kVa4",
+              "_id": "7ZdvPzl0o9Typ8rC",
+              "_key": "7ZdvPzl0o9Typ8rC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "VdwiUdZaYhXYM46C": {
+            "hDO75w0nlMB83gxc": {
               "type": "applied",
-              "_id": "VdwiUdZaYhXYM46C",
-              "_key": "VdwiUdZaYhXYM46C",
+              "_id": "hDO75w0nlMB83gxc",
+              "_key": "hDO75w0nlMB83gxc",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The soot crow ignores opportunity attacks from the target until the end of its turn.",
+        "effect": {
+          "before": "",
+          "after": "The soot crow ignores opportunity attacks from the target until the end of its turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh4aaaaaaaa.elfhigh4feature1",
-      "_id": "elfhigh4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh4feature1"
     }
   ],
   "effects": [

@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "f8gVaxW1oDRy8SWb": {
+        "vo2GFZksYUs0kHmR": {
           "type": "damage",
-          "_id": "f8gVaxW1oDRy8SWb",
-          "_key": "f8gVaxW1oDRy8SWb",
+          "_id": "vo2GFZksYUs0kHmR",
+          "_key": "vo2GFZksYUs0kHmR",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "IvxLmGaDQ19nXbCM": {
+        "G2ojkdrisOPlXmqw": {
           "type": "applied",
-          "_id": "IvxLmGaDQ19nXbCM",
-          "_key": "IvxLmGaDQ19nXbCM",
+          "_id": "G2ojkdrisOPlXmqw",
+          "_key": "G2ojkdrisOPlXmqw",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-3!astring",
-  "_id": "talentability3aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability3aa"
 }

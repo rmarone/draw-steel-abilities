@@ -123,11 +123,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "dwkwXiamvaK3SO5P": {
+            "kdRYvHh9Q8wGYZzt": {
               "type": "damage",
-              "_id": "dwkwXiamvaK3SO5P",
-              "_key": "dwkwXiamvaK3SO5P",
+              "_id": "kdRYvHh9Q8wGYZzt",
+              "_key": "kdRYvHh9Q8wGYZzt",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "If the mischiever is hidden when they use this ability, they can target two creatures.",
+        "effect": {
+          "before": "",
+          "after": "If the mischiever is hidden when they use this ability, they can target two creatures."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight1aaaaa.enwight1feature1",
-      "_id": "enwight1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight1feature1"
     },
     {
       "name": "Ready Rodent",
@@ -235,6 +238,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -254,7 +259,10 @@
           },
           "effects": null
         },
-        "effect": "The mischiever makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The mischiever makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -282,9 +290,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight1aaaaa.enwight1feature2",
-      "_id": "enwight1feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight1feature2"
     }
   ],
   "effects": [

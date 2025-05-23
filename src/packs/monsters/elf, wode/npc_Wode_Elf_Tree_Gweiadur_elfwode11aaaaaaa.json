@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "54SdXlrX6A6w0Cna": {
+            "tkd80a7glZt42QRj": {
               "type": "damage",
-              "_id": "54SdXlrX6A6w0Cna",
-              "_key": "54SdXlrX6A6w0Cna",
+              "_id": "tkd80a7glZt42QRj",
+              "_key": "tkd80a7glZt42QRj",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "bGFQg88KBcTBbiHx": {
+            "953oU3rM2XYnVvcZ": {
               "type": "applied",
-              "_id": "bGFQg88KBcTBbiHx",
-              "_key": "bGFQg88KBcTBbiHx",
+              "_id": "953oU3rM2XYnVvcZ",
+              "_key": "953oU3rM2XYnVvcZ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "The tree gweiadur can shift 3 after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The tree gweiadur can shift 3 after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode11aaaaaaa.lfwode11feature1",
-      "_id": "lfwode11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode11feature1"
     },
     {
       "name": "You Activated My Trap!",
@@ -255,6 +258,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -275,10 +280,10 @@
             ]
           },
           "effects": {
-            "iAkjBF6ckPH8K1ya": {
+            "ZpB83I5PpQeBAlXg": {
               "type": "damage",
-              "_id": "iAkjBF6ckPH8K1ya",
-              "_key": "iAkjBF6ckPH8K1ya",
+              "_id": "ZpB83I5PpQeBAlXg",
+              "_key": "ZpB83I5PpQeBAlXg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -316,10 +321,10 @@
                 }
               }
             },
-            "5Ci20mgqZNYafg4O": {
+            "Ho5MpCemFmj3rlVI": {
               "type": "applied",
-              "_id": "5Ci20mgqZNYafg4O",
-              "_key": "5Ci20mgqZNYafg4O",
+              "_id": "Ho5MpCemFmj3rlVI",
+              "_key": "Ho5MpCemFmj3rlVI",
               "name": "",
               "applied": {
                 "tier1": {
@@ -347,7 +352,10 @@
             }
           }
         },
-        "effect": "Each ally has an edge on strikes and abilities against marked targets until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "Each ally has an edge on strikes and abilities against marked targets until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -375,9 +383,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode11aaaaaaa.lfwode11feature2",
-      "_id": "lfwode11feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "lfwode11feature2"
     },
     {
       "name": "Masking Glamor",

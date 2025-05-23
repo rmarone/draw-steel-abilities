@@ -16,6 +16,8 @@
       "routine"
     ],
     "type": "no action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "At the end of each of your turns while this routine is active, you can choose a number of creatures equal to your Presence score in the aura, causing those creatures to be teleported to unoccupied squares in the aura. A target can’t be teleported in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect.",
+    "effect": {
+      "before": "",
+      "after": "At the end of each of your turns while this routine is active, you can choose a number of creatures equal to your Presence score in the aura, causing those creatures to be teleported to unoccupied squares in the aura. A target can’t be teleported in a way that would harm them (such as over a cliff), leave them dying, or result in them suffering a condition or other negative effect."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-2-1-1!astring",
-  "_id": "troubadoursub211",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub211"
 }

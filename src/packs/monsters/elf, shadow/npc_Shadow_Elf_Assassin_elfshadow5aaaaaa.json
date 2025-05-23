@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "LulRqjesDETPStjz": {
+            "iQnW3tswrAbsUdnl": {
               "type": "damage",
-              "_id": "LulRqjesDETPStjz",
-              "_key": "LulRqjesDETPStjz",
+              "_id": "iQnW3tswrAbsUdnl",
+              "_key": "iQnW3tswrAbsUdnl",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The next ability made against the target has a double edge.",
+        "effect": {
+          "before": "",
+          "after": "The next ability made against the target has a double edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow5aaaaaa.fshadow5feature1",
-      "_id": "fshadow5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow5feature1"
     },
     {
       "name": "Splitbow",
@@ -237,6 +240,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -257,10 +262,10 @@
             ]
           },
           "effects": {
-            "sQzM8CkwFz0CADqu": {
+            "afJkTppJW70vRcHV": {
               "type": "damage",
-              "_id": "sQzM8CkwFz0CADqu",
-              "_key": "sQzM8CkwFz0CADqu",
+              "_id": "afJkTppJW70vRcHV",
+              "_key": "afJkTppJW70vRcHV",
               "name": "",
               "damage": {
                 "tier1": {
@@ -298,10 +303,10 @@
                 }
               }
             },
-            "tOldU6qR0lReCoEH": {
+            "IxoERkAnZ1mUiMGe": {
               "type": "applied",
-              "_id": "tOldU6qR0lReCoEH",
-              "_key": "tOldU6qR0lReCoEH",
+              "_id": "IxoERkAnZ1mUiMGe",
+              "_key": "IxoERkAnZ1mUiMGe",
               "name": "",
               "applied": {
                 "tier1": {
@@ -329,7 +334,10 @@
             }
           }
         },
-        "effect": "Push 4.",
+        "effect": {
+          "before": "",
+          "after": "Push 4."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -357,9 +365,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow5aaaaaa.fshadow5feature2",
-      "_id": "fshadow5feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "fshadow5feature2"
     },
     {
       "name": "Of the Umbra",

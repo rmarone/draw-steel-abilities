@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "OdQmNTJZkOD5m1w6": {
+            "p0Cn0DzxfJj9tDw9": {
               "type": "damage",
-              "_id": "OdQmNTJZkOD5m1w6",
-              "_key": "OdQmNTJZkOD5m1w6",
+              "_id": "p0Cn0DzxfJj9tDw9",
+              "_key": "p0Cn0DzxfJj9tDw9",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow1aaaaaa.fshadow1feature1",
-      "_id": "fshadow1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow1feature1"
     },
     {
       "name": "Of the Umbra",

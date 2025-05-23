@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,10 +37,10 @@
         ]
       },
       "effects": {
-        "n7szmgMoJg7vrDMF": {
+        "8LJ8Q26s6Xry6cgy": {
           "type": "applied",
-          "_id": "n7szmgMoJg7vrDMF",
-          "_key": "n7szmgMoJg7vrDMF",
+          "_id": "8LJ8Q26s6Xry6cgy",
+          "_key": "8LJ8Q26s6Xry6cgy",
           "name": "",
           "applied": {
             "tier1": {
@@ -66,7 +68,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -94,7 +99,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-15!astring",
-  "_id": "conduitability15",
-  "category": "heroic",
-  "resource": 5
+  "_id": "conduitability15"
 }

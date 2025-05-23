@@ -14,6 +14,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "Each target can move their speed.",
+    "effect": {
+      "before": "",
+      "after": "Each target can move their speed."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-4!astring",
-  "_id": "acticianability4",
-  "category": "heroic",
-  "resource": 3
+  "_id": "acticianability4"
 }

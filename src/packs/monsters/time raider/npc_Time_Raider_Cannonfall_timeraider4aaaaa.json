@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "R83SN08Kn4usl2Xz": {
+            "1gtDqm80oV95G7ZA": {
               "type": "damage",
-              "_id": "R83SN08Kn4usl2Xz",
-              "_key": "R83SN08Kn4usl2Xz",
+              "_id": "1gtDqm80oV95G7ZA",
+              "_key": "1gtDqm80oV95G7ZA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "KlzA21uIjEei7WFd": {
+            "gn2zBrGlhd2IA3gU": {
               "type": "applied",
-              "_id": "KlzA21uIjEei7WFd",
-              "_key": "KlzA21uIjEei7WFd",
+              "_id": "gn2zBrGlhd2IA3gU",
+              "_key": "gn2zBrGlhd2IA3gU",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "A layer of ground of floor beneath the area that is 1 square deep is destroyed.",
+        "effect": {
+          "before": "",
+          "after": "A layer of ground of floor beneath the area that is 1 square deep is destroyed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider4aaaaa.eraider4feature1",
-      "_id": "eraider4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider4feature1"
     },
     {
       "name": "Buss Buffer",
@@ -253,6 +256,8 @@
           "psionic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "The damage is reduced by half for the cannonfall and each target also affected by the triggering ability.",
+        "effect": {
+          "before": "",
+          "after": "The damage is reduced by half for the cannonfall and each target also affected by the triggering ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider4aaaaa.eraider4feature2",
-      "_id": "eraider4feature2",
-      "category": "heroic",
-      "resource": 1
+      "_id": "eraider4feature2"
     },
     {
       "name": "Foresight",

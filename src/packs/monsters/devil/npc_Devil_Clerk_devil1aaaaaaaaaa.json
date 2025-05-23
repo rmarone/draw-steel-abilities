@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "LjMkjTFtVJpLvQvE": {
+            "jNEyU7ymUhmv0am4": {
               "type": "damage",
-              "_id": "LjMkjTFtVJpLvQvE",
-              "_key": "LjMkjTFtVJpLvQvE",
+              "_id": "jNEyU7ymUhmv0am4",
+              "_key": "jNEyU7ymUhmv0am4",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "gAB6nFDf67dtiSug": {
+            "Ks9TkhmsVqtGyXyX": {
               "type": "forced",
-              "_id": "gAB6nFDf67dtiSug",
-              "_key": "gAB6nFDf67dtiSug",
+              "_id": "Ks9TkhmsVqtGyXyX",
+              "_key": "Ks9TkhmsVqtGyXyX",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "A target adjacent ot 2 or more clerks is taunted (EoT).",
+        "effect": {
+          "before": "",
+          "after": "A target adjacent ot 2 or more clerks is taunted (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil1aaaaaaaaaa.devil1feature1aa",
-      "_id": "devil1feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil1feature1aa"
     },
     {
       "name": "True Name",

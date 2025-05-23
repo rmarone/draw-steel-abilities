@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "2GKzNNnfBuDYyi5N": {
+            "5nc8HTUBIQ7cv57H": {
               "type": "damage",
-              "_id": "2GKzNNnfBuDYyi5N",
-              "_key": "2GKzNNnfBuDYyi5N",
+              "_id": "5nc8HTUBIQ7cv57H",
+              "_key": "5nc8HTUBIQ7cv57H",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "w2Znx4NVPxa4igu1": {
+            "zSYKUzZESuWdXQXH": {
               "type": "applied",
-              "_id": "w2Znx4NVPxa4igu1",
-              "_key": "w2Znx4NVPxa4igu1",
+              "_id": "zSYKUzZESuWdXQXH",
+              "_key": "zSYKUzZESuWdXQXH",
               "name": "",
               "applied": {
                 "tier1": {
@@ -241,7 +243,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -269,9 +274,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature3aaaaa",
-      "_id": "hagfeature3aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature3aaaaa"
     },
     {
       "name": "Soul Steal",
@@ -290,6 +293,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -310,10 +315,10 @@
             ]
           },
           "effects": {
-            "wMzM6cGWbN3oFJbS": {
+            "nN4V2Ro6iMWYvuKi": {
               "type": "damage",
-              "_id": "wMzM6cGWbN3oFJbS",
-              "_key": "wMzM6cGWbN3oFJbS",
+              "_id": "nN4V2Ro6iMWYvuKi",
+              "_key": "nN4V2Ro6iMWYvuKi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -353,7 +358,10 @@
             }
           }
         },
-        "effect": "This ability has an edge against creatures with a soul.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge against creatures with a soul."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -381,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature4aaaaa",
-      "_id": "hagfeature4aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature4aaaaa"
     },
     {
       "name": "Shapeshifter",
@@ -401,6 +407,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -420,7 +428,10 @@
           },
           "effects": null
         },
-        "effect": "The hag alters their body to become any Size-1 creature, such as a house cat. If the hag uses this ability while outside of an enemy’s line of eﬀect, the hag is considered hidden. The hag can return to their original form as a free maneuver.",
+        "effect": {
+          "before": "",
+          "after": "The hag alters their body to become any Size-1 creature, such as a house cat. If the hag uses this ability while outside of an enemy’s line of eﬀect, the hag is considered hidden. The hag can return to their original form as a free maneuver."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -448,9 +459,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature5aaaaa",
-      "_id": "hagfeature5aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature5aaaaa"
     },
     {
       "name": "Turned Upside Down",
@@ -469,6 +478,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -489,10 +500,10 @@
             ]
           },
           "effects": {
-            "3maFbUbSFrXOVe62": {
+            "83w6s5ryOom7PKVB": {
               "type": "forced",
-              "_id": "3maFbUbSFrXOVe62",
-              "_key": "3maFbUbSFrXOVe62",
+              "_id": "83w6s5ryOom7PKVB",
+              "_key": "83w6s5ryOom7PKVB",
               "name": "",
               "forced": {
                 "tier1": {
@@ -518,10 +529,10 @@
                 }
               }
             },
-            "v4Y07vSdfly35ITi": {
+            "y7TZ2JGXksNgfFhO": {
               "type": "applied",
-              "_id": "v4Y07vSdfly35ITi",
-              "_key": "v4Y07vSdfly35ITi",
+              "_id": "y7TZ2JGXksNgfFhO",
+              "_key": "y7TZ2JGXksNgfFhO",
               "name": "",
               "applied": {
                 "tier1": {
@@ -549,7 +560,10 @@
             }
           }
         },
-        "effect": "A creature restrained by this ability that is force moved vertically is suspended in midair until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A creature restrained by this ability that is force moved vertically is suspended in midair until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -577,9 +591,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature6aaaaa",
-      "_id": "hagfeature6aaaaa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "hagfeature6aaaaa"
     },
     {
       "name": "Snackies for Sweeties",
@@ -598,6 +610,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -618,10 +632,10 @@
             ]
           },
           "effects": {
-            "AJIyiJoEhPtJYszQ": {
+            "Pa4Sg181kgB0iQQM": {
               "type": "damage",
-              "_id": "AJIyiJoEhPtJYszQ",
-              "_key": "AJIyiJoEhPtJYszQ",
+              "_id": "Pa4Sg181kgB0iQQM",
+              "_key": "Pa4Sg181kgB0iQQM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -661,7 +675,10 @@
             }
           }
         },
-        "effect": "**Special** A creature wearing a pastry or adjacent to a creature wearing a pastry can attempt a hard Agility test to remove the pastry as a maneuver. On success, the pastry is destroyed without exploding. On failure, the hag rolls power for all pastries immediately.",
+        "effect": {
+          "before": "",
+          "after": "**Special** A creature wearing a pastry or adjacent to a creature wearing a pastry can attempt a hard Agility test to remove the pastry as a maneuver. On success, the pastry is destroyed without exploding. On failure, the hag rolls power for all pastries immediately."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -689,9 +706,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature7aaaaa",
-      "_id": "hagfeature7aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature7aaaaa"
     },
     {
       "name": "Animal Alacrity",
@@ -711,6 +726,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -730,7 +747,10 @@
           },
           "effects": null
         },
-        "effect": "The hag shifts up to their speed before using this action, uses Corrosive Claws against each target of this ability, pushes each target 2 squares, then shifts up to their speed again.",
+        "effect": {
+          "before": "",
+          "after": "The hag shifts up to their speed before using this action, uses Corrosive Claws against each target of this ability, pushes each target 2 squares, then shifts up to their speed again."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -758,9 +778,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature8aaaaa",
-      "_id": "hagfeature8aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature8aaaaa"
     },
     {
       "name": "Open the Oven",
@@ -780,6 +798,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -800,10 +820,10 @@
             ]
           },
           "effects": {
-            "ANDSxeNdJLtDlUxz": {
+            "xZ25Z4DqFGDgYcEf": {
               "type": "damage",
-              "_id": "ANDSxeNdJLtDlUxz",
-              "_key": "ANDSxeNdJLtDlUxz",
+              "_id": "xZ25Z4DqFGDgYcEf",
+              "_key": "xZ25Z4DqFGDgYcEf",
               "name": "",
               "damage": {
                 "tier1": {
@@ -841,10 +861,10 @@
                 }
               }
             },
-            "4wPYjagMpeBOgLTZ": {
+            "HY6HEBrmenI55rjs": {
               "type": "applied",
-              "_id": "4wPYjagMpeBOgLTZ",
-              "_key": "4wPYjagMpeBOgLTZ",
+              "_id": "HY6HEBrmenI55rjs",
+              "_key": "HY6HEBrmenI55rjs",
               "name": "",
               "applied": {
                 "tier1": {
@@ -872,7 +892,10 @@
             }
           }
         },
-        "effect": "The hag turns the affected area into a roiling oven. The hag deals an additional 5 damage on abilities that target creatures in the affected area.",
+        "effect": {
+          "before": "",
+          "after": "The hag turns the affected area into a roiling oven. The hag deals an additional 5 damage on abilities that target creatures in the affected area."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -900,9 +923,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hag1aaaaaaaaaaaa.hagfeature9aaaaa",
-      "_id": "hagfeature9aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hagfeature9aaaaa"
     }
   ],
   "effects": [

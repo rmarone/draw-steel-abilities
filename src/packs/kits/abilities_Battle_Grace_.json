@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "DzT2LzGxtXmf91Cx": {
+        "8PcKkmeVRH4FvxKS": {
           "type": "damage",
-          "_id": "DzT2LzGxtXmf91Cx",
-          "_key": "DzT2LzGxtXmf91Cx",
+          "_id": "8PcKkmeVRH4FvxKS",
+          "_key": "8PcKkmeVRH4FvxKS",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "h18v9z64AuJ9025G": {
+        "MsK1it8041OxoRRD": {
           "type": "applied",
-          "_id": "h18v9z64AuJ9025G",
-          "_key": "h18v9z64AuJ9025G",
+          "_id": "MsK1it8041OxoRRD",
+          "_key": "MsK1it8041OxoRRD",
           "name": "",
           "applied": {
             "tier1": null,
@@ -103,7 +105,10 @@
         }
       }
     },
-    "effect": "If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage.",
+    "effect": {
+      "before": "",
+      "after": "If you roll a 12 or better and can’t swap places with the target because one or both of you is too big to fit into the swapped space, you both remain in your original spaces and the target takes 2 extra damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -131,7 +136,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-martial-artist-signature!astring",
-  "_id": "lartistsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "lartistsignature"
 }

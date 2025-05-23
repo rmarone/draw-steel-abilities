@@ -16,6 +16,8 @@
       "routine"
     ],
     "type": "no action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "While this routine is active, each target who starts their turn in the aura doesn’t take a bane on attacks against a creature with concealment. They can also search for hidden creatures as a free maneuver once during their turn.",
+    "effect": {
+      "before": "",
+      "after": "While this routine is active, each target who starts their turn in the aura doesn’t take a bane on attacks against a creature with concealment. They can also search for hidden creatures as a free maneuver once during their turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-3-1!astring",
-  "_id": "troubadoursub331",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub331"
 }

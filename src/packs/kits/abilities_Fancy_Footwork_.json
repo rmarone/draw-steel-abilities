@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "LHGCaNyp8nSRgNYk": {
+        "r1GJK285dzIUriqZ": {
           "type": "damage",
-          "_id": "LHGCaNyp8nSRgNYk",
-          "_key": "LHGCaNyp8nSRgNYk",
+          "_id": "r1GJK285dzIUriqZ",
+          "_key": "r1GJK285dzIUriqZ",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "SuUInMurkvpDgtMN": {
+        "ysiHIZvZjk6FN1mV": {
           "type": "forced",
-          "_id": "SuUInMurkvpDgtMN",
-          "_key": "SuUInMurkvpDgtMN",
+          "_id": "ysiHIZvZjk6FN1mV",
+          "_key": "ysiHIZvZjk6FN1mV",
           "name": "",
           "forced": {
             "tier1": null,
@@ -103,7 +105,10 @@
         }
       }
     },
-    "effect": "You can shift into any square your target leaves after you force move them with this ability.",
+    "effect": {
+      "before": "",
+      "after": "You can shift into any square your target leaves after you force move them with this ability."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -131,7 +136,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-swashbuckler-signature!astring",
-  "_id": "bucklersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "bucklersignature"
 }

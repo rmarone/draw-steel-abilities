@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -40,10 +42,10 @@
         ]
       },
       "effects": {
-        "HAFkac1cdmEYH3TD": {
+        "OTMJNWLav3tHFVxO": {
           "type": "damage",
-          "_id": "HAFkac1cdmEYH3TD",
-          "_key": "HAFkac1cdmEYH3TD",
+          "_id": "OTMJNWLav3tHFVxO",
+          "_key": "OTMJNWLav3tHFVxO",
           "name": "",
           "damage": {
             "tier1": {
@@ -83,7 +85,10 @@
         }
       }
     },
-    "effect": "The target has damage weakness equal to the characteristic score you used on this ability’s power roll (EoT).",
+    "effect": {
+      "before": "",
+      "after": "The target has damage weakness equal to the characteristic score you used on this ability’s power roll (EoT)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -111,7 +116,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-warrior-priest-signature!astring",
-  "_id": "rpriestsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "rpriestsignature"
 }

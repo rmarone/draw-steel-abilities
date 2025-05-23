@@ -122,6 +122,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "4uEI5NR1AtsuI48W": {
+            "GyKuAhhFzK4oObnW": {
               "type": "damage",
-              "_id": "4uEI5NR1AtsuI48W",
-              "_key": "4uEI5NR1AtsuI48W",
+              "_id": "GyKuAhhFzK4oObnW",
+              "_key": "GyKuAhhFzK4oObnW",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "gdOvxnjsK6Sx5yVb": {
+            "ubp6hh6LZhNXXyRZ": {
               "type": "applied",
-              "_id": "gdOvxnjsK6Sx5yVb",
-              "_key": "gdOvxnjsK6Sx5yVb",
+              "_id": "ubp6hh6LZhNXXyRZ",
+              "_key": "ubp6hh6LZhNXXyRZ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "A burning creature or object takes 1d6 fire damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A burning creature or object takes 1d6 fire damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental1aaaaaa.emental1feature1",
-      "_id": "emental1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emental1feature1"
     },
     {
       "name": "Convocation of Flames",
@@ -257,6 +260,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The target receives fire immunity 5 until the start of the crux’s next turn if they don’t already have it.",
+        "effect": {
+          "before": "",
+          "after": "The target receives fire immunity 5 until the start of the crux’s next turn if they don’t already have it."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental1aaaaaa.emental1feature2",
-      "_id": "emental1feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "emental1feature2"
     },
     {
       "name": "Flame Jet",
@@ -324,6 +330,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -343,7 +351,10 @@
           },
           "effects": null
         },
-        "effect": "The crux ignores any effects associated with the damage and flies up to their speed. If the crux doesn’t end this movement on solid ground, they fall prone.",
+        "effect": {
+          "before": "",
+          "after": "The crux ignores any effects associated with the damage and flies up to their speed. If the crux doesn’t end this movement on solid ground, they fall prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -371,9 +382,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental1aaaaaa.emental1feature3",
-      "_id": "emental1feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emental1feature3"
     },
     {
       "name": "Fickle and Free",

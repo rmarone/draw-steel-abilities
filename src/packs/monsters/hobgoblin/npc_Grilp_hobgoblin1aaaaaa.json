@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "1HIkyGJFc6n74364": {
+            "tVI7xSiaZQJ1ut0J": {
               "type": "damage",
-              "_id": "1HIkyGJFc6n74364",
-              "_key": "1HIkyGJFc6n74364",
+              "_id": "tVI7xSiaZQJ1ut0J",
+              "_key": "tVI7xSiaZQJ1ut0J",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "SuHZFfxpEyw5wpVR": {
+            "q7dafywVO65ulnjU": {
               "type": "applied",
-              "_id": "SuHZFfxpEyw5wpVR",
-              "_key": "SuHZFfxpEyw5wpVR",
+              "_id": "q7dafywVO65ulnjU",
+              "_key": "q7dafywVO65ulnjU",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The grilp moves up to their speed and hides after attacking.",
+        "effect": {
+          "before": "",
+          "after": "The grilp moves up to their speed and hides after attacking."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin1aaaaaa.hobgoblin12aaaaa",
-      "_id": "hobgoblin12aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin12aaaaa"
     },
     {
       "name": "Bat Out Of Hell",

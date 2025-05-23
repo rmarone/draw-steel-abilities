@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "V3oDEgbQG2RJgPym": {
+            "ulOd0MfaagJPzMXd": {
               "type": "damage",
-              "_id": "V3oDEgbQG2RJgPym",
-              "_key": "V3oDEgbQG2RJgPym",
+              "_id": "ulOd0MfaagJPzMXd",
+              "_key": "ulOd0MfaagJPzMXd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "WguFuQmjxOIyJxNJ": {
+            "M4RNynUyzX8cAceS": {
               "type": "applied",
-              "_id": "WguFuQmjxOIyJxNJ",
-              "_key": "WguFuQmjxOIyJxNJ",
+              "_id": "M4RNynUyzX8cAceS",
+              "_key": "M4RNynUyzX8cAceS",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "While the target is grabbed by this ability, they take 4 psychic damage at the start of each of the tormenauk's turns.",
+        "effect": {
+          "before": "",
+          "after": "While the target is grabbed by this ability, they take 4 psychic damage at the start of each of the tormenauk's turns."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd8aaaaaaa.emon2nd8feature1",
-      "_id": "emon2nd8feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd8feature1"
     },
     {
       "name": "Agony Wail",
@@ -253,6 +256,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "TQOHOtzIsIbWv36I": {
+            "qG2EKwDTSkvzWDbw": {
               "type": "damage",
-              "_id": "TQOHOtzIsIbWv36I",
-              "_key": "TQOHOtzIsIbWv36I",
+              "_id": "qG2EKwDTSkvzWDbw",
+              "_key": "qG2EKwDTSkvzWDbw",
               "name": "",
               "damage": {
                 "tier1": {
@@ -314,10 +319,10 @@
                 }
               }
             },
-            "VM7h3j8Q90aULYsJ": {
+            "wAl1MZGFKCJ22vZX": {
               "type": "applied",
-              "_id": "VM7h3j8Q90aULYsJ",
-              "_key": "VM7h3j8Q90aULYsJ",
+              "_id": "wAl1MZGFKCJ22vZX",
+              "_key": "wAl1MZGFKCJ22vZX",
               "name": "",
               "applied": {
                 "tier1": {
@@ -345,7 +350,10 @@
             }
           }
         },
-        "effect": "The potency increases by 1 if the target is grabbed by the tormenauk.",
+        "effect": {
+          "before": "",
+          "after": "The potency increases by 1 if the target is grabbed by the tormenauk."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +381,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd8aaaaaaa.emon2nd8feature2",
-      "_id": "emon2nd8feature2",
-      "category": "heroic",
-      "resource": 5
+      "_id": "emon2nd8feature2"
     },
     {
       "name": "Lethe",

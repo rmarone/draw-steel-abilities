@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "763RCCpmtUsF255N": {
+            "9mdpnFMOGSYfXq59": {
               "type": "damage",
-              "_id": "763RCCpmtUsF255N",
-              "_key": "763RCCpmtUsF255N",
+              "_id": "9mdpnFMOGSYfXq59",
+              "_key": "9mdpnFMOGSYfXq59",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "BrKneUiwvVjaVUQ8": {
+            "ogJ7X4FE2FcndQ6Y": {
               "type": "applied",
-              "_id": "BrKneUiwvVjaVUQ8",
-              "_key": "BrKneUiwvVjaVUQ8",
+              "_id": "ogJ7X4FE2FcndQ6Y",
+              "_key": "ogJ7X4FE2FcndQ6Y",
               "name": "",
               "applied": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "The warleader strikes each target one at a time and can teleport 3 squares between each strike.",
+        "effect": {
+          "before": "",
+          "after": "The warleader strikes each target one at a time and can teleport 3 squares between each strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature1",
-      "_id": "lfwode12feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature1"
     },
     {
       "name": "Fairness is a Human Concept",
@@ -264,6 +267,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "Each target can makerr a free strike and then shifts 3. A target immediately hides at the end of the warleader’s turn while in cover or concealment.",
+        "effect": {
+          "before": "",
+          "after": "Each target can makerr a free strike and then shifts 3. A target immediately hides at the end of the warleader’s turn while in cover or concealment."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature2",
-      "_id": "lfwode12feature2",
-      "category": "heroic",
-      "resource": 5
+      "_id": "lfwode12feature2"
     },
     {
       "name": "Wode Sickness",
@@ -331,6 +337,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -350,7 +358,10 @@
           },
           "effects": null
         },
-        "effect": "The target must take their turn now, if they have not already taken it. P<2 the target is bleeding and has a bane on their strikes until the end of their turn.",
+        "effect": {
+          "before": "",
+          "after": "The target must take their turn now, if they have not already taken it. P<2 the target is bleeding and has a bane on their strikes until the end of their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature3",
-      "_id": "lfwode12feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature3"
     },
     {
       "name": "Enough!",
@@ -398,6 +407,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -417,7 +428,10 @@
           },
           "effects": null
         },
-        "effect": "The ordinator uses Lightning Rod against the target.",
+        "effect": {
+          "before": "",
+          "after": "The ordinator uses Lightning Rod against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -445,9 +459,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature4",
-      "_id": "lfwode12feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature4"
     },
     {
       "name": "End Effect",
@@ -491,6 +503,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -510,7 +524,10 @@
           },
           "effects": null
         },
-        "effect": "The warleader uses Wodeblade against each target with an edge.",
+        "effect": {
+          "before": "",
+          "after": "The warleader uses Wodeblade against each target with an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -538,9 +555,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature7",
-      "_id": "lfwode12feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature7"
     },
     {
       "name": "Suppressing Volley",
@@ -558,6 +573,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -577,7 +594,10 @@
           },
           "effects": null
         },
-        "effect": "The warleader uses Wodeblade against a single creature or object. Each target then makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "The warleader uses Wodeblade against a single creature or object. Each target then makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -605,9 +625,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature8",
-      "_id": "lfwode12feature8",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature8"
     },
     {
       "name": "Is It Now or Is It Then? Where Are We?",
@@ -625,6 +643,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -644,7 +664,10 @@
           },
           "effects": null
         },
-        "effect": "Eeach target becomes invisible until the start of the next round. The warleader then uses Wodeblade.",
+        "effect": {
+          "before": "",
+          "after": "Eeach target becomes invisible until the start of the next round. The warleader then uses Wodeblade."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -672,9 +695,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode12aaaaaaa.lfwode12feature9",
-      "_id": "lfwode12feature9",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode12feature9"
     }
   ],
   "effects": [

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "eZoEyTgKBfIU4qFS": {
+            "DYTUvQh2JrqmDMLL": {
               "type": "damage",
-              "_id": "eZoEyTgKBfIU4qFS",
-              "_key": "eZoEyTgKBfIU4qFS",
+              "_id": "DYTUvQh2JrqmDMLL",
+              "_key": "DYTUvQh2JrqmDMLL",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "gM7CRLVk8qaMYe9V": {
+            "RlKFMQ3YKW4gRpo3": {
               "type": "forced",
-              "_id": "gM7CRLVk8qaMYe9V",
-              "_key": "gM7CRLVk8qaMYe9V",
+              "_id": "RlKFMQ3YKW4gRpo3",
+              "_key": "RlKFMQ3YKW4gRpo3",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The target is wet (save ends) (see Wet). Allies targeted by this ability take no damage and are pulled 6, ignoring stability.",
+        "effect": {
+          "before": "",
+          "after": "The target is wet (save ends) (see Wet). Allies targeted by this ability take no damage and are pulled 6, ignoring stability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl6aaaaaaa.ngulotl6feature1",
-      "_id": "ngulotl6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl6feature1"
     },
     {
       "name": "Hop To It",
@@ -263,6 +266,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The slink jumps 3 squares. If the slink lands in cover or concealment, they can immediately hide.",
+        "effect": {
+          "before": "",
+          "after": "The slink jumps 3 squares. If the slink lands in cover or concealment, they can immediately hide."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl6aaaaaaa.ngulotl6feature2",
-      "_id": "ngulotl6feature2",
-      "category": "heroic",
-      "resource": 1
+      "_id": "ngulotl6feature2"
     },
     {
       "name": "Toxiferous",

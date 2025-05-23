@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "TMudsFyrAhDedw1m": {
+            "bhdNUovzH2b8QDvb": {
               "type": "damage",
-              "_id": "TMudsFyrAhDedw1m",
-              "_key": "TMudsFyrAhDedw1m",
+              "_id": "bhdNUovzH2b8QDvb",
+              "_key": "bhdNUovzH2b8QDvb",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "ZZs3ctxHEECl7mU8": {
+            "OLfg2lUfLqJNi2RS": {
               "type": "forced",
-              "_id": "ZZs3ctxHEECl7mU8",
-              "_key": "ZZs3ctxHEECl7mU8",
+              "_id": "OLfg2lUfLqJNi2RS",
+              "_key": "OLfg2lUfLqJNi2RS",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "If the target is adjacent to a wall or object after the power roll is resolved, they are restrained (EoT). A target restrained by a dwarf can be pushed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "If the target is adjacent to a wall or object after the power roll is resolved, they are restrained (EoT). A target restrained by a dwarf can be pushed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf5aaaaaaaaaa.dwarf5feature1aa",
-      "_id": "dwarf5feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf5feature1aa"
     },
     {
       "name": "Ensnaring Chains",
@@ -264,6 +267,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "The gunner makes a free strike against the target. The target loses any restrained, slowed or prone conditions and gains restrained (save ends).",
+        "effect": {
+          "before": "",
+          "after": "The gunner makes a free strike against the target. The target loses any restrained, slowed or prone conditions and gains restrained (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf5aaaaaaaaaa.dwarf5feature2aa",
-      "_id": "dwarf5feature2aa",
-      "category": "heroic",
-      "resource": 5
+      "_id": "dwarf5feature2aa"
     },
     {
       "name": "Split Shot",

@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "w5hMl9GqHDfxFCkA": {
+        "juVk3UNM61wcgnu7": {
           "type": "applied",
-          "_id": "w5hMl9GqHDfxFCkA",
-          "_key": "w5hMl9GqHDfxFCkA",
+          "_id": "juVk3UNM61wcgnu7",
+          "_key": "juVk3UNM61wcgnu7",
           "name": "",
           "applied": {
             "tier1": {
@@ -68,7 +70,10 @@
         }
       }
     },
-    "effect": "You gain an edge on this ability. For each square you push the target, they take 1 psychic damage.",
+    "effect": {
+      "before": "",
+      "after": "You gain an edge on this ability. For each square you push the target, they take 1 psychic damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -96,7 +101,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-14!astring",
-  "_id": "nullability14aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "nullability14aaa"
 }

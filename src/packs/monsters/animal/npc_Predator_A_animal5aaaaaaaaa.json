@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "AB5QH9qIBevvDglD": {
+            "h0XtpQWHDBe2UPuo": {
               "type": "damage",
-              "_id": "AB5QH9qIBevvDglD",
-              "_key": "AB5QH9qIBevvDglD",
+              "_id": "h0XtpQWHDBe2UPuo",
+              "_key": "h0XtpQWHDBe2UPuo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "47S1hZtCpWZGCqKn": {
+            "Qrfp5npfIYZG5DRV": {
               "type": "applied",
-              "_id": "47S1hZtCpWZGCqKn",
-              "_key": "47S1hZtCpWZGCqKn",
+              "_id": "Qrfp5npfIYZG5DRV",
+              "_key": "Qrfp5npfIYZG5DRV",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal5aaaaaaaaa.animal51aaaaaaaa",
-      "_id": "animal51aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal51aaaaaaaa"
     },
     {
       "name": "Ready to Strike",
@@ -256,6 +259,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -275,7 +280,10 @@
           },
           "effects": null
         },
-        "effect": "The predator assesses their environment or lets loose a battle cry and gives themself an edge on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "The predator assesses their environment or lets loose a battle cry and gives themself an edge on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -303,9 +311,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal5aaaaaaaaa.animal52aaaaaaaa",
-      "_id": "animal52aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal52aaaaaaaa"
     },
     {
       "name": "Rush",
@@ -325,6 +331,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -344,7 +352,10 @@
           },
           "effects": null
         },
-        "effect": "The predator makes a free strike against the target. The predator deals an additional 3 damage if they were hidden from the target.",
+        "effect": {
+          "before": "",
+          "after": "The predator makes a free strike against the target. The predator deals an additional 3 damage if they were hidden from the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -372,9 +383,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal5aaaaaaaaa.animal53aaaaaaaa",
-      "_id": "animal53aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal53aaaaaaaa"
     },
     {
       "name": "Nature Calls",

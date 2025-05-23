@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "R2lZkq4XVMSrw1R8": {
+            "HjRFL5UnMONLwqFd": {
               "type": "damage",
-              "_id": "R2lZkq4XVMSrw1R8",
-              "_key": "R2lZkq4XVMSrw1R8",
+              "_id": "HjRFL5UnMONLwqFd",
+              "_key": "HjRFL5UnMONLwqFd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "T1P5ll1zU6bUHtoc": {
+            "E0zgwCCRpsU8jURt": {
               "type": "applied",
-              "_id": "T1P5ll1zU6bUHtoc",
-              "_key": "T1P5ll1zU6bUHtoc",
+              "_id": "E0zgwCCRpsU8jURt",
+              "_key": "E0zgwCCRpsU8jURt",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider1aaaaa.eraider1feature1",
-      "_id": "eraider1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider1feature1"
     },
     {
       "name": "Foresight",

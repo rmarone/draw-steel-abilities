@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "ABea8HQqAN1kL35R": {
+            "G3LHICARghU41Ro0": {
               "type": "damage",
-              "_id": "ABea8HQqAN1kL35R",
-              "_key": "ABea8HQqAN1kL35R",
+              "_id": "G3LHICARghU41Ro0",
+              "_key": "G3LHICARghU41Ro0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "saQxq2tt3xYSfZ7z": {
+            "cPCxwPRoVEucOkdA": {
               "type": "forced",
-              "_id": "saQxq2tt3xYSfZ7z",
-              "_key": "saQxq2tt3xYSfZ7z",
+              "_id": "cPCxwPRoVEucOkdA",
+              "_key": "cPCxwPRoVEucOkdA",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -206,10 +208,10 @@
                 }
               }
             },
-            "38zXboaDVNHAYcTC": {
+            "p0pe8VU9W7PgNk0T": {
               "type": "applied",
-              "_id": "38zXboaDVNHAYcTC",
-              "_key": "38zXboaDVNHAYcTC",
+              "_id": "p0pe8VU9W7PgNk0T",
+              "_key": "p0pe8VU9W7PgNk0T",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -231,7 +233,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -259,9 +264,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal6aaaaaaaaa.animal61aaaaaaaa",
-      "_id": "animal61aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal61aaaaaaaa"
     },
     {
       "name": "Wild Swing",
@@ -281,6 +284,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -301,10 +306,10 @@
             ]
           },
           "effects": {
-            "Bp0ok4tMjQofqK48": {
+            "gDk6FuLMnL5cCX2O": {
               "type": "damage",
-              "_id": "Bp0ok4tMjQofqK48",
-              "_key": "Bp0ok4tMjQofqK48",
+              "_id": "gDk6FuLMnL5cCX2O",
+              "_key": "gDk6FuLMnL5cCX2O",
               "name": "",
               "damage": {
                 "tier1": {
@@ -342,10 +347,10 @@
                 }
               }
             },
-            "BPZSLbjEwllyuvfA": {
+            "BPoqTipyCED0j9UE": {
               "type": "applied",
-              "_id": "BPZSLbjEwllyuvfA",
-              "_key": "BPZSLbjEwllyuvfA",
+              "_id": "BPoqTipyCED0j9UE",
+              "_key": "BPoqTipyCED0j9UE",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -361,7 +366,10 @@
             }
           }
         },
-        "effect": "The predator uses their weapons in a wanton flurry.",
+        "effect": {
+          "before": "",
+          "after": "The predator uses their weapons in a wanton flurry."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -389,9 +397,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal6aaaaaaaaa.animal62aaaaaaaa",
-      "_id": "animal62aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal62aaaaaaaa"
     },
     {
       "name": "Swat",
@@ -409,6 +415,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -428,7 +436,10 @@
           },
           "effects": null
         },
-        "effect": "Push 5.",
+        "effect": {
+          "before": "",
+          "after": "Push 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -456,9 +467,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal6aaaaaaaaa.animal63aaaaaaaa",
-      "_id": "animal63aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal63aaaaaaaa"
     },
     {
       "name": "Trample",

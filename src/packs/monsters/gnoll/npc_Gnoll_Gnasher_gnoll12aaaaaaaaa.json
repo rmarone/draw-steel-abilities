@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "jD143CFdwg8TxLtq": {
+            "eQeTSFrqvsxn5LYe": {
               "type": "damage",
-              "_id": "jD143CFdwg8TxLtq",
-              "_key": "jD143CFdwg8TxLtq",
+              "_id": "eQeTSFrqvsxn5LYe",
+              "_key": "eQeTSFrqvsxn5LYe",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,10 +190,10 @@
                 }
               }
             },
-            "IXjx2lfg3LdY6OVB": {
+            "ii7ripHk9YWbrJma": {
               "type": "applied",
-              "_id": "IXjx2lfg3LdY6OVB",
-              "_key": "IXjx2lfg3LdY6OVB",
+              "_id": "ii7ripHk9YWbrJma",
+              "_key": "ii7ripHk9YWbrJma",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -207,7 +209,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -235,9 +240,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!gnoll12aaaaaaaaa.gnoll12feature1a",
-      "_id": "gnoll12feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "gnoll12feature1a"
     },
     {
       "name": "Death Frenzy",

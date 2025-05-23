@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "sgf0uFxgN8sVmOlN": {
+            "YYCgLKSizHUP08K7": {
               "type": "damage",
-              "_id": "sgf0uFxgN8sVmOlN",
-              "_key": "sgf0uFxgN8sVmOlN",
+              "_id": "YYCgLKSizHUP08K7",
+              "_key": "YYCgLKSizHUP08K7",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "Rzorc7ZtGjzOzXZi": {
+            "l9ZZsnjwYLDBMhHc": {
               "type": "applied",
-              "_id": "Rzorc7ZtGjzOzXZi",
-              "_key": "Rzorc7ZtGjzOzXZi",
+              "_id": "l9ZZsnjwYLDBMhHc",
+              "_key": "l9ZZsnjwYLDBMhHc",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "While the target is grabbed, they take 2 damage at the start of each of the bruxer’s turns.",
+        "effect": {
+          "before": "",
+          "after": "While the target is grabbed, they take 2 damage at the start of each of the bruxer’s turns."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight5aaaaa.enwight5feature1",
-      "_id": "enwight5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight5feature1"
     },
     {
       "name": "Flurry of Bites",
@@ -253,6 +256,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "mgJ5XZsVNvVb27XQ": {
+            "Q0gqjCFTcE9hERnB": {
               "type": "damage",
-              "_id": "mgJ5XZsVNvVb27XQ",
-              "_key": "mgJ5XZsVNvVb27XQ",
+              "_id": "Q0gqjCFTcE9hERnB",
+              "_key": "Q0gqjCFTcE9hERnB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -314,10 +319,10 @@
                 }
               }
             },
-            "G4PICDCOXbprU3en": {
+            "ZeVHDzzpos4zx2G3": {
               "type": "applied",
-              "_id": "G4PICDCOXbprU3en",
-              "_key": "G4PICDCOXbprU3en",
+              "_id": "ZeVHDzzpos4zx2G3",
+              "_key": "ZeVHDzzpos4zx2G3",
               "name": "",
               "applied": {
                 "tier1": {
@@ -345,7 +350,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +381,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight5aaaaa.enwight5feature2",
-      "_id": "enwight5feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "enwight5feature2"
     },
     {
       "name": "Ready Rodent",
@@ -394,6 +400,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -413,7 +421,10 @@
           },
           "effects": null
         },
-        "effect": "The bruxer makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The bruxer makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -441,9 +452,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight5aaaaa.enwight5feature3",
-      "_id": "enwight5feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight5feature3"
     },
     {
       "name": "Lockdown",

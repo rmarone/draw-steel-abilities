@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "i9pFn5QyDCkU82ZL": {
+            "7KKj9aZoHmGrjtsT": {
               "type": "damage",
-              "_id": "i9pFn5QyDCkU82ZL",
-              "_key": "i9pFn5QyDCkU82ZL",
+              "_id": "7KKj9aZoHmGrjtsT",
+              "_key": "7KKj9aZoHmGrjtsT",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "eZWBXAiYAJAs1fz1": {
+            "HaC6CUPJa8goaSIA": {
               "type": "applied",
-              "_id": "eZWBXAiYAJAs1fz1",
-              "_key": "eZWBXAiYAJAs1fz1",
+              "_id": "HaC6CUPJa8goaSIA",
+              "_key": "HaC6CUPJa8goaSIA",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold9aaaaaaaaa.kobold9feature1a",
-      "_id": "kobold9feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold9feature1a"
     },
     {
       "name": "Lost in the Crowd",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "VRTM7CLmCRHE17A2": {
+            "6YBWJ8mytyBvagKl": {
               "type": "damage",
-              "_id": "VRTM7CLmCRHE17A2",
-              "_key": "VRTM7CLmCRHE17A2",
+              "_id": "6YBWJ8mytyBvagKl",
+              "_key": "6YBWJ8mytyBvagKl",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "9OhwnDQbpzCbSyoG": {
+            "D0hwFuGnyJ21gvnI": {
               "type": "applied",
-              "_id": "9OhwnDQbpzCbSyoG",
-              "_key": "9OhwnDQbpzCbSyoG",
+              "_id": "D0hwFuGnyJ21gvnI",
+              "_key": "D0hwFuGnyJ21gvnI",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The panther makes a free strike against a creature or object adjacent to the target.",
+        "effect": {
+          "before": "",
+          "after": "The panther makes a free strike against a creature or object adjacent to the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow12aaaaa.shadow12feature1",
-      "_id": "shadow12feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "shadow12feature1"
     },
     {
       "name": "Bladestorm",
@@ -254,6 +257,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -274,10 +279,10 @@
             ]
           },
           "effects": {
-            "Yworez4gskwTizlL": {
+            "dgul5XFp7OA7Eyg1": {
               "type": "damage",
-              "_id": "Yworez4gskwTizlL",
-              "_key": "Yworez4gskwTizlL",
+              "_id": "dgul5XFp7OA7Eyg1",
+              "_key": "dgul5XFp7OA7Eyg1",
               "name": "",
               "damage": {
                 "tier1": {
@@ -315,10 +320,10 @@
                 }
               }
             },
-            "kiqzrYrL8aIh6T9X": {
+            "6t7u1EQpKUl7bEFL": {
               "type": "applied",
-              "_id": "kiqzrYrL8aIh6T9X",
-              "_key": "kiqzrYrL8aIh6T9X",
+              "_id": "6t7u1EQpKUl7bEFL",
+              "_key": "6t7u1EQpKUl7bEFL",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -340,7 +345,10 @@
             }
           }
         },
-        "effect": "The panther has a double edge on strikes against targets dazed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "The panther has a double edge on strikes against targets dazed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -368,9 +376,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow12aaaaa.shadow12feature2",
-      "_id": "shadow12feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "shadow12feature2"
     },
     {
       "name": "Of the Umbra",

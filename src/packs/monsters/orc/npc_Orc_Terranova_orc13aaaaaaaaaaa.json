@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "nlWn5qOiAwgSSpwk": {
+            "dLLqVyOMpIv58m7I": {
               "type": "damage",
-              "_id": "nlWn5qOiAwgSSpwk",
-              "_key": "nlWn5qOiAwgSSpwk",
+              "_id": "dLLqVyOMpIv58m7I",
+              "_key": "dLLqVyOMpIv58m7I",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "bEDzb3KX18WoPkFx": {
+            "h4qmT51bHACRwK7f": {
               "type": "applied",
-              "_id": "bEDzb3KX18WoPkFx",
-              "_key": "bEDzb3KX18WoPkFx",
+              "_id": "h4qmT51bHACRwK7f",
+              "_key": "h4qmT51bHACRwK7f",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The ground beneath each target rises 1 square.",
+        "effect": {
+          "before": "",
+          "after": "The ground beneath each target rises 1 square."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc13aaaaaaaaaaa.orc13feature1aaa",
-      "_id": "orc13feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc13feature1aaa"
     },
     {
       "name": "Sinkhole",
@@ -264,6 +267,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -284,10 +289,10 @@
             ]
           },
           "effects": {
-            "anGRtXD4Z2vEemhI": {
+            "i4wsOkLBx5rpPu6w": {
               "type": "damage",
-              "_id": "anGRtXD4Z2vEemhI",
-              "_key": "anGRtXD4Z2vEemhI",
+              "_id": "i4wsOkLBx5rpPu6w",
+              "_key": "i4wsOkLBx5rpPu6w",
               "name": "",
               "damage": {
                 "tier1": {
@@ -325,10 +330,10 @@
                 }
               }
             },
-            "pcVdwJVCWsXp4SYz": {
+            "UiliaCIohICkYofS": {
               "type": "applied",
-              "_id": "pcVdwJVCWsXp4SYz",
-              "_key": "pcVdwJVCWsXp4SYz",
+              "_id": "UiliaCIohICkYofS",
+              "_key": "UiliaCIohICkYofS",
               "name": "",
               "applied": {
                 "tier1": {
@@ -356,7 +361,10 @@
             }
           }
         },
-        "effect": "The affected area is considered difficult terrain.",
+        "effect": {
+          "before": "",
+          "after": "The affected area is considered difficult terrain."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -384,9 +392,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc13aaaaaaaaaaa.orc13feature2aaa",
-      "_id": "orc13feature2aaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "orc13feature2aaa"
     },
     {
       "name": "Seismic Step",

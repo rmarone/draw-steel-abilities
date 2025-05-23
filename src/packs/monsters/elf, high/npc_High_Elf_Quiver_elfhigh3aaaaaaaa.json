@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "ocHxCqNv6zJuE1Fe": {
+            "V0lfIib9kPvejBNY": {
               "type": "damage",
-              "_id": "ocHxCqNv6zJuE1Fe",
-              "_key": "ocHxCqNv6zJuE1Fe",
+              "_id": "V0lfIib9kPvejBNY",
+              "_key": "V0lfIib9kPvejBNY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "Each ally adjacent to the target can shift 2.",
+        "effect": {
+          "before": "",
+          "after": "Each ally adjacent to the target can shift 2."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh3aaaaaaaa.elfhigh3feature1",
-      "_id": "elfhigh3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh3feature1"
     },
     {
       "name": "Otherwordly Grace",

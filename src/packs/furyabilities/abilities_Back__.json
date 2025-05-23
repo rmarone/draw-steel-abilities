@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "MbHi0ebLxDckMCBL": {
+        "1cOiIZpPu9NTPBW6": {
           "type": "damage",
-          "_id": "MbHi0ebLxDckMCBL",
-          "_key": "MbHi0ebLxDckMCBL",
+          "_id": "1cOiIZpPu9NTPBW6",
+          "_key": "1cOiIZpPu9NTPBW6",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "AWBOTLXj8m7ZY0Nr": {
+        "xtaYOW7JI877D6aS": {
           "type": "forced",
-          "_id": "AWBOTLXj8m7ZY0Nr",
-          "_key": "AWBOTLXj8m7ZY0Nr",
+          "_id": "xtaYOW7JI877D6aS",
+          "_key": "xtaYOW7JI877D6aS",
           "name": "",
           "forced": {
             "tier1": null,
@@ -102,7 +104,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -130,7 +135,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-5!astring",
-  "_id": "furyability5aaaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "furyability5aaaa"
 }

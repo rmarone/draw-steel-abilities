@@ -122,6 +122,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "N8xqPUKzopgByOor": {
+            "LSuFp2aKqEwBFvaH": {
               "type": "damage",
-              "_id": "N8xqPUKzopgByOor",
-              "_key": "N8xqPUKzopgByOor",
+              "_id": "LSuFp2aKqEwBFvaH",
+              "_key": "LSuFp2aKqEwBFvaH",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The umbral stalker shifts 2 before or after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The umbral stalker shifts 2 before or after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead8aaaaaaaaa.undead8feature2a",
-      "_id": "undead8feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead8feature2a"
     },
     {
       "name": "Freezing Dark",
@@ -234,6 +237,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -254,10 +259,10 @@
             ]
           },
           "effects": {
-            "mZt1FiMeZNMJdT4X": {
+            "KhWdksncJxHIEgWw": {
               "type": "damage",
-              "_id": "mZt1FiMeZNMJdT4X",
-              "_key": "mZt1FiMeZNMJdT4X",
+              "_id": "KhWdksncJxHIEgWw",
+              "_key": "KhWdksncJxHIEgWw",
               "name": "",
               "damage": {
                 "tier1": {
@@ -297,7 +302,10 @@
             }
           }
         },
-        "effect": "Until the end of the umbral stalker’s next turn, the area is concealed and blocks line of effect for all enemies.",
+        "effect": {
+          "before": "",
+          "after": "Until the end of the umbral stalker’s next turn, the area is concealed and blocks line of effect for all enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -325,9 +333,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead8aaaaaaaaa.undead8feature3a",
-      "_id": "undead8feature3a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "undead8feature3a"
     },
     {
       "name": "Shadow Jump",
@@ -345,6 +351,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -364,7 +372,10 @@
           },
           "effects": null
         },
-        "effect": "The umbral stalker teleports to an unoccupied space in concealment within 10 squares. ",
+        "effect": {
+          "before": "",
+          "after": "The umbral stalker teleports to an unoccupied space in concealment within 10 squares. "
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -392,9 +403,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead8aaaaaaaaa.undead8feature4a",
-      "_id": "undead8feature4a",
-      "category": "heroic",
-      "resource": 1
+      "_id": "undead8feature4a"
     },
     {
       "name": "Corruptive Phasing",

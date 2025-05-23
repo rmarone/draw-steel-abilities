@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "GubAEADPqOIJt5IQ": {
+            "yIddpBh2DHCwBOqm": {
               "type": "damage",
-              "_id": "GubAEADPqOIJt5IQ",
-              "_key": "GubAEADPqOIJt5IQ",
+              "_id": "yIddpBh2DHCwBOqm",
+              "_key": "yIddpBh2DHCwBOqm",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "This ability has an edge on targets that don't have full Stamina.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge on targets that don't have full Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl3aaaaaaa.ngulotl3feature1",
-      "_id": "ngulotl3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl3feature1"
     },
     {
       "name": "Toxiferous",

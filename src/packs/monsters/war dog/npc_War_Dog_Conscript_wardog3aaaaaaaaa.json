@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "FvkRV0ddO4ILdkjL": {
+            "wDqek2g5kLQNDoJU": {
               "type": "damage",
-              "_id": "FvkRV0ddO4ILdkjL",
-              "_key": "FvkRV0ddO4ILdkjL",
+              "_id": "wDqek2g5kLQNDoJU",
+              "_key": "wDqek2g5kLQNDoJU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "This ability has an edge if it’s used while charging.",
+        "effect": {
+          "before": "",
+          "after": "This ability has an edge if it’s used while charging."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog3aaaaaaaaa.wardog3feature1a",
-      "_id": "wardog3feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog3feature1a"
     },
     {
       "name": "Loyalty Collar",

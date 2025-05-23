@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "xNhyafmxZY9qsbos": {
+            "nByc1ooWTM4fwQzo": {
               "type": "damage",
-              "_id": "xNhyafmxZY9qsbos",
-              "_key": "xNhyafmxZY9qsbos",
+              "_id": "nByc1ooWTM4fwQzo",
+              "_key": "nByc1ooWTM4fwQzo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "If the sniper doesn’t use a move action this turn, the ability has an edge.",
+        "effect": {
+          "before": "",
+          "after": "If the sniper doesn’t use a move action this turn, the ability has an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin2aaaaaaaaa.goblin2feature1a",
-      "_id": "goblin2feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin2feature1a"
     },
     {
       "name": "Crafty",

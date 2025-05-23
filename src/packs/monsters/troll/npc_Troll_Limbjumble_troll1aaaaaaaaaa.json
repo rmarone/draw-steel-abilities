@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "HryFdqAT2iUGwiS5": {
+            "vBAtVbxCvoUau18P": {
               "type": "damage",
-              "_id": "HryFdqAT2iUGwiS5",
-              "_key": "HryFdqAT2iUGwiS5",
+              "_id": "vBAtVbxCvoUau18P",
+              "_key": "vBAtVbxCvoUau18P",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "wErDvr4If2AIiA1y": {
+            "hXqxKh7LYZzBknLg": {
               "type": "applied",
-              "_id": "wErDvr4If2AIiA1y",
-              "_key": "wErDvr4If2AIiA1y",
+              "_id": "hXqxKh7LYZzBknLg",
+              "_key": "hXqxKh7LYZzBknLg",
               "name": "",
               "applied": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "If the target is already prone, they are grabbed instead.",
+        "effect": {
+          "before": "",
+          "after": "If the target is already prone, they are grabbed instead."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!troll1aaaaaaaaaa.troll1feature1aa",
-      "_id": "troll1feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "troll1feature1aa"
     },
     {
       "name": "Hyper Regeneration",

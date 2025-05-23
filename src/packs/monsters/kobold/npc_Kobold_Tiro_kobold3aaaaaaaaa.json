@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "OS5ozhTa9Mksss9E": {
+            "TT1PwzDvXrwyaEvA": {
               "type": "damage",
-              "_id": "OS5ozhTa9Mksss9E",
-              "_key": "OS5ozhTa9Mksss9E",
+              "_id": "TT1PwzDvXrwyaEvA",
+              "_key": "TT1PwzDvXrwyaEvA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "MQYJKWCEA1E2H5zm": {
+            "YFhBqGEEeIPjPoYQ": {
               "type": "applied",
-              "_id": "MQYJKWCEA1E2H5zm",
-              "_key": "MQYJKWCEA1E2H5zm",
+              "_id": "YFhBqGEEeIPjPoYQ",
+              "_key": "YFhBqGEEeIPjPoYQ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The tiro slices the target with their dagger. The target can’t shift until the start of the tiro’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The tiro slices the target with their dagger. The target can’t shift until the start of the tiro’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold3aaaaaaaaa.kobold3feature1a",
-      "_id": "kobold3feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold3feature1a"
     },
     {
       "name": "Shield? Shield!",

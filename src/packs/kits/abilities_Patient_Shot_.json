@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "4k191LokFg5ougjE": {
+        "ZLTEHZrFmbfhcmC0": {
           "type": "damage",
-          "_id": "4k191LokFg5ougjE",
-          "_key": "4k191LokFg5ougjE",
+          "_id": "ZLTEHZrFmbfhcmC0",
+          "_key": "ZLTEHZrFmbfhcmC0",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "If you don’t take a move action this turn, this strike deals extra damage equal to your Might or Agility score (your choice).",
+    "effect": {
+      "before": "",
+      "after": "If you don’t take a move action this turn, this strike deals extra damage equal to your Might or Agility score (your choice)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-sniper-signature!astring",
-  "_id": "tsnipersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "tsnipersignature"
 }

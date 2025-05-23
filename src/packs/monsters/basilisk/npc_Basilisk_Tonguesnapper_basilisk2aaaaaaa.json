@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "xsOciXu6ODRP1fLF": {
+            "LhK4KJuW2nOYNlm5": {
               "type": "damage",
-              "_id": "xsOciXu6ODRP1fLF",
-              "_key": "xsOciXu6ODRP1fLF",
+              "_id": "LhK4KJuW2nOYNlm5",
+              "_key": "LhK4KJuW2nOYNlm5",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "XImoDtrrG7oZroLZ": {
+            "APPVPMUEFGVV8fV4": {
               "type": "forced",
-              "_id": "XImoDtrrG7oZroLZ",
-              "_key": "XImoDtrrG7oZroLZ",
+              "_id": "APPVPMUEFGVV8fV4",
+              "_key": "APPVPMUEFGVV8fV4",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "This ability can pull targets restrained by Petrifying Eye Beams, ignoring stability.",
+        "effect": {
+          "before": "",
+          "after": "This ability can pull targets restrained by Petrifying Eye Beams, ignoring stability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk2aaaaaaa.asilisk2feature1",
-      "_id": "asilisk2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk2feature1"
     },
     {
       "name": "Petrifying Eye Beams",
@@ -265,6 +268,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -285,10 +290,10 @@
             ]
           },
           "effects": {
-            "CxAIIEHi4H9OmHtw": {
+            "rgtgLYpcnwEoqX35": {
               "type": "applied",
-              "_id": "CxAIIEHi4H9OmHtw",
-              "_key": "CxAIIEHi4H9OmHtw",
+              "_id": "rgtgLYpcnwEoqX35",
+              "_key": "rgtgLYpcnwEoqX35",
               "name": "",
               "applied": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "\nThe tonguesnapper targets the first unobstructed creature in each column of the area. An already slowed target has -1 to resisting the potency. Each target magically begins to turn to stone. A creature restrained by this ability or a creature adjacent to them can use an action to cut the encroaching stone from their body, taking 8 damage which can’t be reduced in any way and ending the effect.\n\nA target that ends two consecutive turns restrained by this ability is petrified until they are cured (see Alchemical Ingredients).",
+        "effect": {
+          "before": "",
+          "after": "\nThe tonguesnapper targets the first unobstructed creature in each column of the area. An already slowed target has -1 to resisting the potency. Each target magically begins to turn to stone. A creature restrained by this ability or a creature adjacent to them can use an action to cut the encroaching stone from their body, taking 8 damage which can’t be reduced in any way and ending the effect.\n\nA target that ends two consecutive turns restrained by this ability is petrified until they are cured (see Alchemical Ingredients)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk2aaaaaaa.asilisk2feature2",
-      "_id": "asilisk2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk2feature2"
     },
     {
       "name": "Wink",
@@ -367,11 +373,13 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -387,10 +395,10 @@
             ]
           },
           "effects": {
-            "Ink9NgSEg4ArFBDA": {
+            "FpFtC88JdOx2Dq39": {
               "type": "damage",
-              "_id": "Ink9NgSEg4ArFBDA",
-              "_key": "Ink9NgSEg4ArFBDA",
+              "_id": "FpFtC88JdOx2Dq39",
+              "_key": "FpFtC88JdOx2Dq39",
               "name": "",
               "damage": {
                 "tier1": {
@@ -428,10 +436,10 @@
                 }
               }
             },
-            "kEJUFBJKJJvOZHdr": {
+            "1F91B1ryZm613ABO": {
               "type": "applied",
-              "_id": "kEJUFBJKJJvOZHdr",
-              "_key": "kEJUFBJKJJvOZHdr",
+              "_id": "1F91B1ryZm613ABO",
+              "_key": "1F91B1ryZm613ABO",
               "name": "",
               "applied": {
                 "tier1": {
@@ -459,7 +467,10 @@
             }
           }
         },
-        "effect": "A creature dazed by this ability can’t benefit from edges or surges until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A creature dazed by this ability can’t benefit from edges or surges until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -487,9 +498,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk2aaaaaaa.asilisk2feature3",
-      "_id": "asilisk2feature3",
-      "category": "heroic",
-      "resource": 2
+      "_id": "asilisk2feature3"
     },
     {
       "name": "Neurotoxin Splash",
@@ -507,6 +516,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -526,7 +537,10 @@
           },
           "effects": null
         },
-        "effect": "Each target takes 4 acid damage and is A<2 bleeding (save ends).",
+        "effect": {
+          "before": "",
+          "after": "Each target takes 4 acid damage and is A<2 bleeding (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -554,9 +568,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!basilisk2aaaaaaa.asilisk2feature4",
-      "_id": "asilisk2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "asilisk2feature4"
     },
     {
       "name": "Calcifying Presence",

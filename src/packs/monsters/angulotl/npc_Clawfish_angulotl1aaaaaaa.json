@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "uuInbRizHL3SZrEP": {
+            "eyYZGZkE5WS7lBjP": {
               "type": "damage",
-              "_id": "uuInbRizHL3SZrEP",
-              "_key": "uuInbRizHL3SZrEP",
+              "_id": "eyYZGZkE5WS7lBjP",
+              "_key": "eyYZGZkE5WS7lBjP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "Rt8RPwnF05dAqJhe": {
+            "1OTqoslnxgpJiDbn": {
               "type": "applied",
-              "_id": "Rt8RPwnF05dAqJhe",
-              "_key": "Rt8RPwnF05dAqJhe",
+              "_id": "1OTqoslnxgpJiDbn",
+              "_key": "1OTqoslnxgpJiDbn",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "A grabbed target takes 2 lightning damage at the start of each of their turns.",
+        "effect": {
+          "before": "",
+          "after": "A grabbed target takes 2 lightning damage at the start of each of their turns."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl1aaaaaaa.ngulotl1feature1",
-      "_id": "ngulotl1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl1feature1"
     },
     {
       "name": "Shocking",

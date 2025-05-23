@@ -123,6 +123,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "KfeUb9x2N9KJ5IK6": {
+            "J20P9KD4U9VzrYaM": {
               "type": "applied",
-              "_id": "KfeUb9x2N9KJ5IK6",
-              "_key": "KfeUb9x2N9KJ5IK6",
+              "_id": "J20P9KD4U9VzrYaM",
+              "_key": "J20P9KD4U9VzrYaM",
               "name": "",
               "applied": {
                 "tier1": {
@@ -174,7 +176,10 @@
             }
           }
         },
-        "effect": "The area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas’s next turn, the area is difficult terrain, and each creature who moves within the area takes 1 damage for each square moved.",
+        "effect": {
+          "before": "",
+          "after": "The area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas’s next turn, the area is difficult terrain, and each creature who moves within the area takes 1 damage for each square moved."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -202,9 +207,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon8aaaaaaaaaa.demon8feature1aa",
-      "_id": "demon8feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon8feature1aa"
     },
     {
       "name": "Grasping Tendons",
@@ -223,6 +226,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -242,7 +247,10 @@
           },
           "effects": null
         },
-        "effect": "The torlas pulls each target 3 squares.",
+        "effect": {
+          "before": "",
+          "after": "The torlas pulls each target 3 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -270,9 +278,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon8aaaaaaaaaa.demon8feature2aa",
-      "_id": "demon8feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon8feature2aa"
     },
     {
       "name": "Lethe",

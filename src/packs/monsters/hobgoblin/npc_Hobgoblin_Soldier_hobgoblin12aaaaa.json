@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "da6dlf3Qz4kRNWOe": {
+            "qXC9phzKikICzPf8": {
               "type": "damage",
-              "_id": "da6dlf3Qz4kRNWOe",
-              "_key": "da6dlf3Qz4kRNWOe",
+              "_id": "qXC9phzKikICzPf8",
+              "_key": "qXC9phzKikICzPf8",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "The soldier doesn’t provoke opportunity attacks from each target until the end of the trooper’s turn.",
+        "effect": {
+          "before": "",
+          "after": "The soldier doesn’t provoke opportunity attacks from each target until the end of the trooper’s turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin12aaaaa.hobgoblin122aaaa",
-      "_id": "hobgoblin122aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin122aaaa"
     },
     {
       "name": "Fight Me, Coward!",
@@ -237,6 +240,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -256,7 +261,10 @@
           },
           "effects": null
         },
-        "effect": "The target is P<2 taunted (EoT). While taunted by this ability, a creature takes 1d6 fire damage whenever they use an ability or attack that doesn’t target the soldier.",
+        "effect": {
+          "before": "",
+          "after": "The target is P<2 taunted (EoT). While taunted by this ability, a creature takes 1d6 fire damage whenever they use an ability or attack that doesn’t target the soldier."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -284,9 +292,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin12aaaaa.hobgoblin123aaaa",
-      "_id": "hobgoblin123aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin123aaaa"
     },
     {
       "name": "Infernal Ichor",

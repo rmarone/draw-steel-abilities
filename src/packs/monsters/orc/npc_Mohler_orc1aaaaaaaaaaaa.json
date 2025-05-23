@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "yaOVSfBLGINCcaK0": {
+            "YJLn3I7JuluB9RiM": {
               "type": "damage",
-              "_id": "yaOVSfBLGINCcaK0",
-              "_key": "yaOVSfBLGINCcaK0",
+              "_id": "YJLn3I7JuluB9RiM",
+              "_key": "YJLn3I7JuluB9RiM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The target is knocked prone if the mohler is striking from 1 or more squares below.",
+        "effect": {
+          "before": "",
+          "after": "The target is knocked prone if the mohler is striking from 1 or more squares below."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc1aaaaaaaaaaaa.orc1feature1aaaa",
-      "_id": "orc1feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc1feature1aaaa"
     },
     {
       "name": "Ground Grinder",

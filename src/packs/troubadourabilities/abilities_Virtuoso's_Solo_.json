@@ -18,11 +18,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 10,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "u1PUYNDAnksF9YPC": {
+        "UUInsL8z8UXfKXzJ": {
           "type": "damage",
-          "_id": "u1PUYNDAnksF9YPC",
-          "_key": "u1PUYNDAnksF9YPC",
+          "_id": "UUInsL8z8UXfKXzJ",
+          "_key": "UUInsL8z8UXfKXzJ",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +81,10 @@
             }
           }
         },
-        "m4KxqQP6DOsmmyEd": {
+        "WqLaPp6x204OozCt": {
           "type": "forced",
-          "_id": "m4KxqQP6DOsmmyEd",
-          "_key": "m4KxqQP6DOsmmyEd",
+          "_id": "WqLaPp6x204OozCt",
+          "_key": "WqLaPp6x204OozCt",
           "name": "",
           "forced": {
             "tier1": null,
@@ -104,7 +106,10 @@
         }
       }
     },
-    "effect": "You can choose to have this ability deal sonic damage. Additionally, you can use this ability on the same target for the next 2 rounds without spending drama.",
+    "effect": {
+      "before": "",
+      "after": "You can choose to have this ability deal sonic damage. Additionally, you can use this ability on the same target for the next 2 rounds without spending drama."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -132,7 +137,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-15!astring",
-  "_id": "ubadourability15",
-  "category": "heroic",
-  "resource": 7
+  "_id": "ubadourability15"
 }

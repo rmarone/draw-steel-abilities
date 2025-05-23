@@ -149,6 +149,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "mf7qHEVHAm7hnLja": {
+            "8cDwbNhnlZ0w742B": {
               "type": "damage",
-              "_id": "mf7qHEVHAm7hnLja",
-              "_key": "mf7qHEVHAm7hnLja",
+              "_id": "8cDwbNhnlZ0w742B",
+              "_key": "8cDwbNhnlZ0w742B",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "oen0IZiryQHAW9O1": {
+            "RvaqDYldr93nDddc": {
               "type": "applied",
-              "_id": "oen0IZiryQHAW9O1",
-              "_key": "oen0IZiryQHAW9O1",
+              "_id": "RvaqDYldr93nDddc",
+              "_key": "RvaqDYldr93nDddc",
               "name": "",
               "applied": {
                 "tier1": {
@@ -241,7 +243,10 @@
             }
           }
         },
-        "effect": "The affected area becomes an area of magical darkness. The dragon ignores concealment granted by the darkness. A creature dragonsealed by the dragon has psychic weakness 3 and cold weakness 3 until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "The affected area becomes an area of magical darkness. The dragon ignores concealment granted by the darkness. A creature dragonsealed by the dragon has psychic weakness 3 and cold weakness 3 until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -269,9 +274,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature4",
-      "_id": "gongloomfeature4",
-      "category": "signature",
-      "resource": null
+      "_id": "gongloomfeature4"
     },
     {
       "name": "Phantom Tail Swing",
@@ -292,6 +295,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -312,10 +317,10 @@
             ]
           },
           "effects": {
-            "0LmHKmcyGtRbmTGM": {
+            "uM5q4l1d14Rpl0LG": {
               "type": "damage",
-              "_id": "0LmHKmcyGtRbmTGM",
-              "_key": "0LmHKmcyGtRbmTGM",
+              "_id": "uM5q4l1d14Rpl0LG",
+              "_key": "uM5q4l1d14Rpl0LG",
               "name": "",
               "damage": {
                 "tier1": {
@@ -353,10 +358,10 @@
                 }
               }
             },
-            "JtJO8vAnVfkSGf0j": {
+            "o0JGlm74ieRUI5WK": {
               "type": "forced",
-              "_id": "JtJO8vAnVfkSGf0j",
-              "_key": "JtJO8vAnVfkSGf0j",
+              "_id": "o0JGlm74ieRUI5WK",
+              "_key": "o0JGlm74ieRUI5WK",
               "name": "",
               "forced": {
                 "tier1": {
@@ -384,7 +389,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -412,9 +420,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature5",
-      "_id": "gongloomfeature5",
-      "category": "signature",
-      "resource": null
+      "_id": "gongloomfeature5"
     },
     {
       "name": "Visions in the Dark",
@@ -433,6 +439,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -452,7 +460,10 @@
           },
           "effects": null
         },
-        "effect": "Each target takes 3 psychic damage and is I<3 compelled to immediately make a free strike against one of their allies within range as they hallucinate a threat.",
+        "effect": {
+          "before": "",
+          "after": "Each target takes 3 psychic damage and is I<3 compelled to immediately make a free strike against one of their allies within range as they hallucinate a threat."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -480,9 +491,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature6",
-      "_id": "gongloomfeature6",
-      "category": "heroic",
-      "resource": 5
+      "_id": "gongloomfeature6"
     },
     {
       "name": "Shadow Skulk",
@@ -500,6 +509,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -519,7 +530,10 @@
           },
           "effects": null
         },
-        "effect": "Once per turn, the dragon shifts up to their speed and leaves behind a 4 cube area of magical darkness. The dragon ignores concealment granted by the darkness. An enemy that ends their turn in the aﬀected area is I<3 frightened of the dragon.",
+        "effect": {
+          "before": "",
+          "after": "Once per turn, the dragon shifts up to their speed and leaves behind a 4 cube area of magical darkness. The dragon ignores concealment granted by the darkness. An enemy that ends their turn in the aﬀected area is I<3 frightened of the dragon."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -547,9 +561,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature7",
-      "_id": "gongloomfeature7",
-      "category": "signature",
-      "resource": null
+      "_id": "gongloomfeature7"
     },
     {
       "name": "Shroud",
@@ -568,6 +580,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -587,7 +601,10 @@
           },
           "effects": null
         },
-        "effect": "The dragon reduces the damage by 2 for each enemy in their aura.",
+        "effect": {
+          "before": "",
+          "after": "The dragon reduces the damage by 2 for each enemy in their aura."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -615,9 +632,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature8",
-      "_id": "gongloomfeature8",
-      "category": "heroic",
-      "resource": 1
+      "_id": "gongloomfeature8"
     },
     {
       "name": "Encroaching Darkness",
@@ -635,6 +650,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -654,7 +671,10 @@
           },
           "effects": null
         },
-        "effect": "The dragon moves two cubes of magical darkness up to 10.",
+        "effect": {
+          "before": "",
+          "after": "The dragon moves two cubes of magical darkness up to 10."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -682,9 +702,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.gongloomfeature9",
-      "_id": "gongloomfeature9",
-      "category": "heroic",
-      "resource": 1
+      "_id": "gongloomfeature9"
     },
     {
       "name": "Gloom Dragon's Domain",
@@ -716,6 +734,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -736,10 +756,10 @@
             ]
           },
           "effects": {
-            "dV0u2ldcZRBIbUUc": {
+            "tGhRAEYKIb2oXxrv": {
               "type": "applied",
-              "_id": "dV0u2ldcZRBIbUUc",
-              "_key": "dV0u2ldcZRBIbUUc",
+              "_id": "tGhRAEYKIb2oXxrv",
+              "_key": "tGhRAEYKIb2oXxrv",
               "name": "",
               "applied": {
                 "tier1": {
@@ -767,7 +787,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -795,9 +818,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.ongloomfeature11",
-      "_id": "ongloomfeature11",
-      "category": "signature",
-      "resource": null
+      "_id": "ongloomfeature11"
     },
     {
       "name": "Pall of Nightmares",
@@ -816,6 +837,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -836,10 +859,10 @@
             ]
           },
           "effects": {
-            "8iv2NncnGWmm3H0h": {
+            "ClJfHmN14XP4GfPB": {
               "type": "damage",
-              "_id": "8iv2NncnGWmm3H0h",
-              "_key": "8iv2NncnGWmm3H0h",
+              "_id": "ClJfHmN14XP4GfPB",
+              "_key": "ClJfHmN14XP4GfPB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -879,7 +902,10 @@
             }
           }
         },
-        "effect": "The targets are I<4 dazed as they are assaulted by their hallucinations.",
+        "effect": {
+          "before": "",
+          "after": "The targets are I<4 dazed as they are assaulted by their hallucinations."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -907,9 +933,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.ongloomfeature12",
-      "_id": "ongloomfeature12",
-      "category": "signature",
-      "resource": null
+      "_id": "ongloomfeature12"
     },
     {
       "name": "Absence of All Light",
@@ -927,6 +951,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -946,7 +972,10 @@
           },
           "effects": null
         },
-        "effect": "The dragon disappears, then reappears anywhere on the encounter map, as do three hallucinatory versions of it at other points on the encounter map (the director determines which one is real). The dragon and each hallucinatory version of it immediately uses Breath of Brume. A creature who deals damage to a hallucination of the dragon causes it to immediately dissipate.",
+        "effect": {
+          "before": "",
+          "after": "The dragon disappears, then reappears anywhere on the encounter map, as do three hallucinatory versions of it at other points on the encounter map (the director determines which one is real). The dragon and each hallucinatory version of it immediately uses Breath of Brume. A creature who deals damage to a hallucination of the dragon causes it to immediately dissipate."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -974,9 +1003,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dragongloom1aaaa.ongloomfeature13",
-      "_id": "ongloomfeature13",
-      "category": "signature",
-      "resource": null
+      "_id": "ongloomfeature13"
     }
   ],
   "effects": [

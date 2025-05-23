@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "The target can spend a Recovery.",
+    "effect": {
+      "before": "",
+      "after": "The target can spend a Recovery."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-1-5!astring",
-  "_id": "conduit15aaaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "conduit15aaaaaaa"
 }

@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "6NU6veNaGfwDxkFH": {
+            "QpZC4zQU6HgUOmLI": {
               "type": "damage",
-              "_id": "6NU6veNaGfwDxkFH",
-              "_key": "6NU6veNaGfwDxkFH",
+              "_id": "QpZC4zQU6HgUOmLI",
+              "_key": "QpZC4zQU6HgUOmLI",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "VSkEM339PEsFQ3Gb": {
+            "9H9uqVqWqQPNMKwP": {
               "type": "applied",
-              "_id": "VSkEM339PEsFQ3Gb",
-              "_key": "VSkEM339PEsFQ3Gb",
+              "_id": "9H9uqVqWqQPNMKwP",
+              "_key": "9H9uqVqWqQPNMKwP",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "1 ally within 5 of the commander has an edge on their next attack until the start of the commander’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "1 ally within 5 of the commander has an edge on their next attack until the start of the commander’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear2aaaaaaaa.bugbear2feature1",
-      "_id": "bugbear2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear2feature1"
     },
     {
       "name": "You Next!",
@@ -253,6 +256,8 @@
 
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "The target moves up to their speed and uses a signature action.",
+        "effect": {
+          "before": "",
+          "after": "The target moves up to their speed and uses a signature action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear2aaaaaaaa.bugbear2feature2",
-      "_id": "bugbear2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear2feature2"
     },
     {
       "name": "Fall Back!",
@@ -320,6 +326,8 @@
 
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -339,7 +347,10 @@
           },
           "effects": null
         },
-        "effect": "Each target shifts up to their speed. Each target can use the Throw maneuver if they are grabbing a creature or object.",
+        "effect": {
+          "before": "",
+          "after": "Each target shifts up to their speed. Each target can use the Throw maneuver if they are grabbing a creature or object."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -367,9 +378,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear2aaaaaaaa.bugbear2feature3",
-      "_id": "bugbear2feature3",
-      "category": "heroic",
-      "resource": 5
+      "_id": "bugbear2feature3"
     },
     {
       "name": "Throw",
@@ -388,6 +397,8 @@
           "strike"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -407,7 +418,10 @@
           },
           "effects": null
         },
-        "effect": "Vertical push 4. An ally target doesn’t take damage from being force moved.",
+        "effect": {
+          "before": "",
+          "after": "Vertical push 4. An ally target doesn’t take damage from being force moved."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -435,9 +449,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear2aaaaaaaa.bugbear2feature4",
-      "_id": "bugbear2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear2feature4"
     },
     {
       "name": "Catcher",
@@ -455,6 +467,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -474,7 +488,10 @@
           },
           "effects": null
         },
-        "effect": "The target is grabbed by the commander.",
+        "effect": {
+          "before": "",
+          "after": "The target is grabbed by the commander."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -502,9 +519,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear2aaaaaaaa.bugbear2feature5",
-      "_id": "bugbear2feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear2feature5"
     },
     {
       "name": "The Commander’s Watching",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "ZAhaGATWIC5B60ui": {
+            "gYVsjJwAb48JfqcQ": {
               "type": "damage",
-              "_id": "ZAhaGATWIC5B60ui",
-              "_key": "ZAhaGATWIC5B60ui",
+              "_id": "gYVsjJwAb48JfqcQ",
+              "_key": "gYVsjJwAb48JfqcQ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "t3YxX9P7u6bsICXr": {
+            "g16clam3uAwZfqpn": {
               "type": "forced",
-              "_id": "t3YxX9P7u6bsICXr",
-              "_key": "t3YxX9P7u6bsICXr",
+              "_id": "g16clam3uAwZfqpn",
+              "_key": "g16clam3uAwZfqpn",
               "name": "",
               "forced": {
                 "tier1": {
@@ -201,10 +203,10 @@
                 "tier3": null
               }
             },
-            "c68CTR2Ij3eXVC67": {
+            "NbVXLvVT3F9r7ZCk": {
               "type": "applied",
-              "_id": "c68CTR2Ij3eXVC67",
-              "_key": "c68CTR2Ij3eXVC67",
+              "_id": "NbVXLvVT3F9r7ZCk",
+              "_key": "NbVXLvVT3F9r7ZCk",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -226,7 +228,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -254,9 +259,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!griffon2aaaaaaaa.griffon2feature1",
-      "_id": "griffon2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "griffon2feature1"
     },
     {
       "name": "Bound Ahead",
@@ -274,6 +277,8 @@
 
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -293,7 +298,10 @@
           },
           "effects": null
         },
-        "effect": "The griffon shifts up to their speed in a straight line. Each enemy who comes within 1 of the griffon during the move can choose to either take 5 damage or be knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "The griffon shifts up to their speed in a straight line. Each enemy who comes within 1 of the griffon during the move can choose to either take 5 damage or be knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -321,9 +329,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!griffon2aaaaaaaa.griffon2feature2",
-      "_id": "griffon2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "griffon2feature2"
     },
     {
       "name": "Wing Buffet",
@@ -342,6 +348,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -362,10 +370,10 @@
             ]
           },
           "effects": {
-            "oU1ITRZACappNnNt": {
+            "CvtakJ9mPvEzAFBa": {
               "type": "applied",
-              "_id": "oU1ITRZACappNnNt",
-              "_key": "oU1ITRZACappNnNt",
+              "_id": "CvtakJ9mPvEzAFBa",
+              "_key": "CvtakJ9mPvEzAFBa",
               "name": "",
               "applied": {
                 "tier1": {
@@ -393,7 +401,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -421,9 +432,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!griffon2aaaaaaaa.griffon2feature3",
-      "_id": "griffon2feature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "griffon2feature3"
     },
     {
       "name": "Circle and Strike",
@@ -441,6 +450,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -460,7 +471,10 @@
           },
           "effects": null
         },
-        "effect": "The griffon falls down upon the target, taking no damage from falling. The target takes 3 damage for each square the griffon fell and is A<2 prone or grabbed.",
+        "effect": {
+          "before": "",
+          "after": "The griffon falls down upon the target, taking no damage from falling. The target takes 3 damage for each square the griffon fell and is A<2 prone or grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -488,9 +502,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!griffon2aaaaaaaa.griffon2feature4",
-      "_id": "griffon2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "griffon2feature4"
     },
     {
       "name": "Beast of Prey",

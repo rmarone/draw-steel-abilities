@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -148,10 +150,10 @@
             ]
           },
           "effects": {
-            "e0dPzesGXOXY2cyV": {
+            "9jmzv5eZKjfq5HRM": {
               "type": "damage",
-              "_id": "e0dPzesGXOXY2cyV",
-              "_key": "e0dPzesGXOXY2cyV",
+              "_id": "9jmzv5eZKjfq5HRM",
+              "_key": "9jmzv5eZKjfq5HRM",
               "name": "",
               "damage": {
                 "tier1": {
@@ -191,7 +193,10 @@
             }
           }
         },
-        "effect": "If the weatherwise targets their mentor, instead of taking damage the mentor gains the same amount of Temporary Stamina.",
+        "effect": {
+          "before": "",
+          "after": "If the weatherwise targets their mentor, instead of taking damage the mentor gains the same amount of Temporary Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -219,9 +224,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh14aaaaaaa.lfhigh14feature1",
-      "_id": "lfhigh14feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfhigh14feature1"
     },
     {
       "name": "Otherwordly Grace",

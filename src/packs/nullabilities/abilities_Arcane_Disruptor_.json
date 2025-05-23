@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "KrzrPLCKt8TUYxFs": {
+        "KwrjWrewAqRWMo71": {
           "type": "damage",
-          "_id": "KrzrPLCKt8TUYxFs",
-          "_key": "KrzrPLCKt8TUYxFs",
+          "_id": "KwrjWrewAqRWMo71",
+          "_key": "KwrjWrewAqRWMo71",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "QvtGqRH9gmq2XXSI": {
+        "EIy09NtxVUGc2hDb": {
           "type": "applied",
-          "_id": "QvtGqRH9gmq2XXSI",
-          "_key": "QvtGqRH9gmq2XXSI",
+          "_id": "EIy09NtxVUGc2hDb",
+          "_key": "EIy09NtxVUGc2hDb",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "While weakened this way, the target takes damage equal to your Intuition score when they use a supernatural or ability that costs Malice.",
+    "effect": {
+      "before": "",
+      "after": "While weakened this way, the target takes damage equal to your Intuition score when they use a supernatural or ability that costs Malice."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-13!astring",
-  "_id": "nullability13aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "nullability13aaa"
 }

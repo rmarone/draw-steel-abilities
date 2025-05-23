@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "fAPE0wmJM6qvGJdZ": {
+            "7EXFoM259ZYNrZG9": {
               "type": "damage",
-              "_id": "fAPE0wmJM6qvGJdZ",
-              "_key": "fAPE0wmJM6qvGJdZ",
+              "_id": "7EXFoM259ZYNrZG9",
+              "_key": "7EXFoM259ZYNrZG9",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human3aaaaaaaaaa.human3feature3aa",
-      "_id": "human3feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human3feature3aa"
     },
     {
       "name": "Supernatural Insight",

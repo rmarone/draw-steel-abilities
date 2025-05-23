@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "XVK5rXKGxHYyCpei": {
+        "hpQAZVsGvQ0qqHYJ": {
           "type": "damage",
-          "_id": "XVK5rXKGxHYyCpei",
-          "_key": "XVK5rXKGxHYyCpei",
+          "_id": "hpQAZVsGvQ0qqHYJ",
+          "_key": "hpQAZVsGvQ0qqHYJ",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "ZwGwtkv9czgOkuBN": {
+        "l2vY4Ld2p9GtCCql": {
           "type": "applied",
-          "_id": "ZwGwtkv9czgOkuBN",
-          "_key": "ZwGwtkv9czgOkuBN",
+          "_id": "l2vY4Ld2p9GtCCql",
+          "_key": "l2vY4Ld2p9GtCCql",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-8!astring",
-  "_id": "nullability8aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "nullability8aaaa"
 }

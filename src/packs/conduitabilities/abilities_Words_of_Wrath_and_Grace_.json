@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -35,10 +37,10 @@
         ]
       },
       "effects": {
-        "RCYLqieLarxXX1lr": {
+        "r1cGmGOyBzgb7KsM": {
           "type": "damage",
-          "_id": "RCYLqieLarxXX1lr",
-          "_key": "RCYLqieLarxXX1lr",
+          "_id": "r1cGmGOyBzgb7KsM",
+          "_key": "r1cGmGOyBzgb7KsM",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,7 +80,10 @@
         }
       }
     },
-    "effect": "Each ally in the area can spend a Recovery.",
+    "effect": {
+      "before": "",
+      "after": "Each ally in the area can spend a Recovery."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -106,7 +111,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-20!astring",
-  "_id": "conduitability20",
-  "category": "heroic",
-  "resource": 7
+  "_id": "conduitability20"
 }

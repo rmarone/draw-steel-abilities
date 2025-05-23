@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "dWCazXcJgwvfo7rt": {
+            "8XZ96hukZaAMwN3B": {
               "type": "damage",
-              "_id": "dWCazXcJgwvfo7rt",
-              "_key": "dWCazXcJgwvfo7rt",
+              "_id": "8XZ96hukZaAMwN3B",
+              "_key": "8XZ96hukZaAMwN3B",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "xO2WjU8OYhakYkZb": {
+            "IvLMehM7oaubf0IG": {
               "type": "applied",
-              "_id": "xO2WjU8OYhakYkZb",
-              "_key": "xO2WjU8OYhakYkZb",
+              "_id": "IvLMehM7oaubf0IG",
+              "_key": "IvLMehM7oaubf0IG",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "A target who ends their next turn adjacent to the other target falls prone.",
+        "effect": {
+          "before": "",
+          "after": "A target who ends their next turn adjacent to the other target falls prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider7aaaaa.eraider7feature1",
-      "_id": "eraider7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider7feature1"
     },
     {
       "name": "Mindpunk",
@@ -259,6 +262,8 @@
           "psionic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "BJXQtCsN7aL6cnR7": {
+            "4RqC72hk87anE9WP": {
               "type": "damage",
-              "_id": "BJXQtCsN7aL6cnR7",
-              "_key": "BJXQtCsN7aL6cnR7",
+              "_id": "4RqC72hk87anE9WP",
+              "_key": "4RqC72hk87anE9WP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,10 +325,10 @@
                 }
               }
             },
-            "4tPdFLxaDNRqlDN8": {
+            "bXdPhsNnVJvEuv81": {
               "type": "forced",
-              "_id": "4tPdFLxaDNRqlDN8",
-              "_key": "4tPdFLxaDNRqlDN8",
+              "_id": "bXdPhsNnVJvEuv81",
+              "_key": "bXdPhsNnVJvEuv81",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -343,10 +348,10 @@
                 }
               }
             },
-            "lotcFUgio0qu5nvn": {
+            "sZ4QmVN0X9KUcLUQ": {
               "type": "applied",
-              "_id": "lotcFUgio0qu5nvn",
-              "_key": "lotcFUgio0qu5nvn",
+              "_id": "sZ4QmVN0X9KUcLUQ",
+              "_key": "sZ4QmVN0X9KUcLUQ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -374,7 +379,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -402,9 +410,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider7aaaaa.eraider7feature2",
-      "_id": "eraider7feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "eraider7feature2"
     },
     {
       "name": "Foresight",

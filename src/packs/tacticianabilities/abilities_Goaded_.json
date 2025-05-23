@@ -14,6 +14,8 @@
 
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "You retarget the attack to you or another one of your allies or yourself. The new target must be a valid option for the strike.",
+    "effect": {
+      "before": "",
+      "after": "You retarget the attack to you or another one of your allies or yourself. The new target must be a valid option for the strike."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-sub-2-2-1!astring",
-  "_id": "tacticiansub221a",
-  "category": "signature",
-  "resource": null
+  "_id": "tacticiansub221a"
 }

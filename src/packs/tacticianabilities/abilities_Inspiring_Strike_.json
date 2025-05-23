@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "tcQ3BUDDLJl98M9t": {
+        "ZDirOV66yyraZH8J": {
           "type": "damage",
-          "_id": "tcQ3BUDDLJl98M9t",
-          "_key": "tcQ3BUDDLJl98M9t",
+          "_id": "ZDirOV66yyraZH8J",
+          "_key": "ZDirOV66yyraZH8J",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "C341DFQSbRZ4cBFg": {
+        "ZBavND8Nh8MjFBn8": {
           "type": "applied",
-          "_id": "C341DFQSbRZ4cBFg",
-          "_key": "C341DFQSbRZ4cBFg",
+          "_id": "ZBavND8Nh8MjFBn8",
+          "_key": "ZBavND8Nh8MjFBn8",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-ability-3!astring",
-  "_id": "acticianability3",
-  "category": "heroic",
-  "resource": 3
+  "_id": "acticianability3"
 }

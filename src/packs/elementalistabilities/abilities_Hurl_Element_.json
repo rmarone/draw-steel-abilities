@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "DK02SRw6KwpD2tKk": {
+        "5qZtUiTzgop84U8Y": {
           "type": "damage",
-          "_id": "DK02SRw6KwpD2tKk",
-          "_key": "DK02SRw6KwpD2tKk",
+          "_id": "5qZtUiTzgop84U8Y",
+          "_key": "5qZtUiTzgop84U8Y",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic.",
+    "effect": {
+      "before": "",
+      "after": "When you make this strike, choose the damage type from one of the following options: acid, cold, corruption, fire, lightning, poison, or sonic."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-1-4!astring",
-  "_id": "elementalist14aa",
-  "category": "signature",
-  "resource": null
+  "_id": "elementalist14aa"
 }

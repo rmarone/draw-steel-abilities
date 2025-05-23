@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "nmZE7toAFEBA9de6": {
+            "BHJHp1S1kJE0g0xd": {
               "type": "damage",
-              "_id": "nmZE7toAFEBA9de6",
-              "_key": "nmZE7toAFEBA9de6",
+              "_id": "BHJHp1S1kJE0g0xd",
+              "_key": "BHJHp1S1kJE0g0xd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "rIl6M96hVW9WbXM5": {
+            "1nBRoOsFWzJETTO7": {
               "type": "applied",
-              "_id": "rIl6M96hVW9WbXM5",
-              "_key": "rIl6M96hVW9WbXM5",
+              "_id": "1nBRoOsFWzJETTO7",
+              "_key": "1nBRoOsFWzJETTO7",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "The amalgamite can have up to four targets grabbed.",
+        "effect": {
+          "before": "",
+          "after": "The amalgamite can have up to four targets grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog5aaaaaaaaa.wardog5feature1a",
-      "_id": "wardog5feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog5feature1a"
     },
     {
       "name": "Posthumous Promotion",
@@ -258,6 +261,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -277,7 +282,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -305,9 +313,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog5aaaaaaaaa.wardog5feature2a",
-      "_id": "wardog5feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog5feature2a"
     },
     {
       "name": "Loyalty Collar",

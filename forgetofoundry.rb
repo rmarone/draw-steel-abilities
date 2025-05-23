@@ -192,6 +192,27 @@ def parse_target(target_string)
   }
 end
 
+def distance_clause(distances)
+  if distances.length > 0
+    if distances.length > 1 and distances[0]["type"] == "Melee" and distances[1]["type"] == "Ranged"
+      distanceType = "meleeRanged"
+      secondary = distances[1]["value"]
+    else
+      distanceType = distances[0]["type"].downcase
+      secondary = distances[0]["within"]
+    end
+    {"distance": {
+        "type": distanceType,
+        "primary": distances[0]["value"],
+        "secondary": secondary,
+        "tertiary": nil
+      }
+    }
+  else
+    {}
+  end
+end
+
 def make_item(ability, monster_id=nil)
   clean_ability_id = cleaned_id(ability["id"])
   key = monster_id ? "!actors.items!#{monster_id}.#{clean_ability_id}" : "!items!#{ability["id"]}!astring"
@@ -217,13 +238,9 @@ def make_item(ability, monster_id=nil)
     "_dsid": ability["id"],
     "keywords": ability["keywords"].collect(&:downcase),
     "type": ability["type"]["usage"].downcase,
+    **cost,
     "trigger": "",
-    "distance": ability["distance"][0] ? {
-      "type": ability["distance"][0]["type"].downcase,
-      "primary": ability["distance"][0]["value"],
-      "secondary": ability["distance"][0]["within"],
-      "tertiary": nil
-    } : nil,
+    **distance_clause(ability["distance"]),
     "damageDisplay": "melee",
     "target": parse_target(ability["target"]),
     "power": {
@@ -233,7 +250,10 @@ def make_item(ability, monster_id=nil)
       },
       "effects": ability["powerRoll"] ? parse_effects(ability["powerRoll"]) : nil
     },
-    "effect": ability["effect"],
+    "effect": {
+      "before": "",
+      "after": ability["effect"],
+    },
     "spend": {
       "value": nil,
       "text": ""
@@ -259,9 +279,7 @@ def make_item(ability, monster_id=nil)
   },
   }
   item = item.merge(item_key)
-  item = item.merge(cost)
   return item  
-
 end
 
 def make_monster(monster, monster_group_folder_id)
@@ -561,7 +579,9 @@ end
 def output_items(items, output_dir_name)
   Dir.mkdir output_dir_name unless File.exist? output_dir_name
   items.each do |item|
-    file = File.open("#{output_dir_name}/abilities_#{item[:name].gsub(/[\s,!]/, '_')}_#{item[:_dsid]}.json", "w+")
+    name = item[:name] || item["name"]
+    dsid = item[:_dsid] || item["_dsid"]
+    file = File.open("#{output_dir_name}/abilities_#{name.gsub(/[\s,!]/, '_')}_#{dsid}.json", "w+")
     file.write JSON.pretty_generate(item, {indent: "  ", object_nl: "\n", array_nl: "\n"})
   end
 end
@@ -609,14 +629,21 @@ parsed_forge_file["classes"].each do |aclass|
 
   items += aclass["subclasses"].collect do |subclass|
     subclass["featuresByLevel"].collect do |level|
-      level["features"].select{|feature| feature["type"] == "Ability"}.collect do |ability|
+      choices = level["features"].select{|feature| feature["type"] == "Choice"}.collect do |choice|
+        choice["data"]["options"].collect do |option|
+          make_item(option["feature"]["data"]["ability"])
+        end
+      end
+      features = level["features"].select{|feature| feature["type"] == "Ability"}.collect do |ability|
         make_item(ability["data"]["ability"])
       end
+      choices + features
     end
   end
 
   output_items(items.flatten, output_dir_name)
 end
+
 parsed_forge_file["kits"].each do |kit|
   kit_name = kit["name"].downcase
   output_dir_name = "./src/packs/kits"
@@ -627,6 +654,14 @@ parsed_forge_file["kits"].each do |kit|
   output_items(items, output_dir_name)
 end
 
+basic_ability_files = Dir['ForgeData/*'] - Dir['ForgeData/core.drawsteel-sourcebook']
+basic_abilities = []
+basic_ability_files.each do |file|
+  ability = JSON.parse(File.read(file))
+  basic_abilities << ability
+end
+output_dir_name = "./src/packs/basic"
+output_items(basic_abilities, output_dir_name)
 
 #db_file = File.open(output_file, "w+")
 #db_file.write({"items" => items}.to_json)

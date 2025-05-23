@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "g1HtNn228iKHzzxE": {
+        "sNkAEc9qtPveQz6u": {
           "type": "applied",
-          "_id": "g1HtNn228iKHzzxE",
-          "_key": "g1HtNn228iKHzzxE",
+          "_id": "sNkAEc9qtPveQz6u",
+          "_key": "sNkAEc9qtPveQz6u",
           "name": "",
           "applied": {
             "tier1": {
@@ -68,7 +70,10 @@
         }
       }
     },
-    "effect": "If the target dealt damage to you since the end of your last turn, this strike deals additional damage equal to your Might or Agility score (your choice).",
+    "effect": {
+      "before": "",
+      "after": "If the target dealt damage to you since the end of your last turn, this strike deals additional damage equal to your Might or Agility score (your choice)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -96,7 +101,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-mountain-signature!astring",
-  "_id": "ountainsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "ountainsignature"
 }

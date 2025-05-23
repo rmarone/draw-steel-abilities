@@ -123,6 +123,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "uuLhrOAXxietky5l": {
+            "UrH2AacqG9LjBpIC": {
               "type": "damage",
-              "_id": "uuLhrOAXxietky5l",
-              "_key": "uuLhrOAXxietky5l",
+              "_id": "UrH2AacqG9LjBpIC",
+              "_key": "UrH2AacqG9LjBpIC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "SsSoLbMdyrP86nCq": {
+            "wFLtN7bspWE5VflX": {
               "type": "applied",
-              "_id": "SsSoLbMdyrP86nCq",
-              "_key": "SsSoLbMdyrP86nCq",
+              "_id": "wFLtN7bspWE5VflX",
+              "_key": "wFLtN7bspWE5VflX",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox3aaaaaaa.orannox3feature1",
-      "_id": "orannox3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox3feature1"
     },
     {
       "name": "Psionic Barrier",

@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "jMYzkd39xoUA33hw": {
+            "BA7eC3rr6XCXylzo": {
               "type": "damage",
-              "_id": "jMYzkd39xoUA33hw",
-              "_key": "jMYzkd39xoUA33hw",
+              "_id": "BA7eC3rr6XCXylzo",
+              "_key": "BA7eC3rr6XCXylzo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "3blIr7rkWdsIVfeO": {
+            "OoBRnTH2IFivz1Kp": {
               "type": "applied",
-              "_id": "3blIr7rkWdsIVfeO",
-              "_key": "3blIr7rkWdsIVfeO",
+              "_id": "OoBRnTH2IFivz1Kp",
+              "_key": "OoBRnTH2IFivz1Kp",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -202,7 +204,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -230,9 +235,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead3aaaaaaaaa.undead3feature2a",
-      "_id": "undead3feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "undead3feature2a"
     },
     {
       "name": "Death Grasp",

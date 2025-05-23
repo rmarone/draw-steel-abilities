@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "frsG4RoOjb0gYHXg": {
+            "ilT2wv0T0oU54uBP": {
               "type": "damage",
-              "_id": "frsG4RoOjb0gYHXg",
-              "_key": "frsG4RoOjb0gYHXg",
+              "_id": "ilT2wv0T0oU54uBP",
+              "_key": "ilT2wv0T0oU54uBP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "vi2iTHQGEHv8sH4m": {
+            "gpCVZD0axVwBoX35": {
               "type": "applied",
-              "_id": "vi2iTHQGEHv8sH4m",
-              "_key": "vi2iTHQGEHv8sH4m",
+              "_id": "gpCVZD0axVwBoX35",
+              "_key": "gpCVZD0axVwBoX35",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "If the targets are adjacent to each other, the ability deals an additional 3 damage.",
+        "effect": {
+          "before": "",
+          "after": "If the targets are adjacent to each other, the ability deals an additional 3 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil5aaaaaaaaaa.devil5feature1aa",
-      "_id": "devil5feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil5feature1aa"
     },
     {
       "name": "Writ of Execution",
@@ -260,6 +263,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "hF9KeWmtlIvxgJVa": {
+            "yTwWmhFboNeTNEmb": {
               "type": "damage",
-              "_id": "hF9KeWmtlIvxgJVa",
-              "_key": "hF9KeWmtlIvxgJVa",
+              "_id": "yTwWmhFboNeTNEmb",
+              "_key": "yTwWmhFboNeTNEmb",
               "name": "",
               "damage": {
                 "tier1": {
@@ -321,10 +326,10 @@
                 }
               }
             },
-            "U3m23txCRRX2aDji": {
+            "XlfmPUFU5OWuGlZv": {
               "type": "applied",
-              "_id": "U3m23txCRRX2aDji",
-              "_key": "U3m23txCRRX2aDji",
+              "_id": "XlfmPUFU5OWuGlZv",
+              "_key": "XlfmPUFU5OWuGlZv",
               "name": "",
               "applied": {
                 "tier1": {
@@ -352,7 +357,10 @@
             }
           }
         },
-        "effect": "If the legate charges while using this ability, they ignore difficult terrain and target each creature and object they move through with the power roll (but not its additional effects).",
+        "effect": {
+          "before": "",
+          "after": "If the legate charges while using this ability, they ignore difficult terrain and target each creature and object they move through with the power roll (but not its additional effects)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -380,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil5aaaaaaaaaa.devil5feature2aa",
-      "_id": "devil5feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil5feature2aa"
     },
     {
       "name": "Law and Order",
@@ -400,6 +406,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -419,7 +427,10 @@
           },
           "effects": null
         },
-        "effect": "The target is taunted by the legate (save ends). The legate can only have one creature taunted at a time.",
+        "effect": {
+          "before": "",
+          "after": "The target is taunted by the legate (save ends). The legate can only have one creature taunted at a time."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -447,9 +458,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil5aaaaaaaaaa.devil5feature3aa",
-      "_id": "devil5feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil5feature3aa"
     },
     {
       "name": "Devilish Charm",
@@ -467,6 +476,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -486,7 +497,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -514,9 +528,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil5aaaaaaaaaa.devil5feature4aa",
-      "_id": "devil5feature4aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "devil5feature4aa"
     },
     {
       "name": "Hellish Bailiff",

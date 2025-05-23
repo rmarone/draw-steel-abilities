@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "OSn1Iddi0J6hsc2E": {
+            "pHwFgWSfbLVTMNH2": {
               "type": "damage",
-              "_id": "OSn1Iddi0J6hsc2E",
-              "_key": "OSn1Iddi0J6hsc2E",
+              "_id": "pHwFgWSfbLVTMNH2",
+              "_key": "pHwFgWSfbLVTMNH2",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "Mpc5W64ARspIbvpl": {
+            "tqgFLpEWkuDVCtU0": {
               "type": "applied",
-              "_id": "Mpc5W64ARspIbvpl",
-              "_key": "Mpc5W64ARspIbvpl",
+              "_id": "tqgFLpEWkuDVCtU0",
+              "_key": "tqgFLpEWkuDVCtU0",
               "name": "",
               "applied": {
                 "tier1": {
@@ -214,7 +216,10 @@
             }
           }
         },
-        "effect": "The potency of ability used against a target bleeding from this ability increase by 1.",
+        "effect": {
+          "before": "",
+          "after": "The potency of ability used against a target bleeding from this ability increase by 1."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -242,9 +247,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature2",
-      "_id": "dead2nd9feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd9feature2"
     },
     {
       "name": "Binding Curse",
@@ -263,6 +266,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -283,10 +288,10 @@
             ]
           },
           "effects": {
-            "1bZBETZBA9ccDcfK": {
+            "c3r0NSp7D7HyZkWk": {
               "type": "damage",
-              "_id": "1bZBETZBA9ccDcfK",
-              "_key": "1bZBETZBA9ccDcfK",
+              "_id": "c3r0NSp7D7HyZkWk",
+              "_key": "c3r0NSp7D7HyZkWk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -324,10 +329,10 @@
                 }
               }
             },
-            "JdEXNga03fAMqgdT": {
+            "ire077jbG2zVo8ae": {
               "type": "applied",
-              "_id": "JdEXNga03fAMqgdT",
-              "_key": "JdEXNga03fAMqgdT",
+              "_id": "ire077jbG2zVo8ae",
+              "_key": "ire077jbG2zVo8ae",
               "name": "",
               "applied": {
                 "tier1": {
@@ -355,7 +360,10 @@
             }
           }
         },
-        "effect": "A target frightened by this ability takes 4 psychic damage whenever they use a move action until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A target frightened by this ability takes 4 psychic damage whenever they use a move action until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -383,9 +391,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature3",
-      "_id": "dead2nd9feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "dead2nd9feature3"
     },
     {
       "name": "Summon My Guard!",
@@ -403,6 +409,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -422,7 +430,10 @@
           },
           "effects": null
         },
-        "effect": "Two **mummies** and 4 **ghoul carvers** appear within distance.",
+        "effect": {
+          "before": "",
+          "after": "Two **mummies** and 4 **ghoul carvers** appear within distance."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -450,9 +461,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature4",
-      "_id": "dead2nd9feature4",
-      "category": "heroic",
-      "resource": 2
+      "_id": "dead2nd9feature4"
     },
     {
       "name": "Cursed Transference",
@@ -470,8 +479,9 @@
 
         ],
         "type": "no action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
-        "distance": null,
         "damageDisplay": "melee",
         "target": {
           "type": null,
@@ -484,7 +494,10 @@
           },
           "effects": null
         },
-        "effect": "At the end of their turn, the mummy lord can take 10 damage to end one save ends effect affecting them. This damage can't be reduced in any way.",
+        "effect": {
+          "before": "",
+          "after": "At the end of their turn, the mummy lord can take 10 damage to end one save ends effect affecting them. This damage can't be reduced in any way."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -512,9 +525,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature5",
-      "_id": "dead2nd9feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd9feature5"
     },
     {
       "name": "Plague of Flies",
@@ -533,6 +544,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -553,10 +566,10 @@
             ]
           },
           "effects": {
-            "5bDNUbLKZyjklgG9": {
+            "YfZJz9O8OIiroTNx": {
               "type": "damage",
-              "_id": "5bDNUbLKZyjklgG9",
-              "_key": "5bDNUbLKZyjklgG9",
+              "_id": "YfZJz9O8OIiroTNx",
+              "_key": "YfZJz9O8OIiroTNx",
               "name": "",
               "damage": {
                 "tier1": {
@@ -596,7 +609,10 @@
             }
           }
         },
-        "effect": "Each target has a bane on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "Each target has a bane on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -624,9 +640,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature6",
-      "_id": "dead2nd9feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd9feature6"
     },
     {
       "name": "Land's Guardian",
@@ -644,6 +658,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -663,7 +679,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -691,9 +710,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature7",
-      "_id": "dead2nd9feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd9feature7"
     },
     {
       "name": "Unbound Horrors",
@@ -712,6 +729,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -732,10 +751,10 @@
             ]
           },
           "effects": {
-            "x6O5mF4KTX2mjhZ1": {
+            "mwFd3gANgw9zpR7t": {
               "type": "damage",
-              "_id": "x6O5mF4KTX2mjhZ1",
-              "_key": "x6O5mF4KTX2mjhZ1",
+              "_id": "mwFd3gANgw9zpR7t",
+              "_key": "mwFd3gANgw9zpR7t",
               "name": "",
               "damage": {
                 "tier1": {
@@ -773,10 +792,10 @@
                 }
               }
             },
-            "MrnHWt3CgC28t7JS": {
+            "0wSnbNVjNXMsHr4e": {
               "type": "applied",
-              "_id": "MrnHWt3CgC28t7JS",
-              "_key": "MrnHWt3CgC28t7JS",
+              "_id": "0wSnbNVjNXMsHr4e",
+              "_key": "0wSnbNVjNXMsHr4e",
               "name": "",
               "applied": {
                 "tier1": {
@@ -804,7 +823,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -832,9 +854,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd9aaaaaa.dead2nd9feature9",
-      "_id": "dead2nd9feature9",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd9feature9"
     }
   ],
   "effects": [

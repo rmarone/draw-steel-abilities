@@ -15,6 +15,8 @@
       "weapon"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "The damage is halved. If any effect of the damage has a potency effect, you decrease the potency by 1.",
+    "effect": {
+      "before": "",
+      "after": "The damage is halved. If any effect of the damage has a potency effect, you decrease the potency by 1."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-sub-3-1-3!astring",
-  "_id": "tacticiansub313a",
-  "category": "signature",
-  "resource": null
+  "_id": "tacticiansub313a"
 }

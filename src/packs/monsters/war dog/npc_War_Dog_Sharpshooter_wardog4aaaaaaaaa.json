@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "IlZzM6cHDTR3NIN3": {
+            "xsipOdIUnuMTioUB": {
               "type": "damage",
-              "_id": "IlZzM6cHDTR3NIN3",
-              "_key": "IlZzM6cHDTR3NIN3",
+              "_id": "xsipOdIUnuMTioUB",
+              "_key": "xsipOdIUnuMTioUB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "This ability ignores cover and concealment.",
+        "effect": {
+          "before": "",
+          "after": "This ability ignores cover and concealment."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog4aaaaaaaaa.wardog4feature1a",
-      "_id": "wardog4feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog4feature1a"
     },
     {
       "name": "Loyalty Collar",

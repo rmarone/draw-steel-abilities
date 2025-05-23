@@ -17,11 +17,13 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "cfCWUNXieetxgbdL": {
+        "zgdZwoY4Jnw9eiLz": {
           "type": "damage",
-          "_id": "cfCWUNXieetxgbdL",
-          "_key": "cfCWUNXieetxgbdL",
+          "_id": "zgdZwoY4Jnw9eiLz",
+          "_key": "zgdZwoY4Jnw9eiLz",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "One ally within 10 squares can end one effect on them that is ended by a saving throw or that ends at the end of their turn.",
+    "effect": {
+      "before": "",
+      "after": "One ally within 10 squares can end one effect on them that is ended by a saving throw or that ends at the end of their turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-4!astring",
-  "_id": "oubadourability4",
-  "category": "signature",
-  "resource": null
+  "_id": "oubadourability4"
 }

@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "YjowwzOwWG7sZti8": {
+            "umr33CZ4A6JCTF2f": {
               "type": "damage",
-              "_id": "YjowwzOwWG7sZti8",
-              "_key": "YjowwzOwWG7sZti8",
+              "_id": "umr33CZ4A6JCTF2f",
+              "_key": "umr33CZ4A6JCTF2f",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "2o3k0Lxe44QRGgw1": {
+            "SLaL0yoD0xNaSim3": {
               "type": "forced",
-              "_id": "2o3k0Lxe44QRGgw1",
-              "_key": "2o3k0Lxe44QRGgw1",
+              "_id": "SLaL0yoD0xNaSim3",
+              "_key": "SLaL0yoD0xNaSim3",
               "name": "",
               "forced": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc3aaaaaaaaaaaa.orc3feature1aaaa",
-      "_id": "orc3feature1aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc3feature1aaaa"
     },
     {
       "name": "Bloodfire Burn",

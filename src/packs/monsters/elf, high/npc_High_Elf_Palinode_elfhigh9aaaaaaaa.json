@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "eO1cukREjE27O2vy": {
+            "moUJXBgooRM3nSUt": {
               "type": "damage",
-              "_id": "eO1cukREjE27O2vy",
-              "_key": "eO1cukREjE27O2vy",
+              "_id": "moUJXBgooRM3nSUt",
+              "_key": "moUJXBgooRM3nSUt",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "uQoAmazs6anOkJJH": {
+            "96Jfnf52V0gu2doy": {
               "type": "applied",
-              "_id": "uQoAmazs6anOkJJH",
-              "_key": "uQoAmazs6anOkJJH",
+              "_id": "96Jfnf52V0gu2doy",
+              "_key": "96Jfnf52V0gu2doy",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh9aaaaaaaa.elfhigh9feature1",
-      "_id": "elfhigh9feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh9feature1"
     },
     {
       "name": "Recall",
@@ -259,6 +262,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -278,7 +283,10 @@
           },
           "effects": null
         },
-        "effect": "Each target is teleported to an unoccupied square adjacent to the palinode. Then, the palinode and each target gain 5 temporary Stamina.",
+        "effect": {
+          "before": "",
+          "after": "Each target is teleported to an unoccupied square adjacent to the palinode. Then, the palinode and each target gain 5 temporary Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -306,9 +314,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh9aaaaaaaa.elfhigh9feature2",
-      "_id": "elfhigh9feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh9feature2"
     },
     {
       "name": "Otherwordly Grace",

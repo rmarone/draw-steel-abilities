@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "0R47rUWNRRc6p7oJ": {
+            "FFYHe62S5PnZnIWA": {
               "type": "damage",
-              "_id": "0R47rUWNRRc6p7oJ",
-              "_key": "0R47rUWNRRc6p7oJ",
+              "_id": "FFYHe62S5PnZnIWA",
+              "_key": "FFYHe62S5PnZnIWA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "TMSgI2VQrhPEDlyE": {
+            "34Woffrjh3PqwuJi": {
               "type": "applied",
-              "_id": "TMSgI2VQrhPEDlyE",
-              "_key": "TMSgI2VQrhPEDlyE",
+              "_id": "34Woffrjh3PqwuJi",
+              "_key": "34Woffrjh3PqwuJi",
               "name": "",
               "applied": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin152aaaa",
-      "_id": "hobgoblin152aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin152aaaa"
     },
     {
       "name": "Take Point!",
@@ -265,6 +268,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "The target moves up to their speed and uses a signature action.",
+        "effect": {
+          "before": "",
+          "after": "The target moves up to their speed and uses a signature action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin153aaaa",
-      "_id": "hobgoblin153aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin153aaaa"
     },
     {
       "name": "An Army From Blood",
@@ -332,6 +338,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -351,7 +359,10 @@
           },
           "effects": null
         },
-        "effect": "3 hobgoblin recruits crawl out of the target’s blood and appear in unoccupied spaces adjacent to the target.",
+        "effect": {
+          "before": "",
+          "after": "3 hobgoblin recruits crawl out of the target’s blood and appear in unoccupied spaces adjacent to the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -379,9 +390,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin154aaaa",
-      "_id": "hobgoblin154aaaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "hobgoblin154aaaa"
     },
     {
       "name": "Infernal Ichor",
@@ -425,6 +434,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -444,7 +455,10 @@
           },
           "effects": null
         },
-        "effect": "Each target gains 10 temporary Stamina, moves up to their speed, and makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "Each target gains 10 temporary Stamina, moves up to their speed, and makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -472,9 +486,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin157aaaa",
-      "_id": "hobgoblin157aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin157aaaa"
     },
     {
       "name": "Skulls Abound",
@@ -494,6 +506,8 @@
           "melee"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "aura",
@@ -513,7 +527,10 @@
           },
           "effects": null
         },
-        "effect": "The bloodlord surrounds themselves with a storm of flying skulls until the end of the encounter. An enemy that first enters the aura or starts their turn there takes 8 corruption damage and has a bane on their next power roll until the start of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "The bloodlord surrounds themselves with a storm of flying skulls until the end of the encounter. An enemy that first enters the aura or starts their turn there takes 8 corruption damage and has a bane on their next power roll until the start of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -541,9 +558,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin158aaaa",
-      "_id": "hobgoblin158aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin158aaaa"
     },
     {
       "name": "I am Fire! I am Death!",
@@ -563,6 +578,8 @@
           "melee"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -583,10 +600,10 @@
             ]
           },
           "effects": {
-            "V2ElDaww0rTXP5NZ": {
+            "ODRXpQgkG1ASjP5y": {
               "type": "damage",
-              "_id": "V2ElDaww0rTXP5NZ",
-              "_key": "V2ElDaww0rTXP5NZ",
+              "_id": "ODRXpQgkG1ASjP5y",
+              "_key": "ODRXpQgkG1ASjP5y",
               "name": "",
               "damage": {
                 "tier1": {
@@ -624,10 +641,10 @@
                 }
               }
             },
-            "cYnOdvqOG31W9lPx": {
+            "mlpSSpZ5Wn1e3VZG": {
               "type": "forced",
-              "_id": "cYnOdvqOG31W9lPx",
-              "_key": "cYnOdvqOG31W9lPx",
+              "_id": "mlpSSpZ5Wn1e3VZG",
+              "_key": "mlpSSpZ5Wn1e3VZG",
               "name": "",
               "forced": {
                 "tier1": {
@@ -655,7 +672,10 @@
             }
           }
         },
-        "effect": "The bloodlord is wreathed in black flames until the end of the encounter. When an adjacent enemy touches or uses a melee ability against the bloodlord, they take 5 corruption damage.",
+        "effect": {
+          "before": "",
+          "after": "The bloodlord is wreathed in black flames until the end of the encounter. When an adjacent enemy touches or uses a melee ability against the bloodlord, they take 5 corruption damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -683,9 +703,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin15aaaaa.hobgoblin159aaaa",
-      "_id": "hobgoblin159aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin159aaaa"
     }
   ],
   "effects": [

@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "sChHkhSPBiflo8JY": {
+            "QzVb0iNLhJgPFv1s": {
               "type": "damage",
-              "_id": "sChHkhSPBiflo8JY",
-              "_key": "sChHkhSPBiflo8JY",
+              "_id": "QzVb0iNLhJgPFv1s",
+              "_key": "QzVb0iNLhJgPFv1s",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "P9aUCqA7Kxgo2d7P": {
+            "6Awx19fHnDnJzF5d": {
               "type": "applied",
-              "_id": "P9aUCqA7Kxgo2d7P",
-              "_key": "P9aUCqA7Kxgo2d7P",
+              "_id": "6Awx19fHnDnJzF5d",
+              "_key": "6Awx19fHnDnJzF5d",
               "name": "",
               "applied": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "Each ally adjacent to a target of this ability can make a free strike.",
+        "effect": {
+          "before": "",
+          "after": "Each ally adjacent to a target of this ability can make a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature1",
-      "_id": "kobold10feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature1"
     },
     {
       "name": "Concentrate All Fire on That Hero!",
@@ -264,6 +267,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "The target is marked until the start of the centurion’s next turn. The centurion and each of their allies have an edge on power rolls made against targets marked by the centurion.",
+        "effect": {
+          "before": "",
+          "after": "The target is marked until the start of the centurion’s next turn. The centurion and each of their allies have an edge on power rolls made against targets marked by the centurion."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature2",
-      "_id": "kobold10feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature2"
     },
     {
       "name": "Testudo!",
@@ -331,6 +337,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -350,7 +358,10 @@
           },
           "effects": null
         },
-        "effect": "Each target shifts 2 before the damage is resolved. All kobolds with Shield? Shield! has damage immunity 2 against the triggering ability.",
+        "effect": {
+          "before": "",
+          "after": "Each target shifts 2 before the damage is resolved. All kobolds with Shield? Shield! has damage immunity 2 against the triggering ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature3",
-      "_id": "kobold10feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature3"
     },
     {
       "name": "Firetail Pilum",
@@ -399,6 +408,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -418,7 +429,10 @@
           },
           "effects": null
         },
-        "effect": "The centurion uses Pilum against each target, dealing an additional 5 damage. Each weakened target takes 2 fire damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "The centurion uses Pilum against each target, dealing an additional 5 damage. Each weakened target takes 2 fire damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -446,9 +460,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature4",
-      "_id": "kobold10feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature4"
     },
     {
       "name": "Boom Pilum!",
@@ -467,6 +479,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -486,7 +500,10 @@
           },
           "effects": null
         },
-        "effect": "The centurion uses Pilum against each target with a double edge. Each target is then pushed 3.",
+        "effect": {
+          "before": "",
+          "after": "The centurion uses Pilum against each target with a double edge. Each target is then pushed 3."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -514,9 +531,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature5",
-      "_id": "kobold10feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature5"
     },
     {
       "name": "Are You Not Entertained?",
@@ -536,6 +551,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -555,7 +572,10 @@
           },
           "effects": null
         },
-        "effect": "Each target is P<2 taunted (save ends). For the rest of the encounter the centurion has damage immunity 2. All allies within 10 of the centurion can make a free strike.",
+        "effect": {
+          "before": "",
+          "after": "Each target is P<2 taunted (save ends). For the rest of the encounter the centurion has damage immunity 2. All allies within 10 of the centurion can make a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -583,9 +603,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold10aaaaaaaa.kobold10feature6",
-      "_id": "kobold10feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold10feature6"
     },
     {
       "name": "End Effect",

@@ -124,11 +124,13 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "bEV8AUqJCSJdZIVC": {
+            "MpRpGuBeQNSHRMHS": {
               "type": "damage",
-              "_id": "bEV8AUqJCSJdZIVC",
-              "_key": "bEV8AUqJCSJdZIVC",
+              "_id": "MpRpGuBeQNSHRMHS",
+              "_key": "MpRpGuBeQNSHRMHS",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "6ykvC3mH6JJMxyKW": {
+            "FHFldOOXzhNsTiOu": {
               "type": "applied",
-              "_id": "6ykvC3mH6JJMxyKW",
-              "_key": "6ykvC3mH6JJMxyKW",
+              "_id": "FHFldOOXzhNsTiOu",
+              "_key": "FHFldOOXzhNsTiOu",
               "name": "",
               "applied": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.stalker7feature1",
-      "_id": "stalker7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker7feature1"
     },
     {
       "name": "Carpe Quadratum",
@@ -264,6 +267,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "The evolutionist teleports, swapping places with one creature within 5.",
+        "effect": {
+          "before": "",
+          "after": "The evolutionist teleports, swapping places with one creature within 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.stalker7feature2",
-      "_id": "stalker7feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker7feature2"
     },
     {
       "name": "Adapability",
@@ -331,6 +337,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -350,7 +358,10 @@
           },
           "effects": null
         },
-        "effect": "The evolutionist gains immunity 5 to the triggering type of damage until the start of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "The evolutionist gains immunity 5 to the triggering type of damage until the start of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.stalker7feature3",
-      "_id": "stalker7feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker7feature3"
     },
     {
       "name": "End Effect",
@@ -425,6 +434,8 @@
           "psionic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -444,7 +455,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -472,9 +486,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.stalker7feature8",
-      "_id": "stalker7feature8",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker7feature8"
     },
     {
       "name": "Release the Tralls",
@@ -492,6 +504,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -511,7 +525,10 @@
           },
           "effects": null
         },
-        "effect": "The evolutionist teleports 3 minions of level 4 or lower into unoccupied squares within distance. All three minions can be from any monster type but must share the same name.",
+        "effect": {
+          "before": "",
+          "after": "The evolutionist teleports 3 minions of level 4 or lower into unoccupied squares within distance. All three minions can be from any monster type but must share the same name."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -539,9 +556,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.stalker7feature9",
-      "_id": "stalker7feature9",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker7feature9"
     },
     {
       "name": "Brainstorm",
@@ -560,6 +575,8 @@
           "psionic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -580,10 +597,10 @@
             ]
           },
           "effects": {
-            "QdH84j3BcCZWT3De": {
+            "oJU7CLbsyGkluyGV": {
               "type": "damage",
-              "_id": "QdH84j3BcCZWT3De",
-              "_key": "QdH84j3BcCZWT3De",
+              "_id": "oJU7CLbsyGkluyGV",
+              "_key": "oJU7CLbsyGkluyGV",
               "name": "",
               "damage": {
                 "tier1": {
@@ -623,7 +640,10 @@
             }
           }
         },
-        "effect": "The evolutionist is surrounded by a psionic electrical storm until the end of the encounter. The area within 5 of them is considered difficult terrain for enemies. An enemy who enters an affected square for the first time on their turn or starts their turn in it takes 8 lightning damage.",
+        "effect": {
+          "before": "",
+          "after": "The evolutionist is surrounded by a psionic electrical storm until the end of the encounter. The area within 5 of them is considered difficult terrain for enemies. An enemy who enters an affected square for the first time on their turn or starts their turn in it takes 8 lightning damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -651,9 +671,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker7.talker7feature10",
-      "_id": "talker7feature10",
-      "category": "signature",
-      "resource": null
+      "_id": "talker7feature10"
     }
   ],
   "effects": [

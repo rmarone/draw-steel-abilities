@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "4XZuz9TPH9MzrCRj": {
+        "4COq1Ypc3H0xH8TB": {
           "type": "damage",
-          "_id": "4XZuz9TPH9MzrCRj",
-          "_key": "4XZuz9TPH9MzrCRj",
+          "_id": "4COq1Ypc3H0xH8TB",
+          "_key": "4COq1Ypc3H0xH8TB",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "Ch0HB3gRoBhKA8qp": {
+        "diqfGBurJWt4cnm7": {
           "type": "applied",
-          "_id": "Ch0HB3gRoBhKA8qp",
-          "_key": "Ch0HB3gRoBhKA8qp",
+          "_id": "diqfGBurJWt4cnm7",
+          "_key": "diqfGBurJWt4cnm7",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-16!astring",
-  "_id": "shadowability16a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "shadowability16a"
 }

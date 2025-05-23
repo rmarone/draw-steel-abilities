@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 2,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "Sr0yH77FH6v9Wamy": {
+            "qir4jyG9aRG9NJNy": {
               "type": "damage",
-              "_id": "Sr0yH77FH6v9Wamy",
-              "_key": "Sr0yH77FH6v9Wamy",
+              "_id": "qir4jyG9aRG9NJNy",
+              "_key": "qir4jyG9aRG9NJNy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "vtg1XW15ur86DsCW": {
+            "NQafD9WBxZXuFWR1": {
               "type": "forced",
-              "_id": "vtg1XW15ur86DsCW",
-              "_key": "vtg1XW15ur86DsCW",
+              "_id": "NQafD9WBxZXuFWR1",
+              "_key": "NQafD9WBxZXuFWR1",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -211,7 +213,10 @@
             }
           }
         },
-        "effect": "The lancer deals an additional 2 damage if they strike the target from 1 or more squares above.",
+        "effect": {
+          "before": "",
+          "after": "The lancer deals an additional 2 damage if they strike the target from 1 or more squares above."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -239,9 +244,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin3aaaaaa.hobgoblin32aaaaa",
-      "_id": "hobgoblin32aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin32aaaaa"
     },
     {
       "name": "Infernal Ichor",

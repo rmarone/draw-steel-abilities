@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "duFCWkprXymaAq7c": {
+            "6uGRyQoZMwAL84yE": {
               "type": "damage",
-              "_id": "duFCWkprXymaAq7c",
-              "_key": "duFCWkprXymaAq7c",
+              "_id": "6uGRyQoZMwAL84yE",
+              "_key": "6uGRyQoZMwAL84yE",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "Y7LnDHZimdncNojy": {
+            "5mIhEHmMHBRVoRGM": {
               "type": "applied",
-              "_id": "Y7LnDHZimdncNojy",
-              "_key": "Y7LnDHZimdncNojy",
+              "_id": "5mIhEHmMHBRVoRGM",
+              "_key": "5mIhEHmMHBRVoRGM",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The next time the target strikes the daybringer, they immediately take 4 acid damage.",
+        "effect": {
+          "before": "",
+          "after": "The next time the target strikes the daybringer, they immediately take 4 acid damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature1",
-      "_id": "ngulotl8feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature1"
     },
     {
       "name": "Sun Lamp",
@@ -263,6 +266,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The daybringer expands their throat to resemble the sun until the start of their next turn. Each non-minion angulotl who starts their turn within 10 of the daybringer gains 5 temporary Stamina and has their Speed increased by 3 until the end of their turn.",
+        "effect": {
+          "before": "",
+          "after": "The daybringer expands their throat to resemble the sun until the start of their next turn. Each non-minion angulotl who starts their turn within 10 of the daybringer gains 5 temporary Stamina and has their Speed increased by 3 until the end of their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature2",
-      "_id": "ngulotl8feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature2"
     },
     {
       "name": "Tongue Slap",
@@ -330,6 +336,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -349,7 +357,10 @@
           },
           "effects": null
         },
-        "effect": "The daybringer reduces the power roll result by 1 tier.",
+        "effect": {
+          "before": "",
+          "after": "The daybringer reduces the power roll result by 1 tier."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -377,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature3",
-      "_id": "ngulotl8feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature3"
     },
     {
       "name": "Moisturizing End Effect",
@@ -410,6 +419,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -429,7 +440,10 @@
           },
           "effects": null
         },
-        "effect": "Ten **angulotl pollywogs** escape the daybringer's back and waddle into unoccupied squares within distance.",
+        "effect": {
+          "before": "",
+          "after": "Ten **angulotl pollywogs** escape the daybringer's back and waddle into unoccupied squares within distance."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -457,9 +471,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature5",
-      "_id": "ngulotl8feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature5"
     },
     {
       "name": "Plague of Frogs",
@@ -477,6 +489,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -496,7 +510,10 @@
           },
           "effects": null
         },
-        "effect": "Each target jumps 4 and makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "Each target jumps 4 and makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -524,9 +541,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature6",
-      "_id": "ngulotl8feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature6"
     },
     {
       "name": "It Is Day",
@@ -544,6 +559,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "special",
@@ -563,7 +580,10 @@
           },
           "effects": null
         },
-        "effect": "The encounter map dries up and becomes illuminated. Each wet enemy has the wet condition end and takes 6 acid damage. All angulotls have a double edge on their next attack.",
+        "effect": {
+          "before": "",
+          "after": "The encounter map dries up and becomes illuminated. Each wet enemy has the wet condition end and takes 6 acid damage. All angulotls have a double edge on their next attack."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -591,9 +611,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl10aaaaaa.ngulotl8feature7",
-      "_id": "ngulotl8feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl8feature7"
     },
     {
       "name": "Toxiferous",

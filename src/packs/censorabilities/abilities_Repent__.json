@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "VnFaMf2dfwnEO9gg": {
+        "jkFE3eRF5G2hlMa5": {
           "type": "damage",
-          "_id": "VnFaMf2dfwnEO9gg",
-          "_key": "VnFaMf2dfwnEO9gg",
+          "_id": "jkFE3eRF5G2hlMa5",
+          "_key": "jkFE3eRF5G2hlMa5",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "G1X6PAar6dAJ3xVm": {
+        "vkghfOfsTkyRaY23": {
           "type": "applied",
-          "_id": "G1X6PAar6dAJ3xVm",
-          "_key": "G1X6PAar6dAJ3xVm",
+          "_id": "vkghfOfsTkyRaY23",
+          "_key": "vkghfOfsTkyRaY23",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-8!astring",
-  "_id": "censorability8aa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "censorability8aa"
 }

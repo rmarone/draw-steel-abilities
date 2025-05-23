@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "8spOBvw3lnlVY4Xt": {
+            "hkivKuUdqQddQvLF": {
               "type": "damage",
-              "_id": "8spOBvw3lnlVY4Xt",
-              "_key": "8spOBvw3lnlVY4Xt",
+              "_id": "hkivKuUdqQddQvLF",
+              "_key": "hkivKuUdqQddQvLF",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl5aaaaaaa.ngulotl5feature1",
-      "_id": "ngulotl5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl5feature1"
     },
     {
       "name": "Camoufroge",
@@ -234,6 +237,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "The needler isn’t revealed after using their next action.",
+        "effect": {
+          "before": "",
+          "after": "The needler isn’t revealed after using their next action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl5aaaaaaa.ngulotl5feature2",
-      "_id": "ngulotl5feature2",
-      "category": "heroic",
-      "resource": 1
+      "_id": "ngulotl5feature2"
     },
     {
       "name": "Toxiferous",

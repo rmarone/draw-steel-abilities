@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -35,10 +37,10 @@
         ]
       },
       "effects": {
-        "EifH6MiBHt7Gj0Ib": {
+        "hFtsPtQeX1LOuENo": {
           "type": "applied",
-          "_id": "EifH6MiBHt7Gj0Ib",
-          "_key": "EifH6MiBHt7Gj0Ib",
+          "_id": "hFtsPtQeX1LOuENo",
+          "_key": "hFtsPtQeX1LOuENo",
           "name": "",
           "applied": {
             "tier1": {
@@ -66,7 +68,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -94,7 +99,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-9!astring",
-  "_id": "oubadourability9",
-  "category": "heroic",
-  "resource": 5
+  "_id": "oubadourability9"
 }

@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "2OTsmMZxT8faRqGi": {
+        "8zKlHc0XaFPTa5wn": {
           "type": "damage",
-          "_id": "2OTsmMZxT8faRqGi",
-          "_key": "2OTsmMZxT8faRqGi",
+          "_id": "8zKlHc0XaFPTa5wn",
+          "_key": "8zKlHc0XaFPTa5wn",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "Hr4hQSnYtMamT4dO": {
+        "UD46JAtn7v5YId4o": {
           "type": "applied",
-          "_id": "Hr4hQSnYtMamT4dO",
-          "_key": "Hr4hQSnYtMamT4dO",
+          "_id": "UD46JAtn7v5YId4o",
+          "_key": "UD46JAtn7v5YId4o",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-boren-signature!astring",
-  "_id": "itborensignature",
-  "category": "signature",
-  "resource": null
+  "_id": "itborensignature"
 }

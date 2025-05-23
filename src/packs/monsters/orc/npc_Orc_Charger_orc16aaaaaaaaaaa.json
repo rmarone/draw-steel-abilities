@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -149,10 +151,10 @@
             ]
           },
           "effects": {
-            "X8rklFgHE5suLB7O": {
+            "Polcqjh9J82uGKqo": {
               "type": "damage",
-              "_id": "X8rklFgHE5suLB7O",
-              "_key": "X8rklFgHE5suLB7O",
+              "_id": "Polcqjh9J82uGKqo",
+              "_key": "Polcqjh9J82uGKqo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -192,7 +194,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -220,9 +225,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!orc16aaaaaaaaaaa.orc16feature1aaa",
-      "_id": "orc16feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "orc16feature1aaa"
     },
     {
       "name": "Relentless",

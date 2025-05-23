@@ -123,6 +123,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "4JCmyIgkbCBut3Jw": {
+            "cyHn6bombyxNBHvk": {
               "type": "damage",
-              "_id": "4JCmyIgkbCBut3Jw",
-              "_key": "4JCmyIgkbCBut3Jw",
+              "_id": "cyHn6bombyxNBHvk",
+              "_key": "cyHn6bombyxNBHvk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "NN53jWZFZzmo55Ao": {
+            "N8jNQjtE7Zy8x1sP": {
               "type": "applied",
-              "_id": "NN53jWZFZzmo55Ao",
-              "_key": "NN53jWZFZzmo55Ao",
+              "_id": "N8jNQjtE7Zy8x1sP",
+              "_key": "N8jNQjtE7Zy8x1sP",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The area is covered in a cloud of pestilence that lasts until the start of the pestilite’s next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.",
+        "effect": {
+          "before": "",
+          "after": "The area is covered in a cloud of pestilence that lasts until the start of the pestilite’s next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog9aaaaaaaaa.wardog9feature2a",
-      "_id": "wardog9feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog9feature2a"
     },
     {
       "name": "Posthumous Promotion",
@@ -264,6 +267,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -283,7 +288,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -311,9 +319,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog9aaaaaaaaa.wardog9feature3a",
-      "_id": "wardog9feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog9feature3a"
     },
     {
       "name": "Loyalty Collar",

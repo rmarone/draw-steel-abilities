@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "3VANjWEcaPYrK9wn": {
+            "W5j0bPyacez5m6UA": {
               "type": "damage",
-              "_id": "3VANjWEcaPYrK9wn",
-              "_key": "3VANjWEcaPYrK9wn",
+              "_id": "W5j0bPyacez5m6UA",
+              "_key": "W5j0bPyacez5m6UA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The commando can use the Hide maneuver, even if observed.",
+        "effect": {
+          "before": "",
+          "after": "The commando can use the Hide maneuver, even if observed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog1aaaaaaaaa.wardog1feature2a",
-      "_id": "wardog1feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog1feature2a"
     },
     {
       "name": "Loyalty Collar",

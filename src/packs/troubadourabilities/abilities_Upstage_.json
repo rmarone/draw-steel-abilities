@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "j91Ul6MPMKRBOhxv": {
+        "14Wy9NdAiz1qelyR": {
           "type": "applied",
-          "_id": "j91Ul6MPMKRBOhxv",
-          "_key": "j91Ul6MPMKRBOhxv",
+          "_id": "14Wy9NdAiz1qelyR",
+          "_key": "14Wy9NdAiz1qelyR",
           "name": "",
           "applied": {
             "tier1": {
@@ -68,7 +70,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -96,7 +101,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-8!astring",
-  "_id": "oubadourability8",
-  "category": "heroic",
-  "resource": 3
+  "_id": "oubadourability8"
 }

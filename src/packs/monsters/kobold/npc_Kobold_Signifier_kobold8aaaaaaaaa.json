@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "Okee6e3hmNGbuSUt": {
+            "5n3fMX9ORbQYv8BA": {
               "type": "damage",
-              "_id": "Okee6e3hmNGbuSUt",
-              "_key": "Okee6e3hmNGbuSUt",
+              "_id": "5n3fMX9ORbQYv8BA",
+              "_key": "5n3fMX9ORbQYv8BA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "An ally within 10 can shift their speed, so long as they end their movement adjacent to an ally.",
+        "effect": {
+          "before": "",
+          "after": "An ally within 10 can shift their speed, so long as they end their movement adjacent to an ally."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold8aaaaaaaaa.kobold8feature1a",
-      "_id": "kobold8feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold8feature1a"
     },
     {
       "name": "Glory to the Legion",
@@ -234,6 +237,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "Each target regains 5 stamina.",
+        "effect": {
+          "before": "",
+          "after": "Each target regains 5 stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold8aaaaaaaaa.kobold8feature2a",
-      "_id": "kobold8feature2a",
-      "category": "heroic",
-      "resource": 5
+      "_id": "kobold8feature2a"
     },
     {
       "name": "Upholding High Standards",

@@ -1,15 +1,15 @@
-2025/05/19-00:42:16.161 49c0 Recovering log #322
-2025/05/19-00:42:16.398 49c0 Delete type=0 #322
-2025/05/19-00:42:16.398 49c0 Delete type=3 #320
-2025/05/19-00:42:16.450 7104 Level-0 table #328: started
-2025/05/19-00:42:16.502 7104 Level-0 table #328: 12392 bytes OK
-2025/05/19-00:42:16.542 7104 Delete type=0 #326
-2025/05/19-00:42:16.542 7104 Manual compaction at level-0 from '!items!shadow-1-5!astring' @ 72057594037927935 : 1 .. '!items!shadow-sub-3-1-3!astring' @ 0 : 0; will stop at (end)
-2025/05/19-00:42:16.543 7104 Manual compaction at level-1 from '!items!shadow-1-5!astring' @ 72057594037927935 : 1 .. '!items!shadow-sub-3-1-3!astring' @ 0 : 0; will stop at '!items!shadow-sub-3-1-3!astring' @ 2595 : 1
-2025/05/19-00:42:16.543 7104 Compacting 1@1 + 1@2 files
-2025/05/19-00:42:16.608 7104 Generated table #329@1: 24 keys, 12392 bytes
-2025/05/19-00:42:16.608 7104 Compacted 1@1 + 1@2 files => 12392 bytes
-2025/05/19-00:42:16.650 7104 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/19-00:42:16.650 7104 Delete type=2 #324
-2025/05/19-00:42:16.651 7104 Delete type=2 #328
-2025/05/19-00:42:16.651 7104 Manual compaction at level-1 from '!items!shadow-sub-3-1-3!astring' @ 2595 : 1 .. '!items!shadow-sub-3-1-3!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:36.324 475c Recovering log #352
+2025/05/23-00:08:36.423 475c Delete type=0 #352
+2025/05/23-00:08:36.423 475c Delete type=3 #350
+2025/05/23-00:08:36.475 3df8 Level-0 table #358: started
+2025/05/23-00:08:36.497 3df8 Level-0 table #358: 16387 bytes OK
+2025/05/23-00:08:36.540 3df8 Delete type=0 #356
+2025/05/23-00:08:36.541 3df8 Manual compaction at level-0 from '!items!shadow-1-5!astring' @ 72057594037927935 : 1 .. '!items!shadow-sub-3-2-1b!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:36.541 3df8 Manual compaction at level-1 from '!items!shadow-1-5!astring' @ 72057594037927935 : 1 .. '!items!shadow-sub-3-2-1b!astring' @ 0 : 0; will stop at '!items!shadow-sub-3-2-1b!astring' @ 2771 : 1
+2025/05/23-00:08:36.541 3df8 Compacting 1@1 + 1@2 files
+2025/05/23-00:08:36.597 3df8 Generated table #359@1: 30 keys, 16387 bytes
+2025/05/23-00:08:36.597 3df8 Compacted 1@1 + 1@2 files => 16387 bytes
+2025/05/23-00:08:36.647 3df8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/23-00:08:36.647 3df8 Delete type=2 #354
+2025/05/23-00:08:36.647 3df8 Delete type=2 #358
+2025/05/23-00:08:36.648 3df8 Manual compaction at level-1 from '!items!shadow-sub-3-2-1b!astring' @ 2771 : 1 .. '!items!shadow-sub-3-2-1b!astring' @ 0 : 0; will stop at (end)

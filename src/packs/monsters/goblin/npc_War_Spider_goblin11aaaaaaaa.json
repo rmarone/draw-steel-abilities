@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "52HXhuewd9aveqKc": {
+            "Trk5TX62UQbC3Au7": {
               "type": "damage",
-              "_id": "52HXhuewd9aveqKc",
-              "_key": "52HXhuewd9aveqKc",
+              "_id": "Trk5TX62UQbC3Au7",
+              "_key": "Trk5TX62UQbC3Au7",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "a7mtjVOr1LWrKQvb": {
+            "ByKiWZRw30Me3oWb": {
               "type": "applied",
-              "_id": "a7mtjVOr1LWrKQvb",
-              "_key": "a7mtjVOr1LWrKQvb",
+              "_id": "ByKiWZRw30Me3oWb",
+              "_key": "ByKiWZRw30Me3oWb",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin11aaaaaaaa.goblin11feature1",
-      "_id": "goblin11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin11feature1"
     },
     {
       "name": "Leg Blade",
@@ -253,6 +256,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "1LiaZwKqEu6fkbSb": {
+            "EVfHj9hRTXXEi2Ua": {
               "type": "damage",
-              "_id": "1LiaZwKqEu6fkbSb",
-              "_key": "1LiaZwKqEu6fkbSb",
+              "_id": "EVfHj9hRTXXEi2Ua",
+              "_key": "EVfHj9hRTXXEi2Ua",
               "name": "",
               "damage": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin11aaaaaaaa.goblin11feature2",
-      "_id": "goblin11feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin11feature2"
     },
     {
       "name": "Trample",
@@ -366,6 +372,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -385,7 +393,10 @@
           },
           "effects": null
         },
-        "effect": "The spider shifts up to their speed and makes a Leg Blade strike against each creature who comes within 1 of the spider during the move. The spider makes one power roll against all targets.",
+        "effect": {
+          "before": "",
+          "after": "The spider shifts up to their speed and makes a Leg Blade strike against each creature who comes within 1 of the spider during the move. The spider makes one power roll against all targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -413,9 +424,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin11aaaaaaaa.goblin11feature3",
-      "_id": "goblin11feature3",
-      "category": "heroic",
-      "resource": 5
+      "_id": "goblin11feature3"
     },
     {
       "name": "Web",
@@ -434,6 +443,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -454,10 +465,10 @@
             ]
           },
           "effects": {
-            "XlinAVMu2lv9TwGd": {
+            "ax7vdntQEGCNWQg1": {
               "type": "applied",
-              "_id": "XlinAVMu2lv9TwGd",
-              "_key": "XlinAVMu2lv9TwGd",
+              "_id": "ax7vdntQEGCNWQg1",
+              "_key": "ax7vdntQEGCNWQg1",
               "name": "",
               "applied": {
                 "tier1": {
@@ -485,7 +496,10 @@
             }
           }
         },
-        "effect": "The affected area is considered difficult terrain for enemies",
+        "effect": {
+          "before": "",
+          "after": "The affected area is considered difficult terrain for enemies"
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -513,9 +527,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin11aaaaaaaa.goblin11feature4",
-      "_id": "goblin11feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin11feature4"
     },
     {
       "name": "Skitter",
@@ -533,6 +545,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -552,7 +566,10 @@
           },
           "effects": null
         },
-        "effect": "The spider shifts 2. Any damage dealt by the triggering ability is halved.",
+        "effect": {
+          "before": "",
+          "after": "The spider shifts 2. Any damage dealt by the triggering ability is halved."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -580,9 +597,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin11aaaaaaaa.goblin11feature5",
-      "_id": "goblin11feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin11feature5"
     },
     {
       "name": "Ride Launcher",

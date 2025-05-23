@@ -16,6 +16,8 @@
       "telekinesis"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "M4idVddJR2ozWrJG": {
+        "FBBkCFjQFExftbtd": {
           "type": "applied",
-          "_id": "M4idVddJR2ozWrJG",
-          "_key": "M4idVddJR2ozWrJG",
+          "_id": "FBBkCFjQFExftbtd",
+          "_key": "FBBkCFjQFExftbtd",
           "name": "",
           "applied": {
             "tier1": {
@@ -67,7 +69,10 @@
         }
       }
     },
-    "effect": "You can slide the target up to 2 squares before making the power roll.",
+    "effect": {
+      "before": "",
+      "after": "You can slide the target up to 2 squares before making the power roll."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -95,7 +100,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-4!astring",
-  "_id": "talentability4aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability4aa"
 }

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "b8EL4krd7NI4g3GW": {
+            "052FxbrubxBgnIE8": {
               "type": "damage",
-              "_id": "b8EL4krd7NI4g3GW",
-              "_key": "b8EL4krd7NI4g3GW",
+              "_id": "052FxbrubxBgnIE8",
+              "_key": "052FxbrubxBgnIE8",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "iBYfxMJ8nJCZ9wmk": {
+            "Z49jXVDJAQcTNmmT": {
               "type": "applied",
-              "_id": "iBYfxMJ8nJCZ9wmk",
-              "_key": "iBYfxMJ8nJCZ9wmk",
+              "_id": "Z49jXVDJAQcTNmmT",
+              "_key": "Z49jXVDJAQcTNmmT",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The catchpole deals an additional 2 damage to restrained targets.",
+        "effect": {
+          "before": "",
+          "after": "The catchpole deals an additional 2 damage to restrained targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf2aaaaaaaaaa.dwarf2feature1aa",
-      "_id": "dwarf2feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf2feature1aa"
     }
   ],
   "effects": [

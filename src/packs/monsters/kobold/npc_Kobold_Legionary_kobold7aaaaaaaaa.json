@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "EVWlz0U8QQMKnFAs": {
+            "6OLmq0r3DkksVwZ4": {
               "type": "damage",
-              "_id": "EVWlz0U8QQMKnFAs",
-              "_key": "EVWlz0U8QQMKnFAs",
+              "_id": "6OLmq0r3DkksVwZ4",
+              "_key": "6OLmq0r3DkksVwZ4",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "Taunted (EoT).",
+        "effect": {
+          "before": "",
+          "after": "Taunted (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold7aaaaaaaaa.kobold7feature1a",
-      "_id": "kobold7feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold7feature1a"
     },
     {
       "name": "Shield Bash",
@@ -236,6 +239,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -256,10 +261,10 @@
             ]
           },
           "effects": {
-            "sDWTTZpl2jNiHbex": {
+            "INj9VDx6gJAaibzo": {
               "type": "damage",
-              "_id": "sDWTTZpl2jNiHbex",
-              "_key": "sDWTTZpl2jNiHbex",
+              "_id": "INj9VDx6gJAaibzo",
+              "_key": "INj9VDx6gJAaibzo",
               "name": "",
               "damage": {
                 "tier1": {
@@ -297,10 +302,10 @@
                 }
               }
             },
-            "odlxAWJcalPlgAny": {
+            "kkDKs82OnyV0qSKX": {
               "type": "forced",
-              "_id": "odlxAWJcalPlgAny",
-              "_key": "odlxAWJcalPlgAny",
+              "_id": "kkDKs82OnyV0qSKX",
+              "_key": "kkDKs82OnyV0qSKX",
               "name": "",
               "forced": {
                 "tier1": {
@@ -326,10 +331,10 @@
                 }
               }
             },
-            "kTaymxeQjJNi2XXX": {
+            "BZ3wbkG11AssZni1": {
               "type": "applied",
-              "_id": "kTaymxeQjJNi2XXX",
-              "_key": "kTaymxeQjJNi2XXX",
+              "_id": "BZ3wbkG11AssZni1",
+              "_key": "BZ3wbkG11AssZni1",
               "name": "",
               "applied": {
                 "tier1": {
@@ -357,7 +362,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -385,9 +393,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold7aaaaaaaaa.kobold7feature2a",
-      "_id": "kobold7feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold7feature2a"
     },
     {
       "name": "Shield? Shield!",

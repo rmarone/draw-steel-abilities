@@ -125,6 +125,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "Mcn6BnxXIYQUNiL1": {
+            "CXc9mWZDKjOXlHG7": {
               "type": "damage",
-              "_id": "Mcn6BnxXIYQUNiL1",
-              "_key": "Mcn6BnxXIYQUNiL1",
+              "_id": "CXc9mWZDKjOXlHG7",
+              "_key": "CXc9mWZDKjOXlHG7",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "1RxU5IqGeRBPYlAc": {
+            "vNU0onmISMIYGdKi": {
               "type": "applied",
-              "_id": "1RxU5IqGeRBPYlAc",
-              "_key": "1RxU5IqGeRBPYlAc",
+              "_id": "vNU0onmISMIYGdKi",
+              "_key": "vNU0onmISMIYGdKi",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "If the smokebinder had an edge on the power roll, the target cannot communicate with anyone until the end of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "If the smokebinder had an edge on the power roll, the target cannot communicate with anyone until the end of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin11aaaaa.hobgoblin112aaaa",
-      "_id": "hobgoblin112aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin112aaaa"
     },
     {
       "name": "Smoke Bomb",
@@ -255,6 +258,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -275,10 +280,10 @@
             ]
           },
           "effects": {
-            "Bjtquz0khOP0XqfS": {
+            "iDQP363usYjDCLFD": {
               "type": "damage",
-              "_id": "Bjtquz0khOP0XqfS",
-              "_key": "Bjtquz0khOP0XqfS",
+              "_id": "iDQP363usYjDCLFD",
+              "_key": "iDQP363usYjDCLFD",
               "name": "",
               "damage": {
                 "tier1": {
@@ -316,10 +321,10 @@
                 }
               }
             },
-            "sNpeZEiXRM53qPWJ": {
+            "7REJcGBEicRPxV6b": {
               "type": "applied",
-              "_id": "sNpeZEiXRM53qPWJ",
-              "_key": "sNpeZEiXRM53qPWJ",
+              "_id": "7REJcGBEicRPxV6b",
+              "_key": "7REJcGBEicRPxV6b",
               "name": "",
               "applied": {
                 "tier1": {
@@ -341,7 +346,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -369,9 +377,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin11aaaaa.hobgoblin113aaaa",
-      "_id": "hobgoblin113aaaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "hobgoblin113aaaa"
     },
     {
       "name": "Essence of Smoke",

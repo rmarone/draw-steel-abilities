@@ -125,11 +125,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "4Zu2wjERkbhsP8Tu": {
+            "U6pyY2opWa1WtsZu": {
               "type": "damage",
-              "_id": "4Zu2wjERkbhsP8Tu",
-              "_key": "4Zu2wjERkbhsP8Tu",
+              "_id": "U6pyY2opWa1WtsZu",
+              "_key": "U6pyY2opWa1WtsZu",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode3aaaaaaaa.elfwode3feature1",
-      "_id": "elfwode3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode3feature1"
     },
     {
       "name": "Hunter’s Glamor",

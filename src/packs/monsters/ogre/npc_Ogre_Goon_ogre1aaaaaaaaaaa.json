@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "FTR0F4dgghdIxkOq": {
+            "5IqaJZHRzCs6Bj9x": {
               "type": "damage",
-              "_id": "FTR0F4dgghdIxkOq",
-              "_key": "FTR0F4dgghdIxkOq",
+              "_id": "5IqaJZHRzCs6Bj9x",
+              "_key": "5IqaJZHRzCs6Bj9x",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "XrNqX4rgMgNauulK": {
+            "Yu8utsVnKUHiWSrn": {
               "type": "forced",
-              "_id": "XrNqX4rgMgNauulK",
-              "_key": "XrNqX4rgMgNauulK",
+              "_id": "Yu8utsVnKUHiWSrn",
+              "_key": "Yu8utsVnKUHiWSrn",
               "name": "",
               "forced": {
                 "tier1": {
@@ -213,10 +215,10 @@
                 }
               }
             },
-            "llwoXMOFrHNH8ovF": {
+            "p1tZHrZITZthwHlG": {
               "type": "applied",
-              "_id": "llwoXMOFrHNH8ovF",
-              "_key": "llwoXMOFrHNH8ovF",
+              "_id": "p1tZHrZITZthwHlG",
+              "_key": "p1tZHrZITZthwHlG",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -232,7 +234,10 @@
             }
           }
         },
-        "effect": "This attack deals an additional 4 damage to each creature and object that takes damage from any force movement it causes.",
+        "effect": {
+          "before": "",
+          "after": "This attack deals an additional 4 damage to each creature and object that takes damage from any force movement it causes."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -260,9 +265,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre1aaaaaaaaaaa.ogre1feature1aaa",
-      "_id": "ogre1feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre1feature1aaa"
     },
     {
       "name": "Grabby Hand",
@@ -282,6 +285,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -302,10 +307,10 @@
             ]
           },
           "effects": {
-            "OMI1pkiEZ1vzkcyY": {
+            "SATAt6LZnqdubo1O": {
               "type": "damage",
-              "_id": "OMI1pkiEZ1vzkcyY",
-              "_key": "OMI1pkiEZ1vzkcyY",
+              "_id": "SATAt6LZnqdubo1O",
+              "_key": "SATAt6LZnqdubo1O",
               "name": "",
               "damage": {
                 "tier1": {
@@ -343,10 +348,10 @@
                 }
               }
             },
-            "BtHDZL9brOrRFhTL": {
+            "S2hGM0yH76mpMFF6": {
               "type": "applied",
-              "_id": "BtHDZL9brOrRFhTL",
-              "_key": "BtHDZL9brOrRFhTL",
+              "_id": "S2hGM0yH76mpMFF6",
+              "_key": "S2hGM0yH76mpMFF6",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -368,7 +373,10 @@
             }
           }
         },
-        "effect": "The goon can only have one target grabbed at a time.",
+        "effect": {
+          "before": "",
+          "after": "The goon can only have one target grabbed at a time."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -396,9 +404,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre1aaaaaaaaaaa.ogre1feature2aaa",
-      "_id": "ogre1feature2aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre1feature2aaa"
     },
     {
       "name": "People Bowling",
@@ -418,6 +424,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -438,10 +446,10 @@
             ]
           },
           "effects": {
-            "y6sEEDH3xl8Voqvs": {
+            "VMxjmYU9VsD6yfOA": {
               "type": "damage",
-              "_id": "y6sEEDH3xl8Voqvs",
-              "_key": "y6sEEDH3xl8Voqvs",
+              "_id": "VMxjmYU9VsD6yfOA",
+              "_key": "VMxjmYU9VsD6yfOA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -479,10 +487,10 @@
                 }
               }
             },
-            "IF5oWvivcAYV2cqk": {
+            "1JflWStx1sVosW8J": {
               "type": "applied",
-              "_id": "IF5oWvivcAYV2cqk",
-              "_key": "IF5oWvivcAYV2cqk",
+              "_id": "1JflWStx1sVosW8J",
+              "_key": "1JflWStx1sVosW8J",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -498,7 +506,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -526,9 +537,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre1aaaaaaaaaaa.ogre1feature3aaa",
-      "_id": "ogre1feature3aaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "ogre1feature3aaa"
     },
     {
       "name": "Swat the Fly",
@@ -546,6 +555,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -565,7 +576,10 @@
           },
           "effects": null
         },
-        "effect": "Slide 5.",
+        "effect": {
+          "before": "",
+          "after": "Slide 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -593,9 +607,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre1aaaaaaaaaaa.ogre1feature4aaa",
-      "_id": "ogre1feature4aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre1feature4aaa"
     },
     {
       "name": "Defiant Anger",

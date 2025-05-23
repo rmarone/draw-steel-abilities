@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "nXwzgKqsq3P3nW7i": {
+        "HJubMbK0r91FzaKD": {
           "type": "damage",
-          "_id": "nXwzgKqsq3P3nW7i",
-          "_key": "nXwzgKqsq3P3nW7i",
+          "_id": "HJubMbK0r91FzaKD",
+          "_key": "HJubMbK0r91FzaKD",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "You can shift up to 2 squares before or after making the power roll.",
+    "effect": {
+      "before": "",
+      "after": "You can shift up to 2 squares before or after making the power roll."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-corven-signature!astring",
-  "_id": "tcorvensignature",
-  "category": "signature",
-  "resource": null
+  "_id": "tcorvensignature"
 }

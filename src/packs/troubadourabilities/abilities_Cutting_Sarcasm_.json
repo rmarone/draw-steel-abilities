@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "8JOMaJZIRe7w7I9S": {
+        "IoU7ODMCXjSj4bMT": {
           "type": "damage",
-          "_id": "8JOMaJZIRe7w7I9S",
-          "_key": "8JOMaJZIRe7w7I9S",
+          "_id": "IoU7ODMCXjSj4bMT",
+          "_key": "IoU7ODMCXjSj4bMT",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "SJvkUw8BLtXyTPbS": {
+        "VlS6XhfDE1kACBlv": {
           "type": "applied",
-          "_id": "SJvkUw8BLtXyTPbS",
-          "_key": "SJvkUw8BLtXyTPbS",
+          "_id": "VlS6XhfDE1kACBlv",
+          "_key": "VlS6XhfDE1kACBlv",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-2!astring",
-  "_id": "oubadourability2",
-  "category": "signature",
-  "resource": null
+  "_id": "oubadourability2"
 }

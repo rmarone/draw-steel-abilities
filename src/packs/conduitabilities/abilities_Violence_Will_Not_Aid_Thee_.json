@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "x7UpV6oXP52mCcSt": {
+        "tjmFaPbLmlLv3ntU": {
           "type": "damage",
-          "_id": "x7UpV6oXP52mCcSt",
-          "_key": "x7UpV6oXP52mCcSt",
+          "_id": "tjmFaPbLmlLv3ntU",
+          "_key": "tjmFaPbLmlLv3ntU",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "The first time on a turn that the target deals damage to another creature, the target of this ability takes another 1d10 lightning damage (save ends).",
+    "effect": {
+      "before": "",
+      "after": "The first time on a turn that the target deals damage to another creature, the target of this ability takes another 1d10 lightning damage (save ends)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-12!astring",
-  "_id": "conduitability12",
-  "category": "heroic",
-  "resource": 3
+  "_id": "conduitability12"
 }

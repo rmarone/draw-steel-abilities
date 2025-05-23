@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "TaKXjjV2EbuDSLoT": {
+        "Aytb5tfZMmFCo9Wd": {
           "type": "damage",
-          "_id": "TaKXjjV2EbuDSLoT",
-          "_key": "TaKXjjV2EbuDSLoT",
+          "_id": "Aytb5tfZMmFCo9Wd",
+          "_key": "Aytb5tfZMmFCo9Wd",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +81,10 @@
             }
           }
         },
-        "ytRLm27qZqEZzd2f": {
+        "5LEE5B5xrALPBQGo": {
           "type": "applied",
-          "_id": "ytRLm27qZqEZzd2f",
-          "_key": "ytRLm27qZqEZzd2f",
+          "_id": "5LEE5B5xrALPBQGo",
+          "_key": "5LEE5B5xrALPBQGo",
           "name": "",
           "applied": {
             "tier1": {
@@ -110,7 +112,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -138,7 +143,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-cloak-and-dagger-signature!astring",
-  "_id": "ddaggersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "ddaggersignature"
 }

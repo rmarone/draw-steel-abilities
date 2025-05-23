@@ -14,6 +14,8 @@
 
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "The next ability roll you make this turn automatically achieves a tier 3 result. You gain one surge.",
+    "effect": {
+      "before": "",
+      "after": "The next ability roll you make this turn automatically achieves a tier 3 result. You gain one surge."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-10!astring",
-  "_id": "furyability10aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "furyability10aaa"
 }

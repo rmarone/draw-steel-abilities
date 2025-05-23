@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "hXSloR9g1Lx1U0YL": {
+        "Snl6k10nvHoJXeUo": {
           "type": "damage",
-          "_id": "hXSloR9g1Lx1U0YL",
-          "_key": "hXSloR9g1Lx1U0YL",
+          "_id": "Snl6k10nvHoJXeUo",
+          "_key": "Snl6k10nvHoJXeUo",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "9aGnXVBnUJ7GUPFv": {
+        "ejsJIbhDcJqnxHSM": {
           "type": "applied",
-          "_id": "9aGnXVBnUJ7GUPFv",
-          "_key": "9aGnXVBnUJ7GUPFv",
+          "_id": "ejsJIbhDcJqnxHSM",
+          "_key": "ejsJIbhDcJqnxHSM",
           "name": "",
           "applied": {
             "tier1": null,
@@ -96,7 +98,10 @@
         }
       }
     },
-    "effect": "An ally of your choice within 5 squares of the target gains a surge.",
+    "effect": {
+      "before": "",
+      "after": "An ally of your choice within 5 squares of the target gains a surge."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -124,7 +129,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-1!astring",
-  "_id": "shadowability1aa",
-  "category": "signature",
-  "resource": null
+  "_id": "shadowability1aa"
 }

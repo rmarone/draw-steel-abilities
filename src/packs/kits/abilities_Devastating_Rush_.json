@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "1qSBiZuWcBB7h3Mx": {
+        "wutNXCxPVdw3Zzad": {
           "type": "damage",
-          "_id": "1qSBiZuWcBB7h3Mx",
-          "_key": "1qSBiZuWcBB7h3Mx",
+          "_id": "wutNXCxPVdw3Zzad",
+          "_key": "wutNXCxPVdw3Zzad",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "You can move up to 3 squares straight toward the target before this attack. You deal extra damage equal to the distance moved this way.",
+    "effect": {
+      "before": "",
+      "after": "You can move up to 3 squares straight toward the target before this attack. You deal extra damage equal to the distance moved this way."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-panther-signature!astring",
-  "_id": "panthersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "panthersignature"
 }

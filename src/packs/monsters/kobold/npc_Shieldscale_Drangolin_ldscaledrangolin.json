@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "enJxi6VyZnjzUMOL": {
+            "ujVFsMx1ZsmkOkVj": {
               "type": "damage",
-              "_id": "enJxi6VyZnjzUMOL",
-              "_key": "enJxi6VyZnjzUMOL",
+              "_id": "ujVFsMx1ZsmkOkVj",
+              "_key": "ujVFsMx1ZsmkOkVj",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ldscaledrangolin.rangolinfeature1",
-      "_id": "rangolinfeature1",
-      "category": "signature",
-      "resource": null
+      "_id": "rangolinfeature1"
     },
     {
       "name": "Drangolin Plume",
@@ -234,6 +237,8 @@
 
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "The drangolin shifts their speed and uses Fiery Claws against each creature who comes within 1 during the move. The drangolin makes one power roll against all targets.",
+        "effect": {
+          "before": "",
+          "after": "The drangolin shifts their speed and uses Fiery Claws against each creature who comes within 1 during the move. The drangolin makes one power roll against all targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ldscaledrangolin.rangolinfeature2",
-      "_id": "rangolinfeature2",
-      "category": "heroic",
-      "resource": 5
+      "_id": "rangolinfeature2"
     },
     {
       "name": "Erupt",
@@ -303,6 +309,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -323,10 +331,10 @@
             ]
           },
           "effects": {
-            "Jy9qeoNsEoQ7Hpe1": {
+            "2eqg56BcHCdKa1la": {
               "type": "damage",
-              "_id": "Jy9qeoNsEoQ7Hpe1",
-              "_key": "Jy9qeoNsEoQ7Hpe1",
+              "_id": "2eqg56BcHCdKa1la",
+              "_key": "2eqg56BcHCdKa1la",
               "name": "",
               "damage": {
                 "tier1": {
@@ -364,10 +372,10 @@
                 }
               }
             },
-            "e8R3VBnBd2Jod8sD": {
+            "PowSE3sgsmlBXWyb": {
               "type": "forced",
-              "_id": "e8R3VBnBd2Jod8sD",
-              "_key": "e8R3VBnBd2Jod8sD",
+              "_id": "PowSE3sgsmlBXWyb",
+              "_key": "PowSE3sgsmlBXWyb",
               "name": "",
               "forced": {
                 "tier1": {
@@ -393,10 +401,10 @@
                 }
               }
             },
-            "X5dXRONTO336KeYc": {
+            "hxQQD6sEez3cJBlk": {
               "type": "applied",
-              "_id": "X5dXRONTO336KeYc",
-              "_key": "X5dXRONTO336KeYc",
+              "_id": "hxQQD6sEez3cJBlk",
+              "_key": "hxQQD6sEez3cJBlk",
               "name": "",
               "applied": {
                 "tier1": {
@@ -424,7 +432,10 @@
             }
           }
         },
-        "effect": "This attack deals an additional 2 fire damage against targets directly above the dragonlin.",
+        "effect": {
+          "before": "",
+          "after": "This attack deals an additional 2 fire damage against targets directly above the dragonlin."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -452,9 +463,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ldscaledrangolin.rangolinfeature3",
-      "_id": "rangolinfeature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "rangolinfeature3"
     },
     {
       "name": "Ash Shot",

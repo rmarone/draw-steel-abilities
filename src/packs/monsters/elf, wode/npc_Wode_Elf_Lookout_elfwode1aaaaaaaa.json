@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "boP4EftxsN7IgW8R": {
+            "ZKSCCXo9rhm9JLWg": {
               "type": "damage",
-              "_id": "boP4EftxsN7IgW8R",
-              "_key": "boP4EftxsN7IgW8R",
+              "_id": "ZKSCCXo9rhm9JLWg",
+              "_key": "ZKSCCXo9rhm9JLWg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode1aaaaaaaa.elfwode1feature1",
-      "_id": "elfwode1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode1feature1"
     },
     {
       "name": "There!",

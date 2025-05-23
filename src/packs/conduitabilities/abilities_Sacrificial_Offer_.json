@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "xschwMM9nOr6Wy9K": {
+        "v11YiiWgLH8it6ej": {
           "type": "damage",
-          "_id": "xschwMM9nOr6Wy9K",
-          "_key": "xschwMM9nOr6Wy9K",
+          "_id": "v11YiiWgLH8it6ej",
+          "_key": "v11YiiWgLH8it6ej",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "You or one ally within distance can impose a bane on one power roll made against them before the end of their next turn.",
+    "effect": {
+      "before": "",
+      "after": "You or one ally within distance can impose a bane on one power roll made against them before the end of their next turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-5!astring",
-  "_id": "conduitability5a",
-  "category": "signature",
-  "resource": null
+  "_id": "conduitability5a"
 }

@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "x4Dz4oBbeQu4u2ML": {
+        "vVlUiYGgwG4iFBT6": {
           "type": "damage",
-          "_id": "x4Dz4oBbeQu4u2ML",
-          "_key": "x4Dz4oBbeQu4u2ML",
+          "_id": "vVlUiYGgwG4iFBT6",
+          "_key": "vVlUiYGgwG4iFBT6",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "SyqXNpx6GSCA7Lnz": {
+        "XUC75HpgSijHAfpp": {
           "type": "applied",
-          "_id": "SyqXNpx6GSCA7Lnz",
-          "_key": "SyqXNpx6GSCA7Lnz",
+          "_id": "XUC75HpgSijHAfpp",
+          "_key": "XUC75HpgSijHAfpp",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "The area becomes difficult terrain for enemies.",
+    "effect": {
+      "before": "",
+      "after": "The area becomes difficult terrain for enemies."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-7!astring",
-  "_id": "oubadourability7",
-  "category": "heroic",
-  "resource": 3
+  "_id": "oubadourability7"
 }

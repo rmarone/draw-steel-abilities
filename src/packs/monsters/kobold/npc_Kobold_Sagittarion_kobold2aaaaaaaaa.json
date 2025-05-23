@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "tgdKhEIr0lEKnr8Y": {
+            "BmGD18Rnyamrzp8g": {
               "type": "damage",
-              "_id": "tgdKhEIr0lEKnr8Y",
-              "_key": "tgdKhEIr0lEKnr8Y",
+              "_id": "BmGD18Rnyamrzp8g",
+              "_key": "BmGD18Rnyamrzp8g",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The sagittarius has an edge on this ability while adjacent to an ally.",
+        "effect": {
+          "before": "",
+          "after": "The sagittarius has an edge on this ability while adjacent to an ally."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold2aaaaaaaaa.kobold2feature1a",
-      "_id": "kobold2feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold2feature1a"
     },
     {
       "name": "Shield? Shield!",

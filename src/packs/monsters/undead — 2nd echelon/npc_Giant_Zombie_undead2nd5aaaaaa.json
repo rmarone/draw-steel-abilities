@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "9mKDwNwU3PvyiM6f": {
+            "f7SwmCcEU8hT2u5Q": {
               "type": "damage",
-              "_id": "9mKDwNwU3PvyiM6f",
-              "_key": "9mKDwNwU3PvyiM6f",
+              "_id": "f7SwmCcEU8hT2u5Q",
+              "_key": "f7SwmCcEU8hT2u5Q",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "hs9B3IDV3KOeza1T": {
+            "wRzQqAPRMb5AcWq2": {
               "type": "applied",
-              "_id": "hs9B3IDV3KOeza1T",
-              "_key": "hs9B3IDV3KOeza1T",
+              "_id": "wRzQqAPRMb5AcWq2",
+              "_key": "wRzQqAPRMb5AcWq2",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd5aaaaaa.dead2nd5feature2",
-      "_id": "dead2nd5feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd5feature2"
     },
     {
       "name": "Knocking Heads",
@@ -256,6 +259,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -275,7 +280,10 @@
           },
           "effects": null
         },
-        "effect": "The giant zombie smashes the targets together, using their Rotten Smash against both targets with a double edge.",
+        "effect": {
+          "before": "",
+          "after": "The giant zombie smashes the targets together, using their Rotten Smash against both targets with a double edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -303,9 +311,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd5aaaaaa.dead2nd5feature3",
-      "_id": "dead2nd5feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd5feature3"
     },
     {
       "name": "Negative Nerves",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "SkaZ69TJhvZRIb9C": {
+            "hHvcmytrxPkUqQzP": {
               "type": "damage",
-              "_id": "SkaZ69TJhvZRIb9C",
-              "_key": "SkaZ69TJhvZRIb9C",
+              "_id": "hHvcmytrxPkUqQzP",
+              "_key": "hHvcmytrxPkUqQzP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "PofKF9k9dl65XFfm": {
+            "TMbGycddA8MZaZxp": {
               "type": "applied",
-              "_id": "PofKF9k9dl65XFfm",
-              "_key": "PofKF9k9dl65XFfm",
+              "_id": "TMbGycddA8MZaZxp",
+              "_key": "TMbGycddA8MZaZxp",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The brawler deals an additional 2 damage if the target is already grabbed.",
+        "effect": {
+          "before": "",
+          "after": "The brawler deals an additional 2 damage if the target is already grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human7aaaaaaaaaa.human7feature3aa",
-      "_id": "human7feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "human7feature3aa"
     },
     {
       "name": "Throw",
@@ -251,6 +254,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -270,7 +275,10 @@
           },
           "effects": null
         },
-        "effect": "Push 5.",
+        "effect": {
+          "before": "",
+          "after": "Push 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -298,9 +306,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!human7aaaaaaaaaa.human7feature4aa",
-      "_id": "human7feature4aa",
-      "category": "heroic",
-      "resource": 1
+      "_id": "human7feature4aa"
     },
     {
       "name": "Shoot the Hostage",

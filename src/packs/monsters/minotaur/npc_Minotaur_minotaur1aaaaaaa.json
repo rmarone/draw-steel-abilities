@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "EZokMTeojCwMymKa": {
+            "bKZsei2VAsRk1jPS": {
               "type": "damage",
-              "_id": "EZokMTeojCwMymKa",
-              "_key": "EZokMTeojCwMymKa",
+              "_id": "bKZsei2VAsRk1jPS",
+              "_key": "bKZsei2VAsRk1jPS",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "M4n0gQKThNMnoO1I": {
+            "N0LBYbuQp2KSWZVy": {
               "type": "forced",
-              "_id": "M4n0gQKThNMnoO1I",
-              "_key": "M4n0gQKThNMnoO1I",
+              "_id": "N0LBYbuQp2KSWZVy",
+              "_key": "N0LBYbuQp2KSWZVy",
               "name": "",
               "forced": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "Shift 3.",
+        "effect": {
+          "before": "",
+          "after": "Shift 3."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur1aaaaaaa.inotaur1feature1",
-      "_id": "inotaur1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur1feature1"
     },
     {
       "name": "Primal Bay",
@@ -265,6 +268,8 @@
 
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "The minotaur has damage immunity 2 and deals an additional 5 damage with their strikes until the end of their next turn. On their next turn, they have access to an additional maneuver.",
+        "effect": {
+          "before": "",
+          "after": "The minotaur has damage immunity 2 and deals an additional 5 damage with their strikes until the end of their next turn. On their next turn, they have access to an additional maneuver."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur1aaaaaaa.inotaur1feature2",
-      "_id": "inotaur1feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "inotaur1feature2"
     },
     {
       "name": "Goring Horns",
@@ -335,6 +341,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -355,10 +363,10 @@
             ]
           },
           "effects": {
-            "HQGgxEBa97gveF2z": {
+            "JUTk2iTBOpGZEQbd": {
               "type": "damage",
-              "_id": "HQGgxEBa97gveF2z",
-              "_key": "HQGgxEBa97gveF2z",
+              "_id": "JUTk2iTBOpGZEQbd",
+              "_key": "JUTk2iTBOpGZEQbd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -396,10 +404,10 @@
                 }
               }
             },
-            "lBn9FBfTxdJqaKhk": {
+            "U1ToIc69v7hILRU8": {
               "type": "applied",
-              "_id": "lBn9FBfTxdJqaKhk",
-              "_key": "lBn9FBfTxdJqaKhk",
+              "_id": "U1ToIc69v7hILRU8",
+              "_key": "U1ToIc69v7hILRU8",
               "name": "",
               "applied": {
                 "tier1": {
@@ -427,7 +435,10 @@
             }
           }
         },
-        "effect": "The potency of this ability increases by 1 if it’s used while charging.",
+        "effect": {
+          "before": "",
+          "after": "The potency of this ability increases by 1 if it’s used while charging."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -455,9 +466,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur1aaaaaaa.inotaur1feature3",
-      "_id": "inotaur1feature3",
-      "category": "heroic",
-      "resource": 5
+      "_id": "inotaur1feature3"
     },
     {
       "name": "Retaliatory Gore",
@@ -475,6 +484,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -494,7 +505,10 @@
           },
           "effects": null
         },
-        "effect": "The minotaur charges the target using Flail and Blade or Goring Horns.",
+        "effect": {
+          "before": "",
+          "after": "The minotaur charges the target using Flail and Blade or Goring Horns."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -522,9 +536,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!minotaur1aaaaaaa.inotaur1feature4",
-      "_id": "inotaur1feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "inotaur1feature4"
     },
     {
       "name": "Minotaur Sense",

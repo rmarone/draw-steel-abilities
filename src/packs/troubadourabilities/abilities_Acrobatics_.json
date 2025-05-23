@@ -16,6 +16,8 @@
       "routine"
     ],
     "type": "no action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "While this routine is active, any target who starts their turn in the aura can automatically obtain a tier 3 result on one test made to jump, tumble, or climb as part of their movement before the end of their turn.",
+    "effect": {
+      "before": "",
+      "after": "While this routine is active, any target who starts their turn in the aura can automatically obtain a tier 3 result on one test made to jump, tumble, or climb as part of their movement before the end of their turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-1-1-1!astring",
-  "_id": "troubadoursub111",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub111"
 }

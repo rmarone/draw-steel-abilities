@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "PZgz7eQ5Lm7q11LP": {
+        "sH25xBsE28jWEo0u": {
           "type": "damage",
-          "_id": "PZgz7eQ5Lm7q11LP",
-          "_key": "PZgz7eQ5Lm7q11LP",
+          "_id": "sH25xBsE28jWEo0u",
+          "_key": "sH25xBsE28jWEo0u",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "9F4fqVexNtHROesU": {
+        "FkoVjOzn1UtRmmKz": {
           "type": "applied",
-          "_id": "9F4fqVexNtHROesU",
-          "_key": "9F4fqVexNtHROesU",
+          "_id": "FkoVjOzn1UtRmmKz",
+          "_key": "FkoVjOzn1UtRmmKz",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "While bleeding, the target takes damage equal to your Might score at the end of your turns.",
+    "effect": {
+      "before": "",
+      "after": "While bleeding, the target takes damage equal to your Might score at the end of your turns."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-8!astring",
-  "_id": "furyability8aaaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "furyability8aaaa"
 }

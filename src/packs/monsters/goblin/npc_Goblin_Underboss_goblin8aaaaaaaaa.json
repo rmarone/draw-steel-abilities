@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "T6aMCcRjgNuhJNOP": {
+            "n6LMVOdAFp9rZfLF": {
               "type": "damage",
-              "_id": "T6aMCcRjgNuhJNOP",
-              "_key": "T6aMCcRjgNuhJNOP",
+              "_id": "n6LMVOdAFp9rZfLF",
+              "_key": "n6LMVOdAFp9rZfLF",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "One ally adjacent to the target can make a free strike against them.",
+        "effect": {
+          "before": "",
+          "after": "One ally adjacent to the target can make a free strike against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin8aaaaaaaaa.goblin8feature1a",
-      "_id": "goblin8feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin8feature1a"
     },
     {
       "name": "Get Reckless!",
@@ -234,6 +237,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "Until the start of the underboss’s next turn, each target has an edge on strikes, and strikes made against them have an edge.",
+        "effect": {
+          "before": "",
+          "after": "Until the start of the underboss’s next turn, each target has an edge on strikes, and strikes made against them have an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin8aaaaaaaaa.goblin8feature2a",
-      "_id": "goblin8feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin8feature2a"
     },
     {
       "name": "Crafty",

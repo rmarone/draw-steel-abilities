@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "huQe3hqnq9QX0lsV": {
+        "aAKt3U7a2Xh8ACXN": {
           "type": "damage",
-          "_id": "huQe3hqnq9QX0lsV",
-          "_key": "huQe3hqnq9QX0lsV",
+          "_id": "aAKt3U7a2Xh8ACXN",
+          "_key": "aAKt3U7a2Xh8ACXN",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "rUhyIKUVfmjvNL9D": {
+        "aqRXJp8B3edXEB9y": {
           "type": "forced",
-          "_id": "rUhyIKUVfmjvNL9D",
-          "_key": "rUhyIKUVfmjvNL9D",
+          "_id": "aqRXJp8B3edXEB9y",
+          "_key": "aqRXJp8B3edXEB9y",
           "name": "",
           "forced": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same amount and type of damage.",
+    "effect": {
+      "before": "",
+      "after": "When you slide the target, you can move into any square they leave. If you take damage from an opportunity attack by moving this way, the target takes the same amount and type of damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-6!astring",
-  "_id": "furyability6aaaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "furyability6aaaa"
 }

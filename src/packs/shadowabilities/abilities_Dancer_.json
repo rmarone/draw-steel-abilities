@@ -14,6 +14,8 @@
 
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "Until the end of the encounter, whenever an enemy moves adjacent to you or damages you, you can take the Disengage move action as a free triggered action.",
+    "effect": {
+      "before": "",
+      "after": "Until the end of the encounter, whenever an enemy moves adjacent to you or damages you, you can take the Disengage move action as a free triggered action."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-13!astring",
-  "_id": "shadowability13a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "shadowability13a"
 }

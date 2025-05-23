@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "NhVybbERiAGIS6GJ": {
+            "V9BpiO216xZ5ApN9": {
               "type": "damage",
-              "_id": "NhVybbERiAGIS6GJ",
-              "_key": "NhVybbERiAGIS6GJ",
+              "_id": "V9BpiO216xZ5ApN9",
+              "_key": "V9BpiO216xZ5ApN9",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2aaaaaaaaaa.demon2feature1aa",
-      "_id": "demon2feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon2feature1aa"
     },
     {
       "name": "Soulsight",

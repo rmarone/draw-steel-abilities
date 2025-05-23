@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "FfHBem6kw9b5IpLm": {
+        "cAZb8enWQtECHUS3": {
           "type": "damage",
-          "_id": "FfHBem6kw9b5IpLm",
-          "_key": "FfHBem6kw9b5IpLm",
+          "_id": "cAZb8enWQtECHUS3",
+          "_key": "cAZb8enWQtECHUS3",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "D2icJbJLCS0ipYc3": {
+        "apdAIflX3LkHLpjl": {
           "type": "applied",
-          "_id": "D2icJbJLCS0ipYc3",
-          "_key": "D2icJbJLCS0ipYc3",
+          "_id": "apdAIflX3LkHLpjl",
+          "_key": "apdAIflX3LkHLpjl",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "The targets are frightened of you or a creature you choose within 10 squares.",
+    "effect": {
+      "before": "",
+      "after": "The targets are frightened of you or a creature you choose within 10 squares."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-17!astring",
-  "_id": "conduitability17",
-  "category": "heroic",
-  "resource": 7
+  "_id": "conduitability17"
 }

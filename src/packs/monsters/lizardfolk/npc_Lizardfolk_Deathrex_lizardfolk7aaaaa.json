@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "Ub6Jfjpj3kDK1BTD": {
+            "MiCfnT6bfqpXmuNE": {
               "type": "damage",
-              "_id": "Ub6Jfjpj3kDK1BTD",
-              "_key": "Ub6Jfjpj3kDK1BTD",
+              "_id": "MiCfnT6bfqpXmuNE",
+              "_key": "MiCfnT6bfqpXmuNE",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "DgxFvbaYPhpVSRqc": {
+            "W8NX3XABGUWRegdy": {
               "type": "forced",
-              "_id": "DgxFvbaYPhpVSRqc",
-              "_key": "DgxFvbaYPhpVSRqc",
+              "_id": "W8NX3XABGUWRegdy",
+              "_key": "W8NX3XABGUWRegdy",
               "name": "",
               "forced": {
                 "tier1": {
@@ -213,10 +215,10 @@
                 }
               }
             },
-            "98nyMGvFeyyJ2j1K": {
+            "55ooGJly1IeLAgtV": {
               "type": "applied",
-              "_id": "98nyMGvFeyyJ2j1K",
-              "_key": "98nyMGvFeyyJ2j1K",
+              "_id": "55ooGJly1IeLAgtV",
+              "_key": "55ooGJly1IeLAgtV",
               "name": "",
               "applied": {
                 "tier1": {
@@ -244,7 +246,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -272,9 +277,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature1",
-      "_id": "ardfolk7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature1"
     },
     {
       "name": "Death Roll",
@@ -294,6 +297,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -314,10 +319,10 @@
             ]
           },
           "effects": {
-            "zZ4rPoymyHBTjjYa": {
+            "7HoaB0jox5yCZcdY": {
               "type": "damage",
-              "_id": "zZ4rPoymyHBTjjYa",
-              "_key": "zZ4rPoymyHBTjjYa",
+              "_id": "7HoaB0jox5yCZcdY",
+              "_key": "7HoaB0jox5yCZcdY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -355,10 +360,10 @@
                 }
               }
             },
-            "CGkhVyjF90GRGLnr": {
+            "u2Xuf3TRutaQRKxn": {
               "type": "applied",
-              "_id": "CGkhVyjF90GRGLnr",
-              "_key": "CGkhVyjF90GRGLnr",
+              "_id": "u2Xuf3TRutaQRKxn",
+              "_key": "u2Xuf3TRutaQRKxn",
               "name": "",
               "applied": {
                 "tier1": {
@@ -386,7 +391,10 @@
             }
           }
         },
-        "effect": "The target is released from the grab and slides 5.",
+        "effect": {
+          "before": "",
+          "after": "The target is released from the grab and slides 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -414,9 +422,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature2",
-      "_id": "ardfolk7feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "ardfolk7feature2"
     },
     {
       "name": "Trundle",
@@ -434,6 +440,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -453,7 +461,10 @@
           },
           "effects": null
         },
-        "effect": "The deathrex moves up to their speed. The deathrex can make a free strike on each creature that makes an opportunity attack against them during this movement.",
+        "effect": {
+          "before": "",
+          "after": "The deathrex moves up to their speed. The deathrex can make a free strike on each creature that makes an opportunity attack against them during this movement."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -481,9 +492,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature3",
-      "_id": "ardfolk7feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature3"
     },
     {
       "name": "Swat the Fly",
@@ -501,6 +510,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -520,7 +531,10 @@
           },
           "effects": null
         },
-        "effect": "Slide 5.",
+        "effect": {
+          "before": "",
+          "after": "Slide 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -548,9 +562,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature4",
-      "_id": "ardfolk7feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature4"
     },
     {
       "name": "Sneak Attack",
@@ -568,6 +580,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -587,7 +601,10 @@
           },
           "effects": null
         },
-        "effect": "Each target moves up to their speed and makes a free strike. A target receives temporary Stamina equal to the amount of damage they dealt during this action.",
+        "effect": {
+          "before": "",
+          "after": "Each target moves up to their speed and makes a free strike. A target receives temporary Stamina equal to the amount of damage they dealt during this action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -615,9 +632,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature5",
-      "_id": "ardfolk7feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature5"
     },
     {
       "name": "Shed Some Skin",
@@ -635,6 +650,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -654,7 +671,10 @@
           },
           "effects": null
         },
-        "effect": "The deathrex shifts up to their speed, leaving behind a skin shed duplicate in the space that they started in. The duplicate has 10 Stamina, has no villain actions, shares the rest of the deathrex’s characteristics, and takes their turn at the same time as the deathrex.",
+        "effect": {
+          "before": "",
+          "after": "The deathrex shifts up to their speed, leaving behind a skin shed duplicate in the space that they started in. The duplicate has 10 Stamina, has no villain actions, shares the rest of the deathrex’s characteristics, and takes their turn at the same time as the deathrex."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -682,9 +702,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature6",
-      "_id": "ardfolk7feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature6"
     },
     {
       "name": "Thresher Thrasher",
@@ -702,6 +720,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -721,7 +741,10 @@
           },
           "effects": null
         },
-        "effect": "Each target moves up to their speed. Until the end of the encounter, when a creature enters or starts their turn adjacent to a target, the target can make a free strike against them..",
+        "effect": {
+          "before": "",
+          "after": "Each target moves up to their speed. Until the end of the encounter, when a creature enters or starts their turn adjacent to a target, the target can make a free strike against them.."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -749,9 +772,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk7aaaaa.ardfolk7feature7",
-      "_id": "ardfolk7feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk7feature7"
     },
     {
       "name": "Rex Reptilian Escape",

@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "line",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "2dS0MoRi7WP2FKIL": {
+        "8ZSjM3sZn03dPnzV": {
           "type": "damage",
-          "_id": "2dS0MoRi7WP2FKIL",
-          "_key": "2dS0MoRi7WP2FKIL",
+          "_id": "8ZSjM3sZn03dPnzV",
+          "_key": "8ZSjM3sZn03dPnzV",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "L3vAnR5KLvpGo936": {
+        "5xbl0km6dBGjaw3Z": {
           "type": "forced",
-          "_id": "L3vAnR5KLvpGo936",
-          "_key": "L3vAnR5KLvpGo936",
+          "_id": "5xbl0km6dBGjaw3Z",
+          "_key": "5xbl0km6dBGjaw3Z",
           "name": "",
           "forced": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "The targets are pushed one at a time, starting with the target closest to you.",
+    "effect": {
+      "before": "",
+      "after": "The targets are pushed one at a time, starting with the target closest to you."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-11!astring",
-  "_id": "furyability11aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "furyability11aaa"
 }

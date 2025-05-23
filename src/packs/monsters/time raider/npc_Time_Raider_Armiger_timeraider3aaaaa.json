@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "1b3RZ9rIlfIpNBSA": {
+            "CDSiQVHdtUFs1mFk": {
               "type": "damage",
-              "_id": "1b3RZ9rIlfIpNBSA",
-              "_key": "1b3RZ9rIlfIpNBSA",
+              "_id": "CDSiQVHdtUFs1mFk",
+              "_key": "CDSiQVHdtUFs1mFk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "b8ib8nkO4gCYmGun": {
+            "OQGdq8tTnmBiTths": {
               "type": "applied",
-              "_id": "b8ib8nkO4gCYmGun",
-              "_key": "b8ib8nkO4gCYmGun",
+              "_id": "OQGdq8tTnmBiTths",
+              "_key": "OQGdq8tTnmBiTths",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider3aaaaa.eraider3feature1",
-      "_id": "eraider3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider3feature1"
     },
     {
       "name": "Shared Sickness",
@@ -253,6 +256,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "bdA5Ahmz2WO02XzE": {
+            "SrSJ6szAvA1m0tlP": {
               "type": "damage",
-              "_id": "bdA5Ahmz2WO02XzE",
-              "_key": "bdA5Ahmz2WO02XzE",
+              "_id": "SrSJ6szAvA1m0tlP",
+              "_key": "SrSJ6szAvA1m0tlP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider3aaaaa.eraider3feature2",
-      "_id": "eraider3feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider3feature2"
     },
     {
       "name": "Foresight",

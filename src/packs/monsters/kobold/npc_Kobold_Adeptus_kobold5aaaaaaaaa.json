@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "S6NxMJPWifJjPPhR": {
+            "79KgECvU4D4Uitjv": {
               "type": "damage",
-              "_id": "S6NxMJPWifJjPPhR",
-              "_key": "S6NxMJPWifJjPPhR",
+              "_id": "79KgECvU4D4Uitjv",
+              "_key": "79KgECvU4D4Uitjv",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The adeptus has an edge on the ability if the target is adjacent to another enemy. All enemies adjacent to the target take 2 lighting damage.",
+        "effect": {
+          "before": "",
+          "after": "The adeptus has an edge on the ability if the target is adjacent to another enemy. All enemies adjacent to the target take 2 lighting damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold5aaaaaaaaa.kobold5feature1a",
-      "_id": "kobold5feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "kobold5feature1a"
     },
     {
       "name": "Arcane Telum",
@@ -236,6 +239,8 @@
           "strike"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -256,10 +261,10 @@
             ]
           },
           "effects": {
-            "BksY049ADOCkN5pO": {
+            "XtXZPSGxmuQ8S5lC": {
               "type": "damage",
-              "_id": "BksY049ADOCkN5pO",
-              "_key": "BksY049ADOCkN5pO",
+              "_id": "XtXZPSGxmuQ8S5lC",
+              "_key": "XtXZPSGxmuQ8S5lC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -299,7 +304,10 @@
             }
           }
         },
-        "effect": "This attack ignores all banes and damage reduction.",
+        "effect": {
+          "before": "",
+          "after": "This attack ignores all banes and damage reduction."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -327,9 +335,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!kobold5aaaaaaaaa.kobold5feature2a",
-      "_id": "kobold5feature2a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "kobold5feature2a"
     },
     {
       "name": "Shield? Shield!",

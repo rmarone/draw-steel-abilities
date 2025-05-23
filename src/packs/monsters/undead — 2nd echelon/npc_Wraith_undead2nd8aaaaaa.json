@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "wBATbEKHUYRZ9wrv": {
+            "k6GlMz5UGDJ1GnzY": {
               "type": "damage",
-              "_id": "wBATbEKHUYRZ9wrv",
-              "_key": "wBATbEKHUYRZ9wrv",
+              "_id": "k6GlMz5UGDJ1GnzY",
+              "_key": "k6GlMz5UGDJ1GnzY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "hmqqjYJufcVY3rtQ": {
+            "e8VNY8EgxBFwgLPt": {
               "type": "applied",
-              "_id": "hmqqjYJufcVY3rtQ",
-              "_key": "hmqqjYJufcVY3rtQ",
+              "_id": "e8VNY8EgxBFwgLPt",
+              "_key": "e8VNY8EgxBFwgLPt",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "Living creatures killed by this ability return as a ghoul craver the next round, under the Director's control.",
+        "effect": {
+          "before": "",
+          "after": "Living creatures killed by this ability return as a ghoul craver the next round, under the Director's control."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature2",
-      "_id": "dead2nd8feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd8feature2"
     },
     {
       "name": "Hidden Movement",
@@ -263,6 +266,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The wraith truns invisible, moves up to their speed, and becomes visible again.",
+        "effect": {
+          "before": "",
+          "after": "The wraith truns invisible, moves up to their speed, and becomes visible again."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature3",
-      "_id": "dead2nd8feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd8feature3"
     },
     {
       "name": "Stolen Vitality",
@@ -331,6 +337,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -350,7 +358,10 @@
           },
           "effects": null
         },
-        "effect": "The target only regains half the Stamina they would normally. The wraith regains the remaining Stamina.",
+        "effect": {
+          "before": "",
+          "after": "The target only regains half the Stamina they would normally. The wraith regains the remaining Stamina."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -378,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd8aaaaaa.dead2nd8feature4",
-      "_id": "dead2nd8feature4",
-      "category": "heroic",
-      "resource": 1
+      "_id": "dead2nd8feature4"
     },
     {
       "name": "Agonizing Phasing",

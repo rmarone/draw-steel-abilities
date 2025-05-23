@@ -122,6 +122,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "PRYnyT3WJEd6WW2p": {
+            "gXgIXCZIbiYakNHy": {
               "type": "damage",
-              "_id": "PRYnyT3WJEd6WW2p",
-              "_key": "PRYnyT3WJEd6WW2p",
+              "_id": "gXgIXCZIbiYakNHy",
+              "_key": "gXgIXCZIbiYakNHy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "fi8mBw2pdzVdkluM": {
+            "zs1I8fUQ6GYee5Mg": {
               "type": "forced",
-              "_id": "fi8mBw2pdzVdkluM",
-              "_key": "fi8mBw2pdzVdkluM",
+              "_id": "zs1I8fUQ6GYee5Mg",
+              "_key": "zs1I8fUQ6GYee5Mg",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -208,7 +210,10 @@
             }
           }
         },
-        "effect": "The essence shifts 3 before or after using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The essence shifts 3 before or after using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -236,9 +241,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental2aaaaaa.emental2feature1",
-      "_id": "emental2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emental2feature1"
     },
     {
       "name": "Convocation of Squalls",
@@ -257,6 +260,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -276,7 +281,10 @@
           },
           "effects": null
         },
-        "effect": "The target receives lightning immunity 5 until the start of the essence’s next turn if they don’t already have it.",
+        "effect": {
+          "before": "",
+          "after": "The target receives lightning immunity 5 until the start of the essence’s next turn if they don’t already have it."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -304,9 +312,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental2aaaaaa.emental2feature2",
-      "_id": "emental2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "emental2feature2"
     },
     {
       "name": "Thunderclap",
@@ -326,11 +332,13 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -345,7 +353,10 @@
           },
           "effects": null
         },
-        "effect": "The essence deals 5 lightning damage to the target.",
+        "effect": {
+          "before": "",
+          "after": "The essence deals 5 lightning damage to the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -373,9 +384,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elemental2aaaaaa.emental2feature3",
-      "_id": "emental2feature3",
-      "category": "heroic",
-      "resource": 1
+      "_id": "emental2feature3"
     },
     {
       "name": "Fickle and Free",

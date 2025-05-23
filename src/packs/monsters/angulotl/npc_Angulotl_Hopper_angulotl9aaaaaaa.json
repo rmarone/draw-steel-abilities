@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "Vbp6u4UIqG9FEbJa": {
+            "s2j19ZqNdpmZbaoB": {
               "type": "damage",
-              "_id": "Vbp6u4UIqG9FEbJa",
-              "_key": "Vbp6u4UIqG9FEbJa",
+              "_id": "s2j19ZqNdpmZbaoB",
+              "_key": "s2j19ZqNdpmZbaoB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "Before or after attacking, the hopper jumps two squares, or four squares if they jump over their mentor's space.",
+        "effect": {
+          "before": "",
+          "after": "Before or after attacking, the hopper jumps two squares, or four squares if they jump over their mentor's space."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl9aaaaaaa.ngulotl9feature1",
-      "_id": "ngulotl9feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl9feature1"
     },
     {
       "name": "Toxiferous",

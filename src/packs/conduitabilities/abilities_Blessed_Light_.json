@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "uMdp6NDeHa1DAYwI": {
+        "lJz023jMpRPeOEn4": {
           "type": "damage",
-          "_id": "uMdp6NDeHa1DAYwI",
-          "_key": "uMdp6NDeHa1DAYwI",
+          "_id": "lJz023jMpRPeOEn4",
+          "_key": "lJz023jMpRPeOEn4",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "An ally of your choice within distance gains a number of surges equal to the tier rolled.",
+    "effect": {
+      "before": "",
+      "after": "An ally of your choice within distance gains a number of surges equal to the tier rolled."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-1!astring",
-  "_id": "conduitability1a",
-  "category": "signature",
-  "resource": null
+  "_id": "conduitability1a"
 }

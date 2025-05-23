@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "aw4CemA4FscWZvPy": {
+            "qEX0lWwUAQ6OAqAA": {
               "type": "damage",
-              "_id": "aw4CemA4FscWZvPy",
-              "_key": "aw4CemA4FscWZvPy",
+              "_id": "qEX0lWwUAQ6OAqAA",
+              "_key": "qEX0lWwUAQ6OAqAA",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "23rABYXMjzyAtI9N": {
+            "oGGS6wsM0CM79J6r": {
               "type": "applied",
-              "_id": "23rABYXMjzyAtI9N",
-              "_key": "23rABYXMjzyAtI9N",
+              "_id": "oGGS6wsM0CM79J6r",
+              "_key": "oGGS6wsM0CM79J6r",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern1aaaaaaaaa.wyvern1feature1a",
-      "_id": "wyvern1feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "wyvern1feature1a"
     },
     {
       "name": "Acidic Anguish",
@@ -259,6 +262,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -279,10 +284,10 @@
             ]
           },
           "effects": {
-            "U9FT3VFN2Fil28FF": {
+            "N3UBpKKotWggOCqO": {
               "type": "damage",
-              "_id": "U9FT3VFN2Fil28FF",
-              "_key": "U9FT3VFN2Fil28FF",
+              "_id": "N3UBpKKotWggOCqO",
+              "_key": "N3UBpKKotWggOCqO",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,10 +325,10 @@
                 }
               }
             },
-            "lRGn4XKRp3XTFP8x": {
+            "BjfWcY9PptHgQgmY": {
               "type": "applied",
-              "_id": "lRGn4XKRp3XTFP8x",
-              "_key": "lRGn4XKRp3XTFP8x",
+              "_id": "BjfWcY9PptHgQgmY",
+              "_key": "BjfWcY9PptHgQgmY",
               "name": "",
               "applied": {
                 "tier1": {
@@ -351,7 +356,10 @@
             }
           }
         },
-        "effect": "A target weakened from this ability takes 1d4 acid damage at the start of each of their turns until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A target weakened from this ability takes 1d4 acid damage at the start of each of their turns until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -379,9 +387,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern1aaaaaaaaa.wyvern1feature2a",
-      "_id": "wyvern1feature2a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "wyvern1feature2a"
     },
     {
       "name": "Swooping Torment",
@@ -399,6 +405,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -418,7 +426,10 @@
           },
           "effects": null
         },
-        "effect": "The lurker flies up to their speed and hides. Each enemy that comes within 1 square of the lurker during this movement can choose to take 3 sonic damage or fall prone.",
+        "effect": {
+          "before": "",
+          "after": "The lurker flies up to their speed and hides. Each enemy that comes within 1 square of the lurker during this movement can choose to take 3 sonic damage or fall prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -446,9 +457,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern1aaaaaaaaa.wyvern1feature3a",
-      "_id": "wyvern1feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "wyvern1feature3a"
     },
     {
       "name": "Retaliatory Dive",
@@ -466,6 +475,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -485,7 +496,10 @@
           },
           "effects": null
         },
-        "effect": "The lurker flies into a square adjacent to the target and makes a free strike against them.",
+        "effect": {
+          "before": "",
+          "after": "The lurker flies into a square adjacent to the target and makes a free strike against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -513,9 +527,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wyvern1aaaaaaaaa.wyvern1feature4a",
-      "_id": "wyvern1feature4a",
-      "category": "signature",
-      "resource": null
+      "_id": "wyvern1feature4a"
     },
     {
       "name": "Ruthless Rage",

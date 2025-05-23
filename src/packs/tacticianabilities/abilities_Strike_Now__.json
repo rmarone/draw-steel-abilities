@@ -14,6 +14,8 @@
       "ranged"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "The target can make a signature attack as a free triggered action.",
+    "effect": {
+      "before": "",
+      "after": "The target can make a signature attack as a free triggered action."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!tactician-1-6!astring",
-  "_id": "tactician16aaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "tactician16aaaaa"
 }

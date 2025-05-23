@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "ndSbb0Gj2OkoB5Ny": {
+            "lOKQwRhJmIXoavl1": {
               "type": "damage",
-              "_id": "ndSbb0Gj2OkoB5Ny",
-              "_key": "ndSbb0Gj2OkoB5Ny",
+              "_id": "lOKQwRhJmIXoavl1",
+              "_key": "lOKQwRhJmIXoavl1",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "2utfCgZkPF4MUp9p": {
+            "OvaWJ2y1aaVGrkh9": {
               "type": "applied",
-              "_id": "2utfCgZkPF4MUp9p",
-              "_key": "2utfCgZkPF4MUp9p",
+              "_id": "OvaWJ2y1aaVGrkh9",
+              "_key": "OvaWJ2y1aaVGrkh9",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The potency of this ability increases by 1 if the target is grabbed by the scaletooth.",
+        "effect": {
+          "before": "",
+          "after": "The potency of this ability increases by 1 if the target is grabbed by the scaletooth."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk5aaaaa.ardfolk5feature1",
-      "_id": "ardfolk5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk5feature1"
     },
     {
       "name": "Tail Whip",
@@ -253,6 +256,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "i4rPqeyjnVXr5mNJ": {
+            "qbGDWHxJ8XydA4ee": {
               "type": "damage",
-              "_id": "i4rPqeyjnVXr5mNJ",
-              "_key": "i4rPqeyjnVXr5mNJ",
+              "_id": "qbGDWHxJ8XydA4ee",
+              "_key": "qbGDWHxJ8XydA4ee",
               "name": "",
               "damage": {
                 "tier1": {
@@ -314,10 +319,10 @@
                 }
               }
             },
-            "vEGB4irtid4r2C9J": {
+            "U0UufTK2TPMtlCTD": {
               "type": "forced",
-              "_id": "vEGB4irtid4r2C9J",
-              "_key": "vEGB4irtid4r2C9J",
+              "_id": "U0UufTK2TPMtlCTD",
+              "_key": "U0UufTK2TPMtlCTD",
               "name": "",
               "forced": {
                 "tier1": {
@@ -343,10 +348,10 @@
                 }
               }
             },
-            "f8tI58YXm1CaT9gE": {
+            "3oMJEx3tDmmhhJOc": {
               "type": "applied",
-              "_id": "f8tI58YXm1CaT9gE",
-              "_key": "f8tI58YXm1CaT9gE",
+              "_id": "3oMJEx3tDmmhhJOc",
+              "_key": "3oMJEx3tDmmhhJOc",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -368,7 +373,10 @@
             }
           }
         },
-        "effect": "The scaletooth needs their tail to use this ability. The scaletooth can’t grapple more than one creature or object with this ability.",
+        "effect": {
+          "before": "",
+          "after": "The scaletooth needs their tail to use this ability. The scaletooth can’t grapple more than one creature or object with this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -396,9 +404,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk5aaaaa.ardfolk5feature2",
-      "_id": "ardfolk5feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "ardfolk5feature2"
     },
     {
       "name": "Reptilian Escape",

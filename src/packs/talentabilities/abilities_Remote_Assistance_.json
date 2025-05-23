@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "The next ability power roll an ally makes against the target before the start of your next turn gains an edge.",
+    "effect": {
+      "before": "",
+      "after": "The next ability power roll an ally makes against the target before the start of your next turn gains an edge."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-3-1-2!astring",
-  "_id": "talentsub312aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentsub312aaaa"
 }

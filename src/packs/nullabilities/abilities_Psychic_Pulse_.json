@@ -15,6 +15,8 @@
       "psionic"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the area of your Null Field ability increases by 1. When you end your turn, each enemy in that area takes psychic damage equal to your Intuition score.",
+    "effect": {
+      "before": "",
+      "after": "Each target takes psychic damage equal to twice your Intuition score. Until the start of your next turn, the area of your Null Field ability increases by 1. When you end your turn, each enemy in that area takes psychic damage equal to your Intuition score."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-10!astring",
-  "_id": "nullability10aaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "nullability10aaa"
 }

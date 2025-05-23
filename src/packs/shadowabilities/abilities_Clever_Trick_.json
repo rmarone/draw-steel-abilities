@@ -14,6 +14,8 @@
       "magic"
     ],
     "type": "triggered action",
+    "category": "heroic",
+    "resource": 1,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "Choose an enemy within distance of the triggering strike, including the enemy who targeted you. The strike targets that enemy instead.",
+    "effect": {
+      "before": "",
+      "after": "Choose an enemy within distance of the triggering strike, including the enemy who targeted you. The strike targets that enemy instead."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-sub-3-1-3!astring",
-  "_id": "shadowsub313aaaa",
-  "category": "heroic",
-  "resource": 1
+  "_id": "shadowsub313aaaa"
 }

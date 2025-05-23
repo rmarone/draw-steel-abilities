@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "The target takes psychic damage equal to half the triggering damage.",
+    "effect": {
+      "before": "",
+      "after": "The target takes psychic damage equal to half the triggering damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-sub-3-1-1!astring",
-  "_id": "talentsub311aaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentsub311aaaa"
 }

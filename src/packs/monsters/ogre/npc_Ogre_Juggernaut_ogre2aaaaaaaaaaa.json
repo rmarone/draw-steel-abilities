@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "G2GRPy95pPoVVXFq": {
+            "F8p14jqdRgoX675f": {
               "type": "damage",
-              "_id": "G2GRPy95pPoVVXFq",
-              "_key": "G2GRPy95pPoVVXFq",
+              "_id": "F8p14jqdRgoX675f",
+              "_key": "F8p14jqdRgoX675f",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "DP9Cn6M00LAqa7bi": {
+            "pusJKhsZ9T1cSR4x": {
               "type": "forced",
-              "_id": "DP9Cn6M00LAqa7bi",
-              "_key": "DP9Cn6M00LAqa7bi",
+              "_id": "pusJKhsZ9T1cSR4x",
+              "_key": "pusJKhsZ9T1cSR4x",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre2aaaaaaaaaaa.ogre2feature1aaa",
-      "_id": "ogre2feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre2feature1aaa"
     },
     {
       "name": "Earth Breaking Jump",
@@ -260,6 +263,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "RBOwx3UuHov6MNH5": {
+            "pNESdlmYKdG3NcrY": {
               "type": "damage",
-              "_id": "RBOwx3UuHov6MNH5",
-              "_key": "RBOwx3UuHov6MNH5",
+              "_id": "pNESdlmYKdG3NcrY",
+              "_key": "pNESdlmYKdG3NcrY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -321,10 +326,10 @@
                 }
               }
             },
-            "4CKFcbId0vCStY3m": {
+            "WQhm5Yto8aXt9wf6": {
               "type": "forced",
-              "_id": "4CKFcbId0vCStY3m",
-              "_key": "4CKFcbId0vCStY3m",
+              "_id": "WQhm5Yto8aXt9wf6",
+              "_key": "WQhm5Yto8aXt9wf6",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -344,10 +349,10 @@
                 }
               }
             },
-            "DtWCreLiM1s2cla0": {
+            "aaG3uuZ1ILPRaOoy": {
               "type": "applied",
-              "_id": "DtWCreLiM1s2cla0",
-              "_key": "DtWCreLiM1s2cla0",
+              "_id": "aaG3uuZ1ILPRaOoy",
+              "_key": "aaG3uuZ1ILPRaOoy",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -369,7 +374,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -397,9 +405,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre2aaaaaaaaaaa.ogre2feature2aaa",
-      "_id": "ogre2feature2aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre2feature2aaa"
     },
     {
       "name": "Horrible Bellow",
@@ -417,6 +423,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -437,10 +445,10 @@
             ]
           },
           "effects": {
-            "qDDBeGDbUbsVd2g7": {
+            "lor9bOWc83ls8NP5": {
               "type": "applied",
-              "_id": "qDDBeGDbUbsVd2g7",
-              "_key": "qDDBeGDbUbsVd2g7",
+              "_id": "lor9bOWc83ls8NP5",
+              "_key": "lor9bOWc83ls8NP5",
               "name": "",
               "applied": {
                 "tier1": {
@@ -468,7 +476,10 @@
             }
           }
         },
-        "effect": "All ogres have an edge on strikes against creatures frightened by this ability.",
+        "effect": {
+          "before": "",
+          "after": "All ogres have an edge on strikes against creatures frightened by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -496,9 +507,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre2aaaaaaaaaaa.ogre2feature3aaa",
-      "_id": "ogre2feature3aaa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "ogre2feature3aaa"
     },
     {
       "name": "Hrraaaaaagh!",
@@ -516,6 +525,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -535,7 +546,10 @@
           },
           "effects": null
         },
-        "effect": "The juggernaut moves up to their speed and makes a free strike.",
+        "effect": {
+          "before": "",
+          "after": "The juggernaut moves up to their speed and makes a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -563,9 +577,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre2aaaaaaaaaaa.ogre2feature4aaa",
-      "_id": "ogre2feature4aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre2feature4aaa"
     },
     {
       "name": "Defiant Anger",

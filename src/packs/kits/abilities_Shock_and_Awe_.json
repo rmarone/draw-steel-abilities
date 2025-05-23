@@ -17,11 +17,13 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
-      "type": "melee",
+      "type": "meleeRanged",
       "primary": 1,
-      "secondary": 0,
+      "secondary": 5,
       "tertiary": null
     },
     "damageDisplay": "melee",
@@ -38,10 +40,10 @@
         ]
       },
       "effects": {
-        "bnl8f04Xtat1RDya": {
+        "zIzikPz1fdyM2oxk": {
           "type": "damage",
-          "_id": "bnl8f04Xtat1RDya",
-          "_key": "bnl8f04Xtat1RDya",
+          "_id": "zIzikPz1fdyM2oxk",
+          "_key": "zIzikPz1fdyM2oxk",
           "name": "",
           "damage": {
             "tier1": {
@@ -81,7 +83,10 @@
         }
       }
     },
-    "effect": "The target has a bane on their next power roll made before the end of their next turn.",
+    "effect": {
+      "before": "",
+      "after": "The target has a bane on their next power roll made before the end of their next turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -109,7 +114,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-raider-signature!astring",
-  "_id": "traidersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "traidersignature"
 }

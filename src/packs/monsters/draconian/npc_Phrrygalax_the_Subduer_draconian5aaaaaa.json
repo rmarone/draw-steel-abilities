@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "Wm2OaAHDBKY0N5gE": {
+            "04PNHvSJM5gunmiO": {
               "type": "damage",
-              "_id": "Wm2OaAHDBKY0N5gE",
-              "_key": "Wm2OaAHDBKY0N5gE",
+              "_id": "04PNHvSJM5gunmiO",
+              "_key": "04PNHvSJM5gunmiO",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "nxgAjzvU5TXQ7ZR5": {
+            "F7RpsS6lxGf4OAkq": {
               "type": "applied",
-              "_id": "nxgAjzvU5TXQ7ZR5",
-              "_key": "nxgAjzvU5TXQ7ZR5",
+              "_id": "F7RpsS6lxGf4OAkq",
+              "_key": "F7RpsS6lxGf4OAkq",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian5aaaaaa.aconian5feature1",
-      "_id": "aconian5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian5feature1"
     },
     {
       "name": "Spinning Spit",
@@ -260,6 +263,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "D7N8rDrvAgsXbuBW": {
+            "C0a8Wc5n5TFzwGi0": {
               "type": "damage",
-              "_id": "D7N8rDrvAgsXbuBW",
-              "_key": "D7N8rDrvAgsXbuBW",
+              "_id": "C0a8Wc5n5TFzwGi0",
+              "_key": "C0a8Wc5n5TFzwGi0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -323,7 +328,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -351,9 +359,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian5aaaaaa.aconian5feature2",
-      "_id": "aconian5feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "aconian5feature2"
     },
     {
       "name": "Heavy Landing",
@@ -371,6 +377,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -390,7 +398,10 @@
           },
           "effects": null
         },
-        "effect": "Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands is A<2 knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "Phrrygalax flies up to his speed and lands in an unoccupied space on the ground. Each creature adjacent to where he lands is A<2 knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -418,9 +429,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian5aaaaaa.aconian5feature3",
-      "_id": "aconian5feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian5feature3"
     },
     {
       "name": "Armor of the Ancients",
@@ -438,6 +447,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -457,7 +468,10 @@
           },
           "effects": null
         },
-        "effect": "Phrrygalax absorbs the damage instead, recovering Stamina equal to the damage dealt. Phrrygalax swaps his current immunity with the triggering damage type.",
+        "effect": {
+          "before": "",
+          "after": "Phrrygalax absorbs the damage instead, recovering Stamina equal to the damage dealt. Phrrygalax swaps his current immunity with the triggering damage type."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -485,9 +499,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian5aaaaaa.aconian5feature4",
-      "_id": "aconian5feature4",
-      "category": "heroic",
-      "resource": 2
+      "_id": "aconian5feature4"
     },
     {
       "name": "STILL YOUR TONGUE!",
@@ -505,6 +517,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -524,7 +538,10 @@
           },
           "effects": null
         },
-        "effect": "Phrrygalax shifts up to his speed and uses Baneful Blade against the enemy, dealing an additional 7 damage.",
+        "effect": {
+          "before": "",
+          "after": "Phrrygalax shifts up to his speed and uses Baneful Blade against the enemy, dealing an additional 7 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -552,9 +569,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian5aaaaaa.aconian5feature5",
-      "_id": "aconian5feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian5feature5"
     },
     {
       "name": "Oathbreaker's Vengeance",

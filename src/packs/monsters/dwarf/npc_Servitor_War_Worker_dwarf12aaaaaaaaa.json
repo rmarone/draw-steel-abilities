@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "i9d2WUsl3tNPHBsV": {
+            "Pi44KzyWFk9uPdH3": {
               "type": "damage",
-              "_id": "i9d2WUsl3tNPHBsV",
-              "_key": "i9d2WUsl3tNPHBsV",
+              "_id": "Pi44KzyWFk9uPdH3",
+              "_key": "Pi44KzyWFk9uPdH3",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "yKZOoGJNjSvxapLb": {
+            "lz42DCEA2fbRImoi": {
               "type": "applied",
-              "_id": "yKZOoGJNjSvxapLb",
-              "_key": "yKZOoGJNjSvxapLb",
+              "_id": "lz42DCEA2fbRImoi",
+              "_key": "lz42DCEA2fbRImoi",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "Restrained targets and targets restrained by this ability are pulled 3. A target restrained by a dwarf can be pulled by this ability.",
+        "effect": {
+          "before": "",
+          "after": "Restrained targets and targets restrained by this ability are pulled 3. A target restrained by a dwarf can be pulled by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf12aaaaaaaaa.dwarf12feature1a",
-      "_id": "dwarf12feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf12feature1a"
     },
     {
       "name": "Stunning Blast",
@@ -254,6 +257,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -274,10 +279,10 @@
             ]
           },
           "effects": {
-            "lb3Zxz4Jr8SCvMqY": {
+            "ZyW6z5Ui8lJ4qMxy": {
               "type": "damage",
-              "_id": "lb3Zxz4Jr8SCvMqY",
-              "_key": "lb3Zxz4Jr8SCvMqY",
+              "_id": "ZyW6z5Ui8lJ4qMxy",
+              "_key": "ZyW6z5Ui8lJ4qMxy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -315,10 +320,10 @@
                 }
               }
             },
-            "VfcOsMRXgaaQhwDi": {
+            "iI8A4SRyymyEct97": {
               "type": "applied",
-              "_id": "VfcOsMRXgaaQhwDi",
-              "_key": "VfcOsMRXgaaQhwDi",
+              "_id": "iI8A4SRyymyEct97",
+              "_key": "iI8A4SRyymyEct97",
               "name": "",
               "applied": {
                 "tier1": {
@@ -346,7 +351,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -374,9 +382,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf12aaaaaaaaa.dwarf12feature2a",
-      "_id": "dwarf12feature2a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dwarf12feature2a"
     },
     {
       "name": "Cupola",

@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -148,10 +150,10 @@
             ]
           },
           "effects": {
-            "ty0c571Y9p56qvzT": {
+            "i2VeDpkLvcLpmi1M": {
               "type": "damage",
-              "_id": "ty0c571Y9p56qvzT",
-              "_key": "ty0c571Y9p56qvzT",
+              "_id": "i2VeDpkLvcLpmi1M",
+              "_key": "i2VeDpkLvcLpmi1M",
               "name": "",
               "damage": {
                 "tier1": {
@@ -191,7 +193,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -219,9 +224,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight9aaaaa.enwight9feature1",
-      "_id": "enwight9feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight9feature1"
     },
     {
       "name": "Ready Rodent",
@@ -240,6 +243,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -259,7 +264,10 @@
           },
           "effects": null
         },
-        "effect": "The sidekick makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The sidekick makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -287,9 +295,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight9aaaaa.enwight9feature2",
-      "_id": "enwight9feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight9feature2"
     }
   ],
   "effects": [

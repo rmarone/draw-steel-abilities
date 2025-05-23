@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "n7tRujK9vhTEEhNd": {
+            "snSFfEm5mpoOzwe0": {
               "type": "damage",
-              "_id": "n7tRujK9vhTEEhNd",
-              "_key": "n7tRujK9vhTEEhNd",
+              "_id": "snSFfEm5mpoOzwe0",
+              "_key": "snSFfEm5mpoOzwe0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -212,7 +214,10 @@
             }
           }
         },
-        "effect": "This attack deals an additional 3 damage if the chimera has an edge on the attack.",
+        "effect": {
+          "before": "",
+          "after": "This attack deals an additional 3 damage if the chimera has an edge on the attack."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -240,9 +245,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature3a",
-      "_id": "chimerafeature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature3a"
     },
     {
       "name": "Dragon's Eruption",
@@ -261,6 +264,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 7,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -281,10 +286,10 @@
             ]
           },
           "effects": {
-            "sqb9lp27QPcmdiPP": {
+            "NbfQ9GpW6lI1DLCR": {
               "type": "damage",
-              "_id": "sqb9lp27QPcmdiPP",
-              "_key": "sqb9lp27QPcmdiPP",
+              "_id": "NbfQ9GpW6lI1DLCR",
+              "_key": "NbfQ9GpW6lI1DLCR",
               "name": "",
               "damage": {
                 "tier1": {
@@ -324,7 +329,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -352,9 +360,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature4a",
-      "_id": "chimerafeature4a",
-      "category": "heroic",
-      "resource": 7
+      "_id": "chimerafeature4a"
     },
     {
       "name": "Lion's Toss",
@@ -373,6 +379,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -393,10 +401,10 @@
             ]
           },
           "effects": {
-            "QEu151sZecjzQaGe": {
+            "lwX1yL1qAXbNjw7q": {
               "type": "forced",
-              "_id": "QEu151sZecjzQaGe",
-              "_key": "QEu151sZecjzQaGe",
+              "_id": "lwX1yL1qAXbNjw7q",
+              "_key": "lwX1yL1qAXbNjw7q",
               "name": "",
               "forced": {
                 "tier1": {
@@ -424,7 +432,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -452,9 +463,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature5a",
-      "_id": "chimerafeature5a",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature5a"
     },
     {
       "name": "Roar",
@@ -473,6 +482,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 5,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -493,10 +504,10 @@
             ]
           },
           "effects": {
-            "HWdyt2Ely1KFcJx4": {
+            "ex0E1pB36KO6mTjf": {
               "type": "damage",
-              "_id": "HWdyt2Ely1KFcJx4",
-              "_key": "HWdyt2Ely1KFcJx4",
+              "_id": "ex0E1pB36KO6mTjf",
+              "_key": "ex0E1pB36KO6mTjf",
               "name": "",
               "damage": {
                 "tier1": {
@@ -534,10 +545,10 @@
                 }
               }
             },
-            "AdnPn426MHNnabEY": {
+            "meLij9uOKJW4GzYy": {
               "type": "applied",
-              "_id": "AdnPn426MHNnabEY",
-              "_key": "AdnPn426MHNnabEY",
+              "_id": "meLij9uOKJW4GzYy",
+              "_key": "meLij9uOKJW4GzYy",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -559,7 +570,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -587,9 +601,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature6a",
-      "_id": "chimerafeature6a",
-      "category": "heroic",
-      "resource": 5
+      "_id": "chimerafeature6a"
     },
     {
       "name": "Ram's Defiance",
@@ -609,6 +621,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -629,10 +643,10 @@
             ]
           },
           "effects": {
-            "SEEs8OIvg8JiklT7": {
+            "dyOSdFqGHbRy4EtY": {
               "type": "damage",
-              "_id": "SEEs8OIvg8JiklT7",
-              "_key": "SEEs8OIvg8JiklT7",
+              "_id": "dyOSdFqGHbRy4EtY",
+              "_key": "dyOSdFqGHbRy4EtY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -670,10 +684,10 @@
                 }
               }
             },
-            "Z6PjwjK6XlBtbiTv": {
+            "IKqaraiV1Y1s0f64": {
               "type": "applied",
-              "_id": "Z6PjwjK6XlBtbiTv",
-              "_key": "Z6PjwjK6XlBtbiTv",
+              "_id": "IKqaraiV1Y1s0f64",
+              "_key": "IKqaraiV1Y1s0f64",
               "name": "",
               "applied": {
                 "tier1": {
@@ -701,7 +715,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -729,9 +746,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature7a",
-      "_id": "chimerafeature7a",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature7a"
     },
     {
       "name": "Overture of Destruction",
@@ -751,6 +766,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -770,7 +787,10 @@
           },
           "effects": null
         },
-        "effect": "The chimera uses Bite and Lion’s Toss against each target.",
+        "effect": {
+          "before": "",
+          "after": "The chimera uses Bite and Lion’s Toss against each target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -798,9 +818,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature8a",
-      "_id": "chimerafeature8a",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature8a"
     },
     {
       "name": "Fire Solo",
@@ -820,6 +838,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -839,7 +859,10 @@
           },
           "effects": null
         },
-        "effect": "The chimera uses Dragon’s Eruption and Roar without spending malice.",
+        "effect": {
+          "before": "",
+          "after": "The chimera uses Dragon’s Eruption and Roar without spending malice."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -867,9 +890,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature9a",
-      "_id": "chimerafeature9a",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature9a"
     },
     {
       "name": "Chorus of Destruction",
@@ -887,6 +908,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -906,7 +929,10 @@
           },
           "effects": null
         },
-        "effect": "The chimera uses Roar. The chimera then shifts their speed and can make a free strike against each enemy who comes within 1 of them during the move. When the chimera ends this movement, they use Dragon’s Eruption.",
+        "effect": {
+          "before": "",
+          "after": "The chimera uses Roar. The chimera then shifts their speed and can make a free strike against each enemy who comes within 1 of them during the move. When the chimera ends this movement, they use Dragon’s Eruption."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -934,9 +960,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!chimera1aaaaaaaa.chimerafeature10",
-      "_id": "chimerafeature10",
-      "category": "signature",
-      "resource": null
+      "_id": "chimerafeature10"
     }
   ],
   "effects": [

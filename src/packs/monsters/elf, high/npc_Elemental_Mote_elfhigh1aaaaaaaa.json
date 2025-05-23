@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "pVwC8Kwsh57YXr5A": {
+            "scprA41l2xKVJxXk": {
               "type": "damage",
-              "_id": "pVwC8Kwsh57YXr5A",
-              "_key": "pVwC8Kwsh57YXr5A",
+              "_id": "scprA41l2xKVJxXk",
+              "_key": "scprA41l2xKVJxXk",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "0zrahVS5cXF1SiA4": {
+            "ms1M4rlcS1BIiDiR": {
               "type": "applied",
-              "_id": "0zrahVS5cXF1SiA4",
-              "_key": "0zrahVS5cXF1SiA4",
+              "_id": "ms1M4rlcS1BIiDiR",
+              "_key": "ms1M4rlcS1BIiDiR",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh1aaaaaaaa.elfhigh1feature1",
-      "_id": "elfhigh1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh1feature1"
     },
     {
       "name": "Spark of Life",

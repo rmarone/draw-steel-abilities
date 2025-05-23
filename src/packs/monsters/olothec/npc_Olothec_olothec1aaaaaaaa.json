@@ -136,6 +136,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -156,10 +158,10 @@
             ]
           },
           "effects": {
-            "2uVo1ChFTgIEcy9f": {
+            "dZNLWURqoVo5cZyr": {
               "type": "damage",
-              "_id": "2uVo1ChFTgIEcy9f",
-              "_key": "2uVo1ChFTgIEcy9f",
+              "_id": "dZNLWURqoVo5cZyr",
+              "_key": "dZNLWURqoVo5cZyr",
               "name": "",
               "damage": {
                 "tier1": {
@@ -197,10 +199,10 @@
                 }
               }
             },
-            "1WbCkMZx3GZYvtHz": {
+            "Y3VRk69zbLbWW7rI": {
               "type": "applied",
-              "_id": "1WbCkMZx3GZYvtHz",
-              "_key": "1WbCkMZx3GZYvtHz",
+              "_id": "Y3VRk69zbLbWW7rI",
+              "_key": "Y3VRk69zbLbWW7rI",
               "name": "",
               "applied": {
                 "tier1": {
@@ -228,7 +230,10 @@
             }
           }
         },
-        "effect": "A slimed target takes 4 psychic damage whenever they roll power until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A slimed target takes 4 psychic damage whenever they roll power until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -256,9 +261,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature3a",
-      "_id": "olothecfeature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature3a"
     },
     {
       "name": "Slime Spew",
@@ -277,6 +280,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -297,10 +302,10 @@
             ]
           },
           "effects": {
-            "gy8uHd57LksRMHDZ": {
+            "o0Rc2AsUscFEg22a": {
               "type": "damage",
-              "_id": "gy8uHd57LksRMHDZ",
-              "_key": "gy8uHd57LksRMHDZ",
+              "_id": "o0Rc2AsUscFEg22a",
+              "_key": "o0Rc2AsUscFEg22a",
               "name": "",
               "damage": {
                 "tier1": {
@@ -338,10 +343,10 @@
                 }
               }
             },
-            "cN4UcR9GA1EeCM1N": {
+            "TrohoctgyPdFwv9W": {
               "type": "forced",
-              "_id": "cN4UcR9GA1EeCM1N",
-              "_key": "cN4UcR9GA1EeCM1N",
+              "_id": "TrohoctgyPdFwv9W",
+              "_key": "TrohoctgyPdFwv9W",
               "name": "",
               "forced": {
                 "tier1": {
@@ -369,7 +374,10 @@
             }
           }
         },
-        "effect": "A creature pushed by this ability is pushed to the squares within the line that are furthest from the olothec.",
+        "effect": {
+          "before": "",
+          "after": "A creature pushed by this ability is pushed to the squares within the line that are furthest from the olothec."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -397,9 +405,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature4a",
-      "_id": "olothecfeature4a",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature4a"
     },
     {
       "name": "Oozing Transformation",
@@ -419,6 +425,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -439,10 +447,10 @@
             ]
           },
           "effects": {
-            "N33Z4G1gjpkJ4OF3": {
+            "fSjceakrgPFaeHgT": {
               "type": "damage",
-              "_id": "N33Z4G1gjpkJ4OF3",
-              "_key": "N33Z4G1gjpkJ4OF3",
+              "_id": "fSjceakrgPFaeHgT",
+              "_key": "fSjceakrgPFaeHgT",
               "name": "",
               "damage": {
                 "tier1": {
@@ -480,10 +488,10 @@
                 }
               }
             },
-            "nD8E3cF06EoHKJ8Y": {
+            "8Gb4r5JaETGz4e00": {
               "type": "applied",
-              "_id": "nD8E3cF06EoHKJ8Y",
-              "_key": "nD8E3cF06EoHKJ8Y",
+              "_id": "8Gb4r5JaETGz4e00",
+              "_key": "8Gb4r5JaETGz4e00",
               "name": "",
               "applied": {
                 "tier1": {
@@ -511,7 +519,10 @@
             }
           }
         },
-        "effect": "\nEach time a creature is transformed, the Director chooses one of the following transformations. When a creature ends the transformed effect, all transformations end.\n\n**Head** The creature’s head becomes a ball of slime. They cannot communicate and they can’t establish line of effect beyond 3 squares.\n\n**Legs** The creature’s legs become pillars of ooze. They are slowed while on land and add the swim keyword to their speed.\n\n**Torso** The creature’s arms become gelatinous. They can’t benefit from edges or surges.",
+        "effect": {
+          "before": "",
+          "after": "\nEach time a creature is transformed, the Director chooses one of the following transformations. When a creature ends the transformed effect, all transformations end.\n\n**Head** The creature’s head becomes a ball of slime. They cannot communicate and they can’t establish line of effect beyond 3 squares.\n\n**Legs** The creature’s legs become pillars of ooze. They are slowed while on land and add the swim keyword to their speed.\n\n**Torso** The creature’s arms become gelatinous. They can’t benefit from edges or surges."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -539,9 +550,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature5a",
-      "_id": "olothecfeature5a",
-      "category": "heroic",
-      "resource": 2
+      "_id": "olothecfeature5a"
     },
     {
       "name": "Jaunt",
@@ -559,6 +568,8 @@
           "psionic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -578,7 +589,10 @@
           },
           "effects": null
         },
-        "effect": "The olothec teleports to an unoccupied square within 10 or swaps places with a creature or object within 5.",
+        "effect": {
+          "before": "",
+          "after": "The olothec teleports to an unoccupied square within 10 or swaps places with a creature or object within 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -606,9 +620,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature6a",
-      "_id": "olothecfeature6a",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature6a"
     },
     {
       "name": "Liquify",
@@ -627,6 +639,8 @@
           "ranged"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -646,7 +660,10 @@
           },
           "effects": null
         },
-        "effect": "The target takes 8 psychic damage and gains psychic weakness 3 until the end of the olothec’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The target takes 8 psychic damage and gains psychic weakness 3 until the end of the olothec’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -674,9 +691,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature7a",
-      "_id": "olothecfeature7a",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature7a"
     },
     {
       "name": "Primordial Mind",
@@ -722,6 +737,8 @@
           "strike"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "special",
@@ -742,10 +759,10 @@
             ]
           },
           "effects": {
-            "7Bh6cCntFU9VSnQi": {
+            "Lf8V0KpB8QnOy2wp": {
               "type": "damage",
-              "_id": "7Bh6cCntFU9VSnQi",
-              "_key": "7Bh6cCntFU9VSnQi",
+              "_id": "Lf8V0KpB8QnOy2wp",
+              "_key": "Lf8V0KpB8QnOy2wp",
               "name": "",
               "damage": {
                 "tier1": {
@@ -783,10 +800,10 @@
                 }
               }
             },
-            "a7ZAnkPJobkg0PCg": {
+            "oQvxUKnqB2de0Nlj": {
               "type": "applied",
-              "_id": "a7ZAnkPJobkg0PCg",
-              "_key": "a7ZAnkPJobkg0PCg",
+              "_id": "oQvxUKnqB2de0Nlj",
+              "_key": "oQvxUKnqB2de0Nlj",
               "name": "",
               "applied": {
                 "tier1": {
@@ -814,7 +831,10 @@
             }
           }
         },
-        "effect": "This ability targets each enemy the olothec has line of effect to. A frightened enemy can’t save against any other effect until they are no longer frightened.",
+        "effect": {
+          "before": "",
+          "after": "This ability targets each enemy the olothec has line of effect to. A frightened enemy can’t save against any other effect until they are no longer frightened."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -842,9 +862,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature10",
-      "_id": "olothecfeature10",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature10"
     },
     {
       "name": "Psychic Pulse",
@@ -863,6 +881,8 @@
           "psionic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -882,7 +902,10 @@
           },
           "effects": null
         },
-        "effect": "Each target takes 12 psychic damage, slides 5, and is M<3 weakened and slimed (save ends) (see devolving tentacles). The olothec has damage immunity 4 until the start of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "Each target takes 12 psychic damage, slides 5, and is M<3 weakened and slimed (save ends) (see devolving tentacles). The olothec has damage immunity 4 until the start of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -910,9 +933,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature12",
-      "_id": "olothecfeature12",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature12"
     },
     {
       "name": "Return to Perfection",
@@ -932,6 +953,8 @@
           "psionic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -952,10 +975,10 @@
             ]
           },
           "effects": {
-            "KvqLeUY0NZA6FWzy": {
+            "q3LOpuhqBxg1Id6v": {
               "type": "damage",
-              "_id": "KvqLeUY0NZA6FWzy",
-              "_key": "KvqLeUY0NZA6FWzy",
+              "_id": "q3LOpuhqBxg1Id6v",
+              "_key": "q3LOpuhqBxg1Id6v",
               "name": "",
               "damage": {
                 "tier1": {
@@ -993,10 +1016,10 @@
                 }
               }
             },
-            "CyK3heveVd012Zsw": {
+            "fViofVBJft42vn6t": {
               "type": "applied",
-              "_id": "CyK3heveVd012Zsw",
-              "_key": "CyK3heveVd012Zsw",
+              "_id": "fViofVBJft42vn6t",
+              "_key": "fViofVBJft42vn6t",
               "name": "",
               "applied": {
                 "tier1": {
@@ -1024,7 +1047,10 @@
             }
           }
         },
-        "effect": "A devolved creature has a -1 modifier to all their characteristic scores other than Reason until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "A devolved creature has a -1 modifier to all their characteristic scores other than Reason until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -1052,9 +1078,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!olothec1aaaaaaaa.olothecfeature13",
-      "_id": "olothecfeature13",
-      "category": "signature",
-      "resource": null
+      "_id": "olothecfeature13"
     }
   ],
   "effects": [

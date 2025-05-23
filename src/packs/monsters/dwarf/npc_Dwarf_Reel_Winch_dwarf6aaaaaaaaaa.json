@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "v7PFzRRT07N33JpQ": {
+            "FtTmMhTBVIyAehqj": {
               "type": "damage",
-              "_id": "v7PFzRRT07N33JpQ",
-              "_key": "v7PFzRRT07N33JpQ",
+              "_id": "FtTmMhTBVIyAehqj",
+              "_key": "FtTmMhTBVIyAehqj",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "hS8B1OH2MsF4MVuS": {
+            "MXjCwUkIS0JBMd1E": {
               "type": "applied",
-              "_id": "hS8B1OH2MsF4MVuS",
-              "_key": "hS8B1OH2MsF4MVuS",
+              "_id": "MXjCwUkIS0JBMd1E",
+              "_key": "MXjCwUkIS0JBMd1E",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "Pull 5. A target restrained by a dwarf, indlucing by this ability, can be pulled this way.",
+        "effect": {
+          "before": "",
+          "after": "Pull 5. A target restrained by a dwarf, indlucing by this ability, can be pulled this way."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf6aaaaaaaaaa.dwarf6feature1aa",
-      "_id": "dwarf6feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf6feature1aa"
     },
     {
       "name": "Reel Them In",
@@ -252,6 +255,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -271,7 +276,10 @@
           },
           "effects": null
         },
-        "effect": "Pull 8. A slowed or restrained target is pulled an additional 2. A target restrained by a dwarf can be pulled in this way.",
+        "effect": {
+          "before": "",
+          "after": "Pull 8. A slowed or restrained target is pulled an additional 2. A target restrained by a dwarf can be pulled in this way."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -299,9 +307,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf6aaaaaaaaaa.dwarf6feature2aa",
-      "_id": "dwarf6feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dwarf6feature2aa"
     },
     {
       "name": "We Have a Quota!",

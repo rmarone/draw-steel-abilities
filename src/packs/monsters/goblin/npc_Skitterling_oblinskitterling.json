@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "ET1Z18AwNDsFlHJt": {
+            "Sosk3VlVgF3MPw58": {
               "type": "damage",
-              "_id": "ET1Z18AwNDsFlHJt",
-              "_key": "ET1Z18AwNDsFlHJt",
+              "_id": "Sosk3VlVgF3MPw58",
+              "_key": "Sosk3VlVgF3MPw58",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The target has a bane on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "The target has a bane on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!oblinskitterling.tterlingfeature1",
-      "_id": "tterlingfeature1",
-      "category": "signature",
-      "resource": null
+      "_id": "tterlingfeature1"
     }
   ],
   "effects": [

@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "dFZQD0RKlK5tvdXE": {
+            "wRPGNKti3QIZIIPF": {
               "type": "damage",
-              "_id": "dFZQD0RKlK5tvdXE",
-              "_key": "dFZQD0RKlK5tvdXE",
+              "_id": "wRPGNKti3QIZIIPF",
+              "_key": "wRPGNKti3QIZIIPF",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The target can't shift away from the mounling until the end of their next turn.",
+        "effect": {
+          "before": "",
+          "after": "The target can't shift away from the mounling until the end of their next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd4aaaaaa.dead2nd4feature2",
-      "_id": "dead2nd4feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd4feature2"
     },
     {
       "name": "Horrid Wail",
@@ -234,6 +237,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -254,10 +259,10 @@
             ]
           },
           "effects": {
-            "Qqp4tKvnVLpwNutN": {
+            "sgsaceGcSDLb6nIm": {
               "type": "damage",
-              "_id": "Qqp4tKvnVLpwNutN",
-              "_key": "Qqp4tKvnVLpwNutN",
+              "_id": "sgsaceGcSDLb6nIm",
+              "_key": "sgsaceGcSDLb6nIm",
               "name": "",
               "damage": {
                 "tier1": {
@@ -295,10 +300,10 @@
                 }
               }
             },
-            "mD8XSYVnlEND5BRW": {
+            "rgzVm2849m8xeMvT": {
               "type": "applied",
-              "_id": "mD8XSYVnlEND5BRW",
-              "_key": "mD8XSYVnlEND5BRW",
+              "_id": "rgzVm2849m8xeMvT",
+              "_key": "rgzVm2849m8xeMvT",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -320,7 +325,10 @@
             }
           }
         },
-        "effect": "If a target is still frightened by this ability at the end of the encounter, they cannot take a respite activity during their next respite.",
+        "effect": {
+          "before": "",
+          "after": "If a target is still frightened by this ability at the end of the encounter, they cannot take a respite activity during their next respite."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -348,9 +356,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd4aaaaaa.dead2nd4feature3",
-      "_id": "dead2nd4feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd4feature3"
     },
     {
       "name": "Immutable Form",

@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "jBu0N2GmHCg9aRT8": {
+            "2dcbggVgTzl6tPTq": {
               "type": "damage",
-              "_id": "jBu0N2GmHCg9aRT8",
-              "_key": "jBu0N2GmHCg9aRT8",
+              "_id": "2dcbggVgTzl6tPTq",
+              "_key": "2dcbggVgTzl6tPTq",
               "name": "",
               "damage": {
                 "tier1": {
@@ -188,7 +190,10 @@
             }
           }
         },
-        "effect": "The moondancer ignores opportunity attacks from the target until the end of their turn.",
+        "effect": {
+          "before": "",
+          "after": "The moondancer ignores opportunity attacks from the target until the end of their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -216,9 +221,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow9aaaaaa.fshadow9feature1",
-      "_id": "fshadow9feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow9feature1"
     },
     {
       "name": "Dissolve",
@@ -236,6 +239,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -255,7 +260,10 @@
           },
           "effects": null
         },
-        "effect": "The moondancer teleports to a square in concealment granted by darkness within 10.",
+        "effect": {
+          "before": "",
+          "after": "The moondancer teleports to a square in concealment granted by darkness within 10."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -283,9 +291,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow9aaaaaa.fshadow9feature2",
-      "_id": "fshadow9feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow9feature2"
     },
     {
       "name": "Of the Umbra",

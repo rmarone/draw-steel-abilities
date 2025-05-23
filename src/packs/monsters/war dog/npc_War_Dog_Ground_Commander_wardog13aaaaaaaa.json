@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "kRmRwbK14lo2jmYY": {
+            "BfSVGkfaAoI5zOLe": {
               "type": "damage",
-              "_id": "kRmRwbK14lo2jmYY",
-              "_key": "kRmRwbK14lo2jmYY",
+              "_id": "BfSVGkfaAoI5zOLe",
+              "_key": "BfSVGkfaAoI5zOLe",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "IC1mDhZHJAd6kmcw": {
+            "L1UdmUbmHqNozMrI": {
               "type": "forced",
-              "_id": "IC1mDhZHJAd6kmcw",
-              "_key": "IC1mDhZHJAd6kmcw",
+              "_id": "L1UdmUbmHqNozMrI",
+              "_key": "L1UdmUbmHqNozMrI",
               "name": "",
               "forced": {
                 "tier1": {
@@ -208,10 +210,10 @@
                 "tier3": null
               }
             },
-            "fD3skIIzla8yzOPC": {
+            "MypxeroqZ6Md7BeF": {
               "type": "applied",
-              "_id": "fD3skIIzla8yzOPC",
-              "_key": "fD3skIIzla8yzOPC",
+              "_id": "MypxeroqZ6Md7BeF",
+              "_key": "MypxeroqZ6Md7BeF",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -227,7 +229,10 @@
             }
           }
         },
-        "effect": "One ally within 10 squares of the commander can make a free strike.",
+        "effect": {
+          "before": "",
+          "after": "One ally within 10 squares of the commander can make a free strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -255,9 +260,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature1",
-      "_id": "wardog13feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature1"
     },
     {
       "name": "Highest Posthumous Promotion",
@@ -276,6 +279,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -295,7 +300,10 @@
           },
           "effects": null
         },
-        "effect": "The ground commander selects any number of targets’ loyalty collars and detonates them, killing the target instantly.",
+        "effect": {
+          "before": "",
+          "after": "The ground commander selects any number of targets’ loyalty collars and detonates them, killing the target instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -323,9 +331,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature2",
-      "_id": "wardog13feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature2"
     },
     {
       "name": "Final Orders",
@@ -344,6 +350,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -363,7 +371,10 @@
           },
           "effects": null
         },
-        "effect": "The target can move up to their speed and make a free strike before the triggering effect happens.",
+        "effect": {
+          "before": "",
+          "after": "The target can move up to their speed and make a free strike before the triggering effect happens."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -391,9 +402,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature3",
-      "_id": "wardog13feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature3"
     },
     {
       "name": "End Effect",
@@ -437,6 +446,8 @@
           "area"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -456,7 +467,10 @@
           },
           "effects": null
         },
-        "effect": "Each target can make a ranged free strike, then immediately use the Charge action.",
+        "effect": {
+          "before": "",
+          "after": "Each target can make a ranged free strike, then immediately use the Charge action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -484,9 +498,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature6",
-      "_id": "wardog13feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature6"
     },
     {
       "name": "Make an Example of Them",
@@ -505,6 +517,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -524,7 +538,10 @@
           },
           "effects": null
         },
-        "effect": "Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then I<2 frightened of the ground commander (save ends).",
+        "effect": {
+          "before": "",
+          "after": "Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then I<2 frightened of the ground commander (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -552,9 +569,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature7",
-      "_id": "wardog13feature7",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature7"
     },
     {
       "name": "Claim Them for the Body Banks",
@@ -573,6 +588,8 @@
           "magic"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -592,7 +609,10 @@
           },
           "effects": null
         },
-        "effect": "Each target can shift 2 and use the Grab maneuver. For the rest of the encounter, each enemy has a bane on escaping grabs.",
+        "effect": {
+          "before": "",
+          "after": "Each target can shift 2 and use the Grab maneuver. For the rest of the encounter, each enemy has a bane on escaping grabs."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -620,9 +640,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog13aaaaaaaa.wardog13feature8",
-      "_id": "wardog13feature8",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog13feature8"
     }
   ],
   "effects": [

@@ -15,6 +15,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "\nChoose one of the following effects:\n\n* You orate a rousing tale of victory. One ally within distance gains an edge on the next power roll they make before the start of your next turn.\n* You weave a tale of high stakes heroics. One ally within distance gains a surge.\n* You insult a foe where they’re most vulnerable. That foe takes a bane on the next power roll they make before the end of their next turn.",
+    "effect": {
+      "before": "",
+      "after": "\nChoose one of the following effects:\n\n* You orate a rousing tale of victory. One ally within distance gains an edge on the next power roll they make before the start of your next turn.\n* You weave a tale of high stakes heroics. One ally within distance gains a surge.\n* You insult a foe where they’re most vulnerable. That foe takes a bane on the next power roll they make before the end of their next turn."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-2-1-2!astring",
-  "_id": "troubadoursub212",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub212"
 }

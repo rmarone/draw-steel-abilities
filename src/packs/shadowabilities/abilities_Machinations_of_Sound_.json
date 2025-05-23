@@ -1,0 +1,104 @@
+{
+  "name": "Machinations of Sound",
+  "type": "ability",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "source": {
+      "book": "",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "_dsid": "shadow-sub-3-2-1a",
+    "keywords": [
+      "area",
+      "magic",
+      "ranged"
+    ],
+    "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
+    "trigger": "",
+    "distance": {
+      "type": "cube",
+      "primary": 3,
+      "secondary": 10,
+      "tertiary": null
+    },
+    "damageDisplay": "melee",
+    "target": {
+      "type": "enemy",
+      "value": null
+    },
+    "power": {
+      "roll": {
+        "formula": "@chr",
+        "characteristics": [
+          "agility"
+        ]
+      },
+      "effects": {
+        "edNfl1bWCWqTZTsM": {
+          "type": "applied",
+          "_id": "edNfl1bWCWqTZTsM",
+          "_key": "edNfl1bWCWqTZTsM",
+          "name": "",
+          "applied": {
+            "tier1": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Slide 4"
+            },
+            "tier2": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Slide 5"
+            },
+            "tier3": {
+              "potency": {
+                "characteristic": null,
+                "value": null
+              },
+              "display": "Slide 7"
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "before": "",
+      "after": "This forced movement ignores stability. Instead, the forced movement is reduced by a number equal to the target’s Intuition score."
+    },
+    "spend": {
+      "value": null,
+      "text": ""
+    },
+    "story": "Illusory sounds make your foes reposition themselves as they cower or investigate the disturbance."
+  },
+  "effects": [
+
+  ],
+  "folder": null,
+  "flags": {
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "coreVersion": "12.331",
+    "systemId": "draw-steel",
+    "systemVersion": "0.6.2",
+    "createdTime": 1740757635615,
+    "modifiedTime": 1740757635615,
+    "lastModifiedBy": "z2R22m76IkusoFkR"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "F1cSR286wTbtHGDL": 3
+  },
+  "_key": "!items!shadow-sub-3-2-1a!astring",
+  "_id": "shadowsub321aaaa"
+}

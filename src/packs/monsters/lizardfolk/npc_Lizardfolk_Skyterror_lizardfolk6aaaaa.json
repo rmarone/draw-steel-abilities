@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "24DtZSNdSik1i0za": {
+            "Ru7i7USwY1C3eqyx": {
               "type": "damage",
-              "_id": "24DtZSNdSik1i0za",
-              "_key": "24DtZSNdSik1i0za",
+              "_id": "Ru7i7USwY1C3eqyx",
+              "_key": "Ru7i7USwY1C3eqyx",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "phE5C82XjJzcUOsx": {
+            "dK9Qn6Jzj6EJsQHt": {
               "type": "applied",
-              "_id": "phE5C82XjJzcUOsx",
-              "_key": "phE5C82XjJzcUOsx",
+              "_id": "dK9Qn6Jzj6EJsQHt",
+              "_key": "dK9Qn6Jzj6EJsQHt",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The skyterror can shift 4 after using this ability if they are flying.",
+        "effect": {
+          "before": "",
+          "after": "The skyterror can shift 4 after using this ability if they are flying."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk6aaaaa.ardfolk6feature1",
-      "_id": "ardfolk6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk6feature1"
     },
     {
       "name": "Poison Blowdart",
@@ -252,6 +255,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -272,10 +277,10 @@
             ]
           },
           "effects": {
-            "l7gbDqzmPSta54FP": {
+            "BhPEPfoZMh9Mxg2I": {
               "type": "damage",
-              "_id": "l7gbDqzmPSta54FP",
-              "_key": "l7gbDqzmPSta54FP",
+              "_id": "BhPEPfoZMh9Mxg2I",
+              "_key": "BhPEPfoZMh9Mxg2I",
               "name": "",
               "damage": {
                 "tier1": {
@@ -313,10 +318,10 @@
                 }
               }
             },
-            "LLmTm5LWwbbMXI5I": {
+            "tPO4qoOtlTRA6LHY": {
               "type": "applied",
-              "_id": "LLmTm5LWwbbMXI5I",
-              "_key": "LLmTm5LWwbbMXI5I",
+              "_id": "tPO4qoOtlTRA6LHY",
+              "_key": "tPO4qoOtlTRA6LHY",
               "name": "",
               "applied": {
                 "tier1": {
@@ -344,7 +349,10 @@
             }
           }
         },
-        "effect": "A creature that ends their turn adjacent to a creature or object weakened by this ability is weakened (EoT).",
+        "effect": {
+          "before": "",
+          "after": "A creature that ends their turn adjacent to a creature or object weakened by this ability is weakened (EoT)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -372,9 +380,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lizardfolk6aaaaa.ardfolk6feature2",
-      "_id": "ardfolk6feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "ardfolk6feature2"
     },
     {
       "name": "Glider",

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "KhqtE3aObkcjddtJ": {
+            "5JpqXadYvTCARNwg": {
               "type": "damage",
-              "_id": "KhqtE3aObkcjddtJ",
-              "_key": "KhqtE3aObkcjddtJ",
+              "_id": "5JpqXadYvTCARNwg",
+              "_key": "5JpqXadYvTCARNwg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "K6QQJFQRAosOuEdn": {
+            "LM8qWO054YuzY0yu": {
               "type": "applied",
-              "_id": "K6QQJFQRAosOuEdn",
-              "_key": "K6QQJFQRAosOuEdn",
+              "_id": "LM8qWO054YuzY0yu",
+              "_key": "LM8qWO054YuzY0yu",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The hijack is hidden from creatures bleeding form this ability until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "The hijack is hidden from creatures bleeding form this ability until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider6aaaaa.eraider6feature1",
-      "_id": "eraider6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider6feature1"
     },
     {
       "name": "Psi-Sickle",
@@ -254,6 +257,8 @@
           "weapon"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -273,7 +278,10 @@
           },
           "effects": null
         },
-        "effect": "The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves adjacent to the target. Otherwise, the target is pulled 4 squares toward the hijack.",
+        "effect": {
+          "before": "",
+          "after": "The hijack psychically latches their sickle onto the target and closes the distance between them. If the target is larger than the hijack, the hijack moves adjacent to the target. Otherwise, the target is pulled 4 squares toward the hijack."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -301,9 +309,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider6aaaaa.eraider6feature2",
-      "_id": "eraider6feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "eraider6feature2"
     },
     {
       "name": "Foresight",

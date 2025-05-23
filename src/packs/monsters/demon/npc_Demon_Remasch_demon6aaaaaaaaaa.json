@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "HmMWPhHQ3cPazIh7": {
+            "WCZotI2MJX0ifP0c": {
               "type": "damage",
-              "_id": "HmMWPhHQ3cPazIh7",
-              "_key": "HmMWPhHQ3cPazIh7",
+              "_id": "WCZotI2MJX0ifP0c",
+              "_key": "WCZotI2MJX0ifP0c",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "eT2UjquhCRCv2zmK": {
+            "0Y7mQIzF7qdkLxfm": {
               "type": "applied",
-              "_id": "eT2UjquhCRCv2zmK",
-              "_key": "eT2UjquhCRCv2zmK",
+              "_id": "0Y7mQIzF7qdkLxfm",
+              "_key": "0Y7mQIzF7qdkLxfm",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon6aaaaaaaaaa.demon6feature1aa",
-      "_id": "demon6feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "demon6feature1aa"
     },
     {
       "name": "Grasping Shadows",
@@ -263,6 +266,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "The resmach teleports 2 squares and uses Abyssal Strike.",
+        "effect": {
+          "before": "",
+          "after": "The resmach teleports 2 squares and uses Abyssal Strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon6aaaaaaaaaa.demon6feature2aa",
-      "_id": "demon6feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "demon6feature2aa"
     },
     {
       "name": "Lethe",

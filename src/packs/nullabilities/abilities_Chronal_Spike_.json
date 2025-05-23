@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "jwKSqx3HBsqFX0dN": {
+        "J0dLex1La7a509NH": {
           "type": "damage",
-          "_id": "jwKSqx3HBsqFX0dN",
-          "_key": "jwKSqx3HBsqFX0dN",
+          "_id": "J0dLex1La7a509NH",
+          "_key": "J0dLex1La7a509NH",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "You can shift up to half your speed before or after you make the strike. Additionally, whenever an effect lets you use a free strike or a signature ability, you can use this ability instead, paying its discipline cost as usual.",
+    "effect": {
+      "before": "",
+      "after": "You can shift up to half your speed before or after you make the strike. Additionally, whenever an effect lets you use a free strike or a signature ability, you can use this ability instead, paying its discipline cost as usual."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-ability-9!astring",
-  "_id": "nullability9aaaa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "nullability9aaaa"
 }

@@ -126,6 +126,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "xsNzEVD9Nln0yVOY": {
+            "1tLmM6MJ1zY6FtQC": {
               "type": "damage",
-              "_id": "xsNzEVD9Nln0yVOY",
-              "_key": "xsNzEVD9Nln0yVOY",
+              "_id": "1tLmM6MJ1zY6FtQC",
+              "_key": "1tLmM6MJ1zY6FtQC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +189,10 @@
                 }
               }
             },
-            "K9EEtR8mQrB0P7cH": {
+            "tJBG3uCykBfydf4u": {
               "type": "forced",
-              "_id": "K9EEtR8mQrB0P7cH",
-              "_key": "K9EEtR8mQrB0P7cH",
+              "_id": "tJBG3uCykBfydf4u",
+              "_key": "tJBG3uCykBfydf4u",
               "name": "",
               "forced": {
                 "tier1": {
@@ -216,10 +218,10 @@
                 }
               }
             },
-            "Q83pUEkJADpNdVWH": {
+            "uGDwS67oTkcDMxrl": {
               "type": "applied",
-              "_id": "Q83pUEkJADpNdVWH",
-              "_key": "Q83pUEkJADpNdVWH",
+              "_id": "uGDwS67oTkcDMxrl",
+              "_key": "uGDwS67oTkcDMxrl",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -235,7 +237,10 @@
             }
           }
         },
-        "effect": "The target can be pulled into the mob without inflicting damage.",
+        "effect": {
+          "before": "",
+          "after": "The target can be pulled into the mob without inflicting damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -263,9 +268,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear6aaaaaaaa.bugbear6feature1",
-      "_id": "bugbear6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear6feature1"
     },
     {
       "name": "Swarm",

@@ -136,6 +136,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -156,10 +158,10 @@
             ]
           },
           "effects": {
-            "qPcZOKEeVMNROq5z": {
+            "7DaZ07uwz6qm2qod": {
               "type": "damage",
-              "_id": "qPcZOKEeVMNROq5z",
-              "_key": "qPcZOKEeVMNROq5z",
+              "_id": "7DaZ07uwz6qm2qod",
+              "_key": "7DaZ07uwz6qm2qod",
               "name": "",
               "damage": {
                 "tier1": {
@@ -197,10 +199,10 @@
                 }
               }
             },
-            "fU9pM9EYu4rPwao9": {
+            "Pq7Q2Ve4nqm5h9ib": {
               "type": "applied",
-              "_id": "fU9pM9EYu4rPwao9",
-              "_key": "fU9pM9EYu4rPwao9",
+              "_id": "Pq7Q2Ve4nqm5h9ib",
+              "_key": "Pq7Q2Ve4nqm5h9ib",
               "name": "",
               "applied": {
                 "tier1": {
@@ -228,7 +230,10 @@
             }
           }
         },
-        "effect": "The ashen hoarder can have up to two Size 1 creatures grabbed at the same time.",
+        "effect": {
+          "before": "",
+          "after": "The ashen hoarder can have up to two Size 1 creatures grabbed at the same time."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -256,9 +261,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.nhoarderfeature3",
-      "_id": "nhoarderfeature3",
-      "category": "signature",
-      "resource": null
+      "_id": "nhoarderfeature3"
     },
     {
       "name": "Corpse Bomb",
@@ -277,6 +280,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -297,10 +302,10 @@
             ]
           },
           "effects": {
-            "EfXDoHj9lXo6IKud": {
+            "5P3InLI5GyO0lLxp": {
               "type": "damage",
-              "_id": "EfXDoHj9lXo6IKud",
-              "_key": "EfXDoHj9lXo6IKud",
+              "_id": "5P3InLI5GyO0lLxp",
+              "_key": "5P3InLI5GyO0lLxp",
               "name": "",
               "damage": {
                 "tier1": {
@@ -338,10 +343,10 @@
                 }
               }
             },
-            "caNUYguqkLuSmVo0": {
+            "9Q7p396h8aKG16Jf": {
               "type": "applied",
-              "_id": "caNUYguqkLuSmVo0",
-              "_key": "caNUYguqkLuSmVo0",
+              "_id": "9Q7p396h8aKG16Jf",
+              "_key": "9Q7p396h8aKG16Jf",
               "name": "",
               "applied": {
                 "tier1": {
@@ -369,7 +374,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -397,9 +405,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.nhoarderfeature4",
-      "_id": "nhoarderfeature4",
-      "category": "signature",
-      "resource": null
+      "_id": "nhoarderfeature4"
     },
     {
       "name": "Impale",
@@ -419,6 +425,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -439,10 +447,10 @@
             ]
           },
           "effects": {
-            "PNp8jaFnBfgRaFRL": {
+            "3lwTZEh6I1hp8C6f": {
               "type": "damage",
-              "_id": "PNp8jaFnBfgRaFRL",
-              "_key": "PNp8jaFnBfgRaFRL",
+              "_id": "3lwTZEh6I1hp8C6f",
+              "_key": "3lwTZEh6I1hp8C6f",
               "name": "",
               "damage": {
                 "tier1": {
@@ -480,10 +488,10 @@
                 }
               }
             },
-            "xb8XEoWcSgVhIt4G": {
+            "2V30VUgngqNSzJxL": {
               "type": "applied",
-              "_id": "xb8XEoWcSgVhIt4G",
-              "_key": "xb8XEoWcSgVhIt4G",
+              "_id": "2V30VUgngqNSzJxL",
+              "_key": "2V30VUgngqNSzJxL",
               "name": "",
               "applied": {
                 "tier1": {
@@ -511,7 +519,10 @@
             }
           }
         },
-        "effect": "An impaled creature is restrained and bleeding until the condition ends. Each impaled creature moves whenever the ashen hoarder moves. The ashen hoarder can have no more than 3 creatures impaled with this ability at a time.",
+        "effect": {
+          "before": "",
+          "after": "An impaled creature is restrained and bleeding until the condition ends. Each impaled creature moves whenever the ashen hoarder moves. The ashen hoarder can have no more than 3 creatures impaled with this ability at a time."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -539,9 +550,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.nhoarderfeature5",
-      "_id": "nhoarderfeature5",
-      "category": "heroic",
-      "resource": 3
+      "_id": "nhoarderfeature5"
     },
     {
       "name": "Bone Dozer",
@@ -559,6 +568,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -578,7 +589,10 @@
           },
           "effects": null
         },
-        "effect": "The ashen hoarder moves up to twice their speed in a straight line. Each creature and object in the ashen hoarder’s way is either moved into the nearest unoccupied square to the side or M<3 is pushed forward until the end of the ashen hoarder’s movement. A target that is force moved into an obstacle is dazed (save ends).",
+        "effect": {
+          "before": "",
+          "after": "The ashen hoarder moves up to twice their speed in a straight line. Each creature and object in the ashen hoarder’s way is either moved into the nearest unoccupied square to the side or M<3 is pushed forward until the end of the ashen hoarder’s movement. A target that is force moved into an obstacle is dazed (save ends)."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -606,9 +620,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.nhoarderfeature6",
-      "_id": "nhoarderfeature6",
-      "category": "signature",
-      "resource": null
+      "_id": "nhoarderfeature6"
     },
     {
       "name": "Armor of Corpses",
@@ -626,6 +638,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -645,7 +659,10 @@
           },
           "effects": null
         },
-        "effect": "The ashen hoarder halves the incoming damage. If an impaled creature was used in place of spending Malice on this ability, the impaled creature takes the other half of the damage.",
+        "effect": {
+          "before": "",
+          "after": "The ashen hoarder halves the incoming damage. If an impaled creature was used in place of spending Malice on this ability, the impaled creature takes the other half of the damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -673,9 +690,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.nhoarderfeature7",
-      "_id": "nhoarderfeature7",
-      "category": "heroic",
-      "resource": 2
+      "_id": "nhoarderfeature7"
     },
     {
       "name": "Unshackled Rage",
@@ -734,6 +749,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -754,10 +771,10 @@
             ]
           },
           "effects": {
-            "OwnovRNSHClguCcx": {
+            "ckwI9rqGYmbf1ZWL": {
               "type": "forced",
-              "_id": "OwnovRNSHClguCcx",
-              "_key": "OwnovRNSHClguCcx",
+              "_id": "ckwI9rqGYmbf1ZWL",
+              "_key": "ckwI9rqGYmbf1ZWL",
               "name": "",
               "forced": {
                 "tier1": {
@@ -785,7 +802,10 @@
             }
           }
         },
-        "effect": "Each target that would normally fall prone is instead restrained (save ends). ",
+        "effect": {
+          "before": "",
+          "after": "Each target that would normally fall prone is instead restrained (save ends). "
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -813,9 +833,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.hoarderfeature11",
-      "_id": "hoarderfeature11",
-      "category": "signature",
-      "resource": null
+      "_id": "hoarderfeature11"
     },
     {
       "name": "Mobile Mine Field",
@@ -833,6 +851,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -852,7 +872,10 @@
           },
           "effects": null
         },
-        "effect": "The Ashen Hoarder sprays out a rain of zombie mines brimming with necrotic energy. Six size 1M zombie mines appear in unoccupied squares within distance. An enemy that moves into a square adjacent to a zombie mine or starts their turn there causes the zombie mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. A zombie explosion can trigger other zombie mines adjacent to it to also explode. At the start of each of the ashen hoarders’s turns, each zombie mine can be moved 2 squares.",
+        "effect": {
+          "before": "",
+          "after": "The Ashen Hoarder sprays out a rain of zombie mines brimming with necrotic energy. Six size 1M zombie mines appear in unoccupied squares within distance. An enemy that moves into a square adjacent to a zombie mine or starts their turn there causes the zombie mine to explode, dealing 4 corruption damage to each creature adjacent to the mine. A zombie explosion can trigger other zombie mines adjacent to it to also explode. At the start of each of the ashen hoarders’s turns, each zombie mine can be moved 2 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -880,9 +903,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.hoarderfeature12",
-      "_id": "hoarderfeature12",
-      "category": "signature",
-      "resource": null
+      "_id": "hoarderfeature12"
     },
     {
       "name": "Ossuary Assault",
@@ -902,6 +923,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -921,7 +944,10 @@
           },
           "effects": null
         },
-        "effect": "The Ashen Hoarder moves up to their speed and makes a Claw and Blade attack with a double edge against a single target. On a tier-3 result, the ashen hoarder then uses Impale without spending malice.",
+        "effect": {
+          "before": "",
+          "after": "The Ashen Hoarder moves up to their speed and makes a Claw and Blade attack with a double edge against a single target. On a tier-3 result, the ashen hoarder then uses Impale without spending malice."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -949,9 +975,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ashenhoarder1aaa.hoarderfeature13",
-      "_id": "hoarderfeature13",
-      "category": "signature",
-      "resource": null
+      "_id": "hoarderfeature13"
     }
   ],
   "effects": [

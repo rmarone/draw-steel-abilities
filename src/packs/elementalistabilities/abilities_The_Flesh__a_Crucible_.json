@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "uZde0sYQE8k2KOaS": {
+        "86rnUWWePbaPnD6a": {
           "type": "damage",
-          "_id": "uZde0sYQE8k2KOaS",
-          "_key": "uZde0sYQE8k2KOaS",
+          "_id": "86rnUWWePbaPnD6a",
+          "_key": "86rnUWWePbaPnD6a",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-10!astring",
-  "_id": "ntalistability10",
-  "category": "heroic",
-  "resource": 3
+  "_id": "ntalistability10"
 }

@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "F5TgUdx96EuG66oJ": {
+            "EIMEdrZIMXRS7Yk5": {
               "type": "damage",
-              "_id": "F5TgUdx96EuG66oJ",
-              "_key": "F5TgUdx96EuG66oJ",
+              "_id": "EIMEdrZIMXRS7Yk5",
+              "_key": "EIMEdrZIMXRS7Yk5",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "kUVQFG7kQZTtHQMk": {
+            "G49j5NRg3ryfSodh": {
               "type": "applied",
-              "_id": "kUVQFG7kQZTtHQMk",
-              "_key": "kUVQFG7kQZTtHQMk",
+              "_id": "G49j5NRg3ryfSodh",
+              "_key": "G49j5NRg3ryfSodh",
               "name": "",
               "applied": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian1aaaaaa.aconian1feature1",
-      "_id": "aconian1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian1feature1"
     },
     {
       "name": "Experimental Treasure",
@@ -265,6 +268,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -285,10 +290,10 @@
             ]
           },
           "effects": {
-            "S0wsOq8sndSkKRko": {
+            "B0AbQz8UZFmqIT8p": {
               "type": "damage",
-              "_id": "S0wsOq8sndSkKRko",
-              "_key": "S0wsOq8sndSkKRko",
+              "_id": "B0AbQz8UZFmqIT8p",
+              "_key": "B0AbQz8UZFmqIT8p",
               "name": "",
               "damage": {
                 "tier1": null,
@@ -316,10 +321,10 @@
                 }
               }
             },
-            "W5WftUrJAvq5ZZKc": {
+            "zj8qtknvIUSa1hud": {
               "type": "applied",
-              "_id": "W5WftUrJAvq5ZZKc",
-              "_key": "W5WftUrJAvq5ZZKc",
+              "_id": "zj8qtknvIUSa1hud",
+              "_key": "zj8qtknvIUSa1hud",
               "name": "",
               "applied": {
                 "tier1": {
@@ -347,7 +352,10 @@
             }
           }
         },
-        "effect": "The first time in an encounter that Lydixavus rolls a result with this ability, she can choose that result instead of rolling whenever she uses this ability for the rest of the encounter.",
+        "effect": {
+          "before": "",
+          "after": "The first time in an encounter that Lydixavus rolls a result with this ability, she can choose that result instead of rolling whenever she uses this ability for the rest of the encounter."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -375,9 +383,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian1aaaaaa.aconian1feature2",
-      "_id": "aconian1feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian1feature2"
     },
     {
       "name": "Elevate!",
@@ -395,6 +401,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -414,7 +422,10 @@
           },
           "effects": null
         },
-        "effect": "The ground is elevated by 5 squares, creating a pillar of dirt. Each creature in the affected area is lifted along with it.",
+        "effect": {
+          "before": "",
+          "after": "The ground is elevated by 5 squares, creating a pillar of dirt. Each creature in the affected area is lifted along with it."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -442,9 +453,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian1aaaaaa.aconian1feature3",
-      "_id": "aconian1feature3",
-      "category": "heroic",
-      "resource": 2
+      "_id": "aconian1feature3"
     },
     {
       "name": "Blood for Blood",
@@ -463,6 +472,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -483,10 +494,10 @@
             ]
           },
           "effects": {
-            "i8nopUWKY868zpoN": {
+            "YayX0sgo6vahb973": {
               "type": "damage",
-              "_id": "i8nopUWKY868zpoN",
-              "_key": "i8nopUWKY868zpoN",
+              "_id": "YayX0sgo6vahb973",
+              "_key": "YayX0sgo6vahb973",
               "name": "",
               "damage": {
                 "tier1": {
@@ -524,10 +535,10 @@
                 }
               }
             },
-            "m0eozHwuON8mOdgH": {
+            "Z2JFs0pu4wTrJhR1": {
               "type": "applied",
-              "_id": "m0eozHwuON8mOdgH",
-              "_key": "m0eozHwuON8mOdgH",
+              "_id": "Z2JFs0pu4wTrJhR1",
+              "_key": "Z2JFs0pu4wTrJhR1",
               "name": "",
               "applied": {
                 "tier1": {
@@ -555,7 +566,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -583,9 +597,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian1aaaaaa.aconian1feature4",
-      "_id": "aconian1feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian1feature4"
     },
     {
       "name": "That's Our Opening!",

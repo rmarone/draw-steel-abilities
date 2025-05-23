@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -148,10 +150,10 @@
             ]
           },
           "effects": {
-            "LnOy0a81hFh0Ah4a": {
+            "ORXZq2m4bxWUqQ3b": {
               "type": "damage",
-              "_id": "LnOy0a81hFh0Ah4a",
-              "_key": "LnOy0a81hFh0Ah4a",
+              "_id": "ORXZq2m4bxWUqQ3b",
+              "_key": "ORXZq2m4bxWUqQ3b",
               "name": "",
               "damage": {
                 "tier1": {
@@ -191,7 +193,10 @@
             }
           }
         },
-        "effect": "The arrowswift can take a bane to increase the attack’s range by 5.",
+        "effect": {
+          "before": "",
+          "after": "The arrowswift can take a bane to increase the attack’s range by 5."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -219,9 +224,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode14aaaaaaa.lfwode14feature1",
-      "_id": "lfwode14feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "lfwode14feature1"
     },
     {
       "name": "Masking Glamor",

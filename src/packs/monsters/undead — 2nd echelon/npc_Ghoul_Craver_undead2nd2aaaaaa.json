@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "dD7G2wvmNAYGl0gG": {
+            "yuJ1aMBl3fgHHfVs": {
               "type": "damage",
-              "_id": "dD7G2wvmNAYGl0gG",
-              "_key": "dD7G2wvmNAYGl0gG",
+              "_id": "yuJ1aMBl3fgHHfVs",
+              "_key": "yuJ1aMBl3fgHHfVs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The ghoul craver has a double edge on this ability when targeting bleeding creatures.",
+        "effect": {
+          "before": "",
+          "after": "The ghoul craver has a double edge on this ability when targeting bleeding creatures."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd2aaaaaa.dead2nd2feature2",
-      "_id": "dead2nd2feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd2feature2"
     },
     {
       "name": "Ever So Hungry",

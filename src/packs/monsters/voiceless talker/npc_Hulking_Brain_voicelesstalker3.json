@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "NF2oSNmtHUq5iPrQ": {
+            "NQb74JbrEBAR1jhK": {
               "type": "damage",
-              "_id": "NF2oSNmtHUq5iPrQ",
-              "_key": "NF2oSNmtHUq5iPrQ",
+              "_id": "NQb74JbrEBAR1jhK",
+              "_key": "NQb74JbrEBAR1jhK",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "bOHwZxZ0DBQQJ9wZ": {
+            "iB6Gi5MeddxSZuTB": {
               "type": "applied",
-              "_id": "bOHwZxZ0DBQQJ9wZ",
-              "_key": "bOHwZxZ0DBQQJ9wZ",
+              "_id": "iB6Gi5MeddxSZuTB",
+              "_key": "iB6Gi5MeddxSZuTB",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker3.stalker3feature1",
-      "_id": "stalker3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker3feature1"
     },
     {
       "name": "Cerebral Suplex",
@@ -257,6 +260,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -277,10 +282,10 @@
             ]
           },
           "effects": {
-            "d040ETDBsdYKx9lT": {
+            "WKHUilTmhQoYzsLZ": {
               "type": "damage",
-              "_id": "d040ETDBsdYKx9lT",
-              "_key": "d040ETDBsdYKx9lT",
+              "_id": "WKHUilTmhQoYzsLZ",
+              "_key": "WKHUilTmhQoYzsLZ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -320,7 +325,10 @@
             }
           }
         },
-        "effect": "Each target is no longer grabbed.",
+        "effect": {
+          "before": "",
+          "after": "Each target is no longer grabbed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -348,9 +356,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker3.stalker3feature2",
-      "_id": "stalker3feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker3feature2"
     },
     {
       "name": "Lumber",
@@ -368,6 +374,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -387,7 +395,10 @@
           },
           "effects": null
         },
-        "effect": "Shift 4. This movement ignores difficult terrain.",
+        "effect": {
+          "before": "",
+          "after": "Shift 4. This movement ignores difficult terrain."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -415,9 +426,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker3.stalker3feature3",
-      "_id": "stalker3feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "stalker3feature3"
     },
     {
       "name": "Brawny Buffer",
@@ -435,6 +444,8 @@
 
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -454,7 +465,10 @@
           },
           "effects": null
         },
-        "effect": "The hulking brain shifts to a square adjacent to the ally and takes the damage instead.",
+        "effect": {
+          "before": "",
+          "after": "The hulking brain shifts to a square adjacent to the ally and takes the damage instead."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -482,9 +496,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!voicelesstalker3.stalker3feature4",
-      "_id": "stalker3feature4",
-      "category": "heroic",
-      "resource": 1
+      "_id": "stalker3feature4"
     },
     {
       "name": "Biceps to Spare",

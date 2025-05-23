@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "yRU48tqI3iQJwt6u": {
+            "8GssU1jTAxKSnmRs": {
               "type": "damage",
-              "_id": "yRU48tqI3iQJwt6u",
-              "_key": "yRU48tqI3iQJwt6u",
+              "_id": "8GssU1jTAxKSnmRs",
+              "_key": "8GssU1jTAxKSnmRs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The next strike made against the target has an edge.",
+        "effect": {
+          "before": "",
+          "after": "The next strike made against the target has an edge."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow4aaaaaa.fshadow4feature1",
-      "_id": "fshadow4feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "fshadow4feature1"
     },
     {
       "name": "Of the Umbra",

@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "RnLtOy8umAqBbtbm": {
+            "h2QyVypcneUL4lwK": {
               "type": "damage",
-              "_id": "RnLtOy8umAqBbtbm",
-              "_key": "RnLtOy8umAqBbtbm",
+              "_id": "h2QyVypcneUL4lwK",
+              "_key": "h2QyVypcneUL4lwK",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,7 +188,10 @@
             }
           }
         },
-        "effect": "The cleaver jumps 4 squares before or after attacking.",
+        "effect": {
+          "before": "",
+          "after": "The cleaver jumps 4 squares before or after attacking."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -214,9 +219,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!angulotl2aaaaaaa.ngulotl2feature1",
-      "_id": "ngulotl2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "ngulotl2feature1"
     },
     {
       "name": "Toxiferous",

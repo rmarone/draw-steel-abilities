@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "2cSZEv8Twrfw2LQa": {
+            "xhgjFdVzis0L3oUB": {
               "type": "damage",
-              "_id": "2cSZEv8Twrfw2LQa",
-              "_key": "2cSZEv8Twrfw2LQa",
+              "_id": "xhgjFdVzis0L3oUB",
+              "_key": "xhgjFdVzis0L3oUB",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "4GwyiZmnWhDTWzr6": {
+            "gus0SoQ1H0r6nkHg": {
               "type": "applied",
-              "_id": "4GwyiZmnWhDTWzr6",
-              "_key": "4GwyiZmnWhDTWzr6",
+              "_id": "gus0SoQ1H0r6nkHg",
+              "_key": "gus0SoQ1H0r6nkHg",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -202,7 +204,10 @@
             }
           }
         },
-        "effect": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. If a creature takes 5 or more corruption damage this way, they become insatiably hungry for flesh. The target must complete the Find a Cure project to end this effect.",
+        "effect": {
+          "before": "",
+          "after": "A target who starts their turn grabbed by the zombie takes 2 corruption damage. If a creature takes 5 or more corruption damage this way, they become insatiably hungry for flesh. The target must complete the Find a Cure project to end this effect."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -230,9 +235,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead10aaaaaaaa.undead10feature2",
-      "_id": "undead10feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "undead10feature2"
     },
     {
       "name": "Breakfall",
@@ -251,6 +254,8 @@
           "melee"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -271,10 +276,10 @@
             ]
           },
           "effects": {
-            "k3VBGEgxkbUwPCPq": {
+            "M6pRcdiPUlcP9hS4": {
               "type": "damage",
-              "_id": "k3VBGEgxkbUwPCPq",
-              "_key": "k3VBGEgxkbUwPCPq",
+              "_id": "M6pRcdiPUlcP9hS4",
+              "_key": "M6pRcdiPUlcP9hS4",
               "name": "",
               "damage": {
                 "tier1": {
@@ -312,10 +317,10 @@
                 }
               }
             },
-            "D8aOpPwbSRn3BtnR": {
+            "g0dXyCAQyydJ0MID": {
               "type": "applied",
-              "_id": "D8aOpPwbSRn3BtnR",
-              "_key": "D8aOpPwbSRn3BtnR",
+              "_id": "g0dXyCAQyydJ0MID",
+              "_key": "g0dXyCAQyydJ0MID",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -337,7 +342,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -365,9 +373,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead10aaaaaaaa.undead10feature3",
-      "_id": "undead10feature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "undead10feature3"
     },
     {
       "name": "Endless Knight",

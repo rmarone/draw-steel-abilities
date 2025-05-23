@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "MRmB5jV7mlMJjTD2": {
+            "UNVTMsCsDObTe2uC": {
               "type": "damage",
-              "_id": "MRmB5jV7mlMJjTD2",
-              "_key": "MRmB5jV7mlMJjTD2",
+              "_id": "UNVTMsCsDObTe2uC",
+              "_key": "UNVTMsCsDObTe2uC",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The grulqin has an edge on this ability if they moved at least 3 squares in a line during their turn.",
+        "effect": {
+          "before": "",
+          "after": "The grulqin has an edge on this ability if they moved at least 3 squares in a line during their turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!demon2nd1aaaaaaa.emon2nd1feature1",
-      "_id": "emon2nd1feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "emon2nd1feature1"
     },
     {
       "name": "Soulsight",

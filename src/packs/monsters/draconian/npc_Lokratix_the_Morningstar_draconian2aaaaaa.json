@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "Dpbuu9bTrGW8Uxtt": {
+            "pmaaSggflGGmI3kH": {
               "type": "damage",
-              "_id": "Dpbuu9bTrGW8Uxtt",
-              "_key": "Dpbuu9bTrGW8Uxtt",
+              "_id": "pmaaSggflGGmI3kH",
+              "_key": "pmaaSggflGGmI3kH",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "jPXuR6jteSZypTgd": {
+            "p4omqhYbatQxRlbN": {
               "type": "applied",
-              "_id": "jPXuR6jteSZypTgd",
-              "_key": "jPXuR6jteSZypTgd",
+              "_id": "p4omqhYbatQxRlbN",
+              "_key": "p4omqhYbatQxRlbN",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -210,7 +212,10 @@
             }
           }
         },
-        "effect": "Lokratix deals 6 damage to each creature or object in a line up to two squares behind the target.",
+        "effect": {
+          "before": "",
+          "after": "Lokratix deals 6 damage to each creature or object in a line up to two squares behind the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -238,9 +243,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian2aaaaaa.aconian2feature1",
-      "_id": "aconian2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian2feature1"
     },
     {
       "name": "Acidic Stun",
@@ -260,6 +263,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -280,10 +285,10 @@
             ]
           },
           "effects": {
-            "vgm9XtoKjVVhIP47": {
+            "Qe1SSBvLOEvI08Jn": {
               "type": "damage",
-              "_id": "vgm9XtoKjVVhIP47",
-              "_key": "vgm9XtoKjVVhIP47",
+              "_id": "Qe1SSBvLOEvI08Jn",
+              "_key": "Qe1SSBvLOEvI08Jn",
               "name": "",
               "damage": {
                 "tier1": {
@@ -321,10 +326,10 @@
                 }
               }
             },
-            "UdxptcNUs3Ewzw1e": {
+            "DhovbNhmUdy9LJgJ": {
               "type": "applied",
-              "_id": "UdxptcNUs3Ewzw1e",
-              "_key": "UdxptcNUs3Ewzw1e",
+              "_id": "DhovbNhmUdy9LJgJ",
+              "_key": "DhovbNhmUdy9LJgJ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -352,7 +357,10 @@
             }
           }
         },
-        "effect": "Lokratix deals an additional 6 damage on abilities targeting enemies dazed by this ability.",
+        "effect": {
+          "before": "",
+          "after": "Lokratix deals an additional 6 damage on abilities targeting enemies dazed by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -380,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian2aaaaaa.aconian2feature2",
-      "_id": "aconian2feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "aconian2feature2"
     },
     {
       "name": "Takeoff",
@@ -400,6 +406,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -419,7 +427,10 @@
           },
           "effects": null
         },
-        "effect": "Lokratix lifts off from the ground and flies up to her speed. All creatures adjacent to the square she took off from are A<2 knocked prone.",
+        "effect": {
+          "before": "",
+          "after": "Lokratix lifts off from the ground and flies up to her speed. All creatures adjacent to the square she took off from are A<2 knocked prone."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -447,9 +458,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian2aaaaaa.aconian2feature3",
-      "_id": "aconian2feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian2feature3"
     },
     {
       "name": "Stay Back!",
@@ -467,6 +476,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -487,10 +498,10 @@
             ]
           },
           "effects": {
-            "pNIK2MmRzCxWhrup": {
+            "joNVUyJhFU5UOR27": {
               "type": "damage",
-              "_id": "pNIK2MmRzCxWhrup",
-              "_key": "pNIK2MmRzCxWhrup",
+              "_id": "joNVUyJhFU5UOR27",
+              "_key": "joNVUyJhFU5UOR27",
               "name": "",
               "damage": {
                 "tier1": {
@@ -528,10 +539,10 @@
                 }
               }
             },
-            "3o4H08Jeg9VxknOG": {
+            "sXWRJiaOPpWk4crz": {
               "type": "applied",
-              "_id": "3o4H08Jeg9VxknOG",
-              "_key": "3o4H08Jeg9VxknOG",
+              "_id": "sXWRJiaOPpWk4crz",
+              "_key": "sXWRJiaOPpWk4crz",
               "name": "",
               "applied": {
                 "tier1": {
@@ -559,7 +570,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -587,9 +601,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!draconian2aaaaaa.aconian2feature4",
-      "_id": "aconian2feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "aconian2feature4"
     },
     {
       "name": "Flighty",

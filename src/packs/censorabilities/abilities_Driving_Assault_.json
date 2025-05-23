@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "9UlV3rUUBajxu1Bu": {
+        "OZ4Rs10IwxPBBkEA": {
           "type": "damage",
-          "_id": "9UlV3rUUBajxu1Bu",
-          "_key": "9UlV3rUUBajxu1Bu",
+          "_id": "OZ4Rs10IwxPBBkEA",
+          "_key": "OZ4Rs10IwxPBBkEA",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "QmKqfqzh6E8tIm5E": {
+        "ugihXJclX89MAg0t": {
           "type": "forced",
-          "_id": "QmKqfqzh6E8tIm5E",
-          "_key": "QmKqfqzh6E8tIm5E",
+          "_id": "ugihXJclX89MAg0t",
+          "_key": "ugihXJclX89MAg0t",
           "name": "",
           "forced": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "You can shift up to your speed and must end that shift within distance of the target.",
+    "effect": {
+      "before": "",
+      "after": "You can shift up to your speed and must end that shift within distance of the target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!censor-ability-6!astring",
-  "_id": "censorability6aa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "censorability6aa"
 }

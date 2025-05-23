@@ -16,6 +16,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "s83cqcVio3gb9AXG": {
+        "FiL9UHCnBsVCoFs2": {
           "type": "damage",
-          "_id": "s83cqcVio3gb9AXG",
-          "_key": "s83cqcVio3gb9AXG",
+          "_id": "FiL9UHCnBsVCoFs2",
+          "_key": "FiL9UHCnBsVCoFs2",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "One ally within distance can spend any number of Recoveries (no action required).",
+    "effect": {
+      "before": "",
+      "after": "One ally within distance can spend any number of Recoveries (no action required)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-19!astring",
-  "_id": "conduitability19",
-  "category": "heroic",
-  "resource": 7
+  "_id": "conduitability19"
 }

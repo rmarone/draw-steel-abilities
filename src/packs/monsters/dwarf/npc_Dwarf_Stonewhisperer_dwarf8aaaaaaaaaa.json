@@ -122,6 +122,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "XAwAwBiatuIGXj1R": {
+            "ut6pPiwtiBJrbWlH": {
               "type": "damage",
-              "_id": "XAwAwBiatuIGXj1R",
-              "_key": "XAwAwBiatuIGXj1R",
+              "_id": "ut6pPiwtiBJrbWlH",
+              "_key": "ut6pPiwtiBJrbWlH",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "eM8bHJzBRFU0dVpU": {
+            "RACOzYAVHJYY30cg": {
               "type": "forced",
-              "_id": "eM8bHJzBRFU0dVpU",
-              "_key": "eM8bHJzBRFU0dVpU",
+              "_id": "RACOzYAVHJYY30cg",
+              "_key": "RACOzYAVHJYY30cg",
               "name": "",
               "forced": {
                 "tier1": {
@@ -212,10 +214,10 @@
                 }
               }
             },
-            "5nbuMCK9EiXjqwOW": {
+            "nNqlfnUbxPSGL28A": {
               "type": "applied",
-              "_id": "5nbuMCK9EiXjqwOW",
-              "_key": "5nbuMCK9EiXjqwOW",
+              "_id": "nNqlfnUbxPSGL28A",
+              "_key": "nNqlfnUbxPSGL28A",
               "name": "",
               "applied": {
                 "tier1": {
@@ -243,7 +245,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be slid by this ability.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be slid by this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -271,9 +276,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf8aaaaaaaaaa.dwarf8feature1aa",
-      "_id": "dwarf8feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf8feature1aa"
     },
     {
       "name": "Stone Wave",
@@ -293,6 +296,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -313,10 +318,10 @@
             ]
           },
           "effects": {
-            "UrI2uEf0I8jldk6b": {
+            "XgKok3lyMLZk1LoI": {
               "type": "damage",
-              "_id": "UrI2uEf0I8jldk6b",
-              "_key": "UrI2uEf0I8jldk6b",
+              "_id": "XgKok3lyMLZk1LoI",
+              "_key": "XgKok3lyMLZk1LoI",
               "name": "",
               "damage": {
                 "tier1": {
@@ -354,10 +359,10 @@
                 }
               }
             },
-            "5r0pe0gpxbE8GMcX": {
+            "yQcQDld3Uu25a51C": {
               "type": "applied",
-              "_id": "5r0pe0gpxbE8GMcX",
-              "_key": "5r0pe0gpxbE8GMcX",
+              "_id": "yQcQDld3Uu25a51C",
+              "_key": "yQcQDld3Uu25a51C",
               "name": "",
               "applied": {
                 "tier1": {
@@ -385,7 +390,10 @@
             }
           }
         },
-        "effect": "A target restrained by a dwarf can be pushed by this ability. The affected area is considered difficult terrain for enemies.",
+        "effect": {
+          "before": "",
+          "after": "A target restrained by a dwarf can be pushed by this ability. The affected area is considered difficult terrain for enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -413,9 +421,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf8aaaaaaaaaa.dwarf8feature2aa",
-      "_id": "dwarf8feature2aa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dwarf8feature2aa"
     },
     {
       "name": "Stonewalker",

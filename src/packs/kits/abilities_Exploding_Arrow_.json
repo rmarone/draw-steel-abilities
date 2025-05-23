@@ -17,6 +17,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -40,10 +42,10 @@
         ]
       },
       "effects": {
-        "q8kgPEC2PlcVNJis": {
+        "ZfrNOCSNDKimGV6l": {
           "type": "damage",
-          "_id": "q8kgPEC2PlcVNJis",
-          "_key": "q8kgPEC2PlcVNJis",
+          "_id": "ZfrNOCSNDKimGV6l",
+          "_key": "ZfrNOCSNDKimGV6l",
           "name": "",
           "damage": {
             "tier1": {
@@ -83,7 +85,10 @@
         }
       }
     },
-    "effect": "A creature or object within 2 squares of your target takes fire damage equal to the characteristic score you added to this ability’s power roll.",
+    "effect": {
+      "before": "",
+      "after": "A creature or object within 2 squares of your target takes fire damage equal to the characteristic score you added to this ability’s power roll."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -111,7 +116,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-arcane-archer-signature!astring",
-  "_id": "earchersignature",
-  "category": "signature",
-  "resource": null
+  "_id": "earchersignature"
 }

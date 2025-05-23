@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "WH1qd9oyV2R5BEad": {
+        "xjX2LLpuGdUYTB5e": {
           "type": "damage",
-          "_id": "WH1qd9oyV2R5BEad",
-          "_key": "WH1qd9oyV2R5BEad",
+          "_id": "xjX2LLpuGdUYTB5e",
+          "_key": "xjX2LLpuGdUYTB5e",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "ud2HiAYXjxHturz1": {
+        "1QtnuBNZOq9eaTU7": {
           "type": "forced",
-          "_id": "ud2HiAYXjxHturz1",
-          "_key": "ud2HiAYXjxHturz1",
+          "_id": "1QtnuBNZOq9eaTU7",
+          "_key": "1QtnuBNZOq9eaTU7",
           "name": "",
           "forced": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "You can shift into any square the target leaves when you slide them.",
+    "effect": {
+      "before": "",
+      "after": "You can shift into any square the target leaves when you slide them."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-5!astring",
-  "_id": "shadowability5aa",
-  "category": "heroic",
-  "resource": 3
+  "_id": "shadowability5aa"
 }

@@ -17,6 +17,8 @@
       "pyrokinesis"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "wyboCX1YkNpeGJjz": {
+        "7phxtkSZxqw6k6eC": {
           "type": "damage",
-          "_id": "wyboCX1YkNpeGJjz",
-          "_key": "wyboCX1YkNpeGJjz",
+          "_id": "7phxtkSZxqw6k6eC",
+          "_key": "7phxtkSZxqw6k6eC",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "A column of fire lingers in the area until the start of your next turn. Each enemy who enters the area for the first time in a round or starts their turn there takes 2 fire damage.",
+    "effect": {
+      "before": "",
+      "after": "A column of fire lingers in the area until the start of your next turn. Each enemy who enters the area for the first time in a round or starts their turn there takes 2 fire damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-2!astring",
-  "_id": "talentability2aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability2aa"
 }

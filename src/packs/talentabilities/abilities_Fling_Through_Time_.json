@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "Y4hQ0hD0KWTVOAJ9": {
+        "R6JrTOdFl08egM0y": {
           "type": "damage",
-          "_id": "Y4hQ0hD0KWTVOAJ9",
-          "_key": "Y4hQ0hD0KWTVOAJ9",
+          "_id": "R6JrTOdFl08egM0y",
+          "_key": "R6JrTOdFl08egM0y",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "020b4dOyeWIkZVAm": {
+        "wDXAdyynwavVCqAa": {
           "type": "applied",
-          "_id": "020b4dOyeWIkZVAm",
-          "_key": "020b4dOyeWIkZVAm",
+          "_id": "wDXAdyynwavVCqAa",
+          "_key": "wDXAdyynwavVCqAa",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "A target who is flung through time is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space.",
+    "effect": {
+      "before": "",
+      "after": "A target who is flung through time is removed from the encounter until the end of their next turn, reappearing in their original space or the nearest available space."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-17!astring",
-  "_id": "talentability17a",
-  "category": "heroic",
-  "resource": 7
+  "_id": "talentability17a"
 }

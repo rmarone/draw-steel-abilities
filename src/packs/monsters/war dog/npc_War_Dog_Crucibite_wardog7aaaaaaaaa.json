@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "EFpyVZI0Qe0uyTSA": {
+            "NOLnFSK0DOR2DYc0": {
               "type": "damage",
-              "_id": "EFpyVZI0Qe0uyTSA",
-              "_key": "EFpyVZI0Qe0uyTSA",
+              "_id": "NOLnFSK0DOR2DYc0",
+              "_key": "NOLnFSK0DOR2DYc0",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The area is covered in sticky fire until the start of the crucibite’s next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage.",
+        "effect": {
+          "before": "",
+          "after": "The area is covered in sticky fire until the start of the crucibite’s next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog7aaaaaaaaa.wardog7feature2a",
-      "_id": "wardog7feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog7feature2a"
     },
     {
       "name": "Posthumous Promotion",
@@ -234,6 +237,8 @@
           "ranged"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -253,7 +258,10 @@
           },
           "effects": null
         },
-        "effect": "The target’s loyalty collar detonates, killing them instantly.",
+        "effect": {
+          "before": "",
+          "after": "The target’s loyalty collar detonates, killing them instantly."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -281,9 +289,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!wardog7aaaaaaaaa.wardog7feature3a",
-      "_id": "wardog7feature3a",
-      "category": "signature",
-      "resource": null
+      "_id": "wardog7feature3a"
     },
     {
       "name": "Loyalty Collar",

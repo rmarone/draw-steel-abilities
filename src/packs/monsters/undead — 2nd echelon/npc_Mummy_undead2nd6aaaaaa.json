@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "RjXfM8qrwab2i0s9": {
+            "SaWEPcqiY26Q7uVU": {
               "type": "damage",
-              "_id": "RjXfM8qrwab2i0s9",
-              "_key": "RjXfM8qrwab2i0s9",
+              "_id": "SaWEPcqiY26Q7uVU",
+              "_key": "SaWEPcqiY26Q7uVU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -183,10 +185,10 @@
                 }
               }
             },
-            "NDpxL80FbTwIMxfk": {
+            "2SRKzixMU2BCT69u": {
               "type": "forced",
-              "_id": "NDpxL80FbTwIMxfk",
-              "_key": "NDpxL80FbTwIMxfk",
+              "_id": "2SRKzixMU2BCT69u",
+              "_key": "2SRKzixMU2BCT69u",
               "name": "",
               "forced": {
                 "tier1": {
@@ -212,10 +214,10 @@
                 }
               }
             },
-            "y1LsbE1NNdHXR40m": {
+            "htaRHbUU72LsDoUu": {
               "type": "applied",
-              "_id": "y1LsbE1NNdHXR40m",
-              "_key": "y1LsbE1NNdHXR40m",
+              "_id": "htaRHbUU72LsDoUu",
+              "_key": "htaRHbUU72LsDoUu",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -231,7 +233,10 @@
             }
           }
         },
-        "effect": "The potency of the mummy's next ability used against the target increases by 1.",
+        "effect": {
+          "before": "",
+          "after": "The potency of the mummy's next ability used against the target increases by 1."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -259,9 +264,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd6aaaaaa.dead2nd6feature2",
-      "_id": "dead2nd6feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "dead2nd6feature2"
     },
     {
       "name": "Eldritch Curse",
@@ -280,6 +283,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -300,10 +305,10 @@
             ]
           },
           "effects": {
-            "ccfxD25k1nf8gkOw": {
+            "zCcGhwrrbvrKqUYT": {
               "type": "damage",
-              "_id": "ccfxD25k1nf8gkOw",
-              "_key": "ccfxD25k1nf8gkOw",
+              "_id": "zCcGhwrrbvrKqUYT",
+              "_key": "zCcGhwrrbvrKqUYT",
               "name": "",
               "damage": {
                 "tier1": {
@@ -341,10 +346,10 @@
                 }
               }
             },
-            "taXPTrI0lJU1qLuO": {
+            "gAL6osWpCFZND0jq": {
               "type": "applied",
-              "_id": "taXPTrI0lJU1qLuO",
-              "_key": "taXPTrI0lJU1qLuO",
+              "_id": "gAL6osWpCFZND0jq",
+              "_key": "gAL6osWpCFZND0jq",
               "name": "",
               "applied": {
                 "tier1": {
@@ -372,7 +377,10 @@
             }
           }
         },
-        "effect": "A cursed target is bleeding and weakened, and allies have an edge on strikes made against them.",
+        "effect": {
+          "before": "",
+          "after": "A cursed target is bleeding and weakened, and allies have an edge on strikes made against them."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -400,9 +408,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd6aaaaaa.dead2nd6feature3",
-      "_id": "dead2nd6feature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "dead2nd6feature3"
     },
     {
       "name": "Blast of Mummy Dust",
@@ -420,6 +426,8 @@
           "area"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 1,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -439,7 +447,10 @@
           },
           "effects": null
         },
-        "effect": "8 poison damage.",
+        "effect": {
+          "before": "",
+          "after": "8 poison damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -467,9 +478,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!undead2nd6aaaaaa.dead2nd6feature4",
-      "_id": "dead2nd6feature4",
-      "category": "heroic",
-      "resource": 1
+      "_id": "dead2nd6feature4"
     }
   ],
   "effects": [

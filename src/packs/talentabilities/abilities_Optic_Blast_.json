@@ -17,6 +17,8 @@
       "strike"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "RAifjAwd6nVlGurg": {
+        "RsQ8fRqOXlaowgPN": {
           "type": "damage",
-          "_id": "RAifjAwd6nVlGurg",
-          "_key": "RAifjAwd6nVlGurg",
+          "_id": "RsQ8fRqOXlaowgPN",
+          "_key": "RsQ8fRqOXlaowgPN",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "RupFYCiiBhIOpgKO": {
+        "jrxvEhrjo4VVHOgQ": {
           "type": "applied",
-          "_id": "RupFYCiiBhIOpgKO",
-          "_key": "RupFYCiiBhIOpgKO",
+          "_id": "jrxvEhrjo4VVHOgQ",
+          "_key": "jrxvEhrjo4VVHOgQ",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (a mirror, an unpainted metal shield, shiny metal plate armor, and so forth), you can choose an additional target within 3 squares of the first target.",
+    "effect": {
+      "before": "",
+      "after": "When targeting an object with a solid reflective surface or a creature carrying or wearing such an object (a mirror, an unpainted metal shield, shiny metal plate armor, and so forth), you can choose an additional target within 3 squares of the first target."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-7!astring",
-  "_id": "talentability7aa",
-  "category": "signature",
-  "resource": null
+  "_id": "talentability7aa"
 }

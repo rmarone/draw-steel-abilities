@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "mV41eVELVOnGDVxj": {
+        "jyxCd2xxBIfP5GgQ": {
           "type": "damage",
-          "_id": "mV41eVELVOnGDVxj",
-          "_key": "mV41eVELVOnGDVxj",
+          "_id": "jyxCd2xxBIfP5GgQ",
+          "_key": "jyxCd2xxBIfP5GgQ",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,7 +81,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -107,7 +112,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!fury-ability-12!astring",
-  "_id": "furyability12aaa",
-  "category": "heroic",
-  "resource": 5
+  "_id": "furyability12aaa"
 }

@@ -126,6 +126,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "LYC0TYnriF28hOcq": {
+            "0LeIUT0PTkU0ORQI": {
               "type": "damage",
-              "_id": "LYC0TYnriF28hOcq",
-              "_key": "LYC0TYnriF28hOcq",
+              "_id": "0LeIUT0PTkU0ORQI",
+              "_key": "0LeIUT0PTkU0ORQI",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +189,10 @@
                 }
               }
             },
-            "jFgu4tQYSQMw0Agi": {
+            "CUsK5mc5okXLoKNO": {
               "type": "applied",
-              "_id": "jFgu4tQYSQMw0Agi",
-              "_key": "jFgu4tQYSQMw0Agi",
+              "_id": "CUsK5mc5okXLoKNO",
+              "_key": "CUsK5mc5okXLoKNO",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -206,7 +208,10 @@
             }
           }
         },
-        "effect": "The target is grabbed if the snare started their turn hidden from them. A target grabbed by the snare can be immediately vertically pushed 4.",
+        "effect": {
+          "before": "",
+          "after": "The target is grabbed if the snare started their turn hidden from them. A target grabbed by the snare can be immediately vertically pushed 4."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -234,9 +239,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear7aaaaaaaa.bugbear7feature1",
-      "_id": "bugbear7feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear7feature1"
     }
   ],
   "effects": [

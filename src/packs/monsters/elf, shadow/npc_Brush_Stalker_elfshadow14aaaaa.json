@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "j9zp7rCjjDvagapm": {
+            "pwKvQ5sQT4BkjD5C": {
               "type": "damage",
-              "_id": "j9zp7rCjjDvagapm",
-              "_key": "j9zp7rCjjDvagapm",
+              "_id": "pwKvQ5sQT4BkjD5C",
+              "_key": "pwKvQ5sQT4BkjD5C",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow14aaaaa.shadow14feature1",
-      "_id": "shadow14feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "shadow14feature1"
     },
     {
       "name": "Reclamation",
@@ -237,6 +240,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -257,10 +262,10 @@
             ]
           },
           "effects": {
-            "ginkUTxIoPlNFHai": {
+            "9hKbETD3AswpJOOO": {
               "type": "damage",
-              "_id": "ginkUTxIoPlNFHai",
-              "_key": "ginkUTxIoPlNFHai",
+              "_id": "9hKbETD3AswpJOOO",
+              "_key": "9hKbETD3AswpJOOO",
               "name": "",
               "damage": {
                 "tier1": {
@@ -298,10 +303,10 @@
                 }
               }
             },
-            "xAFEt51XYdOOiPKe": {
+            "6t5kXbZ6eNdBGvXb": {
               "type": "applied",
-              "_id": "xAFEt51XYdOOiPKe",
-              "_key": "xAFEt51XYdOOiPKe",
+              "_id": "6t5kXbZ6eNdBGvXb",
+              "_key": "6t5kXbZ6eNdBGvXb",
               "name": "",
               "applied": {
                 "tier1": {
@@ -329,7 +334,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -357,9 +365,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfshadow14aaaaa.shadow14feature2",
-      "_id": "shadow14feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "shadow14feature2"
     },
     {
       "name": "Suneater",

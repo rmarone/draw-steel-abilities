@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "O9PRpWHZpCW30ZmH": {
+            "oij6IQgUre4tR5rd": {
               "type": "damage",
-              "_id": "O9PRpWHZpCW30ZmH",
-              "_key": "O9PRpWHZpCW30ZmH",
+              "_id": "oij6IQgUre4tR5rd",
+              "_key": "oij6IQgUre4tR5rd",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin9aaaaaaaaa.goblin9feature1a",
-      "_id": "goblin9feature1a",
-      "category": "signature",
-      "resource": null
+      "_id": "goblin9feature1a"
     },
     {
       "name": "Bury the Point",
@@ -237,6 +240,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -257,10 +262,10 @@
             ]
           },
           "effects": {
-            "FRsxj80NZORhTjui": {
+            "OBJDE8alLHSRzQCX": {
               "type": "damage",
-              "_id": "FRsxj80NZORhTjui",
-              "_key": "FRsxj80NZORhTjui",
+              "_id": "OBJDE8alLHSRzQCX",
+              "_key": "OBJDE8alLHSRzQCX",
               "name": "",
               "damage": {
                 "tier1": {
@@ -298,10 +303,10 @@
                 }
               }
             },
-            "yxWfDJIbIVzfP0bk": {
+            "qGkQiNhBy3iwmzZF": {
               "type": "applied",
-              "_id": "yxWfDJIbIVzfP0bk",
-              "_key": "yxWfDJIbIVzfP0bk",
+              "_id": "qGkQiNhBy3iwmzZF",
+              "_key": "qGkQiNhBy3iwmzZF",
               "name": "",
               "applied": {
                 "tier1": {
@@ -329,7 +334,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -357,9 +365,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!goblin9aaaaaaaaa.goblin9feature2a",
-      "_id": "goblin9feature2a",
-      "category": "heroic",
-      "resource": 2
+      "_id": "goblin9feature2a"
     },
     {
       "name": "Crafty",

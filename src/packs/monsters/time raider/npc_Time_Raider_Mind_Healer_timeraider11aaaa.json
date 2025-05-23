@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -148,10 +150,10 @@
             ]
           },
           "effects": {
-            "fGXXxGdYTR7UpD5n": {
+            "AEB2LViGP7FHkq9U": {
               "type": "damage",
-              "_id": "fGXXxGdYTR7UpD5n",
-              "_key": "fGXXxGdYTR7UpD5n",
+              "_id": "AEB2LViGP7FHkq9U",
+              "_key": "AEB2LViGP7FHkq9U",
               "name": "",
               "damage": {
                 "tier1": {
@@ -191,7 +193,10 @@
             }
           }
         },
-        "effect": "The healer can end on EoT or Save Ends effect on the target.",
+        "effect": {
+          "before": "",
+          "after": "The healer can end on EoT or Save Ends effect on the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -219,9 +224,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!timeraider11aaaa.raider11feature1",
-      "_id": "raider11feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "raider11feature1"
     },
     {
       "name": "Foresight",

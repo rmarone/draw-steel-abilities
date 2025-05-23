@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 7,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "FDk04OJgeLQzL9jf": {
+        "kO6cnD0y38kkD1C6": {
           "type": "damage",
-          "_id": "FDk04OJgeLQzL9jf",
-          "_key": "FDk04OJgeLQzL9jf",
+          "_id": "kO6cnD0y38kkD1C6",
+          "_key": "kO6cnD0y38kkD1C6",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "7rDn4to8TKUUyats": {
+        "7Bh74T4XnPIzwyH3": {
           "type": "applied",
-          "_id": "7rDn4to8TKUUyats",
-          "_key": "7rDn4to8TKUUyats",
+          "_id": "7Bh74T4XnPIzwyH3",
+          "_key": "7Bh74T4XnPIzwyH3",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "Each ally in the area can shift up to 2 squares.",
+    "effect": {
+      "before": "",
+      "after": "Each ally in the area can shift up to 2 squares."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-ability-14!astring",
-  "_id": "ubadourability14",
-  "category": "heroic",
-  "resource": 7
+  "_id": "ubadourability14"
 }

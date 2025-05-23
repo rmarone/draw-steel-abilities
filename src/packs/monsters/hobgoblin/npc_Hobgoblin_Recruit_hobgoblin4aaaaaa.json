@@ -125,6 +125,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "00zfgtviIn382e0l": {
+            "akX1tVbwbbZ4QzyP": {
               "type": "damage",
-              "_id": "00zfgtviIn382e0l",
-              "_key": "00zfgtviIn382e0l",
+              "_id": "akX1tVbwbbZ4QzyP",
+              "_key": "akX1tVbwbbZ4QzyP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "ZteEL5d7TRrUbXiv": {
+            "jKwR145MnZu4dSji": {
               "type": "applied",
-              "_id": "ZteEL5d7TRrUbXiv",
-              "_key": "ZteEL5d7TRrUbXiv",
+              "_id": "jKwR145MnZu4dSji",
+              "_key": "jKwR145MnZu4dSji",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -205,7 +207,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -233,9 +238,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin4aaaaaa.hobgoblin42aaaaa",
-      "_id": "hobgoblin42aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin42aaaaa"
     },
     {
       "name": "Tactical Positioning",

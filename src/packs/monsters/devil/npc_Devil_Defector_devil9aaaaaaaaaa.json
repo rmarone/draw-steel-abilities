@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "rOLy9eeEZEW6Ldve": {
+            "1lbXz4KsavS5ZTIy": {
               "type": "damage",
-              "_id": "rOLy9eeEZEW6Ldve",
-              "_key": "rOLy9eeEZEW6Ldve",
+              "_id": "1lbXz4KsavS5ZTIy",
+              "_key": "1lbXz4KsavS5ZTIy",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil9aaaaaaaaaa.devil9feature1aa",
-      "_id": "devil9feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil9feature1aa"
     },
     {
       "name": "Tempting Offer",
@@ -239,6 +242,8 @@
           "strike"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -258,7 +263,10 @@
           },
           "effects": null
         },
-        "effect": "If the creature takes the defector’s offer, the creature is reduced to 1 Stamina instead of 0. If they do so, on their next turn the defector controls the creature’s move action, and the creature must use a Signature Action against a creature of the defector’s choice or immediately die. The Director must spend 3 Malice to have the creature turn down this offer.",
+        "effect": {
+          "before": "",
+          "after": "If the creature takes the defector’s offer, the creature is reduced to 1 Stamina instead of 0. If they do so, on their next turn the defector controls the creature’s move action, and the creature must use a Signature Action against a creature of the defector’s choice or immediately die. The Director must spend 3 Malice to have the creature turn down this offer."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -286,9 +294,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil9aaaaaaaaaa.devil9retainer2a",
-      "_id": "devil9retainer2a",
-      "category": "signature",
-      "resource": null
+      "_id": "devil9retainer2a"
     },
     {
       "name": "True Name",

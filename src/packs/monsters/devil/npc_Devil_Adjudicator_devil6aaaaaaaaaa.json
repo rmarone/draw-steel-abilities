@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "wk7rKo7XvgoHkotX": {
+            "qqdOl4YKRz6JoteK": {
               "type": "damage",
-              "_id": "wk7rKo7XvgoHkotX",
-              "_key": "wk7rKo7XvgoHkotX",
+              "_id": "qqdOl4YKRz6JoteK",
+              "_key": "qqdOl4YKRz6JoteK",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "dtaQbLB8lgBjxb4f": {
+            "Y2ZdDfrdvWb1MtWh": {
               "type": "applied",
-              "_id": "dtaQbLB8lgBjxb4f",
-              "_key": "dtaQbLB8lgBjxb4f",
+              "_id": "Y2ZdDfrdvWb1MtWh",
+              "_key": "Y2ZdDfrdvWb1MtWh",
               "name": "",
               "applied": {
                 "tier1": {
@@ -215,7 +217,10 @@
             }
           }
         },
-        "effect": "The adjudicator can slide a target frightened by this ability 2 squares.",
+        "effect": {
+          "before": "",
+          "after": "The adjudicator can slide a target frightened by this ability 2 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -243,9 +248,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil6aaaaaaaaaa.devil6feature1aa",
-      "_id": "devil6feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil6feature1aa"
     },
     {
       "name": "Adjudicator's Interdiction",
@@ -263,6 +266,8 @@
           "magic"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -282,7 +287,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -310,9 +318,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil6aaaaaaaaaa.devil6feature2aa",
-      "_id": "devil6feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil6feature2aa"
     },
     {
       "name": "Quid Pro Quo",
@@ -330,6 +336,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -349,7 +357,10 @@
           },
           "effects": null
         },
-        "effect": "The adjudicator switches places with the target.",
+        "effect": {
+          "before": "",
+          "after": "The adjudicator switches places with the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -377,9 +388,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil6aaaaaaaaaa.devil6feature3aa",
-      "_id": "devil6feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil6feature3aa"
     },
     {
       "name": "Devilish Charm",
@@ -397,6 +406,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -416,7 +427,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -444,9 +458,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil6aaaaaaaaaa.devil6feature4aa",
-      "_id": "devil6feature4aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "devil6feature4aa"
     },
     {
       "name": "Vexatious Litigation",

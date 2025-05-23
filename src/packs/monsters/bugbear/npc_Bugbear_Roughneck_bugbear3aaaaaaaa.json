@@ -125,6 +125,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "6zLeInnFvMXYxPVJ": {
+            "NoGD5FMSHjgt9sbN": {
               "type": "damage",
-              "_id": "6zLeInnFvMXYxPVJ",
-              "_key": "6zLeInnFvMXYxPVJ",
+              "_id": "NoGD5FMSHjgt9sbN",
+              "_key": "NoGD5FMSHjgt9sbN",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "MxlZCqFPvdXwpVfF": {
+            "ScFlvboO5SN3Rqwb": {
               "type": "applied",
-              "_id": "MxlZCqFPvdXwpVfF",
-              "_key": "MxlZCqFPvdXwpVfF",
+              "_id": "ScFlvboO5SN3Rqwb",
+              "_key": "ScFlvboO5SN3Rqwb",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -211,7 +213,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -239,9 +244,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature1",
-      "_id": "bugbear3feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear3feature1"
     },
     {
       "name": "Leaping Fury",
@@ -261,6 +264,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -281,10 +286,10 @@
             ]
           },
           "effects": {
-            "hpRxnQ03UQeOAANd": {
+            "lHqV2K3rrTBPrXwP": {
               "type": "damage",
-              "_id": "hpRxnQ03UQeOAANd",
-              "_key": "hpRxnQ03UQeOAANd",
+              "_id": "lHqV2K3rrTBPrXwP",
+              "_key": "lHqV2K3rrTBPrXwP",
               "name": "",
               "damage": {
                 "tier1": {
@@ -322,10 +327,10 @@
                 }
               }
             },
-            "vfUTNZGYz22XcTvJ": {
+            "0EXFRdjD15GlvIh7": {
               "type": "applied",
-              "_id": "vfUTNZGYz22XcTvJ",
-              "_key": "vfUTNZGYz22XcTvJ",
+              "_id": "0EXFRdjD15GlvIh7",
+              "_key": "0EXFRdjD15GlvIh7",
               "name": "",
               "applied": {
                 "tier1": {
@@ -353,7 +358,10 @@
             }
           }
         },
-        "effect": "The roughneck leaps 5 to an unoccupied space adjacent to the target before making the attack.",
+        "effect": {
+          "before": "",
+          "after": "The roughneck leaps 5 to an unoccupied space adjacent to the target before making the attack."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -381,9 +389,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature2",
-      "_id": "bugbear3feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear3feature2"
     },
     {
       "name": "Drag Through Hell",
@@ -401,6 +407,8 @@
 
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -420,7 +428,10 @@
           },
           "effects": null
         },
-        "effect": "The roughneck moves up to their speed, dragging the target across the ground. The target takes 2 damage for each square they were dragged through before being released prone. Each square the target was dragged through becomes difficult terrain for enemies.",
+        "effect": {
+          "before": "",
+          "after": "The roughneck moves up to their speed, dragging the target across the ground. The target takes 2 damage for each square they were dragged through before being released prone. Each square the target was dragged through becomes difficult terrain for enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -448,9 +459,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature3",
-      "_id": "bugbear3feature3",
-      "category": "heroic",
-      "resource": 3
+      "_id": "bugbear3feature3"
     },
     {
       "name": "Throw",
@@ -469,6 +478,8 @@
           "strike"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -488,7 +499,10 @@
           },
           "effects": null
         },
-        "effect": "Vertical push 5. An ally target doesn’t take damage from being force moved.",
+        "effect": {
+          "before": "",
+          "after": "Vertical push 5. An ally target doesn’t take damage from being force moved."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -516,9 +530,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature4",
-      "_id": "bugbear3feature4",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear3feature4"
     },
     {
       "name": "Catcher",
@@ -536,6 +548,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -555,7 +569,10 @@
           },
           "effects": null
         },
-        "effect": "The target is grabbed by the roughneck.",
+        "effect": {
+          "before": "",
+          "after": "The target is grabbed by the roughneck."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -583,9 +600,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature5",
-      "_id": "bugbear3feature5",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear3feature5"
     },
     {
       "name": "Flying Sawblade",
@@ -603,6 +618,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -622,7 +639,10 @@
           },
           "effects": null
         },
-        "effect": "The roughneck uses their Haymaker ability against a creature or object at the end of the movement.",
+        "effect": {
+          "before": "",
+          "after": "The roughneck uses their Haymaker ability against a creature or object at the end of the movement."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -650,9 +670,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!bugbear3aaaaaaaa.bugbear3feature6",
-      "_id": "bugbear3feature6",
-      "category": "signature",
-      "resource": null
+      "_id": "bugbear3feature6"
     }
   ],
   "effects": [

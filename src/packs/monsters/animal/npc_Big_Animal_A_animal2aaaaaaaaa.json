@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "0CV4Phm7AiHSTSBh": {
+            "vQknUm30t1e2lM0X": {
               "type": "damage",
-              "_id": "0CV4Phm7AiHSTSBh",
-              "_key": "0CV4Phm7AiHSTSBh",
+              "_id": "vQknUm30t1e2lM0X",
+              "_key": "vQknUm30t1e2lM0X",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal2aaaaaaaaa.animal21aaaaaaaa",
-      "_id": "animal21aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal21aaaaaaaa"
     },
     {
       "name": "Toss",
@@ -233,6 +236,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -252,7 +257,10 @@
           },
           "effects": null
         },
-        "effect": "Vertical slide 3. If the target is an ally, they can make a free strike and then fall without taking damage.",
+        "effect": {
+          "before": "",
+          "after": "Vertical slide 3. If the target is an ally, they can make a free strike and then fall without taking damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -280,9 +288,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal2aaaaaaaaa.animal22aaaaaaaa",
-      "_id": "animal22aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal22aaaaaaaa"
     },
     {
       "name": "Juke",
@@ -300,6 +306,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -319,7 +327,10 @@
           },
           "effects": null
         },
-        "effect": "The animal shifts 2 before the ability activates.",
+        "effect": {
+          "before": "",
+          "after": "The animal shifts 2 before the ability activates."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -347,9 +358,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal2aaaaaaaaa.animal23aaaaaaaa",
-      "_id": "animal23aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal23aaaaaaaa"
     },
     {
       "name": "Nature Calls",

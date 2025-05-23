@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "You make two signature strikes.",
+    "effect": {
+      "before": "",
+      "after": "You make two signature strikes."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!shadow-ability-12!astring",
-  "_id": "shadowability12a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "shadowability12a"
 }

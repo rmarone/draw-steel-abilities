@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -35,7 +37,10 @@
       },
       "effects": null
     },
-    "effect": "The target’s stability increases by 5 and they gain 10 temporary stamina and two surges.",
+    "effect": {
+      "before": "",
+      "after": "The target’s stability increases by 5 and they gain 10 temporary stamina and two surges."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -63,7 +68,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-15!astring",
-  "_id": "talentability15a",
-  "category": "heroic",
-  "resource": 5
+  "_id": "talentability15a"
 }

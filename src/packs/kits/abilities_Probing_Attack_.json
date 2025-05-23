@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "xh5hHksCCrnAuSfJ": {
+        "OTE6brC2I6k2pJDh": {
           "type": "damage",
-          "_id": "xh5hHksCCrnAuSfJ",
-          "_key": "xh5hHksCCrnAuSfJ",
+          "_id": "OTE6brC2I6k2pJDh",
+          "_key": "OTE6brC2I6k2pJDh",
           "name": "",
           "damage": {
             "tier1": {
@@ -77,10 +79,10 @@
             }
           }
         },
-        "haFB4BVnQe7FJcJ1": {
+        "h7VfMcL92KTNzgQZ": {
           "type": "applied",
-          "_id": "haFB4BVnQe7FJcJ1",
-          "_key": "haFB4BVnQe7FJcJ1",
+          "_id": "h7VfMcL92KTNzgQZ",
+          "_key": "h7VfMcL92KTNzgQZ",
           "name": "",
           "applied": {
             "tier1": {
@@ -108,7 +110,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -136,7 +141,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-vuken-signature!astring",
-  "_id": "itvukensignature",
-  "category": "signature",
-  "resource": null
+  "_id": "itvukensignature"
 }

@@ -149,6 +149,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -169,10 +171,10 @@
             ]
           },
           "effects": {
-            "eL1GOh5cZ256gsXH": {
+            "DLGprgVj84FTYgSs": {
               "type": "damage",
-              "_id": "eL1GOh5cZ256gsXH",
-              "_key": "eL1GOh5cZ256gsXH",
+              "_id": "DLGprgVj84FTYgSs",
+              "_key": "DLGprgVj84FTYgSs",
               "name": "",
               "damage": {
                 "tier1": {
@@ -210,10 +212,10 @@
                 }
               }
             },
-            "v05FVHGV0ZJVc1Je": {
+            "JW35EPEynYzfJWrX": {
               "type": "applied",
-              "_id": "v05FVHGV0ZJVc1Je",
-              "_key": "v05FVHGV0ZJVc1Je",
+              "_id": "JW35EPEynYzfJWrX",
+              "_key": "JW35EPEynYzfJWrX",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -235,7 +237,10 @@
             }
           }
         },
-        "effect": "A size 1 target grabbed this way takes 3 acid damage at the start of each of their turns.",
+        "effect": {
+          "before": "",
+          "after": "A size 1 target grabbed this way takes 3 acid damage at the start of each of their turns."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -263,9 +268,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature2a",
-      "_id": "ankheg1feature2a",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature2a"
     },
     {
       "name": "Claws",
@@ -285,6 +288,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -305,10 +310,10 @@
             ]
           },
           "effects": {
-            "q3vCVZDh73EREogh": {
+            "XFbmCkLTB2peHUSE": {
               "type": "damage",
-              "_id": "q3vCVZDh73EREogh",
-              "_key": "q3vCVZDh73EREogh",
+              "_id": "XFbmCkLTB2peHUSE",
+              "_key": "XFbmCkLTB2peHUSE",
               "name": "",
               "damage": {
                 "tier1": {
@@ -346,10 +351,10 @@
                 }
               }
             },
-            "rznQox2YUjLeEsXN": {
+            "4FUvpzkdBadbfbpB": {
               "type": "applied",
-              "_id": "rznQox2YUjLeEsXN",
-              "_key": "rznQox2YUjLeEsXN",
+              "_id": "4FUvpzkdBadbfbpB",
+              "_key": "4FUvpzkdBadbfbpB",
               "name": "",
               "applied": {
                 "tier1": {
@@ -377,7 +382,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -405,9 +413,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature3a",
-      "_id": "ankheg1feature3a",
-      "category": "heroic",
-      "resource": 3
+      "_id": "ankheg1feature3a"
     },
     {
       "name": "Spitfire",
@@ -426,6 +432,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -446,10 +454,10 @@
             ]
           },
           "effects": {
-            "GKuL0OHU8nHF7nzg": {
+            "1XyThNvA0dybtxHZ": {
               "type": "damage",
-              "_id": "GKuL0OHU8nHF7nzg",
-              "_key": "GKuL0OHU8nHF7nzg",
+              "_id": "1XyThNvA0dybtxHZ",
+              "_key": "1XyThNvA0dybtxHZ",
               "name": "",
               "damage": {
                 "tier1": {
@@ -489,7 +497,10 @@
             }
           }
         },
-        "effect": "The affected area is covered in burning acid. An enemy who enters an affected square for the first time on their turn or starts their turn there takes 2 acid damage.",
+        "effect": {
+          "before": "",
+          "after": "The affected area is covered in burning acid. An enemy who enters an affected square for the first time on their turn or starts their turn there takes 2 acid damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -517,9 +528,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature4a",
-      "_id": "ankheg1feature4a",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature4a"
     },
     {
       "name": "Earth Eruption",
@@ -538,6 +547,8 @@
           "melee"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -558,10 +569,10 @@
             ]
           },
           "effects": {
-            "uPDPH8F3btbX2Ncs": {
+            "o1hIfeZsLulbuC2j": {
               "type": "damage",
-              "_id": "uPDPH8F3btbX2Ncs",
-              "_key": "uPDPH8F3btbX2Ncs",
+              "_id": "o1hIfeZsLulbuC2j",
+              "_key": "o1hIfeZsLulbuC2j",
               "name": "",
               "damage": {
                 "tier1": {
@@ -599,10 +610,10 @@
                 }
               }
             },
-            "Bha7CNxqLiIomd6q": {
+            "awae4jBQD2c0hzfC": {
               "type": "forced",
-              "_id": "Bha7CNxqLiIomd6q",
-              "_key": "Bha7CNxqLiIomd6q",
+              "_id": "awae4jBQD2c0hzfC",
+              "_key": "awae4jBQD2c0hzfC",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -618,7 +629,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -646,9 +660,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature5a",
-      "_id": "ankheg1feature5a",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature5a"
     },
     {
       "name": "Dust Cloud",
@@ -666,6 +678,8 @@
           "area"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -685,7 +699,10 @@
           },
           "effects": null
         },
-        "effect": "The ankheg kicks up dust into the affected area that blocks line of effect for enemies. The ankheg then shifts or burrows up to their speed.",
+        "effect": {
+          "before": "",
+          "after": "The ankheg kicks up dust into the affected area that blocks line of effect for enemies. The ankheg then shifts or burrows up to their speed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -713,9 +730,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature6a",
-      "_id": "ankheg1feature6a",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature6a"
     },
     {
       "name": "Skitter",
@@ -733,6 +748,8 @@
 
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -752,7 +769,10 @@
           },
           "effects": null
         },
-        "effect": "The ankheg shifts up to 3 squares.",
+        "effect": {
+          "before": "",
+          "after": "The ankheg shifts up to 3 squares."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -780,9 +800,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature7a",
-      "_id": "ankheg1feature7a",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature7a"
     },
     {
       "name": "Earthwalk",
@@ -827,6 +845,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "line",
@@ -847,10 +867,10 @@
             ]
           },
           "effects": {
-            "D0V05gf5n2TyQXf1": {
+            "rlj9PXJ3MdBvJ7js": {
               "type": "damage",
-              "_id": "D0V05gf5n2TyQXf1",
-              "_key": "D0V05gf5n2TyQXf1",
+              "_id": "rlj9PXJ3MdBvJ7js",
+              "_key": "rlj9PXJ3MdBvJ7js",
               "name": "",
               "damage": {
                 "tier1": {
@@ -890,7 +910,10 @@
             }
           }
         },
-        "effect": "The ground within the affected area is covered in burning acid. An enemy who enters an affected square for the first time on their turn or starts their turn there takes 2 acid damage.",
+        "effect": {
+          "before": "",
+          "after": "The ground within the affected area is covered in burning acid. An enemy who enters an affected square for the first time on their turn or starts their turn there takes 2 acid damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -918,9 +941,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature10",
-      "_id": "ankheg1feature10",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature10"
     },
     {
       "name": "Sinkhole",
@@ -938,6 +959,8 @@
 
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -957,7 +980,10 @@
           },
           "effects": null
         },
-        "effect": "The ankheg shifts up to their speed by burrowing. If the ankheg ends this move underground and within 2 squares of a creature on the surface, the ankheg uses Bite against the creature.",
+        "effect": {
+          "before": "",
+          "after": "The ankheg shifts up to their speed by burrowing. If the ankheg ends this move underground and within 2 squares of a creature on the surface, the ankheg uses Bite against the creature."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -985,9 +1011,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature11",
-      "_id": "ankheg1feature11",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature11"
     },
     {
       "name": "Acid and Claws",
@@ -1007,6 +1031,8 @@
           "weapon"
         ],
         "type": "villain action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -1027,10 +1053,10 @@
             ]
           },
           "effects": {
-            "i90sHEfKcNHcq8iq": {
+            "J5BdsHCtoov6mpsd": {
               "type": "applied",
-              "_id": "i90sHEfKcNHcq8iq",
-              "_key": "i90sHEfKcNHcq8iq",
+              "_id": "J5BdsHCtoov6mpsd",
+              "_key": "J5BdsHCtoov6mpsd",
               "name": "",
               "applied": {
                 "tier1": {
@@ -1058,7 +1084,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -1086,9 +1115,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ankheg1aaaaaaaaa.ankheg1feature12",
-      "_id": "ankheg1feature12",
-      "category": "signature",
-      "resource": null
+      "_id": "ankheg1feature12"
     }
   ],
   "effects": [

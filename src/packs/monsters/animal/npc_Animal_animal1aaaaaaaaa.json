@@ -122,6 +122,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -142,10 +144,10 @@
             ]
           },
           "effects": {
-            "pm5diQE7gdZvOXMT": {
+            "zSyYwKk0lYaVCJpi": {
               "type": "damage",
-              "_id": "pm5diQE7gdZvOXMT",
-              "_key": "pm5diQE7gdZvOXMT",
+              "_id": "zSyYwKk0lYaVCJpi",
+              "_key": "zSyYwKk0lYaVCJpi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,7 +187,10 @@
             }
           }
         },
-        "effect": "The animal can shift 2 between striking the first and second target.",
+        "effect": {
+          "before": "",
+          "after": "The animal can shift 2 between striking the first and second target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -213,9 +218,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal1aaaaaaaaa.animal11aaaaaaaa",
-      "_id": "animal11aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal11aaaaaaaa"
     },
     {
       "name": "Rush",
@@ -233,6 +236,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -252,7 +257,10 @@
           },
           "effects": null
         },
-        "effect": "The animal moves up to their speed.",
+        "effect": {
+          "before": "",
+          "after": "The animal moves up to their speed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -280,9 +288,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!animal1aaaaaaaaa.animal12aaaaaaaa",
-      "_id": "animal12aaaaaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "animal12aaaaaaaa"
     },
     {
       "name": "Nature Calls",

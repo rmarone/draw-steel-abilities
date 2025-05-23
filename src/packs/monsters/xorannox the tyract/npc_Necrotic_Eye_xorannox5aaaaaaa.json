@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "IDu54xaW7oEDNPJq": {
+            "cs2FQj7619tR31Lq": {
               "type": "damage",
-              "_id": "IDu54xaW7oEDNPJq",
-              "_key": "IDu54xaW7oEDNPJq",
+              "_id": "cs2FQj7619tR31Lq",
+              "_key": "cs2FQj7619tR31Lq",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "WnozB4GwZURqySNz": {
+            "huCnCIz0aVq5icPU": {
               "type": "applied",
-              "_id": "WnozB4GwZURqySNz",
-              "_key": "WnozB4GwZURqySNz",
+              "_id": "huCnCIz0aVq5icPU",
+              "_key": "huCnCIz0aVq5icPU",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "If this effect or the resulting Stamina loss from the bleeding condition reduces a creature's Stamina to 0, the target dies.",
+        "effect": {
+          "before": "",
+          "after": "If this effect or the resulting Stamina loss from the bleeding condition reduces a creature's Stamina to 0, the target dies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!xorannox5aaaaaaa.orannox5feature1",
-      "_id": "orannox5feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "orannox5feature1"
     },
     {
       "name": "Psionic Barrier",

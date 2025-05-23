@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -147,10 +149,10 @@
             ]
           },
           "effects": {
-            "TI42ZK5pVEW32TGs": {
+            "37lleJpegx3mt0nO": {
               "type": "damage",
-              "_id": "TI42ZK5pVEW32TGs",
-              "_key": "TI42ZK5pVEW32TGs",
+              "_id": "37lleJpegx3mt0nO",
+              "_key": "37lleJpegx3mt0nO",
               "name": "",
               "damage": {
                 "tier1": {
@@ -190,7 +192,10 @@
             }
           }
         },
-        "effect": "The exile is invisible to the target until the end of the target’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The exile is invisible to the target until the end of the target’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -218,9 +223,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lordsyull2aaaaaa.lordsyull22aaaaa",
-      "_id": "lordsyull22aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "lordsyull22aaaaa"
     },
     {
       "name": "Mindspace Jaunt",
@@ -239,6 +242,8 @@
           "psionic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -258,7 +263,10 @@
           },
           "effects": null
         },
-        "effect": "The exile and their mentor turn invisible until the start of their next turn. While this invisibility lasts, the exile and their mentor take half damage from all attacks and their attacks do half damage to enemies.",
+        "effect": {
+          "before": "",
+          "after": "The exile and their mentor turn invisible until the start of their next turn. While this invisibility lasts, the exile and their mentor take half damage from all attacks and their attacks do half damage to enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -286,9 +294,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!lordsyull2aaaaaa.lordsyull23aaaaa",
-      "_id": "lordsyull23aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "lordsyull23aaaaa"
     },
     {
       "name": "Psionic Conductor",

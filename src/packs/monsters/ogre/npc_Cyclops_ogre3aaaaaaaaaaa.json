@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "WZa2vP1TdTCEUVnD": {
+            "0py3cw6FS70ReOY5": {
               "type": "damage",
-              "_id": "WZa2vP1TdTCEUVnD",
-              "_key": "WZa2vP1TdTCEUVnD",
+              "_id": "0py3cw6FS70ReOY5",
+              "_key": "0py3cw6FS70ReOY5",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "MJhixKt2Y35Mo9Gk": {
+            "NySveOwKUeYWj7Qd": {
               "type": "forced",
-              "_id": "MJhixKt2Y35Mo9Gk",
-              "_key": "MJhixKt2Y35Mo9Gk",
+              "_id": "NySveOwKUeYWj7Qd",
+              "_key": "NySveOwKUeYWj7Qd",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -201,10 +203,10 @@
                 "tier3": null
               }
             },
-            "si2CiH5TFqm89PV2": {
+            "kIwEovWBdDaxhP2m": {
               "type": "applied",
-              "_id": "si2CiH5TFqm89PV2",
-              "_key": "si2CiH5TFqm89PV2",
+              "_id": "kIwEovWBdDaxhP2m",
+              "_key": "kIwEovWBdDaxhP2m",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -220,7 +222,10 @@
             }
           }
         },
-        "effect": "The cyclops automatically has a 17 on the power roll. They can still roll to see if they get a crit.",
+        "effect": {
+          "before": "",
+          "after": "The cyclops automatically has a 17 on the power roll. They can still roll to see if they get a crit."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -248,9 +253,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!ogre3aaaaaaaaaaa.ogre3feature1aaa",
-      "_id": "ogre3feature1aaa",
-      "category": "signature",
-      "resource": null
+      "_id": "ogre3feature1aaa"
     },
     {
       "name": "Limited Vision",

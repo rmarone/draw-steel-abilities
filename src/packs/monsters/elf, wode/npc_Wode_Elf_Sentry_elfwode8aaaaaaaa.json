@@ -124,6 +124,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "D4vaf5nltV38TtVK": {
+            "8YQ52D63lG8hlCuG": {
               "type": "damage",
-              "_id": "D4vaf5nltV38TtVK",
-              "_key": "D4vaf5nltV38TtVK",
+              "_id": "8YQ52D63lG8hlCuG",
+              "_key": "8YQ52D63lG8hlCuG",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "Pn5moTURx0eGk7vJ": {
+            "97EHM3wYZJAK2ijN": {
               "type": "applied",
-              "_id": "Pn5moTURx0eGk7vJ",
-              "_key": "Pn5moTURx0eGk7vJ",
+              "_id": "97EHM3wYZJAK2ijN",
+              "_key": "97EHM3wYZJAK2ijN",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "Each ally has an edge on strikes and abilities against marked targets until the condition ends.",
+        "effect": {
+          "before": "",
+          "after": "Each ally has an edge on strikes and abilities against marked targets until the condition ends."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode8aaaaaaaa.elfwode8feature1",
-      "_id": "elfwode8feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode8feature1"
     },
     {
       "name": "Death Blossom",
@@ -253,6 +256,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -272,7 +277,10 @@
           },
           "effects": null
         },
-        "effect": "3 damage.",
+        "effect": {
+          "before": "",
+          "after": "3 damage."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -300,9 +308,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode8aaaaaaaa.elfwode8feature2",
-      "_id": "elfwode8feature2",
-      "category": "heroic",
-      "resource": 2
+      "_id": "elfwode8feature2"
     },
     {
       "name": "Masking Glamor",

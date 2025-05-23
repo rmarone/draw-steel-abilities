@@ -17,6 +17,8 @@
       "ranged"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "cube",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "D95RNT9D9wGKui9J": {
+        "u6lrsSzPLvW158bL": {
           "type": "damage",
-          "_id": "D95RNT9D9wGKui9J",
-          "_key": "D95RNT9D9wGKui9J",
+          "_id": "u6lrsSzPLvW158bL",
+          "_key": "u6lrsSzPLvW158bL",
           "name": "",
           "damage": {
             "tier1": {
@@ -80,7 +82,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -108,7 +113,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-13!astring",
-  "_id": "ntalistability13",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ntalistability13"
 }

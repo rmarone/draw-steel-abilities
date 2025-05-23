@@ -16,6 +16,8 @@
       "ranged"
     ],
     "type": "maneuver",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -36,10 +38,10 @@
         ]
       },
       "effects": {
-        "8fB8UkURoNSv4SCM": {
+        "qTRtFIu9SgIqW88K": {
           "type": "applied",
-          "_id": "8fB8UkURoNSv4SCM",
-          "_key": "8fB8UkURoNSv4SCM",
+          "_id": "qTRtFIu9SgIqW88K",
+          "_key": "qTRtFIu9SgIqW88K",
           "name": "",
           "applied": {
             "tier1": {
@@ -67,7 +69,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -95,7 +100,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!elementalist-ability-14!astring",
-  "_id": "ntalistability14",
-  "category": "heroic",
-  "resource": 5
+  "_id": "ntalistability14"
 }

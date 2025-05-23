@@ -14,6 +14,8 @@
       "psionic"
     ],
     "type": "triggered action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "self",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "You halve the damage.",
+    "effect": {
+      "before": "",
+      "after": "You halve the damage."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-1-5!astring",
-  "_id": "null15aaaaaaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "null15aaaaaaaaaa"
 }

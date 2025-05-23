@@ -125,6 +125,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "Gb6ALdmsASvSJHTa": {
+            "lqZBnDPPD5EbrF37": {
               "type": "damage",
-              "_id": "Gb6ALdmsASvSJHTa",
-              "_key": "Gb6ALdmsASvSJHTa",
+              "_id": "lqZBnDPPD5EbrF37",
+              "_key": "lqZBnDPPD5EbrF37",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "pwDsPACNNXfovNNR": {
+            "V5SNrnHwvvWx8RNS": {
               "type": "applied",
-              "_id": "pwDsPACNNXfovNNR",
-              "_key": "pwDsPACNNXfovNNR",
+              "_id": "V5SNrnHwvvWx8RNS",
+              "_key": "V5SNrnHwvvWx8RNS",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -211,7 +213,10 @@
             }
           }
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -239,9 +244,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin2aaaaaa.hobgoblin22aaaaa",
-      "_id": "hobgoblin22aaaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin22aaaaa"
     },
     {
       "name": "Open Furnace",

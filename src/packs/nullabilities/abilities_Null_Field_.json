@@ -14,6 +14,8 @@
       "psionic"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "aura",
@@ -33,7 +35,10 @@
       },
       "effects": null
     },
-    "effect": "\nEach target reduces their potencies by 1.\n\nOnce as a free maneuver on your turn, you can spend 1 discipline and give your Null Field has one of the following additional effects until the start of your next turn:\n\n* **Gravitic Disruption**: When a target takes damage, you can slide them 2.\n* **Inertial Anchor**: Each target who starts their turn in the area cannot shift.\n* **Synaptic Break**: When a target is subjected to a potency, the potency is increased by 1.\n\nThis ability stays active even after encounters end. It ends if you are dying or if you willingly end it (no action required).",
+    "effect": {
+      "before": "",
+      "after": "\nEach target reduces their potencies by 1.\n\nOnce as a free maneuver on your turn, you can spend 1 discipline and give your Null Field has one of the following additional effects until the start of your next turn:\n\n* **Gravitic Disruption**: When a target takes damage, you can slide them 2.\n* **Inertial Anchor**: Each target who starts their turn in the area cannot shift.\n* **Synaptic Break**: When a target is subjected to a potency, the potency is increased by 1.\n\nThis ability stays active even after encounters end. It ends if you are dying or if you willingly end it (no action required)."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -61,7 +66,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!null-1-4!astring",
-  "_id": "null14aaaaaaaaaa",
-  "category": "signature",
-  "resource": null
+  "_id": "null14aaaaaaaaaa"
 }

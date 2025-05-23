@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 5,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -34,7 +36,10 @@
       },
       "effects": null
     },
-    "effect": "Each target can spend a Recovery. When you use this ability, each target can use a free triggered action to end one effect that is ended by a saving throw or that ends at the end of their turn, or to stand up if prone.",
+    "effect": {
+      "before": "",
+      "after": "Each target can spend a Recovery. When you use this ability, each target can use a free triggered action to end one effect that is ended by a saving throw or that ends at the end of their turn, or to stand up if prone."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -62,7 +67,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!conduit-ability-16!astring",
-  "_id": "conduitability16",
-  "category": "heroic",
-  "resource": 5
+  "_id": "conduitability16"
 }

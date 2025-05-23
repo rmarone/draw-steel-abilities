@@ -123,6 +123,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "tWmKjdb7ppYw3Yfu": {
+            "ANvisI1u6DQXle5K": {
               "type": "damage",
-              "_id": "tWmKjdb7ppYw3Yfu",
-              "_key": "tWmKjdb7ppYw3Yfu",
+              "_id": "ANvisI1u6DQXle5K",
+              "_key": "ANvisI1u6DQXle5K",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "MoCYrFyxl4rfhQFr": {
+            "XU8T6DdTMUqezH5f": {
               "type": "applied",
-              "_id": "MoCYrFyxl4rfhQFr",
-              "_key": "MoCYrFyxl4rfhQFr",
+              "_id": "XU8T6DdTMUqezH5f",
+              "_key": "XU8T6DdTMUqezH5f",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -209,7 +211,10 @@
             }
           }
         },
-        "effect": "A non-minion devil within 5 has an edge on their next strike.",
+        "effect": {
+          "before": "",
+          "after": "A non-minion devil within 5 has an edge on their next strike."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -237,9 +242,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil2aaaaaaaaaa.devil2feature1aa",
-      "_id": "devil2feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil2feature1aa"
     },
     {
       "name": "True Name",

@@ -126,11 +126,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -146,10 +148,10 @@
             ]
           },
           "effects": {
-            "opXKAb3OOAMxGpAV": {
+            "iBkWlZLeMmnj32nl": {
               "type": "damage",
-              "_id": "opXKAb3OOAMxGpAV",
-              "_key": "opXKAb3OOAMxGpAV",
+              "_id": "iBkWlZLeMmnj32nl",
+              "_key": "iBkWlZLeMmnj32nl",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +189,10 @@
                 }
               }
             },
-            "TOWU2c5kt9qeTQwN": {
+            "ehAT4jctE7v0W4Ir": {
               "type": "forced",
-              "_id": "TOWU2c5kt9qeTQwN",
-              "_key": "TOWU2c5kt9qeTQwN",
+              "_id": "ehAT4jctE7v0W4Ir",
+              "_key": "ehAT4jctE7v0W4Ir",
               "name": "",
               "forced": {
                 "tier1": {
@@ -218,7 +220,10 @@
             }
           }
         },
-        "effect": "The tree chirugeon can make a ranged free strike before using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The tree chirugeon can make a ranged free strike before using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -246,9 +251,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode9aaaaaaaa.elfwode9feature1",
-      "_id": "elfwode9feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode9feature1"
     },
     {
       "name": "The Wode Protects Us",
@@ -266,6 +269,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -285,7 +290,10 @@
           },
           "effects": null
         },
-        "effect": "Each target teleports to a square within 10 that has cover or concealment from all enemies.",
+        "effect": {
+          "before": "",
+          "after": "Each target teleports to a square within 10 that has cover or concealment from all enemies."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -313,9 +321,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfwode9aaaaaaaa.elfwode9feature2",
-      "_id": "elfwode9feature2",
-      "category": "signature",
-      "resource": null
+      "_id": "elfwode9feature2"
     },
     {
       "name": "Masking Glamor",

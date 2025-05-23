@@ -124,6 +124,8 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "FqnSr27uGdLQrKyq": {
+            "YLaOIxrTAKJ4AM7H": {
               "type": "damage",
-              "_id": "FqnSr27uGdLQrKyq",
-              "_key": "FqnSr27uGdLQrKyq",
+              "_id": "YLaOIxrTAKJ4AM7H",
+              "_key": "YLaOIxrTAKJ4AM7H",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,7 +189,10 @@
             }
           }
         },
-        "effect": "The target can’t hide until the start of the dawn mage’s next turn.",
+        "effect": {
+          "before": "",
+          "after": "The target can’t hide until the start of the dawn mage’s next turn."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -215,9 +220,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!elfhigh2aaaaaaaa.elfhigh2feature1",
-      "_id": "elfhigh2feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "elfhigh2feature1"
     },
     {
       "name": "Otherwordly Grace",

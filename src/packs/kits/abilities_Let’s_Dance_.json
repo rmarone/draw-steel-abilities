@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "mcDMKFHVKwDtHTMX": {
+        "j154d9pxqsaVlcNw": {
           "type": "damage",
-          "_id": "mcDMKFHVKwDtHTMX",
-          "_key": "mcDMKFHVKwDtHTMX",
+          "_id": "j154d9pxqsaVlcNw",
+          "_key": "j154d9pxqsaVlcNw",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "XzjFGFkeEqZC1NBE": {
+        "fnerrwwifB4h2z9u": {
           "type": "forced",
-          "_id": "XzjFGFkeEqZC1NBE",
-          "_key": "XzjFGFkeEqZC1NBE",
+          "_id": "fnerrwwifB4h2z9u",
+          "_key": "fnerrwwifB4h2z9u",
           "name": "",
           "forced": {
             "tier1": null,
@@ -103,7 +105,10 @@
         }
       }
     },
-    "effect": "You can shift into any square your target leaves after you slide them.",
+    "effect": {
+      "before": "",
+      "after": "You can shift into any square your target leaves after you slide them."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -131,7 +136,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-pugilist-signature!astring",
-  "_id": "ugilistsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "ugilistsignature"
 }

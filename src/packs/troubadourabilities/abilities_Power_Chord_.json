@@ -15,6 +15,8 @@
       "magic"
     ],
     "type": "maneuver",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "burst",
@@ -35,10 +37,10 @@
         ]
       },
       "effects": {
-        "sQcHFg4QoABuTJA6": {
+        "X9NAl4LsfMnWjQD6": {
           "type": "applied",
-          "_id": "sQcHFg4QoABuTJA6",
-          "_key": "sQcHFg4QoABuTJA6",
+          "_id": "X9NAl4LsfMnWjQD6",
+          "_key": "X9NAl4LsfMnWjQD6",
           "name": "",
           "applied": {
             "tier1": {
@@ -66,7 +68,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -94,7 +99,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!troubadour-sub-3-1-1!astring",
-  "_id": "troubadoursub311",
-  "category": "signature",
-  "resource": null
+  "_id": "troubadoursub311"
 }

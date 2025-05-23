@@ -16,6 +16,8 @@
       "weapon"
     ],
     "type": "action",
+    "category": "signature",
+    "resource": null,
     "trigger": "",
     "distance": {
       "type": "melee",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "Jlsk6NBZKPwjDOmV": {
+        "Rp0sc5vqxZPaems9": {
           "type": "damage",
-          "_id": "Jlsk6NBZKPwjDOmV",
-          "_key": "Jlsk6NBZKPwjDOmV",
+          "_id": "Rp0sc5vqxZPaems9",
+          "_key": "Rp0sc5vqxZPaems9",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "LmET5mE33mHsEEeL": {
+        "PzOQyBnDzShJS8oW": {
           "type": "forced",
-          "_id": "LmET5mE33mHsEEeL",
-          "_key": "LmET5mE33mHsEEeL",
+          "_id": "PzOQyBnDzShJS8oW",
+          "_key": "PzOQyBnDzShJS8oW",
           "name": "",
           "forced": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "",
+    "effect": {
+      "before": "",
+      "after": ""
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!kit-whirlwind-signature!astring",
-  "_id": "irlwindsignature",
-  "category": "signature",
-  "resource": null
+  "_id": "irlwindsignature"
 }

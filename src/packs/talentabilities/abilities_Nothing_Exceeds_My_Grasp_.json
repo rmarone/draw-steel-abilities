@@ -17,6 +17,8 @@
       "telekinesis"
     ],
     "type": "action",
+    "category": "heroic",
+    "resource": 3,
     "trigger": "",
     "distance": {
       "type": "ranged",
@@ -37,10 +39,10 @@
         ]
       },
       "effects": {
-        "iUSEIm1bNNxYYvrF": {
+        "1HsGuzpvUHrRfF6k": {
           "type": "damage",
-          "_id": "iUSEIm1bNNxYYvrF",
-          "_key": "iUSEIm1bNNxYYvrF",
+          "_id": "1HsGuzpvUHrRfF6k",
+          "_key": "1HsGuzpvUHrRfF6k",
           "name": "",
           "damage": {
             "tier1": {
@@ -78,10 +80,10 @@
             }
           }
         },
-        "aTiOt0SROjkukeDy": {
+        "Xh2Jo9aXHjf5FrAl": {
           "type": "applied",
-          "_id": "aTiOt0SROjkukeDy",
-          "_key": "aTiOt0SROjkukeDy",
+          "_id": "Xh2Jo9aXHjf5FrAl",
+          "_key": "Xh2Jo9aXHjf5FrAl",
           "name": "",
           "applied": {
             "tier1": {
@@ -109,7 +111,10 @@
         }
       }
     },
-    "effect": "You can vertical pull the target up to 2 squares. You can pull a target restrained by this ability, ignoring their stability.",
+    "effect": {
+      "before": "",
+      "after": "You can vertical pull the target up to 2 squares. You can pull a target restrained by this ability, ignoring their stability."
+    },
     "spend": {
       "value": null,
       "text": ""
@@ -137,7 +142,5 @@
     "F1cSR286wTbtHGDL": 3
   },
   "_key": "!items!talent-ability-10!astring",
-  "_id": "talentability10a",
-  "category": "heroic",
-  "resource": 3
+  "_id": "talentability10a"
 }

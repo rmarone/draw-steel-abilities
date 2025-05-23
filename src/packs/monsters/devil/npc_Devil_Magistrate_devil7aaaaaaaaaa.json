@@ -123,6 +123,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -143,10 +145,10 @@
             ]
           },
           "effects": {
-            "3y9mW5JHeGtv2Csk": {
+            "zCuyOBxkqHqzWKPg": {
               "type": "damage",
-              "_id": "3y9mW5JHeGtv2Csk",
-              "_key": "3y9mW5JHeGtv2Csk",
+              "_id": "zCuyOBxkqHqzWKPg",
+              "_key": "zCuyOBxkqHqzWKPg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -184,10 +186,10 @@
                 }
               }
             },
-            "kWqHPubdAVpnpyOY": {
+            "3l1xrZjx8N0YUf1E": {
               "type": "applied",
-              "_id": "kWqHPubdAVpnpyOY",
-              "_key": "kWqHPubdAVpnpyOY",
+              "_id": "3l1xrZjx8N0YUf1E",
+              "_key": "3l1xrZjx8N0YUf1E",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -203,7 +205,10 @@
             }
           }
         },
-        "effect": "The magistrate can shift up to 3 squares before or after using this ability, or between targets.",
+        "effect": {
+          "before": "",
+          "after": "The magistrate can shift up to 3 squares before or after using this ability, or between targets."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -231,9 +236,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil7aaaaaaaaaa.devil7feature1aa",
-      "_id": "devil7feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil7feature1aa"
     },
     {
       "name": "Verdict",
@@ -253,6 +256,8 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -273,10 +278,10 @@
             ]
           },
           "effects": {
-            "eexYo9wV5YIPGK6M": {
+            "j1IGCNorJky8mhdn": {
               "type": "damage",
-              "_id": "eexYo9wV5YIPGK6M",
-              "_key": "eexYo9wV5YIPGK6M",
+              "_id": "j1IGCNorJky8mhdn",
+              "_key": "j1IGCNorJky8mhdn",
               "name": "",
               "damage": {
                 "tier1": {
@@ -316,7 +321,10 @@
             }
           }
         },
-        "effect": "This ability has a double edge if the magistrate was hidden before using this ability and deals an additional 5 damage if the target is dazed.",
+        "effect": {
+          "before": "",
+          "after": "This ability has a double edge if the magistrate was hidden before using this ability and deals an additional 5 damage if the target is dazed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -344,9 +352,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil7aaaaaaaaaa.devil7feature2aa",
-      "_id": "devil7feature2aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil7feature2aa"
     },
     {
       "name": "Justice Turns Its Gaze",
@@ -364,6 +370,8 @@
 
         ],
         "type": "maneuver",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "self",
@@ -383,7 +391,10 @@
           },
           "effects": null
         },
-        "effect": "The magistrate becomes hidden, even if they are being observed.",
+        "effect": {
+          "before": "",
+          "after": "The magistrate becomes hidden, even if they are being observed."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -411,9 +422,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil7aaaaaaaaaa.devil7feature3aa",
-      "_id": "devil7feature3aa",
-      "category": "signature",
-      "resource": null
+      "_id": "devil7feature3aa"
     },
     {
       "name": "Devilish Charm",
@@ -431,6 +440,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "heroic",
+        "resource": 2,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -450,7 +461,10 @@
           },
           "effects": null
         },
-        "effect": "",
+        "effect": {
+          "before": "",
+          "after": ""
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -478,9 +492,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!devil7aaaaaaaaaa.devil7feature4aa",
-      "_id": "devil7feature4aa",
-      "category": "heroic",
-      "resource": 2
+      "_id": "devil7feature4aa"
     },
     {
       "name": "Leading",

@@ -125,6 +125,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -145,10 +147,10 @@
             ]
           },
           "effects": {
-            "vXER5q0LYPFOOBTH": {
+            "gtKlAOm9gYxhy9BY": {
               "type": "damage",
-              "_id": "vXER5q0LYPFOOBTH",
-              "_key": "vXER5q0LYPFOOBTH",
+              "_id": "gtKlAOm9gYxhy9BY",
+              "_key": "gtKlAOm9gYxhy9BY",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +188,10 @@
                 }
               }
             },
-            "rMgIm4LAw7Of1HXW": {
+            "ri6Ot4vYNrUyasfb": {
               "type": "applied",
-              "_id": "rMgIm4LAw7Of1HXW",
-              "_key": "rMgIm4LAw7Of1HXW",
+              "_id": "ri6Ot4vYNrUyasfb",
+              "_key": "ri6Ot4vYNrUyasfb",
               "name": "",
               "applied": {
                 "tier1": {
@@ -217,7 +219,10 @@
             }
           }
         },
-        "effect": "The war mage can teleport a creature within 10 up to 2 squares before using this ability.",
+        "effect": {
+          "before": "",
+          "after": "The war mage can teleport a creature within 10 up to 2 squares before using this ability."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -245,9 +250,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin13aaaaa.hobgoblin132aaaa",
-      "_id": "hobgoblin132aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin132aaaa"
     },
     {
       "name": "Enchantments of War",
@@ -266,6 +269,8 @@
           "ranged"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -285,7 +290,10 @@
           },
           "effects": null
         },
-        "effect": "Each target gains 10 temporary Stamina and has a double edge on their next power roll. The war mage can spend any amount of their Stamina to increase the temporary Stamina each target gains by an equivalent amount.",
+        "effect": {
+          "before": "",
+          "after": "Each target gains 10 temporary Stamina and has a double edge on their next power roll. The war mage can spend any amount of their Stamina to increase the temporary Stamina each target gains by an equivalent amount."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -313,9 +321,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin13aaaaa.hobgoblin133aaaa",
-      "_id": "hobgoblin133aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin133aaaa"
     },
     {
       "name": "Unhallowed Ground",
@@ -334,6 +340,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "cube",
@@ -353,7 +361,10 @@
           },
           "effects": null
         },
-        "effect": "The war mage consecrates the affected area and causes it to smolder. Until the end of the encounter, the affected area is considered difficult terrain and enemies have fire weakness 10 while occupying an affected square.",
+        "effect": {
+          "before": "",
+          "after": "The war mage consecrates the affected area and causes it to smolder. Until the end of the encounter, the affected area is considered difficult terrain and enemies have fire weakness 10 while occupying an affected square."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -381,9 +392,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin13aaaaa.hobgoblin134aaaa",
-      "_id": "hobgoblin134aaaa",
-      "category": "heroic",
-      "resource": 3
+      "_id": "hobgoblin134aaaa"
     },
     {
       "name": "Magic Siphon",
@@ -401,6 +410,8 @@
           "magic"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "ranged",
@@ -420,7 +431,10 @@
           },
           "effects": null
         },
-        "effect": "Any damage dealt or Stamina regained by the attack or ability is halved. The war mage regains Stamina equal to the remainder.",
+        "effect": {
+          "before": "",
+          "after": "Any damage dealt or Stamina regained by the attack or ability is halved. The war mage regains Stamina equal to the remainder."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -448,9 +462,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!hobgoblin13aaaaa.hobgoblin135aaaa",
-      "_id": "hobgoblin135aaaa",
-      "category": "signature",
-      "resource": null
+      "_id": "hobgoblin135aaaa"
     },
     {
       "name": "Infernal Ichor",

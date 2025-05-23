@@ -124,11 +124,13 @@
           "strike"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 10,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "pHvJHHGaiFxajxrO": {
+            "sWl67YKquIhUO4cl": {
               "type": "damage",
-              "_id": "pHvJHHGaiFxajxrO",
-              "_key": "pHvJHHGaiFxajxrO",
+              "_id": "sWl67YKquIhUO4cl",
+              "_key": "sWl67YKquIhUO4cl",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "2oB67XdcdzvjhLwu": {
+            "54eNRWGoYKiNH9kO": {
               "type": "forced",
-              "_id": "2oB67XdcdzvjhLwu",
-              "_key": "2oB67XdcdzvjhLwu",
+              "_id": "54eNRWGoYKiNH9kO",
+              "_key": "54eNRWGoYKiNH9kO",
               "name": "",
               "forced": {
                 "tier1": {
@@ -216,7 +218,10 @@
             }
           }
         },
-        "effect": "The piper or an ally within distance regains Stamina equal to half the damage dealt.",
+        "effect": {
+          "before": "",
+          "after": "The piper or an ally within distance regains Stamina equal to half the damage dealt."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -244,9 +249,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight6aaaaa.enwight6feature1",
-      "_id": "enwight6feature1",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight6feature1"
     },
     {
       "name": "Vivace Vivace!",
@@ -265,6 +268,8 @@
           "magic"
         ],
         "type": "maneuver",
+        "category": "heroic",
+        "resource": 3,
         "trigger": "",
         "distance": {
           "type": "burst",
@@ -284,7 +289,10 @@
           },
           "effects": null
         },
-        "effect": "Each target who has used their Ready Rodent ability since their last turn regains the use of their triggered action.",
+        "effect": {
+          "before": "",
+          "after": "Each target who has used their Ready Rodent ability since their last turn regains the use of their triggered action."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -312,9 +320,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight6aaaaa.enwight6feature2",
-      "_id": "enwight6feature2",
-      "category": "heroic",
-      "resource": 3
+      "_id": "enwight6feature2"
     },
     {
       "name": "Ready Rodent",
@@ -333,6 +339,8 @@
           "weapon"
         ],
         "type": "triggered action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
           "type": "melee",
@@ -352,7 +360,10 @@
           },
           "effects": null
         },
-        "effect": "The piper makes a free strike against the target.",
+        "effect": {
+          "before": "",
+          "after": "The piper makes a free strike against the target."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -380,9 +391,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!radenwight6aaaaa.enwight6feature3",
-      "_id": "enwight6feature3",
-      "category": "signature",
-      "resource": null
+      "_id": "enwight6feature3"
     },
     {
       "name": "Musical Suggestion",

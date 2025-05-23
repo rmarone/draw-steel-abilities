@@ -124,11 +124,13 @@
           "weapon"
         ],
         "type": "action",
+        "category": "signature",
+        "resource": null,
         "trigger": "",
         "distance": {
-          "type": "melee",
+          "type": "meleeRanged",
           "primary": 1,
-          "secondary": 0,
+          "secondary": 5,
           "tertiary": null
         },
         "damageDisplay": "melee",
@@ -144,10 +146,10 @@
             ]
           },
           "effects": {
-            "7Uz6qyQl7p0oRm9D": {
+            "22C6KrYeClrHESCg": {
               "type": "damage",
-              "_id": "7Uz6qyQl7p0oRm9D",
-              "_key": "7Uz6qyQl7p0oRm9D",
+              "_id": "22C6KrYeClrHESCg",
+              "_key": "22C6KrYeClrHESCg",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +187,10 @@
                 }
               }
             },
-            "pCeOwiEIdmEwrrg3": {
+            "fS0doSJ7iRpfju51": {
               "type": "applied",
-              "_id": "pCeOwiEIdmEwrrg3",
-              "_key": "pCeOwiEIdmEwrrg3",
+              "_id": "fS0doSJ7iRpfju51",
+              "_key": "fS0doSJ7iRpfju51",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -204,7 +206,10 @@
             }
           }
         },
-        "effect": "The target can’t use triggered actions until the start of the next round.",
+        "effect": {
+          "before": "",
+          "after": "The target can’t use triggered actions until the start of the next round."
+        },
         "spend": {
           "value": null,
           "text": ""
@@ -232,9 +237,7 @@
         "F1cSR286wTbtHGDL": 3
       },
       "_key": "!actors.items!dwarf1aaaaaaaaaa.dwarf1feature1aa",
-      "_id": "dwarf1feature1aa",
-      "category": "signature",
-      "resource": null
+      "_id": "dwarf1feature1aa"
     }
   ],
   "effects": [
