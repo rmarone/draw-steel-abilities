@@ -6,7 +6,7 @@ You may have to alter the ability values base on your echantments/wards etc.
 
 Also adds a compendium of monsters for the director.
 
-Install into foundry by going to Add on modules > Install module (at the bottom of the screen) and pasting https://github.com/rmarone/draw-steel-abilities/releases/download/1.3.1/module.json and then clicking install, then activate the module in your game
+Install into foundry by going to Add on modules > Install module (at the bottom of the screen) and pasting https://github.com/rmarone/draw-steel-abilities/releases/download/1.3.2/module.json and then clicking install, then activate the module in your game
 
 Future potential feature:
 
