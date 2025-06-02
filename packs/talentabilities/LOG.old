@@ -1,15 +1,15 @@
-2025/05/22-23:59:27.244 7114 Recovering log #347
-2025/05/22-23:59:27.481 7114 Delete type=0 #347
-2025/05/22-23:59:27.481 7114 Delete type=3 #345
-2025/05/22-23:59:27.592 1ea4 Level-0 table #353: started
-2025/05/22-23:59:27.661 1ea4 Level-0 table #353: 20676 bytes OK
-2025/05/22-23:59:27.780 1ea4 Delete type=0 #351
-2025/05/22-23:59:27.781 1ea4 Manual compaction at level-0 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at (end)
-2025/05/22-23:59:27.781 1ea4 Manual compaction at level-1 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at '!items!talent-sub-3-2-2b!astring' @ 3204 : 1
-2025/05/22-23:59:27.781 1ea4 Compacting 1@1 + 1@2 files
-2025/05/22-23:59:27.908 1ea4 Generated table #354@1: 34 keys, 20676 bytes
-2025/05/22-23:59:27.908 1ea4 Compacted 1@1 + 1@2 files => 20676 bytes
-2025/05/22-23:59:27.972 1ea4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/22-23:59:27.972 1ea4 Delete type=2 #349
-2025/05/22-23:59:27.973 1ea4 Delete type=2 #353
-2025/05/22-23:59:27.973 1ea4 Manual compaction at level-1 from '!items!talent-sub-3-2-2b!astring' @ 3204 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:37.231 475c Recovering log #352
+2025/05/23-00:08:37.520 475c Delete type=0 #352
+2025/05/23-00:08:37.520 475c Delete type=3 #350
+2025/05/23-00:08:37.572 3df8 Level-0 table #358: started
+2025/05/23-00:08:37.612 3df8 Level-0 table #358: 20645 bytes OK
+2025/05/23-00:08:37.661 3df8 Delete type=0 #356
+2025/05/23-00:08:37.661 3df8 Manual compaction at level-0 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:37.661 3df8 Manual compaction at level-1 from '!items!talent-1-2!astring' @ 72057594037927935 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at '!items!talent-sub-3-2-2b!astring' @ 3238 : 1
+2025/05/23-00:08:37.661 3df8 Compacting 1@1 + 1@2 files
+2025/05/23-00:08:37.716 3df8 Generated table #359@1: 34 keys, 20645 bytes
+2025/05/23-00:08:37.716 3df8 Compacted 1@1 + 1@2 files => 20645 bytes
+2025/05/23-00:08:37.753 3df8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/23-00:08:37.753 3df8 Delete type=2 #354
+2025/05/23-00:08:37.754 3df8 Delete type=2 #358
+2025/05/23-00:08:37.754 3df8 Manual compaction at level-1 from '!items!talent-sub-3-2-2b!astring' @ 3238 : 1 .. '!items!talent-sub-3-2-2b!astring' @ 0 : 0; will stop at (end)

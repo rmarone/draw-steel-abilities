@@ -245,7 +245,7 @@ def make_item(ability, monster_id=nil)
     "target": parse_target(ability["target"]),
     "power": {
       "roll": {
-        "formula": "@chr",
+        "formula": monster_id && ability["powerRoll"] ? ability["powerRoll"]["bonus"] : "@chr",
         "characteristics": ability["powerRoll"] ? ability["powerRoll"]["characteristic"].collect(&:downcase) : nil
       },
       "effects": ability["powerRoll"] ? parse_effects(ability["powerRoll"]) : nil

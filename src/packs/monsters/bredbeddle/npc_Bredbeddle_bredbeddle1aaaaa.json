@@ -178,16 +178,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "WRQsjf4Dc9qdcZmB": {
+            "G8gX5GxhF4soR2Zi": {
               "type": "damage",
-              "_id": "WRQsjf4Dc9qdcZmB",
-              "_key": "WRQsjf4Dc9qdcZmB",
+              "_id": "G8gX5GxhF4soR2Zi",
+              "_key": "G8gX5GxhF4soR2Zi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -225,10 +225,10 @@
                 }
               }
             },
-            "9AuXCEbrMdca6Tyx": {
+            "DBGFBX5OtWXaj4XD": {
               "type": "applied",
-              "_id": "9AuXCEbrMdca6Tyx",
-              "_key": "9AuXCEbrMdca6Tyx",
+              "_id": "DBGFBX5OtWXaj4XD",
+              "_key": "DBGFBX5OtWXaj4XD",
               "name": "",
               "applied": {
                 "tier1": {
@@ -324,16 +324,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "WCx6X3QcnAk6J1wp": {
+            "BJzZmWfAH32KYkKw": {
               "type": "damage",
-              "_id": "WCx6X3QcnAk6J1wp",
-              "_key": "WCx6X3QcnAk6J1wp",
+              "_id": "BJzZmWfAH32KYkKw",
+              "_key": "BJzZmWfAH32KYkKw",
               "name": "",
               "damage": {
                 "tier1": {
@@ -371,10 +371,10 @@
                 }
               }
             },
-            "aTisk6BhZvMDRFKm": {
+            "Ph85vkjCf9v9QWBZ": {
               "type": "applied",
-              "_id": "aTisk6BhZvMDRFKm",
-              "_key": "aTisk6BhZvMDRFKm",
+              "_id": "Ph85vkjCf9v9QWBZ",
+              "_key": "Ph85vkjCf9v9QWBZ",
               "name": "",
               "applied": {
                 "tier1": {
@@ -539,16 +539,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "kckvSyfQFRVgxZdo": {
+            "U2PJ4J4ed2AZwAWi": {
               "type": "damage",
-              "_id": "kckvSyfQFRVgxZdo",
-              "_key": "kckvSyfQFRVgxZdo",
+              "_id": "U2PJ4J4ed2AZwAWi",
+              "_key": "U2PJ4J4ed2AZwAWi",
               "name": "",
               "damage": {
                 "tier1": {
@@ -586,10 +586,10 @@
                 }
               }
             },
-            "RDK6h5D13Mq27ScE": {
+            "5XOxkB7lb2QLGdDd": {
               "type": "applied",
-              "_id": "RDK6h5D13Mq27ScE",
-              "_key": "RDK6h5D13Mq27ScE",
+              "_id": "5XOxkB7lb2QLGdDd",
+              "_key": "5XOxkB7lb2QLGdDd",
               "name": "",
               "applied": {
                 "tier1": {
@@ -753,16 +753,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "AmGbaPypzyYZbZrr": {
+            "eM7T7OoutGu2RwOk": {
               "type": "applied",
-              "_id": "AmGbaPypzyYZbZrr",
-              "_key": "AmGbaPypzyYZbZrr",
+              "_id": "eM7T7OoutGu2RwOk",
+              "_key": "eM7T7OoutGu2RwOk",
               "name": "",
               "applied": {
                 "tier1": {
@@ -927,16 +927,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "W0Qdx2Fb34PPWP4G": {
+            "zOY3jEUM8aqR5jJr": {
               "type": "damage",
-              "_id": "W0Qdx2Fb34PPWP4G",
-              "_key": "W0Qdx2Fb34PPWP4G",
+              "_id": "zOY3jEUM8aqR5jJr",
+              "_key": "zOY3jEUM8aqR5jJr",
               "name": "",
               "damage": {
                 "tier1": {
@@ -974,10 +974,10 @@
                 }
               }
             },
-            "XYGLwWkjyIXHu1ts": {
+            "k6pHRpsg2CYpBg7i": {
               "type": "applied",
-              "_id": "XYGLwWkjyIXHu1ts",
-              "_key": "XYGLwWkjyIXHu1ts",
+              "_id": "k6pHRpsg2CYpBg7i",
+              "_key": "k6pHRpsg2CYpBg7i",
               "name": "",
               "applied": {
                 "tier1": {

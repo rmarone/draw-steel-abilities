@@ -1,15 +1,15 @@
-2025/05/23-00:08:35.035 475c Recovering log #166
-2025/05/23-00:08:35.159 475c Delete type=0 #166
-2025/05/23-00:08:35.159 475c Delete type=3 #164
-2025/05/23-00:08:35.366 3df8 Level-0 table #172: started
-2025/05/23-00:08:35.532 3df8 Level-0 table #172: 774652 bytes OK
-2025/05/23-00:08:35.576 3df8 Delete type=0 #170
-2025/05/23-00:08:35.576 3df8 Manual compaction at level-0 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at (end)
-2025/05/23-00:08:35.577 3df8 Manual compaction at level-1 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at '!folders!xorannoxthetyrac' @ 46269 : 1
-2025/05/23-00:08:35.577 3df8 Compacting 1@1 + 1@2 files
-2025/05/23-00:08:35.700 3df8 Generated table #173@1: 1634 keys, 774652 bytes
-2025/05/23-00:08:35.700 3df8 Compacted 1@1 + 1@2 files => 774652 bytes
-2025/05/23-00:08:35.742 3df8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/23-00:08:35.742 3df8 Delete type=2 #168
-2025/05/23-00:08:35.742 3df8 Delete type=2 #172
-2025/05/23-00:08:35.743 3df8 Manual compaction at level-1 from '!folders!xorannoxthetyrac' @ 46269 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at (end)
+2025/06/01-23:46:46.817 6864 Recovering log #171
+2025/06/01-23:46:47.179 6864 Delete type=0 #171
+2025/06/01-23:46:47.179 6864 Delete type=3 #169
+2025/06/01-23:46:47.446 6d3c Level-0 table #177: started
+2025/06/01-23:46:47.554 6d3c Level-0 table #177: 773228 bytes OK
+2025/06/01-23:46:47.600 6d3c Delete type=0 #175
+2025/06/01-23:46:47.601 6d3c Manual compaction at level-0 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at (end)
+2025/06/01-23:46:47.601 6d3c Manual compaction at level-1 from '!actors!angulotl10aaaaaa' @ 72057594037927935 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at '!folders!xorannoxthetyrac' @ 47903 : 1
+2025/06/01-23:46:47.602 6d3c Compacting 1@1 + 1@2 files
+2025/06/01-23:46:47.854 6d3c Generated table #178@1: 1634 keys, 773228 bytes
+2025/06/01-23:46:47.854 6d3c Compacted 1@1 + 1@2 files => 773228 bytes
+2025/06/01-23:46:47.950 6d3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/01-23:46:47.951 6d3c Delete type=2 #173
+2025/06/01-23:46:47.951 6d3c Delete type=2 #177
+2025/06/01-23:46:47.952 6d3c Manual compaction at level-1 from '!folders!xorannoxthetyrac' @ 47903 : 1 .. '!folders!xorannoxthetyrac' @ 0 : 0; will stop at (end)

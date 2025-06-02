@@ -139,16 +139,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "Sosk3VlVgF3MPw58": {
+            "JErG0P1eCEt9aDYs": {
               "type": "damage",
-              "_id": "Sosk3VlVgF3MPw58",
-              "_key": "Sosk3VlVgF3MPw58",
+              "_id": "JErG0P1eCEt9aDYs",
+              "_key": "JErG0P1eCEt9aDYs",
               "name": "",
               "damage": {
                 "tier1": {

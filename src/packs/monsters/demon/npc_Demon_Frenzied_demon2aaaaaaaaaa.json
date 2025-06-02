@@ -140,16 +140,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "V9BpiO216xZ5ApN9": {
+            "8B33OH7SSpRhmiyz": {
               "type": "damage",
-              "_id": "V9BpiO216xZ5ApN9",
-              "_key": "V9BpiO216xZ5ApN9",
+              "_id": "8B33OH7SSpRhmiyz",
+              "_key": "8B33OH7SSpRhmiyz",
               "name": "",
               "damage": {
                 "tier1": {

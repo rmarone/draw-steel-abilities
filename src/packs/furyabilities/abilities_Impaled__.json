@@ -38,10 +38,10 @@
         ]
       },
       "effects": {
-        "u3kSUCivciFBM1Ql": {
+        "uQDLGMBIYZUPX7rd": {
           "type": "damage",
-          "_id": "u3kSUCivciFBM1Ql",
-          "_key": "u3kSUCivciFBM1Ql",
+          "_id": "uQDLGMBIYZUPX7rd",
+          "_key": "uQDLGMBIYZUPX7rd",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +79,10 @@
             }
           }
         },
-        "G66AjpwPj6sUx5iF": {
+        "xst2JIhwnarGfu1S": {
           "type": "applied",
-          "_id": "G66AjpwPj6sUx5iF",
-          "_key": "G66AjpwPj6sUx5iF",
+          "_id": "xst2JIhwnarGfu1S",
+          "_key": "xst2JIhwnarGfu1S",
           "name": "",
           "applied": {
             "tier1": {

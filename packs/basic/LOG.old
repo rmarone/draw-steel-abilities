@@ -1,15 +1,15 @@
-2025/05/22-23:59:19.297 7114 Recovering log #18
-2025/05/22-23:59:19.409 7114 Delete type=0 #18
-2025/05/22-23:59:19.409 7114 Delete type=3 #16
-2025/05/22-23:59:19.501 1ea4 Level-0 table #24: started
-2025/05/22-23:59:19.546 1ea4 Level-0 table #24: 10171 bytes OK
-2025/05/22-23:59:19.689 1ea4 Delete type=0 #22
-2025/05/22-23:59:19.690 1ea4 Manual compaction at level-0 from '!items!basic-aid-attack!astring' @ 72057594037927935 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at (end)
-2025/05/22-23:59:19.690 1ea4 Manual compaction at level-1 from '!items!basic-aid-attack!astring' @ 72057594037927935 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at '!items!basic-test!astring' @ 66 : 1
-2025/05/22-23:59:19.690 1ea4 Compacting 1@1 + 1@2 files
-2025/05/22-23:59:19.778 1ea4 Generated table #25@1: 14 keys, 10171 bytes
-2025/05/22-23:59:19.778 1ea4 Compacted 1@1 + 1@2 files => 10171 bytes
-2025/05/22-23:59:19.861 1ea4 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/22-23:59:19.861 1ea4 Delete type=2 #20
-2025/05/22-23:59:19.861 1ea4 Delete type=2 #24
-2025/05/22-23:59:19.862 1ea4 Manual compaction at level-1 from '!items!basic-test!astring' @ 66 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:30.313 475c Recovering log #23
+2025/05/23-00:08:30.540 475c Delete type=0 #23
+2025/05/23-00:08:30.540 475c Delete type=3 #21
+2025/05/23-00:08:30.594 3df8 Level-0 table #29: started
+2025/05/23-00:08:30.708 3df8 Level-0 table #29: 10170 bytes OK
+2025/05/23-00:08:30.804 3df8 Delete type=0 #27
+2025/05/23-00:08:30.804 3df8 Manual compaction at level-0 from '!items!basic-aid-attack!astring' @ 72057594037927935 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at (end)
+2025/05/23-00:08:30.805 3df8 Manual compaction at level-1 from '!items!basic-aid-attack!astring' @ 72057594037927935 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at '!items!basic-test!astring' @ 80 : 1
+2025/05/23-00:08:30.805 3df8 Compacting 1@1 + 1@2 files
+2025/05/23-00:08:30.858 3df8 Generated table #30@1: 14 keys, 10170 bytes
+2025/05/23-00:08:30.858 3df8 Compacted 1@1 + 1@2 files => 10170 bytes
+2025/05/23-00:08:30.928 3df8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/23-00:08:30.928 3df8 Delete type=2 #25
+2025/05/23-00:08:30.928 3df8 Delete type=2 #29
+2025/05/23-00:08:30.929 3df8 Manual compaction at level-1 from '!items!basic-test!astring' @ 80 : 1 .. '!items!basic-test!astring' @ 0 : 0; will stop at (end)

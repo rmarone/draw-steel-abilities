@@ -1,15 +1,15 @@
-2025/05/23-00:08:32.303 475c Recovering log #635
-2025/05/23-00:08:32.467 475c Delete type=0 #635
-2025/05/23-00:08:32.468 475c Delete type=3 #633
-2025/05/23-00:08:32.520 3df8 Level-0 table #641: started
-2025/05/23-00:08:32.551 3df8 Level-0 table #641: 21762 bytes OK
-2025/05/23-00:08:32.592 3df8 Delete type=0 #639
-2025/05/23-00:08:32.592 3df8 Manual compaction at level-0 from '!items!elementalist-1-4!astring' @ 72057594037927935 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at (end)
-2025/05/23-00:08:32.593 3df8 Manual compaction at level-1 from '!items!elementalist-1-4!astring' @ 72057594037927935 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at '!items!elementalist-sub-4-2-1!astring' @ 7119 : 1
-2025/05/23-00:08:32.593 3df8 Compacting 1@1 + 1@2 files
-2025/05/23-00:08:32.642 3df8 Generated table #642@1: 36 keys, 21762 bytes
-2025/05/23-00:08:32.642 3df8 Compacted 1@1 + 1@2 files => 21762 bytes
-2025/05/23-00:08:32.684 3df8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/23-00:08:32.684 3df8 Delete type=2 #637
-2025/05/23-00:08:32.685 3df8 Delete type=2 #641
-2025/05/23-00:08:32.685 3df8 Manual compaction at level-1 from '!items!elementalist-sub-4-2-1!astring' @ 7119 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at (end)
+2025/06/01-23:46:34.947 6864 Recovering log #640
+2025/06/01-23:46:35.118 6864 Delete type=0 #640
+2025/06/01-23:46:35.118 6864 Delete type=3 #638
+2025/06/01-23:46:35.256 6d3c Level-0 table #646: started
+2025/06/01-23:46:35.282 6d3c Level-0 table #646: 21734 bytes OK
+2025/06/01-23:46:35.337 6d3c Delete type=0 #644
+2025/06/01-23:46:35.337 6d3c Manual compaction at level-0 from '!items!elementalist-1-4!astring' @ 72057594037927935 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at (end)
+2025/06/01-23:46:35.337 6d3c Manual compaction at level-1 from '!items!elementalist-1-4!astring' @ 72057594037927935 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at '!items!elementalist-sub-4-2-1!astring' @ 7155 : 1
+2025/06/01-23:46:35.337 6d3c Compacting 1@1 + 1@2 files
+2025/06/01-23:46:35.383 6d3c Generated table #647@1: 36 keys, 21734 bytes
+2025/06/01-23:46:35.383 6d3c Compacted 1@1 + 1@2 files => 21734 bytes
+2025/06/01-23:46:35.429 6d3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/01-23:46:35.429 6d3c Delete type=2 #642
+2025/06/01-23:46:35.430 6d3c Delete type=2 #646
+2025/06/01-23:46:35.430 6d3c Manual compaction at level-1 from '!items!elementalist-sub-4-2-1!astring' @ 7155 : 1 .. '!items!elementalist-sub-4-2-1!astring' @ 0 : 0; will stop at (end)

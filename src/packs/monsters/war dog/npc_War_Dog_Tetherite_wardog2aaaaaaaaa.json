@@ -139,16 +139,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "93qf9ZhWUi4fFRgU": {
+            "eXLU69R9ADPYcKit": {
               "type": "damage",
-              "_id": "93qf9ZhWUi4fFRgU",
-              "_key": "93qf9ZhWUi4fFRgU",
+              "_id": "eXLU69R9ADPYcKit",
+              "_key": "eXLU69R9ADPYcKit",
               "name": "",
               "damage": {
                 "tier1": {

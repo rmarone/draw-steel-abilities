@@ -140,16 +140,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "8XZ96hukZaAMwN3B": {
+            "iab3bD1MYX8XGZK6": {
               "type": "damage",
-              "_id": "8XZ96hukZaAMwN3B",
-              "_key": "8XZ96hukZaAMwN3B",
+              "_id": "iab3bD1MYX8XGZK6",
+              "_key": "iab3bD1MYX8XGZK6",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +187,10 @@
                 }
               }
             },
-            "IvLMehM7oaubf0IG": {
+            "iIlCPUsMb6zPEPWZ": {
               "type": "applied",
-              "_id": "IvLMehM7oaubf0IG",
-              "_key": "IvLMehM7oaubf0IG",
+              "_id": "iIlCPUsMb6zPEPWZ",
+              "_key": "iIlCPUsMb6zPEPWZ",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -278,16 +278,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "4RqC72hk87anE9WP": {
+            "ZZZ5jBx2UE9t8Kpf": {
               "type": "damage",
-              "_id": "4RqC72hk87anE9WP",
-              "_key": "4RqC72hk87anE9WP",
+              "_id": "ZZZ5jBx2UE9t8Kpf",
+              "_key": "ZZZ5jBx2UE9t8Kpf",
               "name": "",
               "damage": {
                 "tier1": {
@@ -325,10 +325,10 @@
                 }
               }
             },
-            "bXdPhsNnVJvEuv81": {
+            "J6NSvumQSSucnxVH": {
               "type": "forced",
-              "_id": "bXdPhsNnVJvEuv81",
-              "_key": "bXdPhsNnVJvEuv81",
+              "_id": "J6NSvumQSSucnxVH",
+              "_key": "J6NSvumQSSucnxVH",
               "name": "",
               "forced": {
                 "tier1": null,
@@ -348,10 +348,10 @@
                 }
               }
             },
-            "sZ4QmVN0X9KUcLUQ": {
+            "4xW67C4CVnCwQtal": {
               "type": "applied",
-              "_id": "sZ4QmVN0X9KUcLUQ",
-              "_key": "sZ4QmVN0X9KUcLUQ",
+              "_id": "4xW67C4CVnCwQtal",
+              "_key": "4xW67C4CVnCwQtal",
               "name": "",
               "applied": {
                 "tier1": {

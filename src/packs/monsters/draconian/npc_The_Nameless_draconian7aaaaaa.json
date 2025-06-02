@@ -141,7 +141,7 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
               "might",
               "agility",
@@ -151,10 +151,10 @@
             ]
           },
           "effects": {
-            "L3Ujccx0Oci4Qxru": {
+            "TMLJOm3TSjBkPQB1": {
               "type": "damage",
-              "_id": "L3Ujccx0Oci4Qxru",
-              "_key": "L3Ujccx0Oci4Qxru",
+              "_id": "TMLJOm3TSjBkPQB1",
+              "_key": "TMLJOm3TSjBkPQB1",
               "name": "",
               "damage": {
                 "tier1": {
@@ -192,10 +192,10 @@
                 }
               }
             },
-            "dWUJhb25pQtDvtMK": {
+            "m2hTYh6JMevFO1qF": {
               "type": "forced",
-              "_id": "dWUJhb25pQtDvtMK",
-              "_key": "dWUJhb25pQtDvtMK",
+              "_id": "m2hTYh6JMevFO1qF",
+              "_key": "m2hTYh6JMevFO1qF",
               "name": "",
               "forced": {
                 "tier1": null,

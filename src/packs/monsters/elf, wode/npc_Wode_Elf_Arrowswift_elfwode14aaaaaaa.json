@@ -140,7 +140,7 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
               "might",
               "agility",
@@ -150,10 +150,10 @@
             ]
           },
           "effects": {
-            "ORXZq2m4bxWUqQ3b": {
+            "gBcXlqQjNKorzSAI": {
               "type": "damage",
-              "_id": "ORXZq2m4bxWUqQ3b",
-              "_key": "ORXZq2m4bxWUqQ3b",
+              "_id": "gBcXlqQjNKorzSAI",
+              "_key": "gBcXlqQjNKorzSAI",
               "name": "",
               "damage": {
                 "tier1": {

@@ -139,16 +139,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 4,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "Ah5qpOLweMZ7B3Gs": {
+            "vU38APVivD1DO2kl": {
               "type": "damage",
-              "_id": "Ah5qpOLweMZ7B3Gs",
-              "_key": "Ah5qpOLweMZ7B3Gs",
+              "_id": "vU38APVivD1DO2kl",
+              "_key": "vU38APVivD1DO2kl",
               "name": "",
               "damage": {
                 "tier1": {

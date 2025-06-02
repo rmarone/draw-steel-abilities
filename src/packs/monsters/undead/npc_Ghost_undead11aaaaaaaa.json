@@ -138,16 +138,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "dC6SGvLN0MD6FQWF": {
+            "SwBQPp0ICimIcCNf": {
               "type": "damage",
-              "_id": "dC6SGvLN0MD6FQWF",
-              "_key": "dC6SGvLN0MD6FQWF",
+              "_id": "SwBQPp0ICimIcCNf",
+              "_key": "SwBQPp0ICimIcCNf",
               "name": "",
               "damage": {
                 "tier1": {
@@ -185,10 +185,10 @@
                 }
               }
             },
-            "U3Soa2qg9QoXhplh": {
+            "k1genCM6LSB1NLC1": {
               "type": "applied",
-              "_id": "U3Soa2qg9QoXhplh",
-              "_key": "U3Soa2qg9QoXhplh",
+              "_id": "k1genCM6LSB1NLC1",
+              "_key": "k1genCM6LSB1NLC1",
               "name": "",
               "applied": {
                 "tier1": {
@@ -519,16 +519,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "Ah423UXM3e7y5oU6": {
+            "h1Nori2tmfmTZh8X": {
               "type": "applied",
-              "_id": "Ah423UXM3e7y5oU6",
-              "_key": "Ah423UXM3e7y5oU6",
+              "_id": "h1Nori2tmfmTZh8X",
+              "_key": "h1Nori2tmfmTZh8X",
               "name": "",
               "applied": {
                 "tier1": {
@@ -622,16 +622,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 3,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "n1Grc0cxXgyKpk9a": {
+            "4XdmX1e5nSga2qBy": {
               "type": "damage",
-              "_id": "n1Grc0cxXgyKpk9a",
-              "_key": "n1Grc0cxXgyKpk9a",
+              "_id": "4XdmX1e5nSga2qBy",
+              "_key": "4XdmX1e5nSga2qBy",
               "name": "",
               "damage": {
                 "tier1": {

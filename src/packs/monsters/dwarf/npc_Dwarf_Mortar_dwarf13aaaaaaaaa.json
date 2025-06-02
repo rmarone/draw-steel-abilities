@@ -139,7 +139,7 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
               "might",
               "agility",
@@ -149,10 +149,10 @@
             ]
           },
           "effects": {
-            "Di7gHnQ8otgYJlmx": {
+            "qMF0wkosIxAwNrEF": {
               "type": "damage",
-              "_id": "Di7gHnQ8otgYJlmx",
-              "_key": "Di7gHnQ8otgYJlmx",
+              "_id": "qMF0wkosIxAwNrEF",
+              "_key": "qMF0wkosIxAwNrEF",
               "name": "",
               "damage": {
                 "tier1": {

@@ -140,16 +140,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "sWl67YKquIhUO4cl": {
+            "REOjubYtQNtkFILE": {
               "type": "damage",
-              "_id": "sWl67YKquIhUO4cl",
-              "_key": "sWl67YKquIhUO4cl",
+              "_id": "REOjubYtQNtkFILE",
+              "_key": "REOjubYtQNtkFILE",
               "name": "",
               "damage": {
                 "tier1": {
@@ -187,10 +187,10 @@
                 }
               }
             },
-            "54eNRWGoYKiNH9kO": {
+            "nL9Y80WZobGP9YKy": {
               "type": "forced",
-              "_id": "54eNRWGoYKiNH9kO",
-              "_key": "54eNRWGoYKiNH9kO",
+              "_id": "nL9Y80WZobGP9YKy",
+              "_key": "nL9Y80WZobGP9YKy",
               "name": "",
               "forced": {
                 "tier1": {

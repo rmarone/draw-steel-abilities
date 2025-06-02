@@ -38,10 +38,10 @@
         ]
       },
       "effects": {
-        "DVDdRzYnCnka3vHS": {
+        "sz0VSX5TRajTh8y4": {
           "type": "damage",
-          "_id": "DVDdRzYnCnka3vHS",
-          "_key": "DVDdRzYnCnka3vHS",
+          "_id": "sz0VSX5TRajTh8y4",
+          "_key": "sz0VSX5TRajTh8y4",
           "name": "",
           "damage": {
             "tier1": {
@@ -79,10 +79,10 @@
             }
           }
         },
-        "22yj2YNHjfNARR4j": {
+        "b4sRM1VjDnwzuBaA": {
           "type": "applied",
-          "_id": "22yj2YNHjfNARR4j",
-          "_key": "22yj2YNHjfNARR4j",
+          "_id": "b4sRM1VjDnwzuBaA",
+          "_key": "b4sRM1VjDnwzuBaA",
           "name": "",
           "applied": {
             "tier1": {

@@ -140,16 +140,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "Zsz7OAlt6dJFYepc": {
+            "aywzN1BBaHID7cfb": {
               "type": "forced",
-              "_id": "Zsz7OAlt6dJFYepc",
-              "_key": "Zsz7OAlt6dJFYepc",
+              "_id": "aywzN1BBaHID7cfb",
+              "_key": "aywzN1BBaHID7cfb",
               "name": "",
               "forced": {
                 "tier1": {

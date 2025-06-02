@@ -141,7 +141,7 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
               "might",
               "agility",
@@ -151,10 +151,10 @@
             ]
           },
           "effects": {
-            "Polcqjh9J82uGKqo": {
+            "xSHLkz6AK316O1Lc": {
               "type": "damage",
-              "_id": "Polcqjh9J82uGKqo",
-              "_key": "Polcqjh9J82uGKqo",
+              "_id": "xSHLkz6AK316O1Lc",
+              "_key": "xSHLkz6AK316O1Lc",
               "name": "",
               "damage": {
                 "tier1": {

@@ -139,16 +139,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "Trk5TX62UQbC3Au7": {
+            "RIWI59RE4jiucj8c": {
               "type": "damage",
-              "_id": "Trk5TX62UQbC3Au7",
-              "_key": "Trk5TX62UQbC3Au7",
+              "_id": "RIWI59RE4jiucj8c",
+              "_key": "RIWI59RE4jiucj8c",
               "name": "",
               "damage": {
                 "tier1": {
@@ -186,10 +186,10 @@
                 }
               }
             },
-            "ByKiWZRw30Me3oWb": {
+            "xCyBviPkcLLp27Fy": {
               "type": "applied",
-              "_id": "ByKiWZRw30Me3oWb",
-              "_key": "ByKiWZRw30Me3oWb",
+              "_id": "xCyBviPkcLLp27Fy",
+              "_key": "xCyBviPkcLLp27Fy",
               "name": "",
               "applied": {
                 "tier1": null,
@@ -272,16 +272,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 2,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "EVfHj9hRTXXEi2Ua": {
+            "1x5v2Li5x8LvNrpU": {
               "type": "damage",
-              "_id": "EVfHj9hRTXXEi2Ua",
-              "_key": "EVfHj9hRTXXEi2Ua",
+              "_id": "1x5v2Li5x8LvNrpU",
+              "_key": "1x5v2Li5x8LvNrpU",
               "name": "",
               "damage": {
                 "tier1": {
@@ -459,16 +459,16 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
 
             ]
           },
           "effects": {
-            "ax7vdntQEGCNWQg1": {
+            "ChiD1dQR3sQ31uWH": {
               "type": "applied",
-              "_id": "ax7vdntQEGCNWQg1",
-              "_key": "ax7vdntQEGCNWQg1",
+              "_id": "ChiD1dQR3sQ31uWH",
+              "_key": "ChiD1dQR3sQ31uWH",
               "name": "",
               "applied": {
                 "tier1": {

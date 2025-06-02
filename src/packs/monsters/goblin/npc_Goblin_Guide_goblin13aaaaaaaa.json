@@ -139,7 +139,7 @@
         },
         "power": {
           "roll": {
-            "formula": "@chr",
+            "formula": 0,
             "characteristics": [
               "might",
               "agility",
@@ -149,10 +149,10 @@
             ]
           },
           "effects": {
-            "d419MFbsSVDxREul": {
+            "PKOI5gs2rf1bQSEp": {
               "type": "damage",
-              "_id": "d419MFbsSVDxREul",
-              "_key": "d419MFbsSVDxREul",
+              "_id": "PKOI5gs2rf1bQSEp",
+              "_key": "PKOI5gs2rf1bQSEp",
               "name": "",
               "damage": {
                 "tier1": {
